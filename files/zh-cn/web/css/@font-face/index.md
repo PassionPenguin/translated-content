@@ -123,9 +123,9 @@ slug: Web/CSS/@font-face
 ## 参考
 
 - [About WOFF](/zh-CN/docs/WOFF)
-- [FontSquirrel @font-face generator](http://www.fontsquirrel.com/fontface/generator)
+- [FontSquirrel @font-face generator](https://www.fontsquirrel.com/fontface/generator)
 - [Beautiful fonts with @font-face](http://hacks.mozilla.org/2009/06/beautiful-fonts-with-font-face/)
-- [Open Font Library](http://openfontlibrary.org/)
-- [Microsoft Developer Network (MSDN) @font-face reference](<http://msdn.microsoft.com/en-us/library/ms530757(VS.85).aspx>)
-- [When can I use WOFF?](http://caniuse.com/woff)
-- [When can I use SVG Fonts?](http://caniuse.com/svg-fonts)
+- [Open Font Library](https://fontlibrary.org/)
+- [Microsoft Developer Network (MSDN) @font-face reference](<https://learn.microsoft.com/en-us/>).aspx>)
+- [When can I use WOFF?](https://caniuse.com/woff)
+- [When can I use SVG Fonts?](https://caniuse.com/svg-fonts)

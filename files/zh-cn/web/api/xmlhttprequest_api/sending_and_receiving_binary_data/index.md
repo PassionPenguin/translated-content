@@ -9,7 +9,7 @@ slug: Web/API/XMLHttpRequest_API/Sending_and_Receiving_Binary_Data
 
 可以通过设置一个 XMLHttpRequest 对象的 `responseType`属性来改变一个从服务器上返回的响应的数据类型。可用的属性值为空字符串 (默认)，"arraybuffer"、"blob"、"document"、"json" 和 "text"。`response` 属性的值会根据 `responseType` 属性包含实体主体（entity body），它可能会是一个 `ArrayBuffer`、`Blob`、`Document`、`JSON`, string，或者为`NULL(如果请求未完成或失败)`
 
-下例读取了一个二进制图像文件，并且由该文件的二进制原生字节创建了一个 8 位无符号整数的数组。注意，这不会解码图像，但会读取像素。你需要一个 png 解码库（[png decoding library](https://github.com/devongovett/png.js/)）。
+下例读取了一个二进制图像文件，并且由该文件的二进制原生字节创建了一个 8 位无符号整数的数组。注意，这不会解码图像，但会读取像素。你需要一个 png 解码库（[png decoding library](https://github.com/foliojs/png.js)）。
 
 ```js
 var oReq = new XMLHttpRequest();
@@ -69,7 +69,7 @@ var abyte = filestream.charCodeAt(x) & 0xff; // 扔掉的高位字节 (f7)
 
 上例从请求回来的二进制数据中得到偏移量为 x 处的字节。有效的偏移量范围是 0 到 `filestream.length-1`。
 
-查看 [使用 XMLHttpRequest 下载文件](http://web.archive.org/web/20071103070418/http://mgran.blogspot.com/2006/08/downloading-binary-streams-with.html) 了解详情，查看[下载文件](/zh-CN/Code_snippets/Downloading_Files)。
+查看 [使用 XMLHttpRequest 下载文件](http://web.archive.org/web/20071103070418/http:/mgran.blogspot.com/2006/08/downloading-binary-streams-with.html) 了解详情，查看[下载文件](/zh-CN/Code_snippets/Downloading_Files)。
 
 ## 发送二进制数据
 

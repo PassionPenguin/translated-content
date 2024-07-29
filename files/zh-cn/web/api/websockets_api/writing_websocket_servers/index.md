@@ -11,7 +11,7 @@ WebSocket 服务器可以用任何实现了[Berkeley sockets](https://en.wikiped
 
 你需要知道 HTTP 的工作原理，并具有中级编程经验。根据语言帮助（Depending on language support），可能需要 TCP 套接字的知识。本指南的范围是介绍编写 WebSocket 服务器所需的最低知识。
 
-> **备注：** 阅读最新的官方 WebSockets 规范， [RFC 6455](http://datatracker.ietf.org/doc/rfc6455/?include_text=1). 第 1 节和第 4-7 节对服务器实现者特别有意思。第 10 节讨论安全性，你应该在暴露你的服务器之前仔细阅读它。
+> **备注：** 阅读最新的官方 WebSockets 规范， [RFC 6455](https://datatracker.ietf.org/doc/rfc6455/?include_text%3D1). 第 1 节和第 4-7 节对服务器实现者特别有意思。第 10 节讨论安全性，你应该在暴露你的服务器之前仔细阅读它。
 
 WebSocket 服务器在这里被解释得非常底层。WebSocket 服务器通常是独立的专用服务器（出于负载平衡或其他实际原因），因此你通常会使用[反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)（例如常规 HTTP 服务器）来检测 WebSocket 握手，预处理这些握手，并将这些客户端发送给 一个真正的 WebSocket 服务器。（例如）这意味着你不必使用 cookie 和身份验证处理程序来扩充服务器代码。
 
@@ -100,7 +100,7 @@ Frame format:
      +---------------------------------------------------------------+
 ```
 
-掩码明确告知我们消息是否经过格式化。从客户端来的消息必须经过格式化，所以你的服务器必须要求这个掩码是 1（事实上，[规范 5.1 节](http://tools.ietf.org/html/rfc6455#section-5.1)规定了如果客户端发送了没有格式化的消息，你的服务器应该断开连接）
+掩码明确告知我们消息是否经过格式化。从客户端来的消息必须经过格式化，所以你的服务器必须要求这个掩码是 1（事实上，[规范 5.1 节](https://datatracker.ietf.org/doc/html/rfc6455#section-5.1)规定了如果客户端发送了没有格式化的消息，你的服务器应该断开连接）
 
 当向客户端发送帧时，不要对其进行掩码，也不要设置掩码位。稍后我们将解释屏蔽。注意：即使使用安全套接字，也必须屏蔽消息。RSV1-3 可以忽略，它们是用于扩展的。
 
@@ -146,7 +146,7 @@ Client: FIN=1, opcode=0x0, msg="year!"
 Server: (process complete message) Happy new year to you too!
 ```
 
-注意，第一个框架包含一个完整的消息 (具有 FIN=1 和 opcode!=0x0)，因此服务器可以根据需要进行处理或响应。客户机发送的第二帧具有文本有效负载 (opcode=0x1)，但是整个消息还没有到达 (FIN=0)。该消息的所有剩余部分都用延续帧 (opcode=0x0) 发送，消息的最终帧用 FIN=1 标记。[Section 5.4 of the spec](http://tools.ietf.org/html/rfc6455#section-5.4)描述了消息帧。
+注意，第一个框架包含一个完整的消息 (具有 FIN=1 和 opcode!=0x0)，因此服务器可以根据需要进行处理或响应。客户机发送的第二帧具有文本有效负载 (opcode=0x1)，但是整个消息还没有到达 (FIN=0)。该消息的所有剩余部分都用延续帧 (opcode=0x0) 发送，消息的最终帧用 FIN=1 标记。[Section 5.4 of the spec](https://datatracker.ietf.org/doc/html/rfc6455#section-5.4)描述了消息帧。
 
 ## Pings 和 Pongs：WebSockets 的心跳
 
@@ -158,7 +158,7 @@ Server: (process complete message) Happy new year to you too!
 
 ## 关闭连接
 
-客户端或服务器端都可以通过发送一个带有指定控制序列的控制帧以开始关闭连接握手（参见[章节 5.5.1](http://tools.ietf.org/html/rfc6455#section-5.5.1)）。对端收到这个控制帧会回复一个关闭帧，关闭发起端关闭连接。任何在关闭连接后接收到的数据都会被丢弃。
+客户端或服务器端都可以通过发送一个带有指定控制序列的控制帧以开始关闭连接握手（参见[章节 5.5.1](https://datatracker.ietf.org/doc/html/rfc6455#section-5.5.1)）。对端收到这个控制帧会回复一个关闭帧，关闭发起端关闭连接。任何在关闭连接后接收到的数据都会被丢弃。
 
 ## 杂项
 

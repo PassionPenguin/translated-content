@@ -10,7 +10,7 @@ slug: Web/API/Window/pageshow_event
 ## 基本信息
 
 - 规范
-  - : [HTML5](http://www.whatwg.org/specs/web-apps/current-work/multipage/history.html#event-pageshow)
+  - : [HTML5](https://html.spec.whatwg.org/multipage/browsing-the-web.html#event-pageshow)
 - 接口
   - : [PageTransitionEvent](/zh-CN/docs/Web/API/PageTransitionEvent)
 - 事件冒泡

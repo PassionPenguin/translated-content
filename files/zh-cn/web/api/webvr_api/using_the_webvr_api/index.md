@@ -8,8 +8,8 @@ slug: Web/API/WebVR_API/Using_the_WebVR_API
 The [WebVR API](/zh-CN/docs/Web/API/WebVR_API) is a fantastic addition to the web developer's toolkit, allowing access to virtual reality hardware such as the [Oculus Rift](https://developer.oculus.com/), and converting outputted movement and orientation data into view rendering updates on a web app. But how do you get started in developing VR apps for the Web? This article will guide you through the basics.
 [WebVR API](/zh-CN/docs/Web/API/WebVR_API) 对于 web 开发者来说，是一个令人心动的功能包，允许你连接到类似于[Oculus Rift](https://developer.oculus.com/) 这样的虚拟现实硬件，并且能够在你的 web app 中，将从硬件获取到的位置移动数据和姿态角数据，实时更新你的渲染显示输出。具体要如何在 Web 上开始开发你的 VR app 呢？这篇文章将会提供基础的引导信息。
 
-> **备注：** Currently WebVR is at an experimental stage (you can find the [latest spec here](http://mozvr.github.io/webvr-spec/webvr.html)); it currently works best in Firefox Nightly/Developer Edition, with some aspects of it also working in Google Chrome. Read [Bringing VR to Chrome](http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html) by Brandon Jones for more details on that.
-> 注意：当前 WebVR 还是体验实验阶段（你可以从[这里](http://mozvr.github.io/webvr-spec/webvr.html)找到最新规格说明）；它已经在 Firefox Nightly/Developer Edition 的版本上工作的很好了，部分功能也在 Google Chrome 上可以正常工作了。详细请访问由 Brandon Jones 在 [Bringing VR to Chrome](http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html)提供的更多内容。
+> **备注：** Currently WebVR is at an experimental stage (you can find the [latest spec here](https://mozvr.github.io/webvr-spec/webvr.html)); it currently works best in Firefox Nightly/Developer Edition, with some aspects of it also working in Google Chrome. Read [Bringing VR to Chrome](https://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html) by Brandon Jones for more details on that.
+> 注意：当前 WebVR 还是体验实验阶段（你可以从[这里](https://mozvr.github.io/webvr-spec/webvr.html)找到最新规格说明）；它已经在 Firefox Nightly/Developer Edition 的版本上工作的很好了，部分功能也在 Google Chrome 上可以正常工作了。详细请访问由 Brandon Jones 在 [Bringing VR to Chrome](https://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html)提供的更多内容。
 
 ## 起步
 
@@ -24,8 +24,8 @@ To get started, you need to have your VR hardware set up as recommended in the o
 
 ## Introducing a simple demo<br>简单示例介绍
 
-There are a number of WebVR demos available at the [MozVR team repo](https://github.com/MozVR/), and the [MDN webvr-tests repo](https://github.com/mdn/webvr-tests), but the main one we will be focusing on in this article is our [positionsensorvrdevice](https://github.com/mdn/webvr-tests/tree/gh-pages/positionsensorvrdevice) demo ([view it live](http://mdn.github.io/webvr-tests/positionsensorvrdevice/)):
-在[MozVR team repo](https://github.com/MozVR/)和[MDN webvr-tests repo](https://github.com/mdn/webvr-tests)提供了一定数量的 WebVR 示例，在这篇文章里，我们将着重关注我们的 [positionsensorvrdevice](https://github.com/mdn/webvr-tests/tree/gh-pages/positionsensorvrdevice) 提供的示例 (点此访问 live [view it live](http://mdn.github.io/webvr-tests/positionsensorvrdevice/))
+There are a number of WebVR demos available at the [MozVR team repo](https://github.com/MozVR/), and the [MDN webvr-tests repo](https://github.com/mdn/webvr-tests), but the main one we will be focusing on in this article is our [positionsensorvrdevice](https://github.com/mdn/webvr-tests/tree/gh-pages/positionsensorvrdevice) demo ([view it live](https://mdn.github.io/webvr-tests/positionsensorvrdevice/)):
+在[MozVR team repo](https://github.com/MozVR/)和[MDN webvr-tests repo](https://github.com/mdn/webvr-tests)提供了一定数量的 WebVR 示例，在这篇文章里，我们将着重关注我们的 [positionsensorvrdevice](https://github.com/mdn/webvr-tests/tree/gh-pages/positionsensorvrdevice) 提供的示例 (点此访问 live [view it live](https://mdn.github.io/webvr-tests/positionsensorvrdevice/))
 
 ![](vrpositionsensor-demo.png)
 
@@ -282,7 +282,7 @@ Finally, we {{domxref("CanvasRenderingContext2D.restore","restore()")}} the canv
 }
 ```
 
-> **备注：** We are kind of cheating here, using a 2D canvas to approximate a 3D scene. But it keeps things simple for learning purposes. You can use the position and orientation data discussed above to modify the view rendering on any app written with web technologies. For example, our [3Dpositionorientation](https://github.com/mdn/webvr-tests/tree/gh-pages/3Dpositionorientation) demo uses very similar code to that shown above to control the view of a WebGL scene created using [Three.js](http://threejs.org/).
+> **备注：** We are kind of cheating here, using a 2D canvas to approximate a 3D scene. But it keeps things simple for learning purposes. You can use the position and orientation data discussed above to modify the view rendering on any app written with web technologies. For example, our [3Dpositionorientation](https://github.com/mdn/webvr-tests/tree/gh-pages/3Dpositionorientation) demo uses very similar code to that shown above to control the view of a WebGL scene created using [Three.js](https://threejs.org/).
 
 > **备注：** The [code for `drawCrosshairs()`](https://github.com/mdn/webvr-tests/blob/gh-pages/positionsensorvrdevice/index.html#L106-L119) is very simple in comparison to `drawImages()`, so we'll leave you to study that for yourself if you're interested!
 

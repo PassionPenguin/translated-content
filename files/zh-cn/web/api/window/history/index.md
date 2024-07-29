@@ -32,4 +32,4 @@ history.go(-1); //等同于 history.back();
 
 ## 规范
 
-- [HTML5 History interface](http://whatwg.org/html#the-history-interface)
+- [HTML5 History interface](https://html.spec.whatwg.org/multipage/#the-history-interface)

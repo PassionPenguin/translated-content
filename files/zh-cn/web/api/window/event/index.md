@@ -13,7 +13,7 @@ slug: Web/API/Window/event
 
 没有任何规范。
 
-微软[在 MSDN 上有相关介绍](<https://msdn.microsoft.com/en-us/library/ms535863(v=vs.85).aspx>)。
+微软[在 MSDN 上有相关介绍](<https://learn.microsoft.com/en-us/>).aspx>)。
 
 ## 浏览器兼容性
 

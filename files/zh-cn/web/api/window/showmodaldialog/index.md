@@ -46,5 +46,5 @@ Introduced by Microsoft Internet Explorer 4. Support added to Firefox in Firefox
 
 ## Specification
 
-- [`showModalDialog()`](https://msdn.microsoft.com/en-us/library/ms536759%28VS.85%29.aspx?f=255&MSPPError=-2147217396)
-- [HTML5 Dialogs implemented using separate documents](http://www.whatwg.org/specs/web-apps/current-work/multipage/timers.html#dialogs-implemented-using-separate-documents)
+- [`showModalDialog()`](<https://learn.microsoft.com/en-us/previous-versions/ms536759(v%3Dvs.85)>)
+- [HTML5 Dialogs implemented using separate documents](https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dialogs-implemented-using-separate-documents)

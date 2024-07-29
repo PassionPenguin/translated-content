@@ -72,4 +72,4 @@ window.addEventListener("beforeunload", (event) => {
 
 - 相关事件：{{domxref("Document/DOMContentLoaded_event", "DOMContentLoaded")}}、{{domxref("Document/readystatechange_event", "readystatechange")}}、{{domxref("Window/load_event", "load")}}、{{domxref("Window/unload_event", "unload")}}
 - [Unloading Documents — Prompt to unload a document](https://html.spec.whatwg.org/#prompt-to-unload-a-document)
-- [Remove Custom Messages in onbeforeload Dialogs after Chrome 51](https://developers.google.com/web/updates/2016/04/chrome-51-deprecations?hl=en#remove_custom_messages_in_onbeforeunload_dialogs)
+- [Remove Custom Messages in onbeforeload Dialogs after Chrome 51](https://developer.chrome.com/blog/chrome-51-deprecations/?hl%3Den#remove_custom_messages_in_onbeforeunload_dialogs)

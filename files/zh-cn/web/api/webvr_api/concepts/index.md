@@ -19,9 +19,9 @@ slug: Web/API/WebVR_API/Concepts
 
 ### 最近的 VR 发展
 
-那么有什么值得我们期待的呢？VR 硬件需要传输高精度的信息，在保证低延迟的情况下传递可接受的用户的体感信息；运行 VR 设备和程序的电脑，必需强大到足以维持这些庞大的信息。直到最近的这几年，如此高精度并且能量强大的设备，才能通过大众可以接受的价格被购买到。早期的 VR 原型设备，需要花费数万美元，然而最近出现的 [Oculus Rift](https://www.oculus.com/rift/) developer kit 却仅售 $350，并且还有更加便宜的解决方案，比如基于手机的 VR 设备像是 [Google Cardboard](https://www.google.com/get/cardboard/)。
+那么有什么值得我们期待的呢？VR 硬件需要传输高精度的信息，在保证低延迟的情况下传递可接受的用户的体感信息；运行 VR 设备和程序的电脑，必需强大到足以维持这些庞大的信息。直到最近的这几年，如此高精度并且能量强大的设备，才能通过大众可以接受的价格被购买到。早期的 VR 原型设备，需要花费数万美元，然而最近出现的 [Oculus Rift](https://www.meta.com/quest/products/quest-2/) developer kit 却仅售 $350，并且还有更加便宜的解决方案，比如基于手机的 VR 设备像是 [Google Cardboard](https://arvr.google.com/cardboard/)。
 
-在软件方面，Valve 开发了 [SteamVR](http://store.steampowered.com/universe/vr) 软件系统，能够与 VIVE 和其他解决方案兼容，并提供软件访问权限，例如可用的 VR 用户界面。
+在软件方面，Valve 开发了 [SteamVR](https://store.steampowered.com/search/?category1%3D993) 软件系统，能够与 VIVE 和其他解决方案兼容，并提供软件访问权限，例如可用的 VR 用户界面。
 
 三星公司同 Oculus 合作，也推出了它的头戴设备 [GearVR](http://www.samsung.com/global/microsite/gearvr/gearvr_features.html)，这款设备可以连接旗下的 NOTE4 以及 6S 等手机。然而这款设备仅仅能够运行几款纯粹的 APP 应用，因而相对于 WEBVR 的特效领域而言，显得不是那么的有意思。
 
@@ -42,11 +42,11 @@ slug: Web/API/WebVR_API/Concepts
 
 其余的帮助补充完整的 VR 体验的硬件包括：
 
-- 手持传感识别器：一个可以追踪你的手部位置和运动的传感器，这使得它变成了一个非常有趣的控制器，以及一件存在于 VR 游戏世界种的物体。迄今为止，最先进的这类设备首属 [Leap Motion](https://www.leapmotion.com/)，它可以同电脑配合使用（同 Oculus Rift 设备连接）并且同时还可以和手机兼容（暂时处于实验阶段）。
-- （手机）游戏手柄：我们可以配置一套 XBOX 控制器或者类似的设备作为浏览器的键盘——这种方法提供了另一种同 VR 网页互动的形式。有一些游戏手柄更可以和手机协同使用——就像 [MergeVR headset](http://www.mergevr.com/)——但是这些方法都是通过蓝牙连接设备的方法，并不能完全等同于和 WEBVR 结合。
+- 手持传感识别器：一个可以追踪你的手部位置和运动的传感器，这使得它变成了一个非常有趣的控制器，以及一件存在于 VR 游戏世界种的物体。迄今为止，最先进的这类设备首属 [Leap Motion](https://www.ultraleap.com/)，它可以同电脑配合使用（同 Oculus Rift 设备连接）并且同时还可以和手机兼容（暂时处于实验阶段）。
+- （手机）游戏手柄：我们可以配置一套 XBOX 控制器或者类似的设备作为浏览器的键盘——这种方法提供了另一种同 VR 网页互动的形式。有一些游戏手柄更可以和手机协同使用——就像 [MergeVR headset](https://mergeedu.com/?cr%3D5849)——但是这些方法都是通过蓝牙连接设备的方法，并不能完全等同于和 WEBVR 结合。
 - 眼动追踪传感器（实验产品）：FOVE 项目是第一个研究用于追踪和读取人眼运动设备的项目。
 - 面部表情追踪设备（实验产品）：位于南加州大学和 Facebook 的 Oculus 部门的研究人员，已经开始测试更多新的追踪人类面部表情并且能把他们转换成虚拟现实角色的方法。
-- 更加复杂的位置传感系统：SteamVR 控制器，结合了 [Lighthouse](http://www.roadtovr.com/steamvr-beta-update-brings-lighthouse-support-and-vr-tracking-app/) 追踪系统，旨在实现帮助我们能在一个 10x10 平方英尺的 VR 空间范围内自由活动的目的。
+- 更加复杂的位置传感系统：SteamVR 控制器，结合了 [Lighthouse](https://www.roadtovr.com/steamvr-beta-update-brings-lighthouse-support-and-vr-tracking-app/) 追踪系统，旨在实现帮助我们能在一个 10x10 平方英尺的 VR 空间范围内自由活动的目的。
 
 ## 位置和方向、速度和加速度
 
@@ -175,7 +175,7 @@ DOF 直接和使用者的头部运动追踪相关联。
 
 虽然我们的视野非常的旷阔（最大可以达到 180°），但是我们必须要意识到只有在一个小范围内，你才可以察觉到一些标识的存在（中心向外 60°）或者读取文本（中心向外 10°）。如果你没有一个眼部追踪器，那么我们建议你将使用者的视角尽量控制在屏幕中心点附近。
 
-这样的限制对于在考虑如何在 APP 画布上设置视角的时候，是非常重要的——假如太过于远离锥形焦点的边缘，就可能更快更容易的导致眼部的拉伤。想要阅读 MozVR.com 上的关于这个问题的有意思的文章（还包含其他内容）——请点击 [Quick VR Mockups with Illustrator](https://blog.mozvr.com/quick-vr-prototypes/)。
+这样的限制对于在考虑如何在 APP 画布上设置视角的时候，是非常重要的——假如太过于远离锥形焦点的边缘，就可能更快更容易的导致眼部的拉伤。想要阅读 MozVR.com 上的关于这个问题的有意思的文章（还包含其他内容）——请点击 [Quick VR Mockups with Illustrator](https://error.ghost.org/)。
 
 ### 3D 定位音效
 

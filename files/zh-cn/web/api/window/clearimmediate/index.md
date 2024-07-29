@@ -39,4 +39,4 @@ document.getElementById("button").addEventListener(function () {
 
 {{ domxref("window.setImmediate") }}
 
-[Specification: Efficient Script Yielding](https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/setImmediate/Overview.html)
+[Specification: Efficient Script Yielding](https://github.com/w3c/web-performance/)

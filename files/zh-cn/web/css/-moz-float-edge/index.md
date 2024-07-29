@@ -77,4 +77,4 @@ l10n:
 
 ## 参见
 
-- [Firefox bug 432891](https://bugzil.la/432891)
+- [Firefox bug 432891](https://bugzilla.mozilla.org/show_bug.cgi?id%3D432891)
