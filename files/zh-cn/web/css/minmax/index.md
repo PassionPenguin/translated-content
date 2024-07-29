@@ -111,4 +111,4 @@ minmax(auto, 300px)
 ## 参见
 
 - 网格布局指南：_[网格布局的基本概念——轨道大小和 minmax()](/zh-CN/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout#轨道大小和_minmax)_
-- 视频教程：_[Introducing minmax()](http://gridbyexample.com/video/series-minmax/)_
+- 视频教程：_[Introducing minmax()](https://gridbyexample.com/video/series-minmax/)_

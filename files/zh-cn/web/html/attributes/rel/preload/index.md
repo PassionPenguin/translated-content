@@ -20,7 +20,7 @@ slug: Web/HTML/Attributes/rel/preload
 - [`href`](/zh-CN/docs/Web/HTML/Element/link#href) 属性中的资源路径。
 - [`as`](/zh-CN/docs/Web/HTML/Element/link#as) 属性中的资源类型。
 
-一个简单的示例可能如下所示（查看我们的 [JS 和 CSS 示例源码](https://github.com/mdn/html-examples/tree/master/link-rel-preload/js-and-css)，以及[在线演示](https://mdn.github.io/html-examples/link-rel-preload/js-and-css/)）
+一个简单的示例可能如下所示（查看我们的 [JS 和 CSS 示例源码](https://github.com/mdn/html-examples/tree/main/link-rel-preload/js-and-css)，以及[在线演示](https://mdn.github.io/html-examples/link-rel-preload/js-and-css/)）
 
 ```html
 <head>
@@ -79,7 +79,7 @@ slug: Web/HTML/Attributes/rel/preload
 
 `<link>` 元素可以接受一个 [`type`](/zh-CN/docs/Web/HTML/Element/link#type) 属性，其中包含元素指向的资源的 MIME 类型。这在预加载资源时特别有用——浏览器将使用 `type` 属性的值来确定是否支持该资源，如果不支持，则会忽略它，仅在支持时才会下载它。
 
-你可以在我们的视频示例中看到这个示例（查看[完整的源代码](https://github.com/mdn/html-examples/tree/master/link-rel-preload/video)，以及[在线版本](https://mdn.github.io/html-examples/link-rel-preload/video/)），以下是其中一部分代码片段。这展示了一般情况下预加载背后的核心行为。
+你可以在我们的视频示例中看到这个示例（查看[完整的源代码](https://github.com/mdn/html-examples/tree/main/link-rel-preload/video)，以及[在线版本](https://mdn.github.io/html-examples/link-rel-preload/video/)），以下是其中一部分代码片段。这展示了一般情况下预加载背后的核心行为。
 
 ```html
 <head>
@@ -114,7 +114,7 @@ slug: Web/HTML/Attributes/rel/preload
 
 如上所述，其中一个适用的有趣情况是字体文件。由于各种原因，这些文件必须使用匿名模式的 CORS 进行获取（参见[字体获取要求](https://drafts.csswg.org/css-fonts/#font-fetching-requirements)）。
 
-让我们以这个案例作为示例。你可以在 GitHub 上查看完整的[示例源代码](https://github.com/mdn/html-examples/tree/master/link-rel-preload/fonts)（也可以[在线查看](https://mdn.github.io/html-examples/link-rel-preload/fonts/)）：
+让我们以这个案例作为示例。你可以在 GitHub 上查看完整的[示例源代码](https://github.com/mdn/html-examples/tree/main/link-rel-preload/fonts)（也可以[在线查看](https://mdn.github.io/html-examples/link-rel-preload/fonts/)）：
 
 ```html
 <head>
@@ -147,7 +147,7 @@ slug: Web/HTML/Attributes/rel/preload
 
 `<link>` 元素的一个很好的特性是它们能够接受 [`media`](/zh-CN/docs/Web/HTML/Element/link#media) 属性。这些属性可以接受[媒体类型](/zh-CN/docs/Web/CSS/@media#media_types)或完整的[媒体查询](/zh-CN/docs/Web/CSS/CSS_media_queries/Using_media_queries)，让你可以进行响应式的预加载！
 
-让我们来看一个例子（在 GitHub 上查看，包括[源代码](https://github.com/mdn/html-examples/tree/master/link-rel-preload/media)和[在线示例](https://mdn.github.io/html-examples/link-rel-preload/media/)）：
+让我们来看一个例子（在 GitHub 上查看，包括[源代码](https://github.com/mdn/html-examples/tree/main/link-rel-preload/media)和[在线示例](https://mdn.github.io/html-examples/link-rel-preload/media/)）：
 
 ```html
 <head>

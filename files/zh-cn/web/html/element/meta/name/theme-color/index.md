@@ -17,7 +17,7 @@ slug: Web/HTML/Element/meta/name/theme-color
 
 ![示 theme-color 对浏览器的影响](theme-color.png)
 
-_图片来源：[《图标和浏览器颜色》](https://developers.google.cn/web/fundamentals/design-and-ux/browser-customization), 由 [Google](https://developers.google.cn/readme/policies) 创作并经[署名 4.0 国际 (CC BY 4.0) 许可证](https://creativecommons.org/licenses/by/4.0/deed.zh)共享。_
+_图片来源：[《图标和浏览器颜色》](https://web.developers.google.cn/articles/icons-and-browser-colors?hl%3Dzh-cn), 由 [Google](https://developers.google.cn/terms/site-policies?hl%3Dzh-cn) 创作并经[署名 4.0 国际 (CC BY 4.0) 许可证](https://creativecommons.org/licenses/by/4.0/deed.en)共享。_
 
 你可以用 [`media`](/zh-CN/docs/Web/HTML/Element/meta#media) 来查询一个媒体类型，如果条件符合则使用对应颜色。比如：
 

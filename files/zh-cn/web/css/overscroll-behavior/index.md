@@ -49,7 +49,7 @@ overflow: unset;
 
 ## Examples
 
-在我们 [滚动行为示例](https://mdn.github.io/css-examples/overscroll-behavior/) (也可以看该 [源代码](https://github.com/mdn/css-examples/tree/master/overscroll-behavior)) 我们展现一个虚构的联系人全页列表，和一个包含聊天窗口的对话框。
+在我们 [滚动行为示例](https://mdn.github.io/css-examples/overscroll-behavior/) (也可以看该 [源代码](https://github.com/mdn/css-examples/tree/main/overscroll-behavior)) 我们展现一个虚构的联系人全页列表，和一个包含聊天窗口的对话框。
 
 ![](example.png)
 
@@ -84,5 +84,5 @@ body {
 
 ## See also
 
-- [Take control of your scroll: customizing pull-to-refresh and overflow effects](https://developers.google.com/web/updates/2017/11/overscroll-behavior#demo)
+- [Take control of your scroll: customizing pull-to-refresh and overflow effects](https://developer.chrome.com/blog/overscroll-behavior#demo)
 - {{cssxref("-ms-scroll-chaining")}}

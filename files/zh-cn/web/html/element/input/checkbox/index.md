@@ -114,7 +114,7 @@ slug: Web/HTML/Element/input/checkbox
 
 {{EmbedLiveSample('处理多个复选框', 600, 100)}}
 
-在这个例子中，你会看到我们给每个复选框赋予了相同的 `name`。如果两个复选框都被选中，然后提交表单，你会得到这样一串键/值对：`interest=coding&interest=music`。当这个字符串到达服务器时，你需要把它解析成一个关联数组以外的东西，`interest` 的所有值都需要被捕获。有关 Python 使用的一种技术，参见[用一个服务器端变量处理多个复选框](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable)。
+在这个例子中，你会看到我们给每个复选框赋予了相同的 `name`。如果两个复选框都被选中，然后提交表单，你会得到这样一串键/值对：`interest=coding&interest=music`。当这个字符串到达服务器时，你需要把它解析成一个关联数组以外的东西，`interest` 的所有值都需要被捕获。有关 Python 使用的一种技术，参见[用一个服务器端变量处理多个复选框](https://stackoverflow.com/questions/18745456/how-to-process-multiple-checkboxes-with-a-single-server-side-variable-html-for)。
 
 ### 默认选中复选框
 

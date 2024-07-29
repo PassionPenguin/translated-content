@@ -53,7 +53,7 @@ footer {
 
 在 Safari 13 发布之前，`contentinfo` [地标角色](/zh-CN/docs/Learn/Accessibility/WAI-ARIA_basics#signpostslandmarks)无法通过 [VoiceOver](https://help.apple.com/voiceover/info/guide/) 正确显示。如果需要支持传统的 Safari 浏览器，请在 `footer` 元素中添加 `role="contentinfo"` 以确保正确显示地标。
 
-- 相关：[WebKit Bugzilla: 146930 - AX：HTML 原生元素（页眉、页脚、主页、旁页、导航）应与 ARIA 地标一样工作，但有时却不一样](https://webkit.org/b/146930)
+- 相关：[WebKit Bugzilla: 146930 - AX：HTML 原生元素（页眉、页脚、主页、旁页、导航）应与 ARIA 地标一样工作，但有时却不一样](https://bugs.webkit.org/show_bug.cgi?id%3D146930)
 
 ## 技术概要
 

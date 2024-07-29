@@ -122,7 +122,7 @@ slug: Web/HTML/Element/fieldset
 
 {{Compat}}
 
-\[1] 在 IE11 中 disabled 的 fieldset 的子元素并不会全都被 disabled; 相关 Issues: [IE bug 817488: `input[type="file"]` not disabled inside disabled `fieldset`](https://connect.microsoft.com/IE/feedbackdetail/view/817488) and [IE bug 962368: Can still edit `input[type="text"]` within `fieldset[disabled]`](https://connect.microsoft.com/IE/feedbackdetail/view/962368/can-still-edit-input-type-text-within-fieldset-disabled).
+\[1] 在 IE11 中 disabled 的 fieldset 的子元素并不会全都被 disabled; 相关 Issues: [IE bug 817488: `input[type="file"]` not disabled inside disabled `fieldset`](https://www.bing.com/?ref%3Daka%26shorturl%3Dconnect-redirect%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN) and [IE bug 962368: Can still edit `input[type="text"]` within `fieldset[disabled]`](https://www.bing.com?ref%3Daka%26shorturl%3Dconnect-redirect).
 
 ## 参见
 

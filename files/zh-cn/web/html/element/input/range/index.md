@@ -326,5 +326,5 @@ input[type="range"] {
 - [`<input type="number">`](/zh-CN/docs/Web/HTML/Element/input/number)
 - {{domxref('validityState.rangeOverflow')}} 和 {{domxref('validityState.rangeUnderflow')}}
 - [使用 ConstantSourceNode 控制多个参数](/zh-CN/docs/Web/API/Web_Audio_API/Controlling_multiple_parameters_with_ConstantSourceNode)
-- [设置范围元素的样式](https://css-tricks.com/sliding-nightmare-understanding-range-input)
+- [设置范围元素的样式](https://css-tricks.com/sliding-nightmare-understanding-range-input/)
 - [表单控件 CSS 兼容性列表](/zh-CN/docs/Learn/Forms/Property_compatibility_table_for_form_controls)

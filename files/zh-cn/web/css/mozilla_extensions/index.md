@@ -236,7 +236,7 @@ Firefox 支持一些 _[CSS](/zh-CN/docs/Web/CSS) 的 Mozilla 扩展_，包括属
 
 属性：{{CSSxRef("border-color")}}
 
-- `-moz-use-text-color` {{deprecated_inline}}（已移除，参见 [Firefox bug 1306214](https://bugzil.la/1306214)）请使用 {{CSSxRef("color_value#currentcolor_keyword","currentcolor")}} 代替。
+- `-moz-use-text-color` {{deprecated_inline}}（已移除，参见 [Firefox bug 1306214](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1306214)）请使用 {{CSSxRef("color_value#currentcolor_keyword","currentcolor")}} 代替。
 
 ### order-style 和 outline-style
 
@@ -502,7 +502,7 @@ Firefox 支持一些 _[CSS](/zh-CN/docs/Web/CSS) 的 Mozilla 扩展_，包括属
 
 ## 其他
 
-- {{CSSxRef("-moz-alt-content")}}（参见 [Firefox bug 11011](https://bugzil.la/11011)）
+- {{CSSxRef("-moz-alt-content")}}（参见 [Firefox bug 11011](https://bugzilla.mozilla.org/show_bug.cgi?id%3D11011)）
 
 ## 参见
 

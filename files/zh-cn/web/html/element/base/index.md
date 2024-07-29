@@ -73,7 +73,7 @@ slug: Web/HTML/Element/base
 
 ### Open Graph
 
-[Open Graph](https://ogp.me) 标签不接受 `<base>`，并且应该始终具有完整的绝对 URL。例如：
+[Open Graph](https://ogp.me/) 标签不接受 `<base>`，并且应该始终具有完整的绝对 URL。例如：
 
 ```plain
 <meta property="og:image" content="https://example.com/thumbnail.jpg">

@@ -158,7 +158,7 @@ div {
 - `webkitRelativePath` {{non-standard_inline}}
   - : 一个字符串，指定了相对于在目录选择器中选择的基本目录的文件路径（即，一个设置了 [`webkitdirectory`](/zh-CN/docs/Web/HTML/Element/input/file#webkitdirectory) 属性的 `file` 选择器）。_这是非标准的，应该谨慎使用。_
 
-> **备注：** 你可以在所有现代浏览器中读写 `HTMLInputElement.files` 的值；该特性已经添加到了 Firefox 57 中（见 [Firefox bug 1384030](https://bugzil.la/1384030)）。
+> **备注：** 你可以在所有现代浏览器中读写 `HTMLInputElement.files` 的值；该特性已经添加到了 Firefox 57 中（见 [Firefox bug 1384030](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1384030)）。
 
 ### 限制可接受的文件类型
 

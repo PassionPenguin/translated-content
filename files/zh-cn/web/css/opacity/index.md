@@ -110,4 +110,4 @@ img.opacity:hover {
 
 ## 参见
 
-- [MSDN Microsoft's filter:alpha(opacity=xx)](http://msdn.microsoft.com/en-us/library/ms532910%28VS.85%29.aspx)
+- [MSDN Microsoft's filter:alpha(opacity=xx)](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms532910(v%3Dvs.85)?redirectedfrom%3DMSDN>)

@@ -79,7 +79,7 @@ body {
 
 auto 选项的 20px 字体大小的阈值可以被 `browser.display.auto_quality_min_font_size` 值改变。
 
-`optimizeSpeed` 选项在 Gecko 2.0 上已经没有效果了，因为标准的文字渲染代码已经非常快，而且目前还没有更快的渲染方法。详见 [Firefox bug 595688](https://bugzil.la/595688)。
+`optimizeSpeed` 选项在 Gecko 2.0 上已经没有效果了，因为标准的文字渲染代码已经非常快，而且目前还没有更快的渲染方法。详见 [Firefox bug 595688](https://bugzilla.mozilla.org/show_bug.cgi?id%3D595688)。
 
 ## 规范
 

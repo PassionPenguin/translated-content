@@ -70,4 +70,4 @@ text-underline-position: unset;
 ## 参阅
 
 - {{cssxref("text-decoration")}} 属性是大多数作为设置 text-decoration 属性的简写形式，包括 {{cssxref("text-decoration-line")}}， {{cssxref("text-decoration-color")}}，和{{cssxref("text-decoration-style")}}。但是，text-decoration 不会设置 `text-underline-position`。
-- Microsoft [non-standard values documentation](http://msdn.microsoft.com/en-us/library/ie/ms531176%28v=vs.85%29.aspx)
+- Microsoft [non-standard values documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-position)

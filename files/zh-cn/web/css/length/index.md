@@ -35,7 +35,7 @@ slug: Web/CSS/length
 - `em`
   - : 相对长度单位，这个单位表示元素的 {{Cssxref("font-size")}} 的计算值。如果用在{{ Cssxref("font-size") }} 属性本身，它则表示元素*继承*的 `font-size` 值。
 - `ex`
-  - : 这个单位表示元素{{Cssxref("font")}}的 [x-height](http://en.wikipedia.org/wiki/X-height) 。在含有“X”字母的字体中，它是该字体的小写字母的高度；对于很多字体来说，`1ex ≈ 0.5em`。
+  - : 这个单位表示元素{{Cssxref("font")}}的 [x-height](https://en.wikipedia.org/wiki/X-height) 。在含有“X”字母的字体中，它是该字体的小写字母的高度；对于很多字体来说，`1ex ≈ 0.5em`。
 - `ic` {{experimental_inline}}
   - : 等于在用于渲染的字体中找到的“水”（CJK 表意文字 "水"，U + 6C34）字形的使用预先测量（used advance measure）。
 - `lh` {{experimental_inline}}
