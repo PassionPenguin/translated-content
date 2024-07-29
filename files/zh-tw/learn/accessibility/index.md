@@ -48,4 +48,4 @@ When someone describes a site as "accessible," they mean that any user can use a
 - [Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today)：Marcy Sutton 所作的一套優秀教學影片。
 - [Deque University resources](https://dequeuniversity.com/resources/)：包含程式碼範例、螢幕閱讀器參考、或是其他有用的資源。
 - [WebAIM resources](https://webaim.org/resources/)：有教學、便覽、工具……等。
-- [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/) - includes a list of web accessibility evaluation tools.
+- [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/test-evaluate/tools/list/) - includes a list of web accessibility evaluation tools.

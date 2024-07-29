@@ -297,7 +297,7 @@ button.onclick = function () {
      typeof myString;
      ```
 
-   這些結構在某些情況相當好用。舉例來說：如果使用者在文字表單中輸入了一個數字，這個數字將會是字串格式。而若想要把這個數字加上另一個數字，那你會希望它是數字格式（才能做數字相加），所以可以使用 `Number()` 來處理這個情況。可以看看實際案例：[猜數字遊戲, 第 61 行](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/first-splash/number-guessing-game.html#L61)。
+   這些結構在某些情況相當好用。舉例來說：如果使用者在文字表單中輸入了一個數字，這個數字將會是字串格式。而若想要把這個數字加上另一個數字，那你會希望它是數字格式（才能做數字相加），所以可以使用 `Number()` 來處理這個情況。可以看看實際案例：[猜數字遊戲, 第 61 行](https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/first-splash/number-guessing-game.html#L61)。
 
 ## 模版字符串(Template literals)
 

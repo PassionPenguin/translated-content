@@ -13,7 +13,7 @@ slug: Learn/Performance/Multimedia
 
 對於平均的網站, [51% 的頻寬消耗來自圖像, 而影像則是 25%](https://discuss.httparchive.org/t/state-of-the-web-top-image-optimization-strategies/1367)，所以我們可以說處理和優化你的多媒體是很重要的。
 
-你必須考慮流量的使用. 很多的人都是使用流量有限制的上網方案， 或是用多少付多少的上網方案，也就是根據用了多少 MB 來付費。這樣的問題不是只發生在新興國家的市場. 在 2018 年, [英國仍有 24% 在使用「用多少付多少」的方案](https://www.ofcom.org.uk/__data/assets/pdf_file/0021/113169/Technology-Tracker-H1-2018-data-tables.pdf)。
+你必須考慮流量的使用. 很多的人都是使用流量有限制的上網方案， 或是用多少付多少的上網方案，也就是根據用了多少 MB 來付費。這樣的問題不是只發生在新興國家的市場. 在 2018 年, [英國仍有 24% 在使用「用多少付多少」的方案](https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/technology-research/technology-tracker/technology-tracker-h1-2018-data-tables?v%3D323142)。
 
 你還需要考慮記憶體的問題，因為許多移動設備的 RAM 都有限。有一件很重要的事你必須要記住，下載的圖像是被儲存在記憶體裡的。
 
@@ -29,7 +29,7 @@ slug: Learn/Performance/Multimedia
 
 - 你是否正在載入最佳格式？ （見下文）
 - 你載入的尺寸正確嗎？
-- 你已經壓縮圖像了嗎？ (查看 [ImageOptim](https://imageoptim.com/))
+- 你已經壓縮圖像了嗎？ (查看 [ImageOptim](https://imageoptim.com/api))
 
 #### 最佳格式
 
@@ -83,7 +83,7 @@ slug: Learn/Performance/Multimedia
 
 就順序的角度來說，瀏覽器會下載它看到的第一個影像來源，因此先讓他載入一個較小的影像。就＂最小＂的角度來說，要確認你的壓縮影響仍然看起來不會太糟。有幾個演算法可能會讓你的影像看起來像是個會動的 gif 。雖然 128 Kb 的影像可能在用戶體驗上會比 10 MB 的影像好，可是把看起來像是 gif 粒狀的影像放在內容後面，也可能會對你的品牌產生負面影響。
 
-查看 [CanIUse.com](http://caniuse.com/#search=video) 來確認現今瀏覽器對於影像以及不同媒體格式的支持。
+查看 [CanIUse.com](https://caniuse.com/#search%3Dvideo) 來確認現今瀏覽器對於影像以及不同媒體格式的支持。
 
 ### 影像自動播放
 

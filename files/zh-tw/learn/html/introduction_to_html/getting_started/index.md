@@ -226,7 +226,7 @@ textarea.onkeyup = function () {
 
 {{ EmbedLiveSample('區塊級元素_vs._行內元素Block_versus_inline_elements', 700, 200, "", "") }}
 
-> **備註：** HTML5 重新定義了元素類別：請見 [Element content categories](https://www.whatwg.org/specs/web-apps/current-work/complete/section-index.html#element-content-categories)。新的定義比先前所定義的更為準確且少歧義性，因此它們也同時比 block 和 inline 還來得複雜，所以我們選擇在這裡繼續使用這個觀念。
+> **備註：** HTML5 重新定義了元素類別：請見 [Element content categories](https://html.spec.whatwg.org/multipage/indices.html#element-content-categories)。新的定義比先前所定義的更為準確且少歧義性，因此它們也同時比 block 和 inline 還來得複雜，所以我們選擇在這裡繼續使用這個觀念。
 
 > **備註：** 在本主題所使用的區塊級（block）與行內級（inline）這兩個名詞，不應與 CSS 的 box 種類混淆。它們在預設時是很像的，但改變 CSS 的顯示型態（display type）並不會改變元素的類別，也不會影響該元素能包含或被包含的元素類別。HTML5 之所以會重新定義元素類別，部分也是基於此一原因。
 
@@ -461,7 +461,7 @@ window.addEventListener("load", drawOutput);
 3. 將剛複製的 HTML 範例貼到新開的檔案裡。
 4. 將檔案儲存為 `index.html`。
 
-> **備註：** 你也能在這找到 HTML 範例：[MDN Learning Area Github repo](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/getting-started/index.html)。
+> **備註：** 你也能在這找到 HTML 範例：[MDN Learning Area Github repo](https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/getting-started/index.html)。
 
 接著你就可以用網頁瀏覽器開啟你的檔案，看看這些原始碼會被渲染（rendered）的樣子，然後編輯原始碼並重新整理瀏覽器，再看看會變成怎樣。目前你的網頁會長這樣：
 
@@ -582,7 +582,7 @@ window.addEventListener("load", drawOutput);
 
 {{ EmbedLiveSample('實體參照Entity_references_引用_HTML_中的特殊字元', 700, 200, "", "", "hide-codepen-jsfiddle") }}
 
-> **備註：** 你可以在維基百科中找到完整的 HTML 字元實體參照的對照表：[List of XML and HTML character entity references](http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)。請記得只要你的 HTML 的[字元編碼設定為 UTF-8](Introduction_to_HTML/The_head_metadata_in_HTML#Specifying_your_document's_character_encoding)，你就不需要使用其他字元的實體參照，因為現今的瀏覽器都能應付。
+> **備註：** 你可以在維基百科中找到完整的 HTML 字元實體參照的對照表：[List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)。請記得只要你的 HTML 的[字元編碼設定為 UTF-8](Introduction_to_HTML/The_head_metadata_in_HTML#Specifying_your_document's_character_encoding)，你就不需要使用其他字元的實體參照，因為現今的瀏覽器都能應付。
 
 ## HTML 註解
 

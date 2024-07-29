@@ -25,7 +25,7 @@ JavaScript 本身非常的簡潔，卻也充滿彈性，開發者們已經以 Ja
 
 但無論如何，要讓 JavaScript 跟 HTML 和 CSS 合作無間的話，可能還要費一些功夫。現在你將會從一些細小的地方開始著手，接著一步步地往前進。首先，我們將會向你展示如何將一些基本的 JavaScript 給加入你的頁面中，並且打造一個*「hello world!」*的範例（[這同時也是許多程式語言的標準範例程式](https://zh.wikipedia.org/zh-tw/Hello_World)）。
 
-> **警告：** 如果你還沒有學習過先前的課程，[請你下載這個範例程式碼](https://github.com/mdn/beginner-html-site-styled/archive/gh-pages.zip)，並以此開始練習。
+> **警告：** 如果你還沒有學習過先前的課程，[請你下載這個範例程式碼](https://codeload.github.com/mdn/beginner-html-site-styled/zip/refs/heads/gh-pages)，並以此開始練習。
 
 1. 首先，進入你測試網頁的資料夾中，並建立一個名為 `main.js` 的檔案，再將她存放於 `scripts` 資料夾內。
 2. 接著，開啟 `index.html` 檔案，並在 `</body>` 這個結束標籤之前的位置，使用一行新的空間來輸入以下的元素：
@@ -68,9 +68,9 @@ JavaScript 本身非常的簡潔，卻也充滿彈性，開發者們已經以 Ja
 let myVariable;
 ```
 
-> **備註：** 在 JavaScript 檔案內的每行內容都需要在結尾加上分號，以標示出這行結束的位置。只有在需要於單行中隔開敘述句時，分號才是絕對需要的。然而，有些人相信在每一個敘述句結尾加上分號才是最佳實踐。這裡有其他何時要加或不加分號的規則——請參考 [Your Guide to Semicolons in JavaScript](http://news.codecademy.com/your-guide-to-semicolons-in-javascript/) 以瞭解更多資訊。
+> **備註：** 在 JavaScript 檔案內的每行內容都需要在結尾加上分號，以標示出這行結束的位置。只有在需要於單行中隔開敘述句時，分號才是絕對需要的。然而，有些人相信在每一個敘述句結尾加上分號才是最佳實踐。這裡有其他何時要加或不加分號的規則——請參考 [Your Guide to Semicolons in JavaScript](https://www.codecademy.com/resources/blog/your-guide-to-semicolons-in-javascript/) 以瞭解更多資訊。
 
-> **備註：** 基本上你可以幫變數取任何名字，不過還是有一些限制的（請參閱[這篇文章](http://www.codelifter.com/main/tips/tip_020.shtml)以了解變數的命名規則）。假如不太確定，可以[檢查變數名稱](https://mothereff.in/js-variables)來看看是否合法。
+> **備註：** 基本上你可以幫變數取任何名字，不過還是有一些限制的（請參閱[這篇文章](https://www.codelifter.com/)以了解變數的命名規則）。假如不太確定，可以[檢查變數名稱](https://mothereff.in/js-variables)來看看是否合法。
 
 > **備註：** JavaScript 是會區分大小寫字母的——`myVariable` 就跟 `myvariable` 不相同。如果你的程式碼出現了一些問題，可以試著檢查一下字母的大小寫！
 
@@ -454,7 +454,7 @@ function setUserName() {
 
 ![](website-screen-scripted.png)
 
-如果在過程中遇到了任何問題，你也可以隨時把你的成品與我們 [放在 Github 上的範例](https://github.com/mdn/beginner-html-site-scripted/blob/gh-pages/scripts/main.js) 相互對照。
+如果在過程中遇到了任何問題，你也可以隨時把你的成品與我們 [放在 Github 上的範例](https://github.com/mdn/beginner-html-site-scripted/blob/main/scripts/main.js) 相互對照。
 
 在此，我們只稍稍體驗了 JavaScript 的一些皮毛。如果你非常享受這段學習的過程，並想要繼續深究，請你繼續瀏覽我們製作的 [JavaScript 指南](/zh-TW/docs/Web/JavaScript/Guide)。
 

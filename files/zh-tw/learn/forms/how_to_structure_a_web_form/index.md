@@ -42,7 +42,7 @@ slug: Learn/Forms/How_to_structure_a_web_form
 
 {{HTMLElement("fieldset")}} 元素能方便地建立用途相近、樣式及語意化都很方便的小部件組（groups of widgets）。你可以透過添加 {{HTMLElement("legend")}} 來給 {{HTMLElement("fieldset")}} 的內部開頭添加標籤。{{HTMLElement("legend")}} 的文字內容能描述 {{HTMLElement("legend")}} 目的。
 
-多數輔助科技會在 {{HTMLElement("legend")}} 元素被 {{HTMLElement("fieldset")}} 包住時偵測並使用它。比如說 [Jaws](http://www.freedomscientific.com/products/software/jaws/) 與 [NVDA](http://www.nvda-project.org/) 之類的螢幕報讀器就會在讀到每個控件的標籤前，讀出 legend 的內容。
+多數輔助科技會在 {{HTMLElement("legend")}} 元素被 {{HTMLElement("fieldset")}} 包住時偵測並使用它。比如說 [Jaws](https://www.freedomscientific.com/products/software/jaws/) 與 [NVDA](https://www.nvaccess.org/) 之類的螢幕報讀器就會在讀到每個控件的標籤前，讀出 legend 的內容。
 
 下面就有一個示例：
 
@@ -66,7 +66,7 @@ slug: Learn/Forms/How_to_structure_a_web_form
 </form>
 ```
 
-> **備註：** 你可以在[fieldset-legend.html](https://github.com/mdn/learning-area/blob/master/html/forms/html-form-structure/fieldset-legend.html) 觀察範例（[或著觀察這個動態互動](https://mdn.github.io/learning-area/html/forms/html-form-structure/fieldset-legend.html)）。
+> **備註：** 你可以在[fieldset-legend.html](https://github.com/mdn/learning-area/blob/main/html/forms/html-form-structure/fieldset-legend.html) 觀察範例（[或著觀察這個動態互動](https://mdn.github.io/learning-area/html/forms/html-form-structure/fieldset-legend.html)）。
 
 在閱讀表單時，螢幕報讀器會針對第一個小部件組，說出「Fruit juice size small」、接著針對第二個小部件組，說出「Fruit juice size medium」、第三個則是「Fruit juice size large」。
 
@@ -115,7 +115,7 @@ slug: Learn/Forms/How_to_structure_a_web_form
 </form>
 ```
 
-> **備註：** 你可以在 [checkbox-label.html](https://github.com/mdn/learning-area/blob/master/html/forms/html-form-structure/checkbox-label.html) 觀察示例（[這裡有展示版本！](https://mdn.github.io/learning-area/html/forms/html-form-structure/checkbox-label.html)）
+> **備註：** 你可以在 [checkbox-label.html](https://github.com/mdn/learning-area/blob/main/html/forms/html-form-structure/checkbox-label.html) 觀察示例（[這裡有展示版本！](https://mdn.github.io/learning-area/html/forms/html-form-structure/checkbox-label.html)）
 
 ### 多個標籤
 
@@ -165,7 +165,7 @@ The above variants increase in effectiveness as you go through them:
 
 > **備註：** You might get slightly different results, depending on your screenreader. This was tested in VoiceOver (and NVDA behaves similarly). We'd love to hear about your experiences too.
 
-> **備註：** You can find this example on GitHub as [required-labels.html](https://github.com/mdn/learning-area/blob/master/html/forms/html-form-structure/required-labels.html) ([see it live also](https://mdn.github.io/learning-area/html/forms/html-form-structure/required-labels.html)). don't test the example with 2 or 3 of the versions uncommented — screenreaders will definitely get confused if you have multiple labels AND multiple inputs with the same ID!
+> **備註：** You can find this example on GitHub as [required-labels.html](https://github.com/mdn/learning-area/blob/main/html/forms/html-form-structure/required-labels.html) ([see it live also](https://mdn.github.io/learning-area/html/forms/html-form-structure/required-labels.html)). don't test the example with 2 or 3 of the versions uncommented — screenreaders will definitely get confused if you have multiple labels AND multiple inputs with the same ID!
 
 ## 建立表單所常用的 HTML 結構
 
@@ -181,7 +181,7 @@ Above all, it is up to you to find a comfortable coding style that results in ac
 
 Let's put these ideas into practice and build a slightly more involved form — a payment form. This form will contain a number of control types that you may not yet understand. Don't worry about this for now; you'll find out how they work in the next article ([Basic native form controls](/zh-TW/docs/Learn/Forms/Basic_native_form_controls)). For now, read the descriptions carefully as you follow the below instructions, and start to form an appreciation of which wrapper elements we are using to structure the form, and why.
 
-1. To start with, make a local copy of our [blank template file](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/getting-started/index.html) and the [CSS for our payment form](https://github.com/mdn/learning-area/blob/master/html/forms/html-form-structure/payment-form.css) in a new directory on your computer.
+1. To start with, make a local copy of our [blank template file](https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/getting-started/index.html) and the [CSS for our payment form](https://github.com/mdn/learning-area/blob/main/html/forms/html-form-structure/payment-form.css) in a new directory on your computer.
 2. Apply the CSS to the HTML by adding the following line inside the HTML {{htmlelement("head")}}:
 
    ```html
@@ -298,7 +298,7 @@ Let's put these ideas into practice and build a slightly more involved form — 
    <p><button type="submit">Validate the payment</button></p>
    ```
 
-You can see the finished form in action below (also find it on GitHub — see our payment-form.html [source](https://github.com/mdn/learning-area/blob/master/html/forms/html-form-structure/payment-form.html) and [running live](https://mdn.github.io/learning-area/html/forms/html-form-structure/payment-form.html)):
+You can see the finished form in action below (also find it on GitHub — see our payment-form.html [source](https://github.com/mdn/learning-area/blob/main/html/forms/html-form-structure/payment-form.html) and [running live](https://mdn.github.io/learning-area/html/forms/html-form-structure/payment-form.html)):
 
 {{EmbedLiveSample("主動學習：建立表單結構","100%",620)}}
 
@@ -308,6 +308,6 @@ You can see the finished form in action below (also find it on GitHub — see ou
 
 ## 參見
 
-- [A List Apart: _Sensible Forms: A Form Usability Checklist_](https://www.alistapart.com/articles/sensibleforms/)
+- [A List Apart: _Sensible Forms: A Form Usability Checklist_](https://alistapart.com/article/sensibleforms/)
 
 {{PreviousMenuNext("Learn/Forms/Your_first_form", "Learn/Forms/Basic_native_form_controls", "Learn/Forms")}}

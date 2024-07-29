@@ -373,7 +373,7 @@ class BookInstance(models.Model):
 >
 > - 從 Python3.6 開始，你可以使用「字串插值語法」(又稱做 f-string)：
 >   `f'{self.id} ({self.book.title})'`
-> - 在舊版 Python 這部分的教學中，我們則使用了另一種有效的 [formatted string](https://www.python.org/dev/peps/pep-3101/) 語法
+> - 在舊版 Python 這部分的教學中，我們則使用了另一種有效的 [formatted string](https://peps.python.org/pep-3101/) 語法
 >   (e.g. `'{0} ({1})'.format(self.id,self.book.title)`)
 
 ### 作者模型(Author model)
@@ -421,7 +421,7 @@ python3 manage.py migrate
 - 「不同語言」能以什麼形式來表示？
   模型？自由文本字段(free text field)？硬編碼選擇列表(hard-coded selection list)？
 
-當你決定好了，就開始動手吧！你可以在[Github 的這裡](https://github.com/mdn/django-locallibrary-tutorial/blob/master/catalog/models.py)看到我們是怎麼思考的。
+當你決定好了，就開始動手吧！你可以在[Github 的這裡](https://github.com/mdn/django-locallibrary-tutorial/blob/main/catalog/models.py)看到我們是怎麼思考的。
 
 ## 小結
 

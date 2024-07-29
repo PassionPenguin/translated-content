@@ -27,8 +27,8 @@ slug: Learn/JavaScript/First_steps/Silly_story_generator
 
 在開始本測驗前，你應該:
 
-- 開啟右方網頁： [grab the HTML file](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/assessment-start/index.html) ，將 HTML 範本儲存到你的本地電腦的新資料夾中，並命名為`index.html` 。範本也包含相應的 CSS 檔案。
-- 開啟右方網頁： [page containing the raw text](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/assessment-start/raw-text.txt) ，並保持網頁開啟在瀏覽器的另一分頁上，以便稍後使用。
+- 開啟右方網頁： [grab the HTML file](https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/assessment-start/index.html) ，將 HTML 範本儲存到你的本地電腦的新資料夾中，並命名為`index.html` 。範本也包含相應的 CSS 檔案。
+- 開啟右方網頁： [page containing the raw text](https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/assessment-start/raw-text.txt) ，並保持網頁開啟在瀏覽器的另一分頁上，以便稍後使用。
 
 > **備註：** 除了將檔案下載到自己的電腦中，你也能使用線上編輯程式的網頁，像是：[JSBin](https://jsbin.com/) 或者 [Glitch](https://glitch.com/) 來完成評估測驗。你可以將 HTML, CSS 以及 JavaScript 貼到前述的線上編輯器中。如果你使用的線上編輯器沒有獨立給 JavaScript 的編輯區，你也能透過`<script>`直接將 JS 語法放到 HTML 檔案中。
 
@@ -45,7 +45,7 @@ slug: Learn/JavaScript/First_steps/Silly_story_generator
 
 ![](screen_shot_2018-09-19_at_10.01.38_am.png)
 
-點擊右方連結可以參考與測試完成品： [have a look at the finished example](http://mdn.github.io/learning-area/javascript/introduction-to-js-1/assessment-finished/) （請不要偷看原始碼喔！）
+點擊右方連結可以參考與測試完成品： [have a look at the finished example](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/assessment-finished/) （請不要偷看原始碼喔！）
 
 ## 任務開始
 

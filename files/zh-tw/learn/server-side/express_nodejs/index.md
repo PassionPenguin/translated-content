@@ -13,7 +13,7 @@ Express 是一個流行的 web 框架，使用 JavsScript 實現，執行在 nod
 
 > **備註：** 本網站有許多學習 JavaScript 應用在客戶端開發的有用資源，如：[JavaScript](/zh-TW/docs/Web/JavaScript)、[JavaScript 指南](/zh-TW/docs/Web/JavaScript/Guide)、[JavaScript 基礎](/zh-TW/docs/Learn/Getting_started_with_the_web/JavaScript_basics)、[JavaScript](/zh-TW/docs/Learn/JavaScript) (learning)。使用 Node.js 開發伺服器端使用的 JavaScript 語言與概念和客戶端是一樣的。Node.js 提供[額外的 APIs](https://nodejs.org/dist/latest-v6.x/docs/api/)以支援無瀏覽器環境，例如：建立 HTTP 服務和讀取檔案系統。但不支援 DOM 及瀏覽器相關的 JavaScript API。
 >
-> 這份指南將提供一些使用 Node.js 和 Express 的資訊以及數個優秀的學習資源。部分連結由 [How do I get started with Node.js](https://stackoverflow.com/a/5511507/894359)(StackOverflow) 與 [What are the best resources for learning Node.js?](https://www.quora.com/What-are-the-best-resources-for-learning-Node-js?)(Quora) 提供。
+> 這份指南將提供一些使用 Node.js 和 Express 的資訊以及數個優秀的學習資源。部分連結由 [How do I get started with Node.js](https://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js/5511507#5511507)(StackOverflow) 與 [What are the best resources for learning Node.js?](https://www.quora.com/What-are-the-best-resources-for-learning-Node-js)(Quora) 提供。
 
 ## 指南
 
@@ -26,7 +26,7 @@ Express 是一個流行的 web 框架，使用 JavsScript 實現，執行在 nod
 - [Express 教學(2): 建構網站骨架](/zh-TW/docs/Learn/Server-side/Express_Nodejs/skeleton_website)
   - : 本文章展示如何建構網站的骨架，接著你可以自己添加路由、模板/畫面和資料庫。
 - [Express 教學(3): 使用資料庫(以 Mongoose 為例)](/zh-TW/docs/Learn/Server-side/Express_Nodejs/mongoose)
-  - : 本文簡短的介紹 Node/Express 如何使用資料庫。接下來展示 LocalLibray 網站如何透過[Mongoose](http://mongoosejs.com/)進行資料庫的存取。說明物件綱要(object schema)和模型(models)如何宣告、the main field types 和基本驗證。同時簡單的展示幾個讀取資料的主要方法。
+  - : 本文簡短的介紹 Node/Express 如何使用資料庫。接下來展示 LocalLibray 網站如何透過[Mongoose](https://mongoosejs.com/)進行資料庫的存取。說明物件綱要(object schema)和模型(models)如何宣告、the main field types 和基本驗證。同時簡單的展示幾個讀取資料的主要方法。
 - [Express 教學(4): 路由和控制器](/zh-TW/docs/Learn/Server-side/Express_Nodejs/routes)
   - : 在本教學中，我們將為 LocalLibrary 網站中的所有資源終端設定「虛擬」處理函數的路由（URL 處理代碼）。 完成後，我們將為我們的路由處理程式提供模組化結構，以便我們可以在後續的教學中擴展真正的處理函數。 我們也將了解如何使用 Express 創建模組化路由。
 - [Express 教學(5): 顯示圖書館的資料](/zh-TW/docs/Learn/Server-side/Express_Nodejs/Displaying_data)
@@ -39,7 +39,7 @@ Express 是一個流行的 web 框架，使用 JavsScript 實現，執行在 nod
 ## 或許你也想看
 
 - [在 PWS/Cloud Foundry 上安裝 LocalLibrary](/zh-TW/docs/Learn/Server-side/Express_Nodejs/Installing_on_PWS_Cloud_Foundry)
-  - : 本文展示如何在[Pivotal Web Services PaaS cloud](http://run.pivotal.io)上安裝*LocalLibrary* ，PWS/Cloud Foundry 是一個完整且開源的 Heroku 替代品，可使用於教學(7)。如果你正在尋找 Heroku 或其他 PaaS 的替代品或只是想玩點不同的東西，那 PWS/Cloud Foundry 絕對值得一試。
+  - : 本文展示如何在[Pivotal Web Services PaaS cloud](http://run.pivotal.io/)上安裝*LocalLibrary* ，PWS/Cloud Foundry 是一個完整且開源的 Heroku 替代品，可使用於教學(7)。如果你正在尋找 Heroku 或其他 PaaS 的替代品或只是想玩點不同的東西，那 PWS/Cloud Foundry 絕對值得一試。
 
 ## 新增其他教學
 

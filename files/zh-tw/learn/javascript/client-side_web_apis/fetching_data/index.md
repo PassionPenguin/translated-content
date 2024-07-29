@@ -215,7 +215,7 @@ alert(root_node.firstChild.data);
 
 這樣一來我們便可取得 `responseXML` 所傳回的 `XMLDocument` 物件，而後以 DOM 方法取用 XML 文件的內容。你可以參考 [`test.xml` 的原始碼](https://www.w3clubs.com/mozdev/test.xml)以及修改過後的[測試程式](https://www.w3clubs.com/mozdev/httprequest_test_xml.html)。
 
-關於 DOM 方法，請參考 [Mozilla DOM](https://www.mozilla.org/docs/dom/) 文件。
+關於 DOM 方法，請參考 [Mozilla DOM](https://developer.mozilla.org:443/en-US/docs/Web/API/Document_Object_Model) 文件。
 
 ### Step 5 – Working with data
 

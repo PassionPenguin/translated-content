@@ -22,7 +22,7 @@ slug: Learn/JavaScript/Building_blocks/Image_gallery
 
 ## 從這裡開始
 
-要進行這個評量，你要先下載 [grab the ZIP](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/gallery/gallery-start.zip?raw=true) 檔案，解壓縮在你電腦中的某個檔案夾作為範例。
+要進行這個評量，你要先下載 [grab the ZIP](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/gallery/gallery-start.zip) 檔案，解壓縮在你電腦中的某個檔案夾作為範例。
 
 > **備註：** 你也可以在某些網站進行評鑑，如 [JSBin](https://jsbin.com/) 或 [Glitch](https://glitch.com/)。你可以把這些 HTML、CSS 和 JavaScript 貼到這些線上編輯器中。如果你用了一個沒法把 JavaScript/CSS 分別放在不同面板的線上編輯器，你可以放心的把這些`<script>`/`<style>`元件改成 inline 貼進 HTML 網頁裡。
 
@@ -57,7 +57,7 @@ slug: Learn/JavaScript/Building_blocks/Image_gallery
 - 在 `thumb-bar <div>` 裡的每個 `<img>` 添加一個 `onclick` 處理器使這個圖片被點擊時會放大展示在 `displayed-img <img>` 裡。
 - 在 `<button>` 添加一個 `onclick` 處理器，當點擊時，全尺寸圖片產生暗化效果，再次點擊時移除暗化效果。
 
-為了讓你更清楚，你可以看看這個 [完成的範例](http://mdn.github.io/learning-area/javascript/building-blocks/gallery/) （但別偷看原始碼！）
+為了讓你更清楚，你可以看看這個 [完成的範例](https://mdn.github.io/learning-area/javascript/building-blocks/gallery/) （但別偷看原始碼！）
 
 ## 一步步完成
 
@@ -102,6 +102,6 @@ overlay.style.backgroundColor = xxx;
 
 ## 評量
 
-If you are following this assessment as part of an organized course, you should be able to give your work to your teacher/mentor for marking. If you are self-learning, then you can get the marking guide fairly easily by asking on the [Learning Area Discourse thread](https://discourse.mozilla-community.org/t/learning-web-development-marking-guides-and-questions/16294), or in the [#mdn](irc://irc.mozilla.org/mdn) IRC channel on [Mozilla IRC](https://wiki.mozilla.org/IRC). Try the exercise first — there is nothing to be gained by cheating!
+If you are following this assessment as part of an organized course, you should be able to give your work to your teacher/mentor for marking. If you are self-learning, then you can get the marking guide fairly easily by asking on the [Learning Area Discourse thread](https://discourse.mozilla.org/t/learning-web-development-marking-guides-and-questions/16294), or in the [#mdn](irc://irc.mozilla.org/mdn) IRC channel on [Mozilla IRC](https://wiki.mozilla.org/IRC). Try the exercise first — there is nothing to be gained by cheating!
 
 {{PreviousMenu("Learn/JavaScript/Building_blocks/Events", "Learn/JavaScript/Building_blocks")}}

@@ -202,7 +202,7 @@ slug: Learn/JavaScript/First_steps/A_first_splash
 
 ### 初步設定
 
-在課程開始前，我們希望你可以複製一份[number-guessing-game-start.html](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/first-splash/number-guessing-game-start.html)到自己的電腦中([see it live here](http://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game-start.html))。用瀏覽器與文字編輯器將檔案打開時，你會看到簡單的標題、說明段落還有輸入猜測的表單，然而表單目前還不會做任何事情。
+在課程開始前，我們希望你可以複製一份[number-guessing-game-start.html](https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/first-splash/number-guessing-game-start.html)到自己的電腦中([see it live here](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game-start.html))。用瀏覽器與文字編輯器將檔案打開時，你會看到簡單的標題、說明段落還有輸入猜測的表單，然而表單目前還不會做任何事情。
 
 所有的程式碼都會放入置於 HTML 底部的{{htmlelement("script")}}元素裡：
 
@@ -683,6 +683,6 @@ guessField.focus();
 
 ## 差不多就到這了
 
-這就是我們的範例 — 你順利地來到結尾了，做得不錯！試試你的最終成品，或試試[我們的版本](http://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game.html)。如果你仍然有困難沒有解決，再看看[我們的原始碼](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/first-splash/number-guessing-game.html)。
+這就是我們的範例 — 你順利地來到結尾了，做得不錯！試試你的最終成品，或試試[我們的版本](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game.html)。如果你仍然有困難沒有解決，再看看[我們的原始碼](https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/first-splash/number-guessing-game.html)。
 
 {{PreviousMenuNext("Learn/JavaScript/First_steps/What_is_JavaScript", "Learn/JavaScript/First_steps/What_went_wrong", "Learn/JavaScript/First_steps")}}

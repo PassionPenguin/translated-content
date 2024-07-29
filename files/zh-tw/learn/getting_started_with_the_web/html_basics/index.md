@@ -217,7 +217,7 @@ My cat is very grumpy
 
 ![A web page screenshot showing a firefox logo, a heading saying mozilla is cool, and two paragraphs of filler text](finished-test-page-small.png)
 
-如果哪裡卡關了，你可以隨時造訪 Github 上的 [finished example code](https://github.com/mdn/beginner-html-site/blob/gh-pages/index.html) ，看看裡面的 code 和你寫的哪裡不同。
+如果哪裡卡關了，你可以隨時造訪 Github 上的 [finished example code](https://github.com/mdn/beginner-html-site/blob/main/index.html) ，看看裡面的 code 和你寫的哪裡不同。
 
 這篇文章觸及的是非常基本的 HTML 介紹，若你有興趣想進一步了解，歡迎參考 [HTML Learning page](/zh-TW/docs/Learn/HTML)。
 

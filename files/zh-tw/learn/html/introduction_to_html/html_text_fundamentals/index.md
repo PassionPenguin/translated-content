@@ -88,7 +88,7 @@ HTML 的其中一件核心工作，就是給出文件的結構和含義（又稱
 
 ### 為何我們需要架構？
 
-為了回答這個問題，我們先看看 [text-start.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/html-text-formatting/text-start.html) 這個文章（鷹嘴豆泥食譜）的最前端。請先下載這個文件的副本到你的電腦，等一下練習時會用到。這個文件目前包含很多不同的內容，並沒有被標記出架構，唯一的排版只有換行而已。
+為了回答這個問題，我們先看看 [text-start.html](https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html) 這個文章（鷹嘴豆泥食譜）的最前端。請先下載這個文件的副本到你的電腦，等一下練習時會用到。這個文件目前包含很多不同的內容，並沒有被標記出架構，唯一的排版只有換行而已。
 
 所以當你在瀏覽器中打開這份文件時，你將會看到這些文字看起來擠成一團！
 
@@ -96,9 +96,9 @@ HTML 的其中一件核心工作，就是給出文件的結構和含義（又稱
 
 這是因為文件內沒有元素去標示出文件的架構，所以瀏覽器不知道怎麼排版。此外：
 
-- 使用者造訪一個網站時，時常只是快速的瀏覽內容以找尋他們正在找的相關內容，更常時候，使用者只有看一個頁面內的標題而已（來源：[spend a very short time on a web page](http://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/)）。如果他們沒在短時間內找到實用的資訊，他們就會放棄這個頁面而去其他網頁尋找。
+- 使用者造訪一個網站時，時常只是快速的瀏覽內容以找尋他們正在找的相關內容，更常時候，使用者只有看一個頁面內的標題而已（來源：[spend a very short time on a web page](https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/)）。如果他們沒在短時間內找到實用的資訊，他們就會放棄這個頁面而去其他網頁尋找。
 - 搜尋引擎會把標題作為重要關鍵字來排序搜尋結果。所以如果一個頁面沒有標題，就很難被搜尋引擎排在上方。換句話說，就是沒有達到搜尋引擎最佳化（Search Engine Optimization ({{glossary("SEO")}})）。
-- 視力嚴重受損的使用者通常無法閱覽網頁，而透過螢幕閱讀器（[screen reader](http://en.wikipedia.org/wiki/Screen_reader)）聽頁面。螢幕閱讀器軟體提供使用者能夠更快速的取得頁面資訊。其中一個方式是透過朗誦出文件的架構，能讓使用者更快地獲得他們在尋找的資訊。所以假如一個頁面沒被恰當地標記架構，就會迫使使用者必須聆聽完整個頁面以取得尋找的資訊。
+- 視力嚴重受損的使用者通常無法閱覽網頁，而透過螢幕閱讀器（[screen reader](https://en.wikipedia.org/wiki/Screen_reader)）聽頁面。螢幕閱讀器軟體提供使用者能夠更快速的取得頁面資訊。其中一個方式是透過朗誦出文件的架構，能讓使用者更快地獲得他們在尋找的資訊。所以假如一個頁面沒被恰當地標記架構，就會迫使使用者必須聆聽完整個頁面以取得尋找的資訊。
 - 若要用{{glossary("CSS")}}裝飾頁面，或者讓瀏覽器透過{{glossary("JavaScript")}}做特效，也要用特別的元素來做標記。這樣 CSS/JS 才知道哪一部分是屬於他們的文件。
 
 以上原因說明為何我們要為內容標示出架構。
@@ -592,7 +592,7 @@ textarea.onkeyup = function () {
 
 ### Active learning: Marking up our recipe page
 
-So at this point in the article, you have all the information you need to mark up our recipe page example. You can choose to either save a local copy of our [text-start.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/html-text-formatting/text-start.html) starting file and do the work there, or do it in the editable example below. Doing it locally will probably be better, as then you'll get to save the work you are doing, whereas if you fill it in to the editable example, it will be lost the next time you open the page. Both have pros and cons.
+So at this point in the article, you have all the information you need to mark up our recipe page example. You can choose to either save a local copy of our [text-start.html](https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html) starting file and do the work there, or do it in the editable example below. Doing it locally will probably be better, as then you'll get to save the work you are doing, whereas if you fill it in to the editable example, it will be lost the next time you open the page. Both have pros and cons.
 
 ```html hidden
 <h2>Live output</h2>
@@ -753,7 +753,7 @@ textarea.onkeyup = function () {
 
 {{ EmbedLiveSample('Active learning: Marking up our recipe page', 900, 500) }}
 
-If you get stuck, you can always press the _Show solution_ button, or check out our [text-complete.html](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/html-text-formatting/text-complete.html) example on our github repo.
+If you get stuck, you can always press the _Show solution_ button, or check out our [text-complete.html](https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-complete.html) example on our github repo.
 
 ### Nesting lists
 

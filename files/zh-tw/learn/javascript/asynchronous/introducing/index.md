@@ -27,7 +27,7 @@ slug: Learn/JavaScript/Asynchronous/Introducing
 
 在我們了解什麼是非同步（**{{Glossary("asynchronous")}}** ） JavaScript 之前，我們應該確保我們已經了解什麼是同步（ **{{Glossary("synchronous")}}** ） JavaScript 。在本章節會回顧我們在前篇文章所看到的一些資訊。
 
-我們在前一個學習單元所看到的大部分功能都是同步的——當跑一段程式碼，瀏覽器會將執行結果盡快的回傳。我們來看看一則簡單的範例（[線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/basic-function.html)，[原始碼](https://github.com/mdn/learning-area/blob/master/javascript/asynchronous/introducing/basic-function.html)）：
+我們在前一個學習單元所看到的大部分功能都是同步的——當跑一段程式碼，瀏覽器會將執行結果盡快的回傳。我們來看看一則簡單的範例（[線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/basic-function.html)，[原始碼](https://github.com/mdn/learning-area/blob/main/javascript/asynchronous/introducing/basic-function.html)）：
 
 ```js
 const btn = document.querySelector("button");
@@ -98,7 +98,7 @@ btn.addEventListener("click", () => {
 
 當我們將回呼函式做為一個引數給其他函式時，我們只傳送該回呼函式的參考做為引數，換句話說，回呼函式**並非**立即被執行。它將會在呼叫函式的內部某個地方非同步的「回去呼叫」它（因此稱回呼）。呼叫函式有責任的在適當的時機去執行該回呼函式。
 
-自己寫一個包含回呼的呼叫函式很容易。我們來看看另一個從 [`XMLHttpRequest`](/zh-TW/docs/Web/API/XMLHttpRequest) API 載入資源的例子（[線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/xhr-async-callback.html)，[原始碼](https://github.com/mdn/learning-area/blob/master/javascript/asynchronous/introducing/xhr-async-callback.html)）：
+自己寫一個包含回呼的呼叫函式很容易。我們來看看另一個從 [`XMLHttpRequest`](/zh-TW/docs/Web/API/XMLHttpRequest) API 載入資源的例子（[線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/xhr-async-callback.html)，[原始碼](https://github.com/mdn/learning-area/blob/main/javascript/asynchronous/introducing/xhr-async-callback.html)）：
 
 ```js
 function loadAsset(url, type, callback) {
@@ -128,7 +128,7 @@ loadAsset("coffee.jpg", "blob", displayImage);
 
 回呼是多樣性的——它不只可以讓你控制執行函式的呼叫順序以及在不同函式間傳遞的參數，還可以讓你根據情況將資料傳遞到不同的函式。所以你可以根據下載的回傳結果採取不同的處理方式，例如 `processJSON()` ， `displayText()` 等等。
 
-注意不是所有的回呼都是非同步的——有些是跑在同步上。有個例子是當我們使用 {{jsxref("Array.prototype.forEach()")}} 在陣列裡面用迴圈來遍歷每一個項目（[線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/foreach.html)，[原始碼](https://github.com/mdn/learning-area/blob/master/javascript/asynchronous/introducing/foreach.html)）：
+注意不是所有的回呼都是非同步的——有些是跑在同步上。有個例子是當我們使用 {{jsxref("Array.prototype.forEach()")}} 在陣列裡面用迴圈來遍歷每一個項目（[線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/foreach.html)，[原始碼](https://github.com/mdn/learning-area/blob/main/javascript/asynchronous/introducing/foreach.html)）：
 
 ```js
 const gods = ["Apollo", "Artemis", "Ares", "Zeus"];
@@ -158,7 +158,7 @@ fetch("products.json")
   });
 ```
 
-> **備註：** 你可以在 GitHub （[原始碼](https://github.com/mdn/learning-area/blob/master/javascript/apis/fetching-data/can-store/can-script.js)，[線上範例](https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/)）找到最終版本。
+> **備註：** 你可以在 GitHub （[原始碼](https://github.com/mdn/learning-area/blob/main/javascript/apis/fetching-data/can-store/can-script.js)，[線上範例](https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/)）找到最終版本。
 
 在這裡我們看到 `fetch()` 帶一個參數——你想要在網路上提取資源的網址——並回傳一個 [promise](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Promise) 。這一個 promise 用來表示一個完成或失敗的非同步操作的物件。它代表的是一種中間的狀態。本質上，它代表瀏覽器述說著：「我承諾我會盡快給予你一個答覆」，因此名稱就叫做「 promise 」。
 
@@ -186,7 +186,7 @@ Promise 和舊式的回呼有一些相似點。他們本質上都是回傳一個
 
 ## 非同步程式碼的天性
 
-我們來探索一個可以更進一步說明非同步程式碼天性的範例，並說明當我們無法充分了解程式碼的執行順序以及嘗試將非同步程式碼當作同步程式碼會發生什麼事。底下的範例和我們之前看到的相當相似（ [線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/async-sync.html)，[原始碼](https://github.com/mdn/learning-area/blob/master/javascript/asynchronous/introducing/async-sync.html)）。區別在於我們加入一些 {{domxref("console.log()")}} 來說明程式碼是否會依照你以為的順序來執行。
+我們來探索一個可以更進一步說明非同步程式碼天性的範例，並說明當我們無法充分了解程式碼的執行順序以及嘗試將非同步程式碼當作同步程式碼會發生什麼事。底下的範例和我們之前看到的相當相似（ [線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/async-sync.html)，[原始碼](https://github.com/mdn/learning-area/blob/main/javascript/asynchronous/introducing/async-sync.html)）。區別在於我們加入一些 {{domxref("console.log()")}} 來說明程式碼是否會依照你以為的順序來執行。
 
 ```js
 console.log("Starting");
@@ -238,7 +238,7 @@ console.log("all done");
 
 在這個不直觀的例子中，這樣的設定方式可能會導致問題的發生——你不能在同步的程式碼去依賴一個非同步程式碼的執行結果，你不能保證非同步的函式會在瀏覽器執行下一個同步程式碼之前回傳結果。
 
-為了看這個動作，試著在本地複製我們的[程式碼](https://github.com/mdn/learning-area/blob/master/javascript/asynchronous/introducing/async-sync.html)，並將最後的 `console.log()` 的呼叫改成底下的方式：
+為了看這個動作，試著在本地複製我們的[程式碼](https://github.com/mdn/learning-area/blob/main/javascript/asynchronous/introducing/async-sync.html)，並將最後的 `console.log()` 的呼叫改成底下的方式：
 
 ```js
 console.log("All done! " + image.src + "displayed.");
@@ -258,7 +258,7 @@ TypeError: image is undefined; can't access its "src" property
 
 為了修復 `fetch()` 這個有問題的範例讓三個 `console.log()` 的敘述可以依序被執行你可以讓第三個 `console.log()` 也非同步的被執行。你可以新增一個新的 `.then()` 再將其放在裡面，這個新增的 `.then()` 再串連 promise 區塊的倒數第二個結尾；或者也可以將其放入原本的 `.then()` 中來解決這個問題。試著現在修復這個問題吧。
 
-> **備註：** 如果你的想法卡住，你可以[在這裡](https://github.com/mdn/learning-area/blob/master/javascript/asynchronous/introducing/async-sync-fixed.html)找到解答（[線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/async-sync-fixed.html)）。你也可以在我們稍後的[優雅的使用 Promise 來處理非同步操作](/zh-TW/docs/Learn/JavaScript/Asynchronous/Promises) 這個單元找到更多關於 promise 的資訊。
+> **備註：** 如果你的想法卡住，你可以[在這裡](https://github.com/mdn/learning-area/blob/main/javascript/asynchronous/introducing/async-sync-fixed.html)找到解答（[線上範例](https://mdn.github.io/learning-area/javascript/asynchronous/introducing/async-sync-fixed.html)）。你也可以在我們稍後的[優雅的使用 Promise 來處理非同步操作](/zh-TW/docs/Learn/JavaScript/Asynchronous/Promises) 這個單元找到更多關於 promise 的資訊。
 
 ## 結論
 

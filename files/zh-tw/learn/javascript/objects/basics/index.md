@@ -33,7 +33,7 @@ slug: Learn/JavaScript/Objects/Basics
 
 物件是一批相關的數據以及/或者功能（通常包含了幾個變數及函式 — 當它們包含在物件中時被稱做「屬性」（properties）或「函式」（methods）），讓我們用一個範例來看看物件的長相。
 
-在開始之前，請先複製一份 [oojs.html](https://github.com/mdn/learning-area/blob/master/javascript/oojs/introduction/oojs.html) 檔案到你自己的本端硬碟中。此檔案內容物不多，就 1 組 {{HTMLElement("script")}} 元素可寫入我們的原始碼；在繪製頁面時，1 組元素可輸入簡易指令；幾個變數定義；1 組函式可針對輸入至 input 的程式碼，將之輸出到 {{HTMLElement("p")}} 元素。我們將透過此檔案說明基礎的物件語法。
+在開始之前，請先複製一份 [oojs.html](https://github.com/mdn/learning-area/blob/main/javascript/oojs/introduction/oojs.html) 檔案到你自己的本端硬碟中。此檔案內容物不多，就 1 組 {{HTMLElement("script")}} 元素可寫入我們的原始碼；在繪製頁面時，1 組元素可輸入簡易指令；幾個變數定義；1 組函式可針對輸入至 input 的程式碼，將之輸出到 {{HTMLElement("p")}} 元素。我們將透過此檔案說明基礎的物件語法。
 
 JavaScript 內的大多數東西，均是透過定義並初始設定變數來建立物件。
 
@@ -89,7 +89,7 @@ person.greeting();
 
 現在你的物件裡面已經有了某些資料與功能，而且能透過某些簡易語法存取之。
 
-> **備註：** 如果你無法完成上述步驟，可先和我們的版本比較一下。參閱 [oojs-finished.html](https://github.com/mdn/learning-area/blob/master/javascript/oojs/introduction/oojs-finished.html) (或觀看 [實際執行](http://mdn.github.io/learning-area/javascript/oojs/introduction/oojs-finished.html))。你最容易犯下的錯誤是在物件中的最後一個成員 (member)末端加上逗號，如此就會造成錯誤。
+> **備註：** 如果你無法完成上述步驟，可先和我們的版本比較一下。參閱 [oojs-finished.html](https://github.com/mdn/learning-area/blob/main/javascript/oojs/introduction/oojs-finished.html) (或觀看 [實際執行](https://mdn.github.io/learning-area/javascript/oojs/introduction/oojs-finished.html))。你最容易犯下的錯誤是在物件中的最後一個成員 (member)末端加上逗號，如此就會造成錯誤。
 
 目前為止發生了什麼事呢？現在這個物件是由多個成員所構成，各個成員均有 1 個名稱 (如上述的 `name` 與 `age`) 以及 1 組數值 (如 `['Bob', 'Smith']` 與 `32`)。由名稱與數值構成的組合均以逗號區隔，而名稱與數值之間則以冒號隔開。語法應如下所示：
 

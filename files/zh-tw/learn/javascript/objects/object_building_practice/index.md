@@ -40,7 +40,7 @@ slug: Learn/JavaScript/Objects/Object_building_practice
 
 ## 著手開始
 
-先複製 [`index.html`](https://github.com/mdn/learning-area/blob/master/javascript/oojs/bouncing-balls/index.html)`、style.css`、[`main.js`](https://github.com/mdn/learning-area/blob/master/javascript/oojs/bouncing-balls/main.js) 檔案到你的本機磁碟中。這些檔案分別具備下列：
+先複製 [`index.html`](https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/index.html)`、style.css`、[`main.js`](https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/main.js) 檔案到你的本機磁碟中。這些檔案分別具備下列：
 
 1. 極簡的 HTML 文件，具備 1 個 {{HTMLElement("h1")}} 元素、1 個 {{HTMLElement("canvas")}} 元素可繪製彩球，以及其他元素可將 CSS 與 JavaScript 套用到 HTML 之上。
 2. 一些極簡單的樣式，主要可作為 `<h1>` 的樣式風格與定位之用，並省去網頁邊緣的捲動棒或空白 (看起來更簡約)。
@@ -276,7 +276,7 @@ Ball.prototype.update = function () {
    - 對每個彩球來說，我們必須檢查是否碰撞到其他球。所以要設定另一個 `for` 迴圈以循環檢視 `balls[]` 陣列中的所有彩球。
    - 在我們的 for 迴圈中，我們立刻使用 `if` 陳述式檢查「現正透過迴圈循環檢查中」的彩球，是否即為我們目前檢查中的同一彩球。我們不需要檢查彩球是否碰撞到自己！為了達到此效果，我們檢查彩球目前的 `x`/`y` 座標與速度，是否等同於迴圈檢查的彩球。接著透過「`!`」否定檢查，所以在 if 陳述式中的程式碼，只有在彩球相異時才會執行。
    - 接著使用一般演算法檢查 2 個球體之間的碰撞。我們基本上會檢查任 2 個球體的範圍是否重疊。另將透過〈[2D 碰撞偵測](/zh-TW/docs/Games/Techniques/2D_collision_detection)〉一文進一步解釋。
-   - 如果偵測到碰撞，則隨即執行內部 `if` 陳述式的程式碼。在本範例中，我們剛設定了 2 個球體的 `color` 屬性為新的隨機色彩。但當然可以更複雜點，像是讓彩球更逼真的互相反彈，但這實作起來就更複雜了。對這類的物理模擬，開發者就必須使用如 [PhysicsJS](http://wellcaffeinated.net/PhysicsJS/)、[matter.js](http://brm.io/matter-js/)、[Phaser](http://phaser.io/) 等的遊戲＼物理函式庫。
+   - 如果偵測到碰撞，則隨即執行內部 `if` 陳述式的程式碼。在本範例中，我們剛設定了 2 個球體的 `color` 屬性為新的隨機色彩。但當然可以更複雜點，像是讓彩球更逼真的互相反彈，但這實作起來就更複雜了。對這類的物理模擬，開發者就必須使用如 [PhysicsJS](https://wellcaffeinated.net/PhysicsJS/)、[matter.js](https://brm.io/matter-js/)、[Phaser](https://phaser.io/) 等的遊戲＼物理函式庫。
 
 2. 你也可以在動畫的每一畫格中呼叫此一函式。在 `balls[i].update();` 這一行下方新增下列程式碼即可：
 
@@ -286,7 +286,7 @@ Ball.prototype.update = function () {
 
 3. 儲存並重新整理之後，就能看到球體在碰撞時變更其色彩了！
 
-> **備註：** 如果你無法讓此範例順利運作，可比較我們的[最後版本](https://github.com/mdn/learning-area/blob/master/javascript/oojs/bouncing-balls/main-finished.js) (另可參閱[實際執行情形](http://mdn.github.io/learning-area/javascript/oojs/bouncing-balls/index-finished.html))。
+> **備註：** 如果你無法讓此範例順利運作，可比較我們的[最後版本](https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/main-finished.js) (另可參閱[實際執行情形](https://mdn.github.io/learning-area/javascript/oojs/bouncing-balls/index-finished.html))。
 
 ## 摘要
 

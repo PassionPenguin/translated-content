@@ -28,14 +28,14 @@ slug: Learn/Getting_started_with_the_web/Publishing_your_website
 
 - 在這裡我們不介紹特定的主機租借商(hosting companies)或網域名稱註冊商(domain name registrars)，你只要搜尋「web hosting」與「domain names」就能找到。所有的註冊商都會提供方法，讓你檢查你想要的網域名稱可否使用、或有沒有被註冊過。
 - 你的 {{Glossary("ISP", "網路供應商")}} 可能會提供有限制的主機，這可以讓你發佈一些比較簡易的網站，雖然會有些限制，但嘗試使用它來發佈你的第一個網站也是很不錯的 — 聯絡並詢問他們！
-- 有些公司提供免費的服務，像是 [Neocities](https://neocities.org/)、[Blogger](https://www.blogger.com)和 [WordPress](https://wordpress.com/)，但是我要強調，你付出多少得到多少，不過使用它們來發佈你的第一個網站何嘗不是一個理想的方法? 而且免費的服務大部分不需要 FTP 程序來上傳檔案，你只需要用它們提供的介面來移動檔案。
+- 有些公司提供免費的服務，像是 [Neocities](https://neocities.org/)、[Blogger](https://www.blogger.com/about/?bpli%3D1)和 [WordPress](https://wordpress.com/)，但是我要強調，你付出多少得到多少，不過使用它們來發佈你的第一個網站何嘗不是一個理想的方法? 而且免費的服務大部分不需要 FTP 程序來上傳檔案，你只需要用它們提供的介面來移動檔案。
 - 有些公司同時提供主機(hosting)和網域(domains)的服務。
 
 ### 使用線上工具，像是 GitHub 或 Google App Engine
 
 使用工具來發佈網站：
 
-- [GitHub](https://github.com/) 可以交流程式的平台，它提供你一個空間來存放程式碼，這個空間是基於 [Git](http://git-scm.com/) 的**版本控制系統，**你能夠透過系統共同編輯平台上的程式專案，而這個系統是開放資源，也就是說全世界的人都可以找到你的 GitHub code，包括使用它、從中學習並將它改得更好。GitHub 提供一個非常實用的工具— [GitHub Pages](https://pages.github.com/)，它能讓你發佈網站。
+- [GitHub](https://github.com/) 可以交流程式的平台，它提供你一個空間來存放程式碼，這個空間是基於 [Git](https://git-scm.com/) 的**版本控制系統，**你能夠透過系統共同編輯平台上的程式專案，而這個系統是開放資源，也就是說全世界的人都可以找到你的 GitHub code，包括使用它、從中學習並將它改得更好。GitHub 提供一個非常實用的工具— [GitHub Pages](https://pages.github.com/)，它能讓你發佈網站。
 - [Google App Engine](https://cloud.google.com/appengine/) 是一個強大的平台，不管是要從頭建置 multi-tiered web 程式還是託管靜態網站，它都能讓你在 Google 的基礎下建置和運行應用程式。點選 [How do you host your website on Google App Engine?](/zh-TW/docs/Learn/Common_questions/How_do_you_host_your_website_on_Google_App_Engine) 以獲得更多資訊。
 
 這類工具和託管不同，通常他們都是免費的，不過功能當然也會受限。
@@ -58,7 +58,7 @@ slug: Learn/Getting_started_with_the_web/Publishing_your_website
 來看看把網站用 Github Pages 發佈多簡單。
 
 1. 首先註冊 [GitHub](https://github.com/) 並驗證電子郵件。
-2. 接著針對要上傳的檔案[建立一個 repository](https://github.com/new)。
+2. 接著針對要上傳的檔案[建立一個 repository](https://github.com/login?return_to%3Dhttps://github.com/new)。
 3. 在頁面的 _Repository name_ 標籤輸入 _username_.github.io，_username_ 是指你的用戶名。例如我們的好朋友 bobsmith 就會輸入 _bobsmith.github.io_。
    另外，請勾選 _Initialize this repository with a README_ 後點選 _Create repository_。![](github-create-repo.png)
 4. 之後，把網站內容拖曳到 repository 目錄，並勾選 _Commit changes_。
@@ -69,7 +69,7 @@ slug: Learn/Getting_started_with_the_web/Publishing_your_website
 
    > **備註：** 讓網站上線需要一點時間。如果網站沒有馬上運行，稍等一段時間後再試一次。
 
-想多理解的話，請參考 [GitHub Pages Help](https://help.github.com/categories/github-pages-basics/).
+想多理解的話，請參考 [GitHub Pages Help](https://support.github.com/request/landing).
 
 ## 參閱
 
@@ -77,6 +77,6 @@ slug: Learn/Getting_started_with_the_web/Publishing_your_website
 - [Understanding domain names](/zh-TW/docs/Learn/Understanding_domain_names)
 - [How much does it cost to do something on the web?](/zh-TW/docs/Learn/How_much_does_it_cost)
 - [Deploy a Website](https://www.codecademy.com/learn/deploy-a-website): A nice tutorial from Codecademy that goes a bit further and shows some additional techniques.
-- [Cheap or Free Static Website Hosting](http://alignedleft.com/resources/cheap-web-hosting) by Scott Murray has some useful ideas on available services.
+- [Cheap or Free Static Website Hosting](https://scottmurray.org/resources/cheap-web-hosting) by Scott Murray has some useful ideas on available services.
 
 {{PreviousMenuNext("Learn/Getting_started_with_the_web/JavaScript_basics", "Learn/Getting_started_with_the_web/How_the_Web_works", "Learn/Getting_started_with_the_web")}}

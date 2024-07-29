@@ -101,7 +101,7 @@ superHeroes["members"][1]["powers"][2];
 4. 在此物件中，我們要存取 `powers` 屬性，所以用 `["powers"]`。
 5. 在 `powers` 屬性中有 1 個陣列具備所選超級英雄的能力。我們要選第三種能力，所以用 `[2]`。
 
-> **備註：** 我們在 [JSONText.html](http://mdn.github.io/learning-area/javascript/oojs/json/JSONTest.html) 範例 (參閱[原始碼](https://github.com/mdn/learning-area/blob/master/javascript/oojs/json/JSONTest.html)) 的變數中，示範上述可用的 JSON。你可在自己瀏覽器的 JavaScript 主控台載入此程式碼，並存取變數中的資料。
+> **備註：** 我們在 [JSONText.html](https://mdn.github.io/learning-area/javascript/oojs/json/JSONTest.html) 範例 (參閱[原始碼](https://github.com/mdn/learning-area/blob/main/javascript/oojs/json/JSONTest.html)) 的變數中，示範上述可用的 JSON。你可在自己瀏覽器的 JavaScript 主控台載入此程式碼，並存取變數中的資料。
 
 ### 陣列作為 JSON
 
@@ -134,7 +134,7 @@ superHeroes["members"][1]["powers"][2];
 
 - JSON 是純粹的資料格式 — 僅具備屬性，而無函式。
 - JSON 需要雙引號，才能使用＼有效。所以最安全的方法就是以雙引號撰寫之。
-- 單一個逗號或冒號放錯位置，也會讓 JSON 檔案出錯而無法運作。你應仔細檢視所有要使用的資料 (只要產生器程式能正確運作，由電腦產生的 JSON 也就不容易出錯)。你可透過如 [JSONLint](http://jsonlint.com/) 的應用程式檢驗 JSON。
+- 單一個逗號或冒號放錯位置，也會讓 JSON 檔案出錯而無法運作。你應仔細檢視所有要使用的資料 (只要產生器程式能正確運作，由電腦產生的 JSON 也就不容易出錯)。你可透過如 [JSONLint](https://jsonlint.com/) 的應用程式檢驗 JSON。
 - 不限於陣列或物件，只要是符合標準 JSON 物件形式的任何資料，都可以夾帶進 JSON 檔案中。因此，單一字串或數字也可能是有效的 JSON 物件，但不一定有用就是了...
 
 ## 主動學習：完成 JSON 範例
@@ -143,7 +143,7 @@ superHeroes["members"][1]["powers"][2];
 
 ### 入門
 
-在開始之前，先複製我們的 [heroes.html](https://github.com/mdn/learning-area/blob/master/javascript/oojs/json/heroes.html) 與 [style.css](https://github.com/mdn/learning-area/blob/master/javascript/oojs/json/style.css) 到你的本端硬碟中。後者包含某些簡易的 CSS 可塑造網頁風格；前者則提供極簡單主體 HTML：
+在開始之前，先複製我們的 [heroes.html](https://github.com/mdn/learning-area/blob/main/javascript/oojs/json/heroes.html) 與 [style.css](https://github.com/mdn/learning-area/blob/main/javascript/oojs/json/style.css) 到你的本端硬碟中。後者包含某些簡易的 CSS 可塑造網頁風格；前者則提供極簡單主體 HTML：
 
 ```html
 <header></header>
@@ -282,9 +282,9 @@ function showHeroes(jsonObj) {
 5. 再用另一個 `for` 迴圈逐一巡過目前英雄的超能力。針對每一項超能力，我們再建立 1 組 `<li>` 元素，把超能力放進該元素之中，再透過 `appendChild()` 把 `listItem` 放入 `<ul>` 元素之內 (`myList`)。
 6. 最後就是在 `<article>` (`myArticle`) 之內附加 `<h2>`、`<p>`、`<ul>`；再把 `<article>` 附加於 `<section>` 之內。這附加的順序極為重要，因為這也會是 HTML 中的顯示順序。
 
-> **備註：** 如果你無法讓此範例運作，可參閱我們的 [heroes-finished.html](https://github.com/mdn/learning-area/blob/master/javascript/oojs/json/heroes-finished.html) 原始碼 (亦可看到[實際執行情況](http://mdn.github.io/learning-area/javascript/oojs/json/heroes-finished.html)。)
+> **備註：** 如果你無法讓此範例運作，可參閱我們的 [heroes-finished.html](https://github.com/mdn/learning-area/blob/main/javascript/oojs/json/heroes-finished.html) 原始碼 (亦可看到[實際執行情況](https://mdn.github.io/learning-area/javascript/oojs/json/heroes-finished.html)。)
 
-> **備註：** 如果你無法用我們說過的點記法 (dot-)＼括弧記法 (bracket notation) 來存取 JSON，則可用新分頁或自己的文字編輯器開啟 [superheroes.json](http://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json) 檔案並參考之。你也可再回去看看 [JavaScript 物件基礎概念](/zh-TW/docs/Learn/JavaScript/Objects/Basics) ，再次了解點＼括弧記法。
+> **備註：** 如果你無法用我們說過的點記法 (dot-)＼括弧記法 (bracket notation) 來存取 JSON，則可用新分頁或自己的文字編輯器開啟 [superheroes.json](https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json) 檔案並參考之。你也可再回去看看 [JavaScript 物件基礎概念](/zh-TW/docs/Learn/JavaScript/Objects/Basics) ，再次了解點＼括弧記法。
 
 ## 物件與文字交互轉換
 
@@ -299,7 +299,7 @@ request.responseType = "json";
 - [`parse()`](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)：接收文字字串形式的 JSON 物件作為參數，並回傳對應的物件。
 - [`stringify()`](/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)：接收 JSON 物件作為參數，並回傳對等的文字字串形式。
 
-你可到 [heroes-finished-json-parse.html](http://mdn.github.io/learning-area/javascript/oojs/json/heroes-finished-json-parse.html) 範例 (參閱[原始碼](https://github.com/mdn/learning-area/blob/master/javascript/oojs/json/heroes-finished-json-parse.html)) 中看到第一個函式的運作情形。這其實跟我們先前範例所進行的事情一模一樣，不同之處在於我們設定 XHR 要回傳 JSON 為文字，接著再使用 `parse()` 轉換為實際的 JSON 物件。關鍵程式碼片段如下：
+你可到 [heroes-finished-json-parse.html](https://mdn.github.io/learning-area/javascript/oojs/json/heroes-finished-json-parse.html) 範例 (參閱[原始碼](https://github.com/mdn/learning-area/blob/main/javascript/oojs/json/heroes-finished-json-parse.html)) 中看到第一個函式的運作情形。這其實跟我們先前範例所進行的事情一模一樣，不同之處在於我們設定 XHR 要回傳 JSON 為文字，接著再使用 `parse()` 轉換為實際的 JSON 物件。關鍵程式碼片段如下：
 
 ```js
 request.open("GET", requestURL);

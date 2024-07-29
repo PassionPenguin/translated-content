@@ -148,7 +148,7 @@ class BookListView(generic.ListView):
 
 #### Conditional execution
 
-我們使用 [`if`](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#if), `else` 和 `endif` 模組標籤，以檢查`book_list` 是否已定義並且不為空。 如果 `book_list` 為空值, 則 `else` 子句回傳 text 說明沒有書可以列出. 如果`book_list`不是空值, 然後我們遍曆書籍清單。
+我們使用 [`if`](https://docs.djangoproject.com/en/2.0/ref/templates/builtins///#if), `else` 和 `endif` 模組標籤，以檢查`book_list` 是否已定義並且不為空。 如果 `book_list` 為空值, 則 `else` 子句回傳 text 說明沒有書可以列出. 如果`book_list`不是空值, 然後我們遍曆書籍清單。
 
 ```django
 {% if book_list %}
@@ -158,11 +158,11 @@ class BookListView(generic.ListView):
 {% endif %}
 ```
 
-The condition above only checks for one case, but you can test on additional conditions using the `elif` template tag (e.g. `{% elif var2 %}` ). For more information about conditional operators see: [if](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#if), [ifequal/ifnotequal](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#ifequal-and-ifnotequal), and [ifchanged](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#ifchanged) in [Built-in template tags and filters](https://docs.djangoproject.com/en/2.0/ref/templates/builtins) (Django Docs).
+The condition above only checks for one case, but you can test on additional conditions using the `elif` template tag (e.g. `{% elif var2 %}` ). For more information about conditional operators see: [if](https://docs.djangoproject.com/en/2.0/ref/templates/builtins///#if), [ifequal/ifnotequal](https://docs.djangoproject.com/en/2.0/ref/templates/builtins///#ifequal-and-ifnotequal), and [ifchanged](https://docs.djangoproject.com/en/2.0/ref/templates/builtins///#ifchanged) in [Built-in template tags and filters](https://docs.djangoproject.com/en/2.0/ref/templates/builtins//) (Django Docs).
 
 #### For loops
 
-The template uses the [for](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#for) and `endfor` template tags to loop through the book list, as shown below. Each iteration populates the `book` template variable with information for the current list item.
+The template uses the [for](https://docs.djangoproject.com/en/2.0/ref/templates/builtins///#for) and `endfor` template tags to loop through the book list, as shown below. Each iteration populates the `book` template variable with information for the current list item.
 
 ```django
 {% for book in book_list %}
@@ -580,7 +580,7 @@ In our next articles we'll extend this library to support user accounts, and the
 - [Built-in class-based generic views](https://docs.djangoproject.com/en/2.0/topics/class-based-views/generic-display/) (Django docs)
 - [Generic display views](https://docs.djangoproject.com/en/2.0/ref/class-based-views/generic-display/) (Django docs)
 - [Introduction to class-based views](https://docs.djangoproject.com/en/2.0/topics/class-based-views/intro/) (Django docs)
-- [Built-in template tags and filters](https://docs.djangoproject.com/en/2.0/ref/templates/builtins) (Django docs).
+- [Built-in template tags and filters](https://docs.djangoproject.com/en/2.0/ref/templates/builtins//) (Django docs).
 - [Pagination](https://docs.djangoproject.com/en/2.0/topics/pagination/) (Django docs)
 
 {{PreviousMenuNext("Learn/Server-side/Django/Home_page", "Learn/Server-side/Django/Sessions", "Learn/Server-side/Django")}}

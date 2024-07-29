@@ -680,7 +680,7 @@ class MyView(PermissionRequiredMixin, View):
 ## 參見
 
 - [User authentication in Django](https://docs.djangoproject.com/en/2.0/topics/auth/) (Django docs)
-- [Using the (default) Django authentication system](https://docs.djangoproject.com/en/2.0/topics/auth/default//) (Django docs)
+- [Using the (default) Django authentication system](https://docs.djangoproject.com/en/2.0/topics/auth/default/) (Django docs)
 - [Introduction to class-based views > Decorating class-based views](https://docs.djangoproject.com/en/2.0/topics/class-based-views/intro/#decorating-class-based-views) (Django docs)
 
 {{PreviousMenuNext("Learn/Server-side/Django/Sessions", "Learn/Server-side/Django/Forms", "Learn/Server-side/Django")}}

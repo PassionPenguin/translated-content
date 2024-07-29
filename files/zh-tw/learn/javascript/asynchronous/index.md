@@ -21,7 +21,7 @@ slug: Learn/JavaScript/Asynchronous
 
 如果你對非同步程式設計的概念還不太熟悉，強烈建議你應該先從[非同步程式設計通用概念](/zh-TW/docs/Learn/JavaScript/Asynchronous/Introducing)的文章開始學習。如果你已經具備其概念，那麼你或許可以跳至[非同步的 JavaScript 介紹](/zh-TW/docs/Learn/JavaScript/Asynchronous/Introducing)單元開始。
 
-> **備註：** 如果你正在使用電腦／平板／任何其它無法讓你建立檔案的裝置上，你可以嘗試在 [JSBin](https://jsbin.com/) 或是 [Glitch](https://glitch.com) 上測試本單元的範例程式碼。
+> **備註：** 如果你正在使用電腦／平板／任何其它無法讓你建立檔案的裝置上，你可以嘗試在 [JSBin](https://jsbin.com/) 或是 [Glitch](https://glitch.com/) 上測試本單元的範例程式碼。
 
 ## 指南
 

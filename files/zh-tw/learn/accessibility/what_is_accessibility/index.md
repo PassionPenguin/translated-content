@@ -39,21 +39,21 @@ slug: Learn/Accessibility/What_is_accessibility
 
 身心障礙者和非身心障礙者一樣多元，他們的障別也是如此。重點是，不要光用自己使用電腦和 web 的角度去思考這件事：_你並不是無障礙網頁的用戶_。下文將解釋應當考慮的障別，還有他們訪問 web 內容的特殊工具（通常稱作 **assistive technologies**、**AT**、**輔助工具**、**輔具**）。
 
-> **備註：** 世界衛生組織的[殘疾與健康](http://www.who.int/mediacentre/factsheets/fs352/zh/)指出「超過 10 億人，約佔世界人口的 15%，患有某種形式的殘疾。」、且「1.1 億至 1.9 億成年人有很嚴重的功能性障礙。」。
+> **備註：** 世界衛生組織的[殘疾與健康](https://www.who.int/zh/news-room/fact-sheets/detail/disability-and-health)指出「超過 10 億人，約佔世界人口的 15%，患有某種形式的殘疾。」、且「1.1 億至 1.9 億成年人有很嚴重的功能性障礙。」。
 
 ### 視覺障礙
 
 視覺障礙包括盲人、低度視覺、色盲……等等。這類的用戶會使用擴視器（screen magnifier，可能是物理擴視機、或是軟體的縮放功能：當代多數瀏覽器和作業系統都有這種功能），也有些人會用螢幕閱讀器（screen reader，朗讀數位文字的軟體）：
 
-- 有些是商業軟體，例如 [JAWS](http://www.freedomscientific.com/Products/Blindness/JAWS)（Windows）和 [Window Eyes](http://www.gwmicro.com/window-eyes/)（Windows）。
-- 也有些是自由軟體，例如 [NVDA](http://www.nvaccess.org/)（Windows）、[ChromeVox](http://www.chromevox.com/)（Chrome、Windows、Mac OS X）、[Orca](https://wiki.gnome.org/Projects/Orca)（Linux）
-- 還有些是系統內建，例如 [VoiceOver](https://www.apple.com/accessibility/osx/voiceover/)（Mac OS X 與 iOS）、[Narrator](https://support.microsoft.com/en-us/help/22798/windows-10-narrator-get-started)（Microsoft Windows）、[ChromeVox](http://www.chromevox.com/)（ChromeOS）、[TalkBack](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback)（Android）。
+- 有些是商業軟體，例如 [JAWS](https://www.freedomscientific.com/Products/Blindness/JAWS)（Windows）和 [Window Eyes](http://www.gwmicro.com/window-eyes/)（Windows）。
+- 也有些是自由軟體，例如 [NVDA](https://www.nvaccess.org/)（Windows）、[ChromeVox](https://support.google.com/chromebook/answer/7031755)（Chrome、Windows、Mac OS X）、[Orca](https://wiki.gnome.org/Projects/Orca)（Linux）
+- 還有些是系統內建，例如 [VoiceOver](https://www.apple.com/accessibility/vision/)（Mac OS X 與 iOS）、[Narrator](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1)（Microsoft Windows）、[ChromeVox](https://support.google.com/chromebook/answer/7031755)（ChromeOS）、[TalkBack](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback)（Android）。
 
 熟悉螢幕閱讀器是個好主意；你得設定好螢幕閱讀器、還要會使用它，以理解其工作原理。請參見[cross browser testing screen readers guide](/zh-TW/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility#Screenreaders)以深入理解。以下影片提供了簡單的體驗。
 
 {{EmbedYouTube("IK97XMibEws")}}
 
-在統計方面，世界衛生組織表明：「全球視力受損人數約 2.53 億：3600 萬人患有盲症，2.17 億人有中度至重度視力損害。」（請參見[視力損害和盲症](http://www.who.int/mediacentre/factsheets/fs282/zh)）。如果網站編寫不正確，你的網站就會失去如此龐大的和重要的用戶群：這大約是全美國的總人口數。
+在統計方面，世界衛生組織表明：「全球視力受損人數約 2.53 億：3600 萬人患有盲症，2.17 億人有中度至重度視力損害。」（請參見[視力損害和盲症](https://www.who.int/mediacentre/factsheets/fs282/zh)）。如果網站編寫不正確，你的網站就會失去如此龐大的和重要的用戶群：這大約是全美國的總人口數。
 
 ### 聽覺障礙
 
@@ -61,17 +61,17 @@ slug: Learn/Accessibility/What_is_accessibility
 
 不過，請記得有專門技術，會針對有聲內容，提供閱讀的替代文字。有簡單的文本記錄（text transcript）、也有能在影片出現的追蹤文字（text track），例如字幕。接下來將有文章深入探討。
 
-聽覺障礙者也是龐大的人口，世界衛生組織在[耳聾和聽力損失](http://www.who.int/mediacentre/factsheets/fs300/zh)指出：「全球有 3.6 億人患有殘疾性聽力損失」。
+聽覺障礙者也是龐大的人口，世界衛生組織在[耳聾和聽力損失](https://www.who.int/mediacentre/factsheets/fs300/zh)指出：「全球有 3.6 億人患有殘疾性聽力損失」。
 
 ### 行動障礙
 
-有運動障礙的人，可能是純粹身體問題（例如： 肢體殘缺或癱瘓）或是四肢無力、失去控制等神經或遺傳疾病。他們可能難以使用滑鼠做出精確的手部動作，甚至可能只能使用[頭指針（head pointer）](http://pattersonmedical.com/app.aspx?cmd=getProductDetail&key=070_921118261)操作電腦。
+有運動障礙的人，可能是純粹身體問題（例如： 肢體殘缺或癱瘓）或是四肢無力、失去控制等神經或遺傳疾病。他們可能難以使用滑鼠做出精確的手部動作，甚至可能只能使用[頭指針（head pointer）](https://www.performancehealth.com)操作電腦。
 
 這些殘疾也可能是老化的結果，而不是受到創傷或疾病，或可能是硬體的限制——有些使用者可能沒有滑鼠。
 
 通常影響開發者開發網站的需求是要能使用鍵盤操作網頁——我們會在後續的文內討論使用鍵盤操作網頁。雖然這個需求有些麻煩，但這是一個很好的主意，請開發者嘗試看看。例如：你可以使用 Tab 鍵在表單中切換填寫項目嗎？你可以在我們的[跨瀏覽器測試中找到更多關於使用鍵盤控制網頁的相關資訊](/zh-TW/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility#Using_native_keyboard_accessibility)。
 
-統計數據顯示，許多人有行動障礙。 美國疾病控制和預防中心的[殘疾統計數據（涵蓋範圍為非法人的 18 歲以上成人）](http://www.cdc.gov/nchs/fastats/disability.htm)顯示，在美國，有身體機能障礙者佔成人人口的 15.1% 。
+統計數據顯示，許多人有行動障礙。 美國疾病控制和預防中心的[殘疾統計數據（涵蓋範圍為非法人的 18 歲以上成人）](https://www.cdc.gov/nchs/fastats/disability.htm)顯示，在美國，有身體機能障礙者佔成人人口的 15.1% 。
 
 ### 認知障礙
 
@@ -94,7 +94,7 @@ slug: Learn/Accessibility/What_is_accessibility
 
 上述這些並不是「無障礙技術」，但他們是很好的設計理念。他們會讓使用者受益良多，因此他們應該成為你開發網站的工作標準之一。
 
-康乃爾大學 [2014 年的殘疾報告](http://www.disabilitystatistics.org/StatusReports/2014-PDF/2014-StatusReport_US.pdf)顯示，2014 年美國 21 歲至 64 歲的人中，有 4.5% 的人有認知障礙。
+康乃爾大學 [2014 年的殘疾報告](https://www.disabilitystatistics.org:443/StatusReports/2014-PDF/2014-StatusReport_US.pdf)顯示，2014 年美國 21 歲至 64 歲的人中，有 4.5% 的人有認知障礙。
 
 > **備註：** WebAIM 的[認知頁面](https://webaim.org/articles/cognitive/)提供了更多資訊，值得一讀
 
@@ -136,9 +136,9 @@ slug: Learn/Accessibility/What_is_accessibility
 
 有一些針對無障礙網頁的檢查清單和指引能夠用做測試，它們乍看之下可能令人眼花撩亂。我們建議你只要專注熟悉的基本領域、並理解指引裡面，與你最相關的高層次結構。
 
-- 首先，W3C 針對無障礙網頁的一致性，發布了龐大而詳盡、並包含精確而不講明具體技術的準則文件。它們通常稱作 [Web Content Accessibility Guidelines](https://www.w3.org/WAI/intro/wcag.php)（WCAG，無障礙網頁內容指引），無論從哪個角度來說，讀起來都不是普通的長。整個準則能分為以下四大類：它指定如何實做可感知、可操作、可理解、還有健壯（perceivable, operable, understandable, robust）的內容。要取得簡易指引並開始學習，可以去參閱 [WCAG at a Glance](https://www.w3.org/WAI/WCAG20/glance/Overview.html)。你不需要學習 WCAG 的一切：只要了解主要的關注領域，並使用各種技術和工具來高亮任何不符 WCAG 標準的領域就型（參閱以下）。
-- 你的國家或地區可能有特別立法，以管理這方面人口的需求：例如美國的 [Section 508 of the Rehabilitation Act](http://www.section508.gov/content/learn)、德國的 [Federal Ordinance on Barrier-Free Information Technology](https://www.einfach-fuer-alle.de/artikel/bitv_english/)、英國的 [Equality Act](http://www.legislation.gov.uk/ukpga/2010/15/contents)、義大利的 [Accessibilità](http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/accessibilita)、還有澳洲的 [Disability Discrimination Act](https://www.humanrights.gov.au/world-wide-web-access-disability-discrimination-act-advisory-notes-ver-41-2014)……等等。
-  （譯註：針對繁體中文，台灣有[基於《身心障礙者權益保障法》的無障礙網頁開發規範](https://www.handicap-free.nat.gov.tw)、香港有[基於《殘疾歧視條例》的無障礙設計指引](https://www.ogcio.gov.hk/tc/community/web_mobileapp_accessibility/promulgating_resources/handbook/doc/Web_Accessibility_Handbook.pdf)）
+- 首先，W3C 針對無障礙網頁的一致性，發布了龐大而詳盡、並包含精確而不講明具體技術的準則文件。它們通常稱作 [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)（WCAG，無障礙網頁內容指引），無論從哪個角度來說，讀起來都不是普通的長。整個準則能分為以下四大類：它指定如何實做可感知、可操作、可理解、還有健壯（perceivable, operable, understandable, robust）的內容。要取得簡易指引並開始學習，可以去參閱 [WCAG at a Glance](https://www.w3.org/WAI/standards-guidelines/wcag/glance/)。你不需要學習 WCAG 的一切：只要了解主要的關注領域，並使用各種技術和工具來高亮任何不符 WCAG 標準的領域就型（參閱以下）。
+- 你的國家或地區可能有特別立法，以管理這方面人口的需求：例如美國的 [Section 508 of the Rehabilitation Act](https://www.section508.gov/content/learn/)、德國的 [Federal Ordinance on Barrier-Free Information Technology](https://www.aktion-mensch.de/inklusion/barrierefreiheit/barrierefreie-website)、英國的 [Equality Act](https://www.legislation.gov.uk/ukpga/2010/15/contents)、義大利的 [Accessibilità](https://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/accessibilita)、還有澳洲的 [Disability Discrimination Act](https://humanrights.gov.au/our-work/disability-rights/world-wide-web-access-disability-discrimination-act-advisory-notes-ver)……等等。
+  （譯註：針對繁體中文，台灣有[基於《身心障礙者權益保障法》的無障礙網頁開發規範](https://www.handicap-free.nat.gov.tw)、香港有[基於《殘疾歧視條例》的無障礙設計指引](https://www.digitalpolicy.gov.hk/tc/our_work/digital_government/digital_inclusion/accessibility/)）
 
 因此，儘管 WCAG 有所指引，你的國家可能還是有管理無障礙網頁、或最少針對公眾無障礙服務（可能包含了網站、電視、物理空間……等等）的法案。最好先看看所處地區的法律管轄權。如果不好好檢查內容是否無障礙，當身心障礙者投訴時，你可能會面臨法律問題。
 

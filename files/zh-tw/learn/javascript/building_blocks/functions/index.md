@@ -79,7 +79,7 @@ JavaScript 語言有很多內建函數，讓你不用重覆寫所有程式碼就
 
 ## 自訂函數
 
-You've also seen a lot of **custom functions** in the course so far — functions defined in your code, not inside the browser. Anytime you saw a custom name with parentheses straight after it, you were using a custom function. In our [random-canvas-circles.html](http://mdn.github.io/learning-area/javascript/building-blocks/loops/random-canvas-circles.html) example (see also the full [source code](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/random-canvas-circles.html)) from our [loops article](/zh-TW/docs/Learn/JavaScript/Building_blocks/Looping_code), we included a custom `draw()` function that looked like this:
+You've also seen a lot of **custom functions** in the course so far — functions defined in your code, not inside the browser. Anytime you saw a custom name with parentheses straight after it, you were using a custom function. In our [random-canvas-circles.html](https://mdn.github.io/learning-area/javascript/building-blocks/loops/random-canvas-circles.html) example (see also the full [source code](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/loops/random-canvas-circles.html)) from our [loops article](/zh-TW/docs/Learn/JavaScript/Building_blocks/Looping_code), we included a custom `draw()` function that looked like this:
 
 ```js
 function draw() {
@@ -268,7 +268,7 @@ function greeting() {
 
 Both functions you want to call are called `greeting()`, but you can only ever access the `second.js` file's `greeting()` function — it is applied to the HTML later on in the source code, so its variable and function overwrite the ones in `first.js`.
 
-> **備註：** You can see this example [running live on GitHub](http://mdn.github.io/learning-area/javascript/building-blocks/functions/conflict.html) (see also the [source code](https://github.com/mdn/learning-area/tree/master/javascript/building-blocks/functions)).
+> **備註：** You can see this example [running live on GitHub](https://mdn.github.io/learning-area/javascript/building-blocks/functions/conflict.html) (see also the [source code](https://github.com/mdn/learning-area/tree/main/javascript/building-blocks/functions)).
 
 Keeping parts of your code locked away in functions avoids such problems, and is considered best practice.
 
@@ -282,7 +282,7 @@ The zoo keeper is like the global scope — he or she has the keys to access eve
 
 Let's look at a real example to demonstrate scoping.
 
-1. First, make a local copy of our [function-scope.html](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/functions/function-scope.html) example. This contains two functions called `a()` and `b()`, and three variables — `x`, `y`, and `z` — two of which are defined inside the functions, and one in the global scope. It also contains a third function called `output()`, which takes a single parameter and outputs it in a paragraph on the page.
+1. First, make a local copy of our [function-scope.html](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-scope.html) example. This contains two functions called `a()` and `b()`, and three variables — `x`, `y`, and `z` — two of which are defined inside the functions, and one in the global scope. It also contains a third function called `output()`, which takes a single parameter and outputs it in a paragraph on the page.
 2. Open the example up in a browser and in your text editor.
 3. Open the JavaScript console in your browser developer tools. In the JavaScript console, enter the following command:
 
