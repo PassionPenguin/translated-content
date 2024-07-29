@@ -173,7 +173,7 @@ slug: MDN/Writing_guidelines/Writing_style_guide
 
 > **警告：** 類似地，「**警告區塊**」樣式用於建立警告區塊，就好比這樣。
 
-除非有特別地指示，否則*不要*使用 HTML `style` 屬性來手動套用樣式。如果碰到無法使用預定義地 class ，請在 [MDN 討論論壇](https://discourse.mozilla.org/c/mdn)尋求協助。
+除非有特別地指示，否則*不要*使用 HTML `style` 屬性來手動套用樣式。如果碰到無法使用預定義地 class ，請在 [MDN 討論論壇](https://discourse.mozilla.org/c/mdn/236/236)尋求協助。
 
 ### 程式碼範例的樣式與格式
 
@@ -428,7 +428,7 @@ _A confirmation dialog box appears, which asks the user for permission to use th
 
 須用美式英文拼寫。
 
-一般上使用 [Dictionary.com](https://www.dictionary.com/) 上的第一個條目，除非該條目被列為異體字或主要用於非美國的英語。例如，如果檢視「 [behaviour](https://www.dictionary.com/browse/behaviour) 」，會發現在「 Chiefly British 」之後緊跟著一個連向美國標準格式的連結「 [behavior](https://dictionary.reference.com/browse/behavior) 」。不要用異體字。
+一般上使用 [Dictionary.com](https://www.dictionary.com/) 上的第一個條目，除非該條目被列為異體字或主要用於非美國的英語。例如，如果檢視「 [behaviour](https://www.dictionary.com/browse/behaviour) 」，會發現在「 Chiefly British 」之後緊跟著一個連向美國標準格式的連結「 [behavior](https://www.dictionary.com/browse/behavior) 」。不要用異體字。
 
 - **正確**： localize, behavior
 - **不正確**： localise, behaviour
@@ -463,13 +463,13 @@ MDN 偏好使用**參數**。為了保持一致性，請盡可能避免使用「
 
 ### 偏好的風格指南
 
-如果對本文未涵蓋的用法及風格有疑問，建議可以參考[微軟寫作風格指南](https://docs.microsoft.com/zh-tw/style-guide/welcome/)——或[芝加哥風格手冊](https://www.amazon.com/Chicago-Manual-Style-16th/dp/0226104206)。[非官方的芝加哥風格手冊](https://faculty.cascadia.edu/cma/HIST148/cmscrib.pdf)可以透過線上取得。
+如果對本文未涵蓋的用法及風格有疑問，建議可以參考[微軟寫作風格指南](https://learn.microsoft.com/zh-tw/style-guide/welcome/)——或[芝加哥風格手冊](https://www.amazon.com/Chicago-Manual-Style-16th/dp/0226104206)。[非官方的芝加哥風格手冊](https://faculty.cascadia.edu/cma/HIST148/cmscrib.pdf)可以透過線上取得。
 
 ### Preferred dictionary
 
 拼寫的問題請參考 [Dictionary.com](https://www.dictionary.com/) 。本站的拼寫檢查使用美式英文。請不要使用異體拼寫（例如，使用 _color_ 而不是 _colour_ ）。
 
-我們會隨時擴充指南的內容，如果因本文件尚未涵蓋的內容而找不到特定的問題，請把問題發布到 [MDN discussion forum](https://discourse.mozilla.org/c/mdn) 好讓我們知道應該加入這些內容。
+我們會隨時擴充指南的內容，如果因本文件尚未涵蓋的內容而找不到特定的問題，請把問題發布到 [MDN discussion forum](https://discourse.mozilla.org/c/mdn/236/236) 好讓我們知道應該加入這些內容。
 
 ### 語言、文法、拼寫
 
@@ -478,7 +478,7 @@ MDN 偏好使用**參數**。為了保持一致性，請盡可能避免使用「
 - [On Writing Well](https://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction/dp/0060891548), by William Zinsser (Amazon link)
 - [Style: The Basics of Clarity and Grace](https://www.amazon.com/Style-Basics-Clarity-Grace-4th/dp/0205830765/), by Joseph Williams and Gregory Colomb (Amazon link)
 - [Common Errors in English](https://brians.wsu.edu/common-errors-in-english-usage/)
-- [English Grammar FAQ](https://www-personal.umich.edu/~jlawler/aue.html) (alt.usage.english)
+- [English Grammar FAQ](https://websites.umich.edu/~jlawler/aue.html) (alt.usage.english)
 - [Bob's quick guide to the apostrophe, you idiots](https://www.angryflower.com/bobsqu.gif) (funny)
 - [Merriam-Webster's Concise Dictionary of English Usage](https://www.amazon.com/Merriam-Websters-Concise-Dictionary-English-Usage/dp/B004L2KNI2) (Amazon link): Scholarly but user-friendly, evidence-based advice; very good for non-native speakers, especially for preposition usage.
 - [English Language and Usage StackExchange](https://english.stackexchange.com/): Question and answer site for English language usage.

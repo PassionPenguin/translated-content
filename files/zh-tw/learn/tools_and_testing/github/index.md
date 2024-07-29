@@ -34,7 +34,7 @@ slug: Learn/Tools_and_testing/GitHub
 
 - 一台有安裝 Git 的電腦 (請參考 [Git 下載頁面](https://git-scm.com/downloads))。
 - 一個工具來使用 Git，取決於你喜歡用哪類型工具，你可以使用一個 [Git GUI client](https://git-scm.com/downloads/guis/)（我們建議使用 GitHub Desktop, SourceTree or Git Kraken）或就使用 terminal window。即便你傾向使用 GUI，實際上使用 terminal window 可以幫助你學習一些 git 的基本指令。
-- 一個 [GitHub 帳號](https://github.com/join)。如果你還沒有帳號，建議使用提供的連結去註冊一個帳號並開始用。
+- 一個 [GitHub 帳號](https://github.com/signup)。如果你還沒有帳號，建議使用提供的連結去註冊一個帳號並開始用。
 
 就事前必備知識而言，你無需了解所有有關 Web 開發，Git /GitHub 的知識即可開始使用此版本控制系統。 但是，建議你了解一些開發程式碼的知識，並嘗試把一些程式碼存儲在你的儲存庫中！
 
@@ -46,25 +46,25 @@ slug: Learn/Tools_and_testing/GitHub
 
 請注意，下面的連結將你帶到外部站點上的資源。最終，我們的目標是開設自己的專屬 Git / GitHub 課程，但目前，這些課程將幫助你掌握相關主題。
 
-- [Hello, World（來自 GitHub）](https://guides.github.com/activities/hello-world/)
+- [Hello, World（來自 GitHub）](https://docs.github.com/en/get-started/start-your-journey/hello-world)
   - : 這是一個很好的起點-本實用指南可讓你直接使用 GitHub，學習 Git 的基礎知識，例如創建儲存庫和分支，進行提交以及合併提取要求。
-- [Git 使用手冊（來自 GitHub）](https://guides.github.com/introduction/git-handbook/)
+- [Git 使用手冊（來自 GitHub）](https://docs.github.com/en/get-started/using-git/about-git)
   - : 這本 Git 手冊更深入地介紹了版本控制系统是什麼，儲存庫是什麼，基本 GitHub 模如何運行，Git 命令和範例等等。
-- [Forking Projects 分叉專案（來自 GitHub）](https://guides.github.com/activities/forking/)
+- [Forking Projects 分叉專案（來自 GitHub）](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
   - : 當你想為別人的程式碼做貢獻時，Forking Projects 分叉專案是必不可少的。本指南說明了方法。
-- [關於提取要求（來自 GitHub）](https://help.github.com/en/articles/about-pull-requests)
+- [關於提取要求（來自 GitHub）](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
   - : 有用的指南，用於管理請求請求，將建議的程式碼更改傳遞給人們的儲存庫以供考慮。
-- [掌握問題（來自 GitHub）](https://guides.github.com/features/issues/)
+- [掌握問題（來自 GitHub）](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
   - : 問題就像是 GitHub 項目的論壇，人們可以在其中提出問題和報告問題，還可以管理更新（例如，分配人員來解決問題，澄清問題，讓人們知道問題已解決）。本文將提供你有關問題的必備知識。
 
 > **備註：** 你還可以用 Git 跟 GitHub 來完成更多的事情，但我們認為，如果你想要有效地使用 Git，上面的這些知識是至少應該具備的。當你更深入地了解 Git 時，你將會意識到，當你開始使用更加複雜的指令時會更容易出錯。但不要擔心，即使是專業的網路工程師有時都會感到困惑，並通過網路檢索或[Flight rules for Git](https://github.com/k88hudson/git-flight-rules)和 [Dangit, git!](https://dangitgit.com/) 這樣的網站來尋找答案。
 
 ## 也可以參考以下
 
-- [【理解 GitHub 流程】](https://guides.github.com/introduction/flow/)
+- [【理解 GitHub 流程】](https://docs.github.com/en/get-started/using-github/github-flow)
 - [【指令列表】](https://git-scm.com/docs)
-- [【掌握 Markdown 格式】](https://guides.github.com/features/mastering-markdown/)（在網頁上、評論區常用的格式以及`.md` 文件所使用的格式，GitHub 中的介紹文件(readme.md)即用這種格式書寫）。
-- [【入門 Github 頁面】](https://guides.github.com/features/pages/)（如何在 GitHub 上發布示例和網站）。
+- [【掌握 Markdown 格式】](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)（在網頁上、評論區常用的格式以及`.md` 文件所使用的格式，GitHub 中的介紹文件(readme.md)即用這種格式書寫）。
+- [【入門 Github 頁面】](https://docs.github.com/en/pages/quickstart)（如何在 GitHub 上發布示例和網站）。
 - [【學習 Git 的分支結構】](https://learngitbranching.js.org/)
 - [【Git 中的飛行法則】](https://github.com/k88hudson/git-flight-rules)（ 在 Git 中實現特定功能的非常有用的方法介紹綱要，包括如何在出錯時糾錯等）。
 - [【該死的 Git，Git !】](https://dangitgit.com/)（另一個十分有用的方法介紹綱要，特別是在出錯的時候進行糾正的方法）。

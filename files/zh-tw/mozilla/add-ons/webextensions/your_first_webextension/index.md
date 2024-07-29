@@ -68,7 +68,7 @@ cd borderify
 
 附加元件要有一個圖標。它會在附加元件管理員的附加元件清單旁邊列出來。我們的 manifest.json 已經說好了，要在 "icons/border-48.png" 那邊會有個圖標。
 
-在 "borderify" 目錄下直接建立 "icons" 目錄，並儲存一個叫 "border-48.png" 的圖標檔。你可以用[範例的這張圖標](https://github.com/mdn/webextensions-examples/blob/master/borderify/icons/border-48.png)，它是從 Google Material Design 圖標集抓下來的，並使用[創用 CC：姓名標示-相同方式分享](https://creativecommons.org/licenses/by-sa/3.0/deed.zh_TW)授權。
+在 "borderify" 目錄下直接建立 "icons" 目錄，並儲存一個叫 "border-48.png" 的圖標檔。你可以用[範例的這張圖標](https://github.com/mdn/webextensions-examples/blob/main/borderify/icons/border-48.png)，它是從 Google Material Design 圖標集抓下來的，並使用[創用 CC：姓名標示-相同方式分享](https://creativecommons.org/licenses/by-sa/3.0/deed.en)授權。
 
 如果你要用自己的圖標，它應該是 48x48 像素。你也可以針對高解析度提供 96x96 像素的圖標，這樣的話它在 manifest.json 會被指定為 `icons` 物件內的 `96` property：
 

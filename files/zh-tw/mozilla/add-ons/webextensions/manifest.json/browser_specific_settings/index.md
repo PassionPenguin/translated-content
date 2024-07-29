@@ -47,7 +47,7 @@ slug: Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings
 - `strict_max_version`： 支持的最新 Gecko 版本。如果套件安裝的 Firefox 版本超過這個版本號則套件會被禁用或不被允許安裝。預設爲 "\*"，表示禁用最新支持版本檢查。
 - `update_url` 是[套件更新 manifest](/zh-TW/Add-ons/Updates)。備：連結必須以 "https" 開頭。這個鍵用來自己管理套件更新（不透過套件管理器）。
 
-查看[可用 Gecko 版本](https://addons.mozilla.org/en-US/firefox/pages/appversions/)。
+查看[可用 Gecko 版本](https://addons.mozilla.org/api/v5/applications/firefox/)。
 
 ### 套件 ID 格式
 

@@ -10,9 +10,9 @@ slug: Mozilla/Firefox/Releases/3
 - Web application 需要更新的地方
   - : 提供一些應用 Firefox 3 的新功能在 web applications 時可能需要注意的地方。
 - [Online / Offline 事件](zh_tw/Firefox_3_Online_and_Offline_Events)
-  - : Firefox 3 支援 [WHATWG](http://wiki.whatwg.org/wiki/FAQ#What_is_the_WHATWG.3F) 的 online/offline event，讓 applications/extensions 可以偵測目前是否有 active 的網際網路連線、目前是在線上還是斷線中。
+  - : Firefox 3 支援 [WHATWG](https://wiki.whatwg.org/wiki/FAQ#What_is_the_WHATWG.3F) 的 online/offline event，讓 applications/extensions 可以偵測目前是否有 active 的網際網路連線、目前是在線上還是斷線中。
 - [Cross-site XMLHttpRequest](zh_tw/Firefox_3_supports_Cross-site_XMLHttpRequest)
-  - : Firefox 3 支援了 [W3C Access Control](http://www.w3.org/TR/access-control/) working draft，這讓你可以對其他網站作 XMLHttpRequests 以取得其他網站的資料，並加以管理，這讓你可以在自己建立的網站中，混入來自多個其他網站的內容。
+  - : Firefox 3 支援了 [W3C Access Control](https://fetch.spec.whatwg.org/) working draft，這讓你可以對其他網站作 XMLHttpRequests 以取得其他網站的資料，並加以管理，這讓你可以在自己建立的網站中，混入來自多個其他網站的內容。
 - Alternate style sheet
   - : Firefox 3 支援 CSS object model alternate style sheet API。(見 [Bug 200930](https://bugzilla.mozilla.org/show_bug.cgi?id=200930))
 - [Web-based protocol handlers](zh_tw/Firefox_3_Web-based_protocol_handler)

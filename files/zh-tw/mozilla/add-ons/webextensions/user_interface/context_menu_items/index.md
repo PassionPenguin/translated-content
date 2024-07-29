@@ -47,7 +47,7 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
 
 ## 圖示
 
-更多關於建立快捷選單圖示的細節請查看文件[光子設計系統](https://design.firefox.com/photon/index.html)的[圖示學](https://design.firefox.com/photon/visuals/iconography.html)。
+更多關於建立快捷選單圖示的細節請查看文件[光子設計系統](https://acorn.firefox.com/photon/index.html)的[圖示學](https://acorn.firefox.com/photon/visuals/iconography.html)。
 
 ## 範例
 

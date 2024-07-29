@@ -30,7 +30,7 @@ battery.addEventListener("levelchange", updateBatteryStatus);
 updateBatteryStatus();
 ```
 
-另可參閱[規格所提供之範例](http://dev.w3.org/2009/dap/system-info/battery-status.html#introduction)。
+另可參閱[規格所提供之範例](https://dvcs.w3.org/hg/dap/raw-file/tip/battery/Overview.html#introduction)。
 
 ## 規格
 
@@ -43,7 +43,7 @@ updateBatteryStatus();
 ## 另請參閱
 
 - [部落格文章 - Using the Battery API](http://hacks.mozilla.org/2012/02/using-the-battery-api-part-of-webapi/)
-- [David Walsh 所寫的 JavaScript Battery Api](http://davidwalsh.name/battery-api)
+- [David Walsh 所寫的 JavaScript Battery Api](https://davidwalsh.name/battery-api)
 - [battery.js - 跨瀏覽器 wrapper](https://github.com/pstadler/battery.js)
 - [`BatteryManager`](/zh-TW/docs/Web/API/BatteryManager)
 - [`navigator.battery`](/zh-TW/docs/Web/API/window.navigator.battery)

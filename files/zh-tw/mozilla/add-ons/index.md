@@ -27,13 +27,13 @@ WebExtensions 是被設計為跨瀏覽器通用的：為 Firefox 撰寫的 WebEx
 
 ## 與現有附加元件合併
 
-如果你正在維護過時的附加元件如 XUL overlay、bootstrapped、附加元件 SDK 等，我們建議把它移植到 WebExtension。MDN 有一些[移植指引](https://extensionworkshop.com/documentation/develop/porting-a-legacy-firefox-extension/)。
+如果你正在維護過時的附加元件如 XUL overlay、bootstrapped、附加元件 SDK 等，我們建議把它移植到 WebExtension。MDN 有一些[移植指引](https://extensionworkshop.com:443/documentation/develop/)。
 
 我們在 wiki page 上收集了一些[資源](https://wiki.mozilla.org/Add-ons/developer/communication)以助開發者完成移植。要開始的話，請使用 [Lookup Tool](https://compatibility-lookup.services.mozilla.com/) 來檢查你的附加元件有無受影響。
 
 ## 發佈附加元件
 
-[Addons.mozilla.org](https://addons.mozilla.org)，也俗稱「AMO」，是 Mozilla 給開發者們陳列附加元件的官方網站，用戶們也可以在那邊找到所需。當你把附加元件上傳到 AMO 時，你可以參與我們的用戶和創作者社區、並找到你附加元件的擁躉們。
+[Addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/)，也俗稱「AMO」，是 Mozilla 給開發者們陳列附加元件的官方網站，用戶們也可以在那邊找到所需。當你把附加元件上傳到 AMO 時，你可以參與我們的用戶和創作者社區、並找到你附加元件的擁躉們。
 
 你不用把附加元件上傳到 AMO，但你的附加元件需要給 Mozilla 簽署。否則，用戶將無法安裝。
 
@@ -43,8 +43,8 @@ WebExtensions 是被設計為跨瀏覽器通用的：為 Firefox 撰寫的 WebEx
 
 通常，當大家在講「附加元件」時候，他們是指套件（extension）。但也有其他類型的附加元件，允許用戶訂製 Firefox。包含：
 
-- [用戶字典](https://support.mozilla.org/kb/how-do-i-use-firefox-spell-checker)能讓你在不同語言內檢查拼字。
-- [語言包](https://support.mozilla.org/kb/use-firefox-interface-other-languages-language-pack)能讓你的 Firefox 用戶介面支援多語言。
+- [用戶字典](https://support.mozilla.org/en-US/kb/how-do-i-use-firefox-spell-checker)能讓你在不同語言內檢查拼字。
+- [語言包](https://support.mozilla.org/en-US/kb/use-firefox-interface-other-languages-language-pack)能讓你的 Firefox 用戶介面支援多語言。
 
 ## 聯絡我們
 
@@ -52,7 +52,7 @@ WebExtensions 是被設計為跨瀏覽器通用的：為 Firefox 撰寫的 WebEx
 
 ### 附加元件論壇
 
-使用[附加元件討論論壇](https://discourse.mozilla-community.org/c/add-ons)討論附加元件方面的開發並取得協助。
+使用[附加元件討論論壇](https://discourse.mozilla.org/c/add-ons/35)討論附加元件方面的開發並取得協助。
 
 ### IRC
 

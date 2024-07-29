@@ -369,7 +369,7 @@ ball.draw();
 
 ## 突破性(遊戲)
 
-這個小章節只有解釋一些創造高級動畫的技巧。這裡還有更多!如何增加槳,磚塊,到這個 到 [Breakout](http://en.wikipedia.org/wiki/Breakout_%28video_game%29) game demo 去看，有我們更[多遊戲研發](/zh-TW/docs/Games)的文章!
+這個小章節只有解釋一些創造高級動畫的技巧。這裡還有更多!如何增加槳,磚塊,到這個 到 [Breakout](<https://en.wikipedia.org/wiki/Breakout_(video_game)>) game demo 去看，有我們更[多遊戲研發](/zh-TW/docs/Games)的文章!
 
 ## 參見
 

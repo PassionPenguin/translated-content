@@ -347,17 +347,17 @@ function draw() {
 
 ## 其他範例
 
-- [Gartic](http://www.gartic.net/)
+- [Gartic](https://gartic.net)
   - : 多人繪圖遊戲
 - [Canvascape](http://www.abrahamjoffe.com.au/ben/canvascape/)
   - : 第一人稱 3D 冒險遊戲
 - [A basic ray-caster](/zh-TW/docs/Web/Guide/HTML/A_basic_ray-caster)
   - : 透過鍵盤控制動畫範例
-- [canvas adventure](http://andrewwooldridge.com/canvas/canvasgame001/canvasgame002.html)
+- [canvas adventure](http://www.andrewwooldridge.com)
   - : 另一個透過鍵盤控制動畫範例
 - [An interactive Blob](http://www.blobsallad.se/)
   - : 和 Blob 遊戲
-- [Flying through a starfield](http://arapehlivanian.com/wp-content/uploads/2007/02/canvas.html)
+- [Flying through a starfield](https://arapehlivanian.com/wp-content/uploads/2007/02/canvas.html)
   - : 飛越星河
 - [iGrapher](http://igrapher.com/)
   - : 股票市場圖

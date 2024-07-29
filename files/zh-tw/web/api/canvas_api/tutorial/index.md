@@ -9,7 +9,7 @@ slug: Web/API/Canvas_API/Tutorial
 
 本教學從基礎知識開始，描述如何利用 \<canvas> 進行 2D 繪圖。教學中的範例會讓各位清楚瞭解 \<canvas> 該如何運用，另外也會提供程式碼範例，讓大家嘗試製作自己的內容。
 
-`<canvas>` 最早是由 Apple 為 Mac OS X Dashboard 所提出，之後 Safari 和 Google Chrome 也都採用。[Gecko](/zh-TW/docs/Gecko) 1.8 作基礎的瀏覽器，如 Firefox 1.5 也都提供了支援。`<canvas>` 元素是 [WhatWG Web applications 1.0](http://www.whatwg.org/specs/web-apps/current-work/)（也就是 HTML5）規範的一部分，目前所有主流的瀏覽器都已支援。
+`<canvas>` 最早是由 Apple 為 Mac OS X Dashboard 所提出，之後 Safari 和 Google Chrome 也都採用。[Gecko](/zh-TW/docs/Gecko) 1.8 作基礎的瀏覽器，如 Firefox 1.5 也都提供了支援。`<canvas>` 元素是 [WhatWG Web applications 1.0](https://html.spec.whatwg.org/)（也就是 HTML5）規範的一部分，目前所有主流的瀏覽器都已支援。
 
 ## 在開始之前
 
@@ -39,18 +39,18 @@ slug: Web/API/Canvas_API/Tutorial
 - [31 days of canvas tutorials](http://creativejs.com/2011/08/31-days-of-canvas-tutorials/)
 - [Drawing Graphics with Canvas](/zh-TW/docs/HTML/Canvas/Drawing_Graphics_with_Canvas)
 - [Canvas examples](/zh-TW/docs/tag/Canvas_examples)
-- [HTML5 Tutorial](http://html5tutorial.com)
+- [HTML5 Tutorial](http://html5tutorial.com/)
 - [Drawing Text Using a Canvas](/zh-TW/docs/Drawing_text_using_a_canvas)
-- [Adding Text to Canvas](http://developer.apple.com/library/safari/#documentation/AudioVideo/Conceptual/HTML-canvas-guide/AddingText/AddingText.html#//apple_ref/doc/uid/TP40010542-CH6-SW4)
+- [Adding Text to Canvas](https://developer.apple.com/safari/resources/#documentation/AudioVideo/Conceptual/HTML-canvas-guide/AddingText/AddingText.html#//apple_ref/doc/uid/TP40010542-CH6-SW4)
 - [Canvas Demos - Games, applications, tools and tutorials](http://www.canvasdemos.com/)
 - [Canvas Drawing and Animation Application](http://canvimation.github.com/)
-- [interactive canvas tutorial](http://billmill.org/static/canvastutorial/)
+- [interactive canvas tutorial](https://billmill.org/static/canvastutorial/)
 - [Canvas Cheat Sheet with all attributes and methods](http://blog.nihilogic.dk/2009/02/html5-canvas-cheat-sheet.html)
 - [Adobe Illustrator to Canvas plug-in](http://visitmix.com/labs/ai2canvas/)
 - [HTML5CanvasTutorials](http://www.html5canvastutorials.com/)
-- [How to draw N grade Bézier curves with the Canvas API](http://html5tutorial.com/how-to-draw-n-grade-bezier-curve-with-canvas-api)
+- [How to draw N grade Bézier curves with the Canvas API](http://html5tutorial.com//how-to-draw-n-grade-bezier-curve-with-canvas-api)
 - [31 days of canvas tutorials](http://creativejs.com/2011/08/31-days-of-canvas-tutorials/)
-- [W3C Standard](http://www.w3.org/TR/2dcontext/)
+- [W3C Standard](https://html.spec.whatwg.org/multipage/)
 
 ## 致歉各位貢獻者
 

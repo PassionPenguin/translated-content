@@ -56,12 +56,12 @@ browser.devtools.panels
 
 ## 開發面板設計
 
-更多關於如何設計符合 Firefox 風格的開發者面板，請查看文件[光子設計系統](https://design.firefox.com/photon/index.html)。
+更多關於如何設計符合 Firefox 風格的開發者面板，請查看文件[光子設計系統](https://acorn.firefox.com/photon/index.html)。
 
 ## 圖示
 
-更多關於建立開發者工具面板圖示的細節，請查看文件[光子設計系統](https://design.firefox.com/photon/index.html)的[圖示學](https://design.firefox.com/photon/visuals/iconography.html)。
+更多關於建立開發者工具面板圖示的細節，請查看文件[光子設計系統](https://acorn.firefox.com/photon/index.html)的[圖示學](https://acorn.firefox.com/photon/visuals/iconography.html)。
 
 ## 範例
 
-GitHub 上的 [webextensions-examples](https://github.com/mdn/webextensions-examples) 程式庫包含了建立開發工具面板的 [devtools-panels](https://github.com/mdn/webextensions-examples/blob/master/devtools-panels/) 範例。
+GitHub 上的 [webextensions-examples](https://github.com/mdn/webextensions-examples) 程式庫包含了建立開發工具面板的 [devtools-panels](https://github.com/mdn/webextensions-examples/tree/main/devtools-panels) 範例。

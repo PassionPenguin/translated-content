@@ -37,8 +37,8 @@ slug: Learn/Tools_and_testing/Cross_browser_testing/Automated_testing
 
 我們同意手動測試前述的一切，真的很累。幸好有很多工具，可以讓我們不用這麼累。有兩個主要方法，可以自動執行我們討論過的測試：
 
-1. 使用如 [Grunt](http://gruntjs.com/) 或 [Gulp](http://gulpjs.com/) 或 [Gulp](http://gulpjs.com/) 或 [npm scripts](https://docs.npmjs.com/misc/scripts) 之類的任務執行器（task runner）來跑測試，並在組建過程中清理你的程式碼。這個方法很適合如清理並最小化程式碼、增加 CSS 前輟或最大化跨瀏覽器的 transpiling nascent JavaScript 功能...之類的任務。
-2. 使用如 [Selenium](http://www.seleniumhq.org/) 之類的瀏覽器自動化系統，在安裝好的瀏覽器跑指定測試並傳回結果，並在瀏覽器出問題的時候警告你。諸如 [Sauce Labs](https://saucelabs.com/) 與 [Browser Stack](https://www.browserstack.com/) 之類的商業跨瀏覽器測試程式都是基於 Selenium，但能讓你用簡單的介面，遠端訪問他們設好的東西，如此一來，就能省下自己架設測試系統的心力。
+1. 使用如 [Grunt](https://gruntjs.com/) 或 [Gulp](https://gulpjs.com/) 或 [Gulp](https://gulpjs.com/) 或 [npm scripts](https://docs.npmjs.com/misc/scripts/) 之類的任務執行器（task runner）來跑測試，並在組建過程中清理你的程式碼。這個方法很適合如清理並最小化程式碼、增加 CSS 前輟或最大化跨瀏覽器的 transpiling nascent JavaScript 功能...之類的任務。
+2. 使用如 [Selenium](https://www.selenium.dev/) 之類的瀏覽器自動化系統，在安裝好的瀏覽器跑指定測試並傳回結果，並在瀏覽器出問題的時候警告你。諸如 [Sauce Labs](https://saucelabs.com/) 與 [Browser Stack](https://www.browserstack.com/) 之類的商業跨瀏覽器測試程式都是基於 Selenium，但能讓你用簡單的介面，遠端訪問他們設好的東西，如此一來，就能省下自己架設測試系統的心力。
 
 我們會在下一篇文章，專注於如何設定基於 Selenium 的個人測試系統。這篇文章則會專注於如何設定任務執行器，並簡單與系統化地，使用前述的商業系統。
 
@@ -50,7 +50,7 @@ slug: Learn/Tools_and_testing/Cross_browser_testing/Automated_testing
 
 ### 設定 Node 與 npm
 
-今日，此類工具大都基於 {{Glossary("Node.js")}}。所以，你需要從 [nodejs.org](https://nodejs.org/) 安裝它：
+今日，此類工具大都基於 {{Glossary("Node.js")}}。所以，你需要從 [nodejs.org](https://nodejs.org/en) 安裝它：
 
 1. 從上面的網站下載安裝程式。
 2. 如同安裝其他程式般地安裝它。注意 Node 還會安裝 [Node Package Manager](https://www.npmjs.com/)（npm），它能讓你輕易安裝套件(package)、分享你自己寫的套件、還有在你的專案運行腳本。
@@ -67,7 +67,7 @@ slug: Learn/Tools_and_testing/Cross_browser_testing/Automated_testing
    npm install npm@latest -g
    ```
 
-> **備註：** 如果因為權限問題而失敗，[Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions) 應該對你有所幫助。
+> **備註：** 如果因為權限問題而失敗，[Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions/) 應該對你有所幫助。
 
 要在專案裡面使用 node/npm 套件，你需要把專案所在目錄設為 npm 專案。它很簡單。
 
@@ -112,7 +112,7 @@ slug: Learn/Tools_and_testing/Cross_browser_testing/Automated_testing
 來看看怎麼用 Gulp 設定一些測試工具的自動化。
 
 1. 要開始的話，得先建立一個 test npm 專案。使用的程式會在下面的章節提到。
-2. 接著，你需要有些簡單的 HTML、CSS、JavaScript 來測試系統：你可以複製我們的 [index.html](https://github.com/mdn/learning-area/blob/master/tools-testing/cross-browser-testing/automation/index.html)、[main.js](https://github.com/mdn/learning-area/blob/master/tools-testing/cross-browser-testing/automation/main.js)、[style.css](https://github.com/mdn/learning-area/blob/master/tools-testing/cross-browser-testing/automation/style.css) 到專案裡面，一個稱為 `src` 的目錄。現在你可以隨意嘗試測試內容，不過請注意這些工具不會直接在 JS/CSS 裡面運作：你需要外部的檔案。
+2. 接著，你需要有些簡單的 HTML、CSS、JavaScript 來測試系統：你可以複製我們的 [index.html](https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/automation/index.html)、[main.js](https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/automation/main.js)、[style.css](https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/automation/style.css) 到專案裡面，一個稱為 `src` 的目錄。現在你可以隨意嘗試測試內容，不過請注意這些工具不會直接在 JS/CSS 裡面運作：你需要外部的檔案。
 3. 首先，你要下這個指令，以全域（意思是說，它能在所有專案使用）的形式安裝 gulp：
 
    ```bash
@@ -147,9 +147,9 @@ slug: Learn/Tools_and_testing/Cross_browser_testing/Automated_testing
 
 要讓 Gulp 真的能幹些事情，就得先想想我們想要它做什麼。我們的專案想要做這些合理的基本功能：
 
-- 用 html-tidy、css-lint、js-hint 來 lint、報告、修理 HTML/CSS/JS 的常見錯誤（請參見 [gulp-htmltidy](https://www.npmjs.com/package/gulp-htmltidy/)、[gulp-csslint](https://www.npmjs.com/package/gulp-csslint/)、[gulp-jshint](https://www.npmjs.com/package/gulp-jshint/)）。
-- 用 Autoprefixer 掃描我們的 CSS 並在需要時增加 vendor prefixes（請參見 [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer/)）
-- 用 babel 把新式的 JavaScript 語法轉換為能在老舊瀏覽器運作的語法（請參見 [gulp-babel](https://www.npmjs.com/package/gulp-babel/)）
+- 用 html-tidy、css-lint、js-hint 來 lint、報告、修理 HTML/CSS/JS 的常見錯誤（請參見 [gulp-htmltidy](https://www.npmjs.com/package/gulp-htmltidy)、[gulp-csslint](https://www.npmjs.com/package/gulp-csslint)、[gulp-jshint](https://www.npmjs.com/package/gulp-jshint)）。
+- 用 Autoprefixer 掃描我們的 CSS 並在需要時增加 vendor prefixes（請參見 [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)）
+- 用 babel 把新式的 JavaScript 語法轉換為能在老舊瀏覽器運作的語法（請參見 [gulp-babel](https://www.npmjs.com/package/gulp-babel)）
 
 請詳見上面我們使用的 gulp 套件連結，以獲取完整指引。
 
@@ -299,13 +299,13 @@ gulp.task("watch", function () {
 
 > **備註：** 在我們的 watch 指令有個問題，那就是我們的 CSSLint/Autoprefixer combination throws full-blown errors when a CSS error is encountered, which stops the watch working. You'll have to restart the watch once a CSS error is encountered, or find another way to do this.
 
-你還可以用 Gulp 做很多事情。[Gulp plugin directory](http://gulpjs.com/plugins/) 收錄了近千個可搜尋的套件。
+你還可以用 Gulp 做很多事情。[Gulp plugin directory](https://gulpjs.com/plugins/) 收錄了近千個可搜尋的套件。
 
 ### 其他任務執行器
 
 其實還有很多任務執行器能用。我們不會說 Gulp 是最好的解決方案，但它對我們而言很好用、而且也對新手友善。你可以嘗試這些解決方案：
 
-- Grunt 與 Gulp 很像，不過它依靠的是事先指定的設定檔，而不是 JavaScript 檔。請參見 [Getting started with Grunt](http://gruntjs.com/getting-started) 以獲取詳情。
+- Grunt 與 Gulp 很像，不過它依靠的是事先指定的設定檔，而不是 JavaScript 檔。請參見 [Getting started with Grunt](https://gruntjs.com/getting-started) 以獲取詳情。
 - 你也可以在不安裝任何任務執行器的情況下，直接使用 `package.json` 內的 npm 腳本。它行得通的前提，是 Gulp 之類的套件基本上靠著命令列工具運作。所以如果你知道如何透過命令列工具跑工具，你就可以透過 npm 腳本運行。這麼做會更麻煩點，但對那些懂命令列的來說這很值得。[Why npm scripts?](https://css-tricks.com/why-npm-scripts/) 有進一步的介紹。
 
 ## 使用 Sauce Labs 加快瀏覽器測試
@@ -345,11 +345,11 @@ Once you stop the session, you'll return to the Manual Tests tab, where you'll s
 
 ### 進階：The Sauce Labs API
 
-Sauce Labs 有個能允許程式化檢索帳號與現有測試詳情的 [restful API](https://wiki.saucelabs.com/display/DOCS/The+Sauce+Labs+REST+API)，並講解測試與進一步細節，如手動測試無法錄製的 pass/fail 狀態。For example, you might want to run one of your own Selenium tests remotely using a Sauce Labs, to test a certain browser/OS combination, and then pass the test results back to Sauce Labs.
+Sauce Labs 有個能允許程式化檢索帳號與現有測試詳情的 [restful API](https://docs.saucelabs.com/dev/api/)，並講解測試與進一步細節，如手動測試無法錄製的 pass/fail 狀態。For example, you might want to run one of your own Selenium tests remotely using a Sauce Labs, to test a certain browser/OS combination, and then pass the test results back to Sauce Labs.
 
 It has a number of clients available to allow you to make calls to the API using your favourite environment, be it PHP, Java, Node.js, etc.
 
-Let's have a brief look at how we'd access the API using Node.js and [node-saucelabs](https://github.com/danjenkins/node-saucelabs).
+Let's have a brief look at how we'd access the API using Node.js and [node-saucelabs](https://github.com/saucelabs/node-saucelabs).
 
 1. First, set up a new npm project to test this out, as detailed in [Setting up Node and npm](#設定_node_與_npm). Use a different directory name than before, like `sauce-test` for example.
 2. 使用以下指令安裝 Node Sauce Labs wrapper：

@@ -50,19 +50,19 @@ ng build -c production
 為了部署你的應用程式，你可以複製 `dist/my-project-name` 資料夾底下的內容到你的伺服器上。
 因為這些都是靜態檔案，你可以將這些檔案放到任何能夠提供檔案的伺服器上，像是：
 
-- [Node.js](https://nodejs.org)
-- [Java](https://www.java.com)
-- [.NET](https://dotnet.microsoft.com)
+- [Node.js](https://nodejs.org/en)
+- [Java](https://www.java.com/)
+- [.NET](https://dotnet.microsoft.com/)
 
-你可以使用任何後端，像是 [Firebase](https://firebase.google.com/docs/hosting)、[Google Cloud](https://cloud.google.com/solutions/web-hosting) 或 [App Engine](https://cloud.google.com/appengine/docs/standard/python/getting-started/hosting-a-static-website)。
+你可以使用任何後端，像是 [Firebase](https://firebase.google.com/docs/hosting)、[Google Cloud](https://cloud.google.com/solutions/web-hosting) 或 [App Engine](https://cloud.google.com/appengine/docs/standard/hosting-a-static-website)。
 
 ## 接著要做什麼
 
 現在你已經建立了基本的應用程式，但是你的 Angular 學習旅程才剛開始，你可以探索 Angular 文件學習更多，像是：
 
-- [英雄之旅](https://angular.io/tutorial)([正體中文版](https://angular.tw/tutorial))：一個深入的 Angular 重點課程，像是使用服務（service）、導覽（navigation）以及從伺服器取得資料。
-- Angular [元件](https://angular.io/guide/component-overview) 指南：一系列的文章，主題包括生命週期、元件互動以及檢視封裝。
-- [表單](https://angular.io/guide/forms-overview) 指南：文章內容包含建立 Angular 的響應式表單、輸入驗證以及建立動態表單。
+- [英雄之旅](https://v17.angular.io/tutorial)([正體中文版](https://angular.tw/tutorial))：一個深入的 Angular 重點課程，像是使用服務（service）、導覽（navigation）以及從伺服器取得資料。
+- Angular [元件](https://v17.angular.io/guide/component-overview) 指南：一系列的文章，主題包括生命週期、元件互動以及檢視封裝。
+- [表單](https://v17.angular.io/guide/forms-overview) 指南：文章內容包含建立 Angular 的響應式表單、輸入驗證以及建立動態表單。
 
 ## 總結
 

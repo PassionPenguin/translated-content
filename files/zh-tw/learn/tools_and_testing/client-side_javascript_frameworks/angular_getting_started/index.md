@@ -89,13 +89,13 @@ Angular 是一個基於[TypeScript](https://www.typescriptlang.org/)的開發平
 
 - **Node.js**
 
-  Angular 需要使用 Node.js 的[當前版、活躍 LTS 版或是長期維護 LTS 版](https://nodejs.org/about/releases)若需特定版本的資訊，可以參閱在[package.json](https://unpkg.com/@angular/cli/package.json)檔案之中的`engines`關鍵字。
+  Angular 需要使用 Node.js 的[當前版、活躍 LTS 版或是長期維護 LTS 版](https://nodejs.org/en/about/previous-releases)若需特定版本的資訊，可以參閱在[package.json](https://unpkg.com/@angular/cli@18.1.2/package.json)檔案之中的`engines`關鍵字。
 
-  若想更了解如何安裝 Node.js，可參閱[nodejs.org](https://nodejs.org)。若你不確定你目前使用的 Node.js 版本號，請在終端機輸入`node -v`查閱。
+  若想更了解如何安裝 Node.js，可參閱[nodejs.org](https://nodejs.org/en)。若你不確定你目前使用的 Node.js 版本號，請在終端機輸入`node -v`查閱。
 
 - **npm 套件管理器**
 
-  Angular、Angular CLI 以及 Angular 應用程式都依賴 [npm 套件](https://docs.npmjs.com/getting-started/what-is-npm) 來實現許多特性與功能。想下載並安裝 npm 套件，你需要使用 npm 套件管理器。本教學使用[npm 客戶端](https://docs.npmjs.com/cli/install)命令列介面，該介面預設安裝在`Node.js`。欲檢查你是否安裝了 npm 客戶端，請在終端視窗中執行`npm -v`。
+  Angular、Angular CLI 以及 Angular 應用程式都依賴 [npm 套件](https://docs.npmjs.com/getting-started/what-is-npm/) 來實現許多特性與功能。想下載並安裝 npm 套件，你需要使用 npm 套件管理器。本教學使用[npm 客戶端](https://docs.npmjs.com/cli/install/)命令列介面，該介面預設安裝在`Node.js`。欲檢查你是否安裝了 npm 客戶端，請在終端視窗中執行`npm -v`。
 
 ## 設置你的應用程式
 

@@ -113,7 +113,7 @@ cd beastify
 
 工具列按鈕也需要一個 icon，在 manifest.json 裡 "browser_action" 物件中的 "default_icon" 中告訴他要使用 "icons/beasts-32.png" 路徑下的 icon。。
 
-準備一個命名為 "beasts-32.png" 的 icon，並存在 "beastify/icons" 資料夾中（你可以使用[範例圖檔](https://github.com/mdn/webextensions-examples/blob/master/beastify/icons/beasts-32.png)，圖檔來源：[IconBeast Lite icon set](http://www.iconbeast.com/free)，遵守[使用條款](http://www.iconbeast.com/faq/)來使用）。
+準備一個命名為 "beasts-32.png" 的 icon，並存在 "beastify/icons" 資料夾中（你可以使用[範例圖檔](https://github.com/mdn/webextensions-examples/blob/main/beastify/icons/beasts-32.png)，圖檔來源：[IconBeast Lite icon set](http://www.iconbeast.com/free/)，遵守[使用條款](http://www.iconbeast.com/faq/)來使用）。
 
 假設你不使用 pop-up，當按下按鈕的時候就會觸發事件。假如使用 pop-up ，當按下按鈕時並不會觸發事件，取而代之會打開 pop-up。不過這邊我們想要用 pop-up，所以接來下會教你如何新增他。
 

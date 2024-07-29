@@ -103,7 +103,7 @@ npm install express-validator
 
 #### 使用 express-validator
 
-> **備註：** Github 上的 [express-validator](https://github.com/ctavan/express-validator#express-validator) 指南，提供了 API 的良好概述。我們建議你閱讀該內容，以了解其所有功能（包括創建自定義驗證程序）。下面我們只介紹一個對 LocalLibrary 有用的子集。
+> **備註：** Github 上的 [express-validator](https://github.com/express-validator/express-validator#express-validator) 指南，提供了 API 的良好概述。我們建議你閱讀該內容，以了解其所有功能（包括創建自定義驗證程序）。下面我們只介紹一個對 LocalLibrary 有用的子集。
 
 要在我們的控制器中使用驗證器，我們必須從 'e**xpress-validator/check**'和'**express-validator/filter**'模塊中，導入我們想要使用的函數，如下所示：
 
@@ -116,7 +116,7 @@ const { sanitizeBody } = require("express-validator/filter");
 
 功能定義如下：
 
-- [`body(fields[, message])`](https://github.com/ctavan/express-validator#bodyfields-message): 指定請求本文中的一組字段（`POST`參數）以及可選的錯誤消息，如果測試失敗，則可以顯示該字段。驗證標準以菊花鏈形式連接到 `body()`方法。例如，下面的第一個檢查測試，「name」字段不為空，如果不是，則設置錯誤消息「Empty name」。第二個測試，檢查 age 字段是否為有效日期，並使用`optional()`指定 null 和空字符串不會驗證失敗。
+- [`body(fields[, message])`](https://github.com/express-validator/express-validator#bodyfields-message): 指定請求本文中的一組字段（`POST`參數）以及可選的錯誤消息，如果測試失敗，則可以顯示該字段。驗證標準以菊花鏈形式連接到 `body()`方法。例如，下面的第一個檢查測試，「name」字段不為空，如果不是，則設置錯誤消息「Empty name」。第二個測試，檢查 age 字段是否為有效日期，並使用`optional()`指定 null 和空字符串不會驗證失敗。
 
   ```js
   body('name', 'Empty name').isLength({ min: 1 }),
@@ -132,14 +132,14 @@ const { sanitizeBody } = require("express-validator/filter");
 
   > **備註：** 你還可以添加內聯清理器，如`trim()`，如上所示。但是，此處應用清理器，僅適用於驗證步驟。如果要對最終輸出進行消毒，則需要使用單獨的清理器方法，如下所示。
 
-- [`sanitizeBody(fields)`](https://github.com/ctavan/express-validator#sanitizebodyfields): 指定一個正文要清理的字段。然後將清理操作，以菊花鏈形式連接到此方法。例如，下面的 `escape()`清理操作，會從名稱變量中，刪除可能在 JavaScript 跨站點腳本攻擊中使用的 HTML 字符。
+- [`sanitizeBody(fields)`](https://github.com/express-validator/express-validator#sanitizebodyfields): 指定一個正文要清理的字段。然後將清理操作，以菊花鏈形式連接到此方法。例如，下面的 `escape()`清理操作，會從名稱變量中，刪除可能在 JavaScript 跨站點腳本攻擊中使用的 HTML 字符。
 
   ```js
   sanitizeBody('name').trim().escape(),
   sanitizeBody('date').toDate(),
   ```
 
-- [`validationResult(req)`](https://github.com/ctavan/express-validator#validationresultreq): 運行驗證，以 `validation` 驗證結果對象的形式，提供錯誤。這是在單獨的回調中調用的，如下所示：
+- [`validationResult(req)`](https://github.com/express-validator/express-validator#validationresultreq): 運行驗證，以 `validation` 驗證結果對象的形式，提供錯誤。這是在單獨的回調中調用的，如下所示：
 
   ```js
   (req, res, next) => {
@@ -155,7 +155,7 @@ const { sanitizeBody } = require("express-validator/filter");
   };
   ```
 
-  我們使用驗證結果的`isEmpty()`方法，來檢查是否存在錯誤，並使用其 `array()` 方法，來獲取錯誤消息集合。有關更多信息，請參閱驗證結果的 [Validation Result API](https://github.com/ctavan/express-validator#validation-result-api)。
+  我們使用驗證結果的`isEmpty()`方法，來檢查是否存在錯誤，並使用其 `array()` 方法，來獲取錯誤消息集合。有關更多信息，請參閱驗證結果的 [Validation Result API](https://github.com/express-validator/express-validator#validation-result-api)。
 
 驗證和清理鏈，是應該傳遞給 Express 路由處理程序的中間件（我們通過控制器，間接地執行此操作）。中間件運行時，每個驗證器/清理程序都按指定的順序運行。
 

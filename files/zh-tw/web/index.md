@@ -65,5 +65,5 @@ l10n:
   - : Chrome 內建的網頁開發者工具的說明文件。
 - [Safari 網頁檢閱器](https://webkit.org/web-inspector/)
   - : Safari 內建的網頁開發者工具的說明文件。
-- [Edge 開發者工具](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/landing/)
+- [Edge 開發者工具](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/landing/)
   - : Edge 內建的網頁開發者工具的說明文件。

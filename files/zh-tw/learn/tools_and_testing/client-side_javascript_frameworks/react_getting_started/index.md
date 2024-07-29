@@ -38,9 +38,9 @@ slug: Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_st
 
 ## Hello React
 
-正如其官方標語所述，[React](https://reactjs.org/)是一個用來建構使用者介面的函式庫。React 不是框架——它甚至不是 web 獨有的開發技術，它可以和其他函式庫或套件搭配使用，以在特定環境中渲染。例如，[React Native](https://reactnative.dev/)可用來建立手機應用程式；[React 360](https://facebook.github.io/react-360/)可以用來建立 VR 應用程式；除此之外還有很多的可能性。
+正如其官方標語所述，[React](https://react.dev/)是一個用來建構使用者介面的函式庫。React 不是框架——它甚至不是 web 獨有的開發技術，它可以和其他函式庫或套件搭配使用，以在特定環境中渲染。例如，[React Native](https://reactnative.dev/)可用來建立手機應用程式；[React 360](https://facebook.github.io/react-360/)可以用來建立 VR 應用程式；除此之外還有很多的可能性。
 
-為了要建構 web，開發者將 React 與[ReactDOM](https://reactjs.org/docs/react-dom.html)搭配使用。React 與 ReactDOM 的組合經常與其他 web 開發框架相提並論——以用於解決相同的問題。當我們稱呼 React 為「框架（framework）」時，我們是使用口語化的理解好加以討論。
+為了要建構 web，開發者將 React 與[ReactDOM](https://react.dev/docs/react-dom.html)搭配使用。React 與 ReactDOM 的組合經常與其他 web 開發框架相提並論——以用於解決相同的問題。當我們稱呼 React 為「框架（framework）」時，我們是使用口語化的理解好加以討論。
 
 (使用)React 的主要目標是最大限度減少開發者建構 UI 介面時出現的錯誤。它通過使用元件——描述部分使用者界面且自成一體的邏輯與程式碼段落來實現這點。這些元件可以組合在一起以建立完整的 UI 界面，React 將大部分的渲染邏輯給抽象化出來，讓你可以專注於 UI 層的程式設計。
 
@@ -48,7 +48,7 @@ slug: Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_st
 
 與本文章模組中涵蓋的其他框架不同，React 不會對程式碼風格規範或檔案組織實施嚴格的規則限制。這允許團隊設置最適合他們的開發規範，並以任何他們想要的方式採用 React。React 可以處理單一個按鈕、界面的幾個部分或應用程式整個使用者界面。
 
-儘管 React*可以*用來開發[介面的少許部分](https://reactjs.org/docs/add-react-to-a-website.html)，但它沒辦法像 jQuery 函式庫，甚至像 Vue 這樣的框架能簡單「引入（drop into）」進應用程式中——當你使用 React 建構應用程式時，它會更加平易近人。
+儘管 React*可以*用來開發[介面的少許部分](https://react.dev/docs/add-react-to-a-website.html)，但它沒辦法像 jQuery 函式庫，甚至像 Vue 這樣的框架能簡單「引入（drop into）」進應用程式中——當你使用 React 建構應用程式時，它會更加平易近人。
 
 此外，React 應用程式有許多開發者體驗(developer-experience)優勢，例如使用 JSX 編寫介面時會需要編譯過程。添加如 Babel 這樣的編譯器到網站上會讓程式碼執行效率變慢，因此開發者通常會在建構階段中設置此類開發工具。React 對開發工具需求蠻吃重的，但這些都是可以學習的。
 
@@ -56,7 +56,7 @@ slug: Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_st
 
 ## React 如何使用 JavaScript？
 
-React 在許多設計模式中利用了現代 JavaScript 特性。它與 JavaScript 最大的區別在於使用[JSX](https://reactjs.org/docs/introducing-jsx.html)語法。JSX 擴展了 JavaScript 語法，以便能與類似 HTML 的程式碼並存。例如：
+React 在許多設計模式中利用了現代 JavaScript 特性。它與 JavaScript 最大的區別在於使用[JSX](https://react.dev/docs/introducing-jsx.html)語法。JSX 擴展了 JavaScript 語法，以便能與類似 HTML 的程式碼並存。例如：
 
 ```js
 const heading = <h1>Mozilla Developer Network</h1>;
@@ -96,17 +96,17 @@ const header = React.createElement(
 );
 ```
 
-是*可以*跳過編譯階段，並使用[`React.createElement()`](https://reactjs.org/docs/react-api.html#createelement)來撰寫你自己的 UI 介面的。但是，這樣做會失去 JSX 的聲明性優勢，並且程式碼更難閱讀。雖然編譯是開發過程的額外步驟，但是許多 React 社群的開發者認為為了可讀性，使用 JSX 是值得的。此外，各種流行工具能使 JSX 到 JavaScript 的編譯成為其設置過程的一部分。除非你想，否則你不必自己配置編譯設定。
+是*可以*跳過編譯階段，並使用[`React.createElement()`](https://react.dev/docs/react-api.html#createelement)來撰寫你自己的 UI 介面的。但是，這樣做會失去 JSX 的聲明性優勢，並且程式碼更難閱讀。雖然編譯是開發過程的額外步驟，但是許多 React 社群的開發者認為為了可讀性，使用 JSX 是值得的。此外，各種流行工具能使 JSX 到 JavaScript 的編譯成為其設置過程的一部分。除非你想，否則你不必自己配置編譯設定。
 
 因為 JSX 是 HTML 和 JavaScript 的混合體，有一些開發者覺得它很直觀。也有其他人認為 JSX 的混合性使其變得混亂。但是，一旦你對它開始熟悉，JSX 能讓你更快、更直觀地建構使用者界面，並允許其他人一眼就能更好地理解你的程式碼（codebase）。
 
-要閱讀更多有關 JSX 的資訊，可以查看 React 團隊的[JSX In Depth](https://reactjs.org/docs/jsx-in-depth.html)文章。
+要閱讀更多有關 JSX 的資訊，可以查看 React 團隊的[JSX In Depth](https://react.dev/docs/jsx-in-depth.html)文章。
 
 ## 設置你的第一個 React 應用程式
 
 有很多方法可以使用 React，但我們將使用命令行界面（CLI）工具 create-react-app。如前面所說，它可以透過安裝一些套件和創建一些文件檔案以處理上面描述的工具，使其可以用來加速開發 React 應用程式的過程。
 
-是可以[不使用 create-react-app 就將 React 加入到網站裡](https://zh-hant.reactjs.org/docs/add-react-to-a-website.html)的，藉由複製一些[`<script>`](/zh-TW/docs/Web/HTML/Element/script)元素並加進 HTML 檔案中即可，但 create-react-app CLI 確實是開發 React 應用程式的常見起點。使用它可以讓你花更少的時間在設置上，好使用更多的時間專注在建構應用程式上。
+是可以[不使用 create-react-app 就將 React 加入到網站裡](https://zh-hant.legacy.reactjs.org/docs/add-react-to-a-website.html)的，藉由複製一些[`<script>`](/zh-TW/docs/Web/HTML/Element/script)元素並加進 HTML 檔案中即可，但 create-react-app CLI 確實是開發 React 應用程式的常見起點。使用它可以讓你花更少的時間在設置上，好使用更多的時間專注在建構應用程式上。
 
 ### 環境要求
 
@@ -114,13 +114,13 @@ const header = React.createElement(
 
 你也可以使用 Yarn 套件管理器作為替代方案，但我們假設你在這個教學中使用 npm。參閱[Package management basics](/zh-TW/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Package_management)可取得有關 npm 和 yarn 的更多資訊。
 
-如果你使用的系統是 Windows，你需要安裝一些軟體來讓 Windows 與 Unix/macOS 的終端機 terminal 保持同等環境，以便使用本教學中提到的 terminal 終端機指令。**Gitbash**（它包含在[git for Windows toolset](https://gitforwindows.org/)工具的其中之一）或者**[Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about)**（**WSL**）也同樣適合。有關這些以及一般終端指令的詳細資訊，可以參閱[Command line crash course](/zh-TW/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)。
+如果你使用的系統是 Windows，你需要安裝一些軟體來讓 Windows 與 Unix/macOS 的終端機 terminal 保持同等環境，以便使用本教學中提到的 terminal 終端機指令。**Gitbash**（它包含在[git for Windows toolset](https://gitforwindows.org/)工具的其中之一）或者**[Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about)**（**WSL**）也同樣適合。有關這些以及一般終端指令的詳細資訊，可以參閱[Command line crash course](/zh-TW/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)。
 
 另外要記住的是，React 和 ReactDOM 建立的應用程式只能在相當現代的瀏覽器上執行——通過一些 polyfills 才可以在 IE9+上運作。建議你使用現代瀏覽器來學習這些教學，例如：Firefox、Microsoft Edge、Safari 或 Chrome 等。
 
 此外，請參閱以下內容以取得更多資訊：
 
-- ["About npm" on the npm blog](https://docs.npmjs.com/about-npm)
+- ["About npm" on the npm blog](https://docs.npmjs.com/about-npm/)
 - ["Introducing npx" on the npm blog](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner)
 - [The create-react-app documentation](https://create-react-app.dev/)
 

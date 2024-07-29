@@ -570,7 +570,7 @@ draw();
 
 - `createPattern(image, type)`
   - : 呼叫 createPattern()會產一個畫布樣式物件，然後回傳出來。
-    其中 image 是[CanvasImageSource](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#image-sources-for-2d-rendering-contexts)類別物件(像是{{domxref("HTMLImageElement")}},、\<canvas>元素、{{HTMLElement("video")}} 元素等)
+    其中 image 是[CanvasImageSource](https://html.spec.whatwg.org/multipage/canvas.html#image-sources-for-2d-rendering-contexts)類別物件(像是{{domxref("HTMLImageElement")}},、\<canvas>元素、{{HTMLElement("video")}} 元素等)
 
 Type 是一串字串，定義了如何產生樣式，允許的值有:
 

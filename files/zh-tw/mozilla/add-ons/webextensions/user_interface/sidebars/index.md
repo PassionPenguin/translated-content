@@ -48,7 +48,7 @@ browser.windows.getCurrent({ populate: true }).then((windowInfo) => {
 
 ## 側邊欄設計
 
-更多如何設計符合 Firefox 風格的側邊欄網頁細節，請查看文件[光子設計系統](https://design.firefox.com/photon/index.html)。
+更多如何設計符合 Firefox 風格的側邊欄網頁細節，請查看文件[光子設計系統](https://acorn.firefox.com/photon/index.html)。
 
 ## 範例
 
