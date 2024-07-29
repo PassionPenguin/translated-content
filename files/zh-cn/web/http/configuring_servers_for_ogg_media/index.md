@@ -51,7 +51,7 @@ The HTML {{HTMLElement("audio")}} and {{HTMLElement("video")}} elements provide 
 
 ### Serve X-Content-Duration headers
 
-> **备注：** As of [Firefox 41](/zh-CN/Firefox/Releases/41), the `X-Content-Duration` header is no longer supported. See [Firefox bug 1160695](https://bugzil.la/1160695) for more details.
+> **备注：** As of [Firefox 41](/zh-CN/Firefox/Releases/41), the `X-Content-Duration` header is no longer supported. See [Firefox bug 1160695](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1160695) for more details.
 
 The Ogg format doesn't encapsulate the duration of media, so for the progress bar on the video controls to display the duration of the video, Gecko needs to determine the length of the media using other means.
 
@@ -69,7 +69,7 @@ As an inferior alternative, Gecko can estimate the video length based on the Con
 
 ### Don't use HTTP compression for media files
 
-One common way to reduce the load on a web server is to use [gzip or deflate compression](http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/) when serving to a supporting web browser.
+One common way to reduce the load on a web server is to use [gzip or deflate compression](https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/) when serving to a supporting web browser.
 
 Although it's unlikely, it's possible the browser may advertise that it supports HTTP compression (gzip/deflate) using the `Accept-Encoding: gzip,deflate` header when requesting media files. Your server should be configured to not do so. The data in media files is already compressed, so you won't get any real benefit from compression, and the use of compression makes it impossible for the browser to properly seek the video or determine its duration.
 
@@ -77,7 +77,7 @@ Another probelm with allowing HTTP compression for media streaming: Apache serve
 
 ### Getting the duration of Ogg media
 
-You can use the `oggz-info` tool to get the media duration; this tool is included with the [`oggz-tools`](http://www.xiph.org/oggz/) package. The output from `oggz-info` looks like this:
+You can use the `oggz-info` tool to get the media duration; this tool is included with the [`oggz-tools`](https://www.xiph.org/oggz/) package. The output from `oggz-info` looks like this:
 
 ```plain
  $ oggz-info /g/media/bruce_vs_ironman.ogv

@@ -292,7 +292,7 @@ _[在此处](/zh-CN/docs/Glossary/CORS)了解更多关于 CORS。_
 - {{HTTPHeader("X-Content-Type-Options")}}
   - : 禁用 MIME 嗅探并强制浏览器使用 {{HTTPHeader("Content-Type")}} 中给出的类型。
 - {{HTTPHeader("X-Download-Options")}}
-  - : [`X-Download-Options`](<https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/compatibility/jj542450(v=vs.85)?#the-noopen-directive>) HTTP 标头指示浏览器（Internet Explorer）不应显示“打开”已从应用程序下载的文件的选项，以防止网络钓鱼攻击，否则该文件将获得在应用程序上下文中执行的权限。
+  - : [`X-Download-Options`](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/jj542450(v%3Dvs.85>)?#the-noopen-directive>) HTTP 标头指示浏览器（Internet Explorer）不应显示“打开”已从应用程序下载的文件的选项，以防止网络钓鱼攻击，否则该文件将获得在应用程序上下文中执行的权限。
 - {{HTTPHeader("X-Frame-Options")}} (XFO)
   - : 指示是否应允许浏览器在 {{HTMLElement("frame")}}、{{HTMLElement("iframe")}}、{{HTMLElement("embed")}} 或 {{HTMLElement("object")}} 中呈现页面。
 - {{HTTPHeader("X-Permitted-Cross-Domain-Policies")}}
@@ -391,7 +391,7 @@ _[在此处](/zh-CN/docs/Glossary/CORS)了解更多关于 CORS。_
 - {{HTTPHeader("X-Requested-With")}}
   - : 待定
 - {{HTTPHeader("X-Robots-Tag")}}{{non-standard_inline}}
-  - : [`X-Robots-Tag`](https://developers.google.com/search/docs/advanced/robots/robots_meta_tag) HTTP 标头用于指示网页如何在公共搜索引擎结果中编入索引。标头实际上等同于 `<meta name="robots" content="...">`。
+  - : [`X-Robots-Tag`](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag) HTTP 标头用于指示网页如何在公共搜索引擎结果中编入索引。标头实际上等同于 `<meta name="robots" content="...">`。
 - {{HTTPHeader("X-UA-Compatible")}} {{non-standard_inline}}
   - : 由 Internet Explorer 用来指示要使用的文档模式。
 

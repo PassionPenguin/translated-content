@@ -11,7 +11,7 @@ slug: Web/HTML/Global_attributes/is
 
 ## 示例
 
-以下代码来自我们的 [word-count-web-component](https://github.com/mdn/web-components-examples/tree/master/word-count-web-component) 示例（[see it live also](https://mdn.github.io/web-components-examples/word-count-web-component/)）。
+以下代码来自我们的 [word-count-web-component](https://github.com/mdn/web-components-examples/tree/main/word-count-web-component) 示例（[see it live also](https://mdn.github.io/web-components-examples/word-count-web-component/)）。
 
 ```js
 // Create a class for the element

@@ -33,12 +33,12 @@ Transfer-Encoding: gzip, chunked
 - `chunked`
   - : 数据以一系列分块的形式进行发送。 {{HTTPHeader("Content-Length")}} 首部在这种情况下不被发送。在每一个分块的开头需要添加当前分块的长度，以十六进制的形式表示，后面紧跟着 '`\r\n`' ，之后是分块本身，后面也是'`\r\n`' 。终止块是一个常规的分块，不同之处在于其长度为 0。终止块后面是一个挂载（trailer），由一系列（或者为空）的实体消息首部构成。
 - `compress`
-  - : 采用 [Lempel-Ziv-Welch](http://en.wikipedia.org/wiki/LZW) (LZW) 压缩算法。这个名称来自 UNIX 系统的 _compress_ 程序，该程序实现了前述算法。
+  - : 采用 [Lempel-Ziv-Welch](https://en.wikipedia.org/wiki/LZW) (LZW) 压缩算法。这个名称来自 UNIX 系统的 _compress_ 程序，该程序实现了前述算法。
     与其同名程序已经在大部分 UNIX 发行版中消失一样，这种内容编码方式已经被大部分浏览器弃用，部分因为专利问题（这项专利在 2003 年到期）。
 - `deflate`
-  - : 采用 [zlib](http://en.wikipedia.org/wiki/Zlib) 结构 (在 [RFC 1950](http://tools.ietf.org/html/rfc1950) 中规定)，和 [_deflate_](http://en.wikipedia.org/wiki/DEFLATE) 压缩算法 (在 [RFC 1951](http://tools.ietf.org/html/rfc1952) 中规定)。
+  - : 采用 [zlib](https://en.wikipedia.org/wiki/Zlib) 结构 (在 [RFC 1950](https://datatracker.ietf.org/doc/html/rfc1950) 中规定)，和 [_deflate_](https://en.wikipedia.org/wiki/DEFLATE) 压缩算法 (在 [RFC 1951](https://datatracker.ietf.org/doc/html/rfc1952) 中规定)。
 - `gzip`
-  - : 表示采用 [Lempel-Ziv coding](http://en.wikipedia.org/wiki/LZ77_and_LZ78#LZ77) (LZ77) 压缩算法，以及 32 位 CRC 校验的编码方式。这个编码方式最初由 UNIX 平台上的 _gzip_ 程序采用。处于兼容性的考虑，HTTP/1.1 标准提议支持这种编码方式的服务器应该识别作为别名的 `x-gzip` 指令。
+  - : 表示采用 [Lempel-Ziv coding](https://en.wikipedia.org/wiki/LZ77_and_LZ78#LZ77) (LZ77) 压缩算法，以及 32 位 CRC 校验的编码方式。这个编码方式最初由 UNIX 平台上的 _gzip_ 程序采用。处于兼容性的考虑，HTTP/1.1 标准提议支持这种编码方式的服务器应该识别作为别名的 `x-gzip` 指令。
 - `identity`
   - : 用于指代自身（例如：未经过压缩和修改）。除非特别指明，这个标记始终可以被接受。
 

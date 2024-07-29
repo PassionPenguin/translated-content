@@ -343,7 +343,7 @@ Cache-Control: no-cache
 Cache-Control: no-store, no-cache, max-age=0, must-revalidate, proxy-revalidate
 ```
 
-[推荐](https://docs.microsoft.com/zh-cn/troubleshoot/developer/browsers/connectivity-navigation/how-to-prevent-caching)使用 `no-cache` 作为处理这种过时的实现的替代方案，如果从一开始就设置 `no-cache` 就没问题，因为服务器总是会收到请求。
+[推荐](https://learn.microsoft.com/zh-cn/previous-versions/troubleshoot/browsers/connectivity-navigation/how-to-prevent-caching)使用 `no-cache` 作为处理这种过时的实现的替代方案，如果从一开始就设置 `no-cache` 就没问题，因为服务器总是会收到请求。
 
 如果你关心的是共享缓存，你可以通过添加 `private` 来防止意外缓存：
 
@@ -671,5 +671,5 @@ Set-Cookie: __Host-SID=AHNtAyt3fvJrUL5g5tnGwER; Secure; Path=/; HttpOnly
 
 ## 参见
 
-- [RFC 9111: Hypertext Transfer Protocol (HTTP/1.1): Caching](https://datatracker.ietf.org/doc/html/RFC9111)
+- [RFC 9111: Hypertext Transfer Protocol (HTTP/1.1): Caching](https://datatracker.ietf.org/doc/html/rfc9111)
 - [Caching Tutorial - Mark Nottingham](https://www.mnot.net/cache_docs/)

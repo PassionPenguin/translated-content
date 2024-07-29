@@ -95,7 +95,7 @@ Cache-control: stale-if-error=<seconds>
 - `proxy-revalidate`
   - : 与 must-revalidate 作用相同，但它仅适用于共享缓存（例如代理），并被私有缓存忽略。
 - `immutable` {{experimental_inline}}
-  - : 表示响应正文不会随时间而改变。资源（如果未过期）在服务器上不发生改变，因此客户端不应发送重新验证请求头（例如`If-None-Match`或 I`f-Modified-Since`）来检查更新，即使用户显式地刷新页面。在 Firefox 中，immutable 只能被用在 `https://` transactions. 有关更多信息，请参阅[这里](http://bitsup.blogspot.de/2016/05/cache-control-immutable.html)。
+  - : 表示响应正文不会随时间而改变。资源（如果未过期）在服务器上不发生改变，因此客户端不应发送重新验证请求头（例如`If-None-Match`或 I`f-Modified-Since`）来检查更新，即使用户显式地刷新页面。在 Firefox 中，immutable 只能被用在 `https://` transactions. 有关更多信息，请参阅[这里](http://bitsup.blogspot.com/2016/05/cache-control-immutable.html)。
 
 ### 其他
 
@@ -152,7 +152,7 @@ Cache-Control: max-age=0
 
 - [HTTP Caching FAQ](/zh-CN/docs/Web/HTTP/Caching)
 - [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
-- Guide: _[`Cache-Control` for civilians](https://csswizardry.com/2019/03/cache-control-for-civilians)_
+- Guide: _[`Cache-Control` for civilians](https://csswizardry.com/2019/03/cache-control-for-civilians/)_
 - {{HTTPHeader("Age")}}
 - {{HTTPHeader("Expires")}}
 - {{HTTPHeader("Pragma")}}

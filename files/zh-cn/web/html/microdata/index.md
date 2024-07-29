@@ -16,32 +16,32 @@ slug: Web/HTML/Microdata
 
 ## 词汇表
 
-谷歌和其他主要搜索引擎支持结构化数据的 [Schema.org](schema.org) 词汇表。此词汇表定义了一组标准类型名称和属性名称，例如，[Schema.org Music Event](https://schema.org/MusicEvent) 表示音乐会表演，[`startDate`](https://schema.org/startDate) 和 [`location`](https://schema.org/location) 属性用于指定音乐会的关键细节。在这种情况下，[Schema.org Music Event](https://schema.org/MusicEvent) 将是 `itemtype` 和 `startDate` 使用的 URL，而 `location` 将是 [Schema.org Music Event](https://schema.org/MusicEvent) 定义的 `itemprop`。
+谷歌和其他主要搜索引擎支持结构化数据的 [Schema.org](schema.org) 词汇表。此词汇表定义了一组标准类型名称和属性名称，例如，[Schema.org Music Event](https://schema.org//MusicEvent) 表示音乐会表演，[`startDate`](https://schema.org//startDate) 和 [`location`](https://schema.org//location) 属性用于指定音乐会的关键细节。在这种情况下，[Schema.org Music Event](https://schema.org//MusicEvent) 将是 `itemtype` 和 `startDate` 使用的 URL，而 `location` 将是 [Schema.org Music Event](https://schema.org//MusicEvent) 定义的 `itemprop`。
 
-> **备注：** 有关 itemtype 属性的更多信息，请访问 <https://schema.org/Thing>。
+> **备注：** 有关 itemtype 属性的更多信息，请访问 <https://schema.org//Thing>。
 
-微数据词汇表提供了 _`Item`_ 的语义或含义。Web 开发人员可以设计自定义词汇表或使用 Web 上可用的词汇表，例如广泛使用的 [schema.org](https://schema.org) 词汇表。Schema.org 提供了一组常用的标记词汇表。
+微数据词汇表提供了 _`Item`_ 的语义或含义。Web 开发人员可以设计自定义词汇表或使用 Web 上可用的词汇表，例如广泛使用的 [schema.org](https://schema.org/) 词汇表。Schema.org 提供了一组常用的标记词汇表。
 
 常用词汇：
 
-- 创造性工作：[CreativeWork](https://schema.org/CreativeWork)、[Book](https://schema.org/Book)、[Movie](https://schema.org/Movie)、[MusicRecording](https://schema.org/MusicRecording)、[Recipe](https://schema.org/Recipe)、[TVSeries](https://schema.org/TVSeries)
-- 嵌入性非文字对象：[AudioObject](https://schema.org/AudioObject)、[ImageObject](https://schema.org/ImageObject)、[VideoObject](https://schema.org/VideoObject)
-- [`Event`](https://schema.org/Event)
-- [Health and medical types](https://schema.org/docs/meddocs.html)：注意健康和医疗类型在 [MedicalEntity](https://schema.org/MedicalEntity) 之下
-- [`Organization`](https://schema.org/Organization)
-- [`Person`](https://schema.org/Person)
-- [`Place`](https://schema.org/Place)、[LocalBusiness](https://schema.org/LocalBusiness)、[Restaurant](https://schema.org/Restaurant)
-- [`Product`](https://schema.org/Product)、[Offer](https://schema.org/Offer)、[AggregateOffer](https://schema.org/AggregateOffer)
-- [`Review`](https://schema.org/Review)、[AggregateRating](https://schema.org/AggregateRating)
-- [`Action`](https://schema.org/Action)
-- [`Thing`](https://schema.org/Thing)
-- [`Intangible`](https://schema.org/Intangible)
+- 创造性工作：[CreativeWork](https://schema.org//CreativeWork)、[Book](https://schema.org//Book)、[Movie](https://schema.org//Movie)、[MusicRecording](https://schema.org//MusicRecording)、[Recipe](https://schema.org//Recipe)、[TVSeries](https://schema.org//TVSeries)
+- 嵌入性非文字对象：[AudioObject](https://schema.org//AudioObject)、[ImageObject](https://schema.org//ImageObject)、[VideoObject](https://schema.org//VideoObject)
+- [`Event`](https://schema.org//Event)
+- [Health and medical types](https://schema.org//docs/meddocs.html)：注意健康和医疗类型在 [MedicalEntity](https://schema.org//MedicalEntity) 之下
+- [`Organization`](https://schema.org//Organization)
+- [`Person`](https://schema.org//Person)
+- [`Place`](https://schema.org//Place)、[LocalBusiness](https://schema.org//LocalBusiness)、[Restaurant](https://schema.org//Restaurant)
+- [`Product`](https://schema.org//Product)、[Offer](https://schema.org//Offer)、[AggregateOffer](https://schema.org//AggregateOffer)
+- [`Review`](https://schema.org//Review)、[AggregateRating](https://schema.org//AggregateRating)
+- [`Action`](https://schema.org//Action)
+- [`Thing`](https://schema.org//Thing)
+- [`Intangible`](https://schema.org//Intangible)
 
-谷歌，微软和雅虎等主要搜索引擎运营商依靠 [schema.org](https://schema.org/) 词汇表来改进搜索结果。实现一般目标，临时词汇就足够了。对于其他情况，可能需要设计一个词汇表。在可能的情况下，鼓励作者重用现有的词汇表，因为这样可以更轻松地重复使用内容。
+谷歌，微软和雅虎等主要搜索引擎运营商依靠 [schema.org](https://schema.org//) 词汇表来改进搜索结果。实现一般目标，临时词汇就足够了。对于其他情况，可能需要设计一个词汇表。在可能的情况下，鼓励作者重用现有的词汇表，因为这样可以更轻松地重复使用内容。
 
 ## 本地化
 
-在某些情况下，覆盖特定区域的搜索引擎可以提供微数据的本地特定扩展。例如，俄罗斯的主要搜索引擎 [Yandex](https://www.yandex.com/) 支持如 `hCard`（公司联系信息）、`hRecipe`（食品配方）、`hReview`（市场评论）和 `hProduct`（产品数据）的微格式，并提供自己的格式来定义术语和百科全书文章。这个扩展是为了解决西里尔字母和拉丁字母之间的音译问题。由于 Schema 词汇表的附加标记参数的实现，俄语网页中的信息索引变得更加成功。
+在某些情况下，覆盖特定区域的搜索引擎可以提供微数据的本地特定扩展。例如，俄罗斯的主要搜索引擎 [Yandex](https://yandex.com) 支持如 `hCard`（公司联系信息）、`hRecipe`（食品配方）、`hReview`（市场评论）和 `hProduct`（产品数据）的微格式，并提供自己的格式来定义术语和百科全书文章。这个扩展是为了解决西里尔字母和拉丁字母之间的音译问题。由于 Schema 词汇表的附加标记参数的实现，俄语网页中的信息索引变得更加成功。
 
 ## 全局属性
 
@@ -51,7 +51,7 @@ slug: Web/HTML/Microdata
 
 [`itemref`](/zh-CN/docs/Web/HTML/Global_attributes/itemref)——不具有 `itemscope` 属性的元素的后代的属性可以使用 **itemref** 与元素相关联。`itemref` 提供了元素 id 列表（而不是一些 `itemid`）以及文档中其他位置的其他属性。
 
-[`itemscope`](/zh-CN/docs/Web/HTML/Global_attributes/itemscope)——`itemscope`（通常）与 [`itemtype`](/zh-CN/docs/Web/HTML/Global_attributes/itemtype) 一起使用，以指定块中包含的 HTML 是一个特定元素。`itemscope` 创建 _`Item`_ 并定义与之关联的 itemtype 的范围。`itemtype` 是描述项及其属性上下文的词汇表（例如 [schema.org](https://schema.org/)）的有效 URL。
+[`itemscope`](/zh-CN/docs/Web/HTML/Global_attributes/itemscope)——`itemscope`（通常）与 [`itemtype`](/zh-CN/docs/Web/HTML/Global_attributes/itemtype) 一起使用，以指定块中包含的 HTML 是一个特定元素。`itemscope` 创建 _`Item`_ 并定义与之关联的 itemtype 的范围。`itemtype` 是描述项及其属性上下文的词汇表（例如 [schema.org](https://schema.org//)）的有效 URL。
 
 [`itemtype`](/zh-CN/docs/Web/HTML/Global_attributes/itemtype)——指定将用于在数据结构中定义 `itemprop`（元素属性）的词汇表的 URL。[`itemscope`](/zh-CN/docs/Web/HTML/Global_attributes/itemscope) 用于设置数据结构中按 `itemtype` 设置的词汇表的有效范围。
 
@@ -60,23 +60,23 @@ slug: Web/HTML/Microdata
 ### HTML
 
 ```html
-<div itemscope itemtype="https://schema.org/SoftwareApplication">
+<div itemscope itemtype="https://schema.org//SoftwareApplication">
   <span itemprop="name">Angry Birds</span> - REQUIRES
   <span itemprop="operatingSystem">ANDROID</span><br />
   <link
     itemprop="applicationCategory"
-    href="https://schema.org/GameApplication" />
+    href="https://schema.org//GameApplication" />
 
   <div
     itemprop="aggregateRating"
     itemscope
-    itemtype="https://schema.org/AggregateRating">
+    itemtype="https://schema.org//AggregateRating">
     RATING:
     <span itemprop="ratingValue">4.6</span> (
     <span itemprop="ratingCount">8864</span> ratings )
   </div>
 
-  <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+  <div itemprop="offers" itemscope itemtype="https://schema.org//Offer">
     Price: $<span itemprop="price">1.00</span>
     <meta itemprop="priceCurrency" content="USD" />
   </div>
@@ -91,7 +91,7 @@ slug: Web/HTML/Microdata
       <td rowspan="4">itemscope</td>
       <td>itemtype</td>
       <td colspan="2">
-        SoftwareApplication (https://schema.org/SoftwareApplication)
+        SoftwareApplication (https://schema.org//SoftwareApplication)
       </td>
     </tr>
     <tr>
@@ -107,7 +107,7 @@ slug: Web/HTML/Microdata
     <tr>
       <td>itemprop</td>
       <td>applicationCategory</td>
-      <td>GameApplication (https://schema.org/GameApplication)</td>
+      <td>GameApplication (https://schema.org//GameApplication)</td>
     </tr>
     <tr>
       <td rowspan="3">itemscope</td>
@@ -146,7 +146,7 @@ slug: Web/HTML/Microdata
 
 {{ EmbedLiveSample('示例', '', '100') }}
 
-> **备注：** 从 HTML 中提取微数据结构的便捷工具是 Google 的[架构标记测试工具](https://developers.google.com/structured-data/testing-tool/)。在上面显示的 HTML 上尝试一下。
+> **备注：** 从 HTML 中提取微数据结构的便捷工具是 Google 的[架构标记测试工具](https://developers.google.com/search/docs/appearance/structured-data)。在上面显示的 HTML 上尝试一下。
 
 ## 浏览器兼容性
 

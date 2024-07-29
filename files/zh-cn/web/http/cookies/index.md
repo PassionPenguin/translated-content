@@ -53,7 +53,7 @@ Cookie: yummy_cookie=choco; tasty_cookie=strawberry
 
 > **备注：** 如何在以下几种服务端程序中设置 `Set-Cookie` 响应头信息：
 >
-> - [PHP](https://secure.php.net/manual/en/function.setcookie.php)
+> - [PHP](https://www.php.net/manual/en/function.setcookie.php)
 > - [Node.JS](https://nodejs.org/dist/latest-v8.x/docs/api/http.html#http_response_setheader_name_value)
 > - [Python](https://docs.python.org/3/library/http.cookies.html)
 > - [Ruby on Rails](https://api.rubyonrails.org/classes/ActionDispatch/Cookies.html)
@@ -183,7 +183,7 @@ console.log(document.cookie);
 
 Cookie 与特定域和方案（例如，`http` 或 `https`）相关联，如果设置了 {{HTTPHeader("Set-Cookie")}} `Domain` 属性，也可能与子域相关联。如果该 cookie 域和方案匹配当前的页面，则认为该 cookie 和该页面来自同一站点，则称为*第一方 cookie（first-party cookie）*。
 
-如果域和方案不同，则它不认为来自同一个站点，被称为*第三方 cookie（third-party cookie）*。虽然托管网页的服务器设置第一方 Cookie 时，但该页面可能包含存储在其他域中的服务器上的图像或其他组件（例如，广告横幅），这些图像或其他组件可能会设置第三方 Cookie。这些主要用于在网络上进行广告和跟踪。例如，[谷歌使用的 cookie 类型](https://policies.google.com/technologies/types)。
+如果域和方案不同，则它不认为来自同一个站点，被称为*第三方 cookie（third-party cookie）*。虽然托管网页的服务器设置第一方 Cookie 时，但该页面可能包含存储在其他域中的服务器上的图像或其他组件（例如，广告横幅），这些图像或其他组件可能会设置第三方 Cookie。这些主要用于在网络上进行广告和跟踪。例如，[谷歌使用的 cookie 类型](https://policies.google.com/technologies/cookies#types-of-cookies)。
 
 第三方服务器可以基于同一浏览器在访问多个站点时发送给它的 cookie 来建立用户浏览历史和习惯的配置文件。Firefox 默认情况下会阻止已知包含跟踪器的第三方 cookie。第三方 cookie（或仅跟踪 cookie）也可能被其他浏览器设置或扩展程序阻止。阻止 Cookie 会导致某些第三方组件（例如社交媒体窗口小部件）无法正常运行。
 

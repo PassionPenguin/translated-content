@@ -59,7 +59,7 @@ Origin: <scheme>://<hostname>:<port>
 - 没有为 sandbox 属性设置 `allow-same-origin` 值的 iframe。
 - 响应（response）是网络错误。
 
-> **备注：** 了解更详细的关于其值何时为 `null` 的清单，请参见 Stack Overflow：[When do browsers send the Origin header? When do browsers set the origin to null?](https://stackoverflow.com/a/42242802/)。
+> **备注：** 了解更详细的关于其值何时为 `null` 的清单，请参见 Stack Overflow：[When do browsers send the Origin header? When do browsers set the origin to null?](https://stackoverflow.com/questions/42239643/when-do-browsers-send-the-origin-header-when-do-browsers-set-the-origin-to-null/42242802#42242802)。
 
 ## 示例
 
@@ -84,4 +84,4 @@ Origin: https://developer.mozilla.org:80
 - {{HTTPHeader("Host")}}
 - {{HTTPHeader("Referer")}}
 - [同源策略](/zh-CN/docs/Web/Security/Same-origin_policy)
-- [浏览器在何时会发送 Origin 请求标头？又会在何时将其设置为 null？](https://stackoverflow.com/a/42242802/)（Stack Overflow）
+- [浏览器在何时会发送 Origin 请求标头？又会在何时将其设置为 null？](https://stackoverflow.com/questions/42239643/when-do-browsers-send-the-origin-header-when-do-browsers-set-the-origin-to-null/42242802#42242802)（Stack Overflow）

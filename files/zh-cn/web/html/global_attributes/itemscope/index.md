@@ -5,13 +5,13 @@ slug: Web/HTML/Global_attributes/itemscope
 
 {{HTMLSidebar("Global_attributes")}}
 
-**`itemscope`** 是一个布尔值的 [全局属性](/zh-CN/docs/Web/HTML/Global_attributes) 。它定义了一个与元数据关联的数据项。就是说一个元素的 **`itemscope`** 属性会创建一个项，包含了一组与元素相关的键值对。相关的属性 [`itemtype`](/zh-CN/docs/Web/HTML/Global_attributes#itemtype) 通常表示表中一个有效的 URL（比如 [schema.org](http://schema.org/)）来表述项目和上下文。下面每个例子中的概念表都来自 [schema.org](https://schema.org/).
+**`itemscope`** 是一个布尔值的 [全局属性](/zh-CN/docs/Web/HTML/Global_attributes) 。它定义了一个与元数据关联的数据项。就是说一个元素的 **`itemscope`** 属性会创建一个项，包含了一组与元素相关的键值对。相关的属性 [`itemtype`](/zh-CN/docs/Web/HTML/Global_attributes#itemtype) 通常表示表中一个有效的 URL（比如 [schema.org](https://schema.org/)）来表述项目和上下文。下面每个例子中的概念表都来自 [schema.org](https://schema.org/).
 
 每个 HTML 元素都可以有指定的 `itemscope` 属性。一个具有 `itemscope` 属性的元素可以没有关联的 `itemtype` ，但必须有相关的 `itemref`。
 
 > **备注：** Schema.org 提供了一份共享的词汇表，站长可以使用它来标记网页，而这些标记则被主要的搜索引擎：Google，Microsoft，Yandex 和 Yahoo！所支持。
 
-> **备注：** 获取更多关于 `itemtype` 属性的信息： <http://schema.org/Thing>
+> **备注：** 获取更多关于 `itemtype` 属性的信息： <https://schema.org/Thing>
 
 ### 简单示例
 
@@ -20,7 +20,7 @@ slug: Web/HTML/Global_attributes/itemscope
 下面一个例子指定的 `itemscope` 属性，设置了 `itemtype` 为 "http\://schema.org/Movie"，并且有 3 个关联的 `itemprop` 属性（name、director、genre）。
 
 ```html
-<div itemscope itemtype="http://schema.org/Movie">
+<div itemscope itemtype="https://schema.org/Movie">
   <h1 itemprop="name">Avatar</h1>
   <span
     >Director: <span itemprop="director">James Cameron</span> (born August 16,
@@ -76,25 +76,25 @@ slug: Web/HTML/Global_attributes/itemscope
 
 ### 示例
 
-下面示例中有 4 个 `itemscope` 属性。每一个 `itemscope` 设置了相应的 `itemptype` 属性。例子中`itemtype`，`Recipe`，`AggregateRating`，以及 `NutritionInformation` 通过指定了 `itemptype`，也就是 `http://schema.org/Recipe`，也都是 [schema.org](www.schema.org) 提供的一个食谱的结构化数据的一部分。
+下面示例中有 4 个 `itemscope` 属性。每一个 `itemscope` 设置了相应的 `itemptype` 属性。例子中`itemtype`，`Recipe`，`AggregateRating`，以及 `NutritionInformation` 通过指定了 `itemptype`，也就是 `https://schema.org/Recipe`，也都是 [schema.org](www.schema.org) 提供的一个食谱的结构化数据的一部分。
 
 ```html
-<div itemscope itemtype="http://schema.org/Recipe">
+<div itemscope itemtype="https://schema.org/Recipe">
 <h2 itemprop="name">Grandma's Holiday Apple Pie</h2>
 <img itemprop="image" src="https://c1.staticflickr.com/1/30/42759561_8631e2f905_n.jpg" width="50" height="50"/>
-<p>By <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<p>By <span itemprop="author" itemscope itemtype="https://schema.org/Person">
 <span itemprop="name">Carol Smith</p></span>
 </span>
 <p>Published: <time datetime="2009-11-05" itemprop="datePublished">
 November 5, 2009</p></time>
 <span itemprop="description">This is my grandmother's apple pie recipe. I like to add a dash of nutmeg.<br></span>
- <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+ <span itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
  <span itemprop="ratingValue">4.0</span> stars based on <span itemprop="reviewCount">35</span> reviews<br></span>
 Prep time: <time datetime="PT30M" itemprop="prepTime">30 min<br></time>
  Cook time: <time datetime="PT1H" itemprop="cookTime">1 hour<br></time>
  Total time: <time datetime="PT1H30M" itemprop="totalTime">1 hour 30 min<br></time>
  Yield: <span itemprop="recipeYield">1 9" pie (8 servings)<br></span>
- <span itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
+ <span itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
  Serving size: <span itemprop="servingSize">1 medium slice<br></span>
  Calories per serving: <span itemprop="calories">250 cal<br></span>
  Fat per serving: <span itemprop="fatContent">12 g<br></span>
@@ -238,7 +238,7 @@ Directions: <br>
   </tbody>
 </table>
 
-> **备注：** Google 提供了一个方便地从 HTML 提取微数据结构的工具：[Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)。你可以通过上面的 HTML 试一下。
+> **备注：** Google 提供了一个方便地从 HTML 提取微数据结构的工具：[Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data)。你可以通过上面的 HTML 试一下。
 
 ## 规范
 

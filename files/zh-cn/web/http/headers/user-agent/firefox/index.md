@@ -33,7 +33,7 @@ Firefox 的用户代理字符串可被拆分为以下四个部分：
 - `appname/appversion` 标明了应用名与版本，举个例子，它可以是“`Camino/2.1.1`”或“`SeaMonkey/2.7.1`”。
 - `Firefox/firefoxversion` 是一个可选的兼容标记，一些基于 Gecko 的浏览器选择加入，以达到对支持 Firefox 的网页的最大兼容。`firefoxversion` 应与其提供的 Gecko 版本对应的 Firefox 版本相同。一些基于 Gecko 的浏览器可能不会使用此标记，因此，在检测的时候，应当使用 Gecko 而非 Firefox。
 
-在 Firefox 4 和 Gecko 2.0 之前，扩展和插件可以添加用户代理部分，但自从 [Firefox bug 581008](https://bugzil.la/581008) 以来就不可能了。
+在 Firefox 4 和 Gecko 2.0 之前，扩展和插件可以添加用户代理部分，但自从 [Firefox bug 581008](https://bugzilla.mozilla.org/show_bug.cgi?id%3D581008) 以来就不可能了。
 
 ## 手机和平板电脑指示器
 

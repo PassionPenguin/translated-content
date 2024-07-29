@@ -124,5 +124,5 @@ Content-Security-Policy-Report-Only: default-src 'none'; style-src cdn.example.c
 - CSP {{CSP("report-uri")}} directive
 - [Content Security in WebExtensions](/zh-CN/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy)
 - [Display security and privacy policies In Firefox Developer Tools](/zh-CN/docs/Tools/GCLI/Display_security_and_privacy_policies)
-- [https://report-uri.io – CSP and HPKP reporting](https://report-uri.io/)
+- [https://report-uri.io – CSP and HPKP reporting](https://report-uri.com/)
 - [Hosted CSP reporting for HTTPS migrations](https://httpschecker.net/guides/https-reporter)

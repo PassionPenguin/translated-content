@@ -43,7 +43,7 @@ Content-Encoding: deflate, gzip
 - `compress`
   - : 采用 [Lempel-Ziv-Welch](https://zh.wikipedia.org/wiki/LZW)（LZW）压缩算法。这个名称来自 UNIX 系统的 _compress_ 程序，该程序实现了前述算法。与其同名程序已经在大部分 UNIX 发行版中消失一样，这种内容编码方式已经被大部分浏览器弃用，部分因为专利问题（这项专利在 2003 年到期）。
 - `deflate`
-  - : 采用 [zlib](https://zh.wikipedia.org/wiki/zlib) 结构（在 {{rfc(1950)}} 中规定），和 [deflate](https://zh.wikipedia.org/wiki/DEFLATE) 压缩算法（在 {{rfc(1951)}} 中规定)。
+  - : 采用 [zlib](https://zh.wikipedia.org/wiki/Zlib) 结构（在 {{rfc(1950)}} 中规定），和 [deflate](https://zh.wikipedia.org/wiki/DEFLATE) 压缩算法（在 {{rfc(1951)}} 中规定)。
 - `br`
   - : 表示采用 [Brotli](https://zh.wikipedia.org/wiki/Brotli) 算法的编码方式。
 

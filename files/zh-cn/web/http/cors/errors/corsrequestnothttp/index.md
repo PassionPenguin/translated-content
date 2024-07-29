@@ -21,7 +21,7 @@ slug: Web/HTTP/CORS/Errors/CORSRequestNotHttp
 
 来自相同的目录或者子目录的本地文件在历史上被视为[同源](/zh-CN/docs/Web/Security/Same-origin_policy)的。这意味着在测试期间可以从本地目录或子目录加载文件以及它的所有子资源，而不会触发 CORS 错误。
 
-不幸地是，这有安全隐患，正如此公告所述：[CVE-2019-11730](https://www.mozilla.org/zh-CN/security/advisories/mfsa2019-21/#CVE-2019-11730)。很多浏览器，包括 Firfox 和 Chrome，现在将所有本地文件视为*不透明*来源（默认）。因此，加载包含本地资源的本地文件现在会导致 CORS 错误。
+不幸地是，这有安全隐患，正如此公告所述：[CVE-2019-11730](https://www.mozilla.org/en-US/security/advisories/mfsa2019-21/#CVE-2019-11730)。很多浏览器，包括 Firfox 和 Chrome，现在将所有本地文件视为*不透明*来源（默认）。因此，加载包含本地资源的本地文件现在会导致 CORS 错误。
 
 开发者如果想要在本地进行测试，现在要[设置一个本地服务器](/zh-CN/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server)。由于所有的文件都来自同种方案和域（`loaclhost`），它们都有相同的源，并不会触发跨源错误。
 

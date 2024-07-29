@@ -21,7 +21,7 @@ slug: Web/HTTP/CORS/Errors/CORSDidNotSucceed
 
 - 尝试访问拥有无效凭证的 `https` 资源将导致此错误。
 - 尝试从 `https` 源页面访问 `http` 资源将也会导致此错误。
-- 从 Firefox 68 开始，`https` 页面不允许去访问 `http://localhost`，尽管这可能随着 [Bug 1488740](https://bugzil.la/1488740) 而改变。
+- 从 Firefox 68 开始，`https` 页面不允许去访问 `http://localhost`，尽管这可能随着 [Bug 1488740](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1488740) 而改变。
 - 服务器不能响应真实的请求（即使它响应了{{Glossary("Preflight request","预检请求")}}）。一种情况是正在开发的 HTTP 服务器发生异常停止，而且没有返回任何数据。
 
 ## 参见

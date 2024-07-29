@@ -146,7 +146,7 @@ Content-Security-Policy: default-src https: 'unsafe-eval' 'unsafe-inline'; objec
 Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report-endpoint/
 ```
 
-查看 [Mozilla Web Security Guidelines](https://wiki.mozilla.org/Security/Guidelines/Web_Security#Examples_5) 上的更多例子。
+查看 [Mozilla Web Security Guidelines](https://infosec.mozilla.org/guidelines/web_security#Examples_5) 上的更多例子。
 
 ## 规范
 

@@ -81,6 +81,6 @@ Permissions-Policy: vibrate 'none'; geolocation 'none'
 
 - [Feature Policy](/zh-CN/docs/Web/HTTP/Feature_Policy)
 - [Using Feature Policy](/zh-CN/docs/Web/HTTP/Feature_Policy/Using_Feature_Policy)
-- [Permissions-Policy Tester (Chrome Developer Tools extension)](https://chrome.google.com/webstore/detail/feature-policy-tester-dev/pchamnkhkeokbpahnocjaeednpbpacop)
+- [Permissions-Policy Tester (Chrome Developer Tools extension)](https://chromewebstore.google.com/detail/feature-policy-tester-dev/pchamnkhkeokbpahnocjaeednpbpacop)
 - {{HTTPHeader("Content-Security-Policy")}}
 - {{HTTPHeader("Referrer-Policy")}}

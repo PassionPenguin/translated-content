@@ -329,7 +329,7 @@ CORS 预检请求不能包含凭据。预检请求的*响应*必须指定 `Acces
 
 > **备注：** 一些企业认证服务要求在预检请求时发送 TLS 客户端证书，这违反了 [Fetch](https://fetch.spec.whatwg.org/#cors-protocol-and-credentials) 的规范。
 >
-> Firefox 87 允许通过在设置中设定 `network.cors_preflight.allow_client_cert` 为 `true`（[Firefox bug 1511151](https://bugzil.la/1511151)）来允许这种不规范的行为。基于 chromium 的浏览器目前总是在 CORS 预检请求中发送 TLS 客户端证书（[Chrome bug 775438](https://bugs.chromium.org/p/chromium/issues/detail?id=775438)）。
+> Firefox 87 允许通过在设置中设定 `network.cors_preflight.allow_client_cert` 为 `true`（[Firefox bug 1511151](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1511151)）来允许这种不规范的行为。基于 chromium 的浏览器目前总是在 CORS 预检请求中发送 TLS 客户端证书（[Chrome bug 775438](https://bugs.chromium.org/p/chromium/issues/detail?id=775438)）。
 
 #### 附带身份凭证的请求与通配符
 
@@ -486,7 +486,7 @@ Access-Control-Request-Headers: <field-name>[, <field-name>]*
 - [启用 CORS：如何在服务器中添加 CORS 支持](https://enable-cors.org/server.html)
 - {{domxref("XMLHttpRequest")}}
 - [Fetch API](/zh-CN/docs/Web/API/Fetch_API)
-- [它会 CORS 吗？](https://httptoolkit.tech/will-it-cors)——交互的 CORS 解释器和生成器
+- [它会 CORS 吗？](https://httptoolkit.com/will-it-cors/)——交互的 CORS 解释器和生成器
 - [如何不带 CORS 的运行 Chrome 浏览器](https://alfilatov.com/posts/run-chrome-without-cors/)
 - [在所有（现代）浏览器中使用 CORS](https://www.telerik.com/blogs/using-cors-with-all-modern-browsers)
 - [Stack Overflow 面对常见问题的解答](https://stackoverflow.com/questions/43871637/no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe/43881141#43881141):

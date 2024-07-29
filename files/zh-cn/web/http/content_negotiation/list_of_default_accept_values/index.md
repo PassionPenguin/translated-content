@@ -64,7 +64,7 @@ l10n:
 | Firefox 3.6 及更高版本 [1] | `audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5` |
 | Safari、Chrome             | `*/*`                                                                                        |
 
-\[1] 参见 [bug 489071](https://bugzil.la/489071)。
+\[1] 参见 [bug 489071](https://bugzilla.mozilla.org/show_bug.cgi?id%3D489071)。
 
 ## script 的值
 
@@ -75,7 +75,7 @@ l10n:
 | Firefox [1]    | `*/*` |
 | Safari、Chrome | `*/*` |
 
-\[1] 参见 [bug 170789](https://bugzil.la/170789)。
+\[1] 参见 [bug 170789](https://bugzilla.mozilla.org/show_bug.cgi?id%3D170789)。
 
 ## CSS 样式表的值
 
@@ -88,4 +88,4 @@ l10n:
 | Opera 11.10    | `text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1` |
 | Konqueror 4.6  | `text/css,*/*;q=0.1`                                                                                                                |
 
-\[1] 参见 [bug 170789](https://bugzil.la/170789)。
+\[1] 参见 [bug 170789](https://bugzilla.mozilla.org/show_bug.cgi?id%3D170789)。

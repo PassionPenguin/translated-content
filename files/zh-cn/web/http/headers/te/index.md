@@ -28,11 +28,11 @@ TE: trailers, deflate;q=0.5
 ## 指令
 
 - `compress`
-  - : 这个名称代表采用了 [Lempel-Ziv-Welch](http://en.wikipedia.org/wiki/LZW) (LZW) 压缩算法的传输编码格式。
+  - : 这个名称代表采用了 [Lempel-Ziv-Welch](https://en.wikipedia.org/wiki/LZW) (LZW) 压缩算法的传输编码格式。
 - `deflate`
-  - : 这个名称代表采用了 [zlib](http://en.wikipedia.org/wiki/Zlib) 结构的传输编码格式。
+  - : 这个名称代表采用了 [zlib](https://en.wikipedia.org/wiki/Zlib) 结构的传输编码格式。
 - `gzip`
-  - : 这个名称代表采用了 [Lempel-Ziv coding](http://en.wikipedia.org/wiki/LZ77_and_LZ78#LZ77) (LZ77) 压缩算法，以及 32 位 CRC 校验的传输编码格式。
+  - : 这个名称代表采用了 [Lempel-Ziv coding](https://en.wikipedia.org/wiki/LZ77_and_LZ78#LZ77) (LZ77) 压缩算法，以及 32 位 CRC 校验的传输编码格式。
 - trailers
   - : 表示客户端期望在采用分块传输编码的响应中接收挂载字段。
 - q

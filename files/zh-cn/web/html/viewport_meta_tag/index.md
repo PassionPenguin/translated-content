@@ -83,7 +83,7 @@ slug: Web/HTML/Viewport_meta_tag
 
 ## 移动和平板电脑设备的常见视口大小
 
-如果你想知道各类移动和平板设备都有哪些视口宽度，这里有一个全面的[移动和平板视口尺寸](https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-viewports.html)列表。它提供的信息包括纵向和横向的视口宽度，以及物理屏幕尺寸、操作系统和设备的像素密度。
+如果你想知道各类移动和平板设备都有哪些视口宽度，这里有一个全面的[移动和平板视口尺寸](https://experienceleague.adobe.com/en/docs/target/using/experiences/vec/mobile-viewports)列表。它提供的信息包括纵向和横向的视口宽度，以及物理屏幕尺寸、操作系统和设备的像素密度。
 
 ## 规范
 

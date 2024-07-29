@@ -7,7 +7,7 @@ l10n:
 
 {{HTMLSidebar}}
 
-[_微格式_](https://microformats.org/)（microformat）是一种用于在 HTML 中嵌入语义和结构化数据的标准，它为社交网络应用程序、搜索引擎、聚合器和其他工具提供了一个 API。这些最小的 HTML 模式用于标记从基本到特定领域的信息实体，例如人物、组织、事件和地点。
+[_微格式_](https://dns-routing.net/?cqjpnl2jvq35ptv2bdng)（microformat）是一种用于在 HTML 中嵌入语义和结构化数据的标准，它为社交网络应用程序、搜索引擎、聚合器和其他工具提供了一个 API。这些最小的 HTML 模式用于标记从基本到特定领域的信息实体，例如人物、组织、事件和地点。
 
 - 要创建一个微格式对象，需要在 class 属性中使用 h-\* 类名。
 - 要给对象添加属性，需要在对象的后代元素上使用 p-\*、u-\*、dt-\*、e-\* 类名。
@@ -16,11 +16,11 @@ l10n:
 
 微格式 2（有时被称为 mf2）是对微格式的更新，它提供了一种比以往使用 RDFa 和 microdata 的方法更简单的 HTML 结构化语法和词汇表注释方式。这些以前的方法需要获得新的属性。
 
-对于微格式 2，[大多数语言都有开源的解析库](https://microformats.org/wiki/microformats2#Parsers)。
+对于微格式 2，[大多数语言都有开源的解析库](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/microformats2#Parsers)。
 
 ## 微格式的工作原理
 
-网页的作者可以向他们的 HTML 中添加微格式。例如，如果他们想要标识自己的身份，可以使用 [h-card](https://microformats.org/wiki/h-card) 例如：
+网页的作者可以向他们的 HTML 中添加微格式。例如，如果他们想要标识自己的身份，可以使用 [h-card](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/h-card) 例如：
 
 ### HTML 示例
 
@@ -50,10 +50,10 @@ l10n:
 
 - **“h-\*”用于根类名**，例如“h-card”、“h-entry”、“h-feed”等。这些顶级根类通常指示一个类型和相应的预期属性词汇表。例如：
 
-  - [h-card](https://microformats.org/wiki/h-card) 描述一个人或组织
-  - [h-entry](https://microformats.org/wiki/h-entry) 描述具有时间戳的在线内容，如博客帖子
-  - [h-feed](https://microformats.org/wiki/h-feed) 描述帖子的流或源
-  - 你可以在 [microformats2 wiki 上找到更多词汇表](https://microformats.org/wiki/microformats2#v2_vocabularies)。
+  - [h-card](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/h-card) 描述一个人或组织
+  - [h-entry](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/h-entry) 描述具有时间戳的在线内容，如博客帖子
+  - [h-feed](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/h-feed) 描述帖子的流或源
+  - 你可以在 [microformats2 wiki 上找到更多词汇表](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/microformats2#v2_vocabularies)。
 
 - **“p-\*”用于纯（文本）属性**，例如：“p-name”、“p-summary”
 
@@ -65,7 +65,7 @@ l10n:
 
 - **“dt-\*”用于 datetime 属性**，例如：“dt-start”、“dt-end”、“dt-bday”
 
-  - 特殊解析：time 元素 datetime 属性、[value-class-pattern](https://microformats.org/wiki/value-class-pattern) 和单独的日期时间值解析，以提高可读性。
+  - 特殊解析：time 元素 datetime 属性、[value-class-pattern](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/value-class-pattern) 和单独的日期时间值解析，以提高可读性。
 
 - **“e-\*”用于元素树属性**，其中整个包含的元素层次结构是值，例如“e-content”。“e-”前缀也可以通过“元素树（element tree）”、“嵌入式标记（embedded markup）”或“封装标记（encapsulated markup）”来记忆。
 
@@ -73,7 +73,7 @@ l10n:
 
 ### h-card
 
-[h-card](https://microformats.org/wiki/h-card) 微格式表示一个人或组织。
+[h-card](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/h-card) 微格式表示一个人或组织。
 
 每个属性的值都是使用 HTML 中的类属性定义的，任何元素都可以携带。
 
@@ -144,7 +144,7 @@ l10n:
 
 ### h-entry
 
-[h-entry](https://microformats.org/wiki/h-entry) 微格式表示 web 上的分集或有时间戳的内容。h-entry 通常与打算进行聚合的内容一起使用，例如博客帖子和简短笔记。
+[h-entry](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/h-entry) 微格式表示 web 上的分集或有时间戳的内容。h-entry 通常与打算进行聚合的内容一起使用，例如博客帖子和简短笔记。
 
 示例：h-entry 作为博客帖子：
 
@@ -268,7 +268,7 @@ l10n:
 
 ### h-feed
 
-[h-feed](https://microformats.org/wiki/h-feed) 是 [h-entry](https://microformats.org/wiki/h-entry) 帖子的流或消息来源，如主页或存档页面上的所有帖子，或摘要或其他简短帖子列表。
+[h-feed](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/h-feed) 是 [h-entry](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/h-entry) 帖子的流或消息来源，如主页或存档页面上的所有帖子，或摘要或其他简短帖子列表。
 
 #### 示例 h-feed
 
@@ -439,7 +439,7 @@ l10n:
 
 ## 微格式 rel 属性示例
 
-有一些微格式是通过使用特殊的 `rel=` 属性应用于页面的。这些微格式描述了当前文档和链接文档之间的关系。要获得完整的列表，请参阅微格式维基上的 [rel 属性](https://microformats.org/wiki/rel-values)。
+有一些微格式是通过使用特殊的 `rel=` 属性应用于页面的。这些微格式描述了当前文档和链接文档之间的关系。要获得完整的列表，请参阅微格式维基上的 [rel 属性](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/rel-values)。
 
 ### rel=author
 
@@ -473,6 +473,6 @@ l10n:
 
 - [类属性](/zh-CN/docs/Web/HTML/Global_attributes/class)
 - 维基百科上的[微格式](https://zh.wikipedia.org/wiki/微格式)
-- [微格式官网](https://microformats.org/)
-- 微格式官网中的[搜索引擎支持](https://microformats.org/wiki/search_engines)
+- [微格式官网](https://dns-routing.net/?cqjpnl2jvq35ptv2bdng)
+- 微格式官网中的[搜索引擎支持](https://dns-routing.net/?cqjpnl2jvq35ptv2bdngwiki/search_engines)
 - [IndieWebCamp 上的微格式](https://indieweb.org/microformats)

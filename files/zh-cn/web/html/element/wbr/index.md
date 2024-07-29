@@ -23,7 +23,7 @@ l10n:
 
 ## 示例
 
-[_雅虎风格指南_](https://web.archive.org/web/20121014054923/http://styleguide.yahoo.com/)建议在[在标点*之前*为 URL 换行](https://web.archive.org/web/20121105171040/http://styleguide.yahoo.com/editing/treat-abbreviations-capitalization-and-titles-consistently/website-names-and-addresses)，以避免在行尾留下可能被读者误认为是 URL 末尾的标点符号。
+[_雅虎风格指南_](https://web.archive.org/web/20121014054923/http:/styleguide.yahoo.com/)建议在[在标点*之前*为 URL 换行](https://web.archive.org/web/20121105171040/http:/styleguide.yahoo.com/editing/treat-abbreviations-capitalization-and-titles-consistently/website-names-and-addresses)，以避免在行尾留下可能被读者误认为是 URL 末尾的标点符号。
 
 ```html
 <p>

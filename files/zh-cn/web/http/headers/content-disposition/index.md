@@ -61,7 +61,7 @@ Content-Disposition: form-data; name="fieldName"; filename="filename.jpg"
 - `filename`
   - : 后面是要传送的文件的初始名称的字符串。这个参数总是可选的，而且不能盲目使用：路径信息必须舍掉，同时要进行一定的转换以符合服务器文件系统规则。这个参数主要用来提供展示性信息。当与 `Content-Disposition: attachment` 一同使用的时候，它被用作"保存为"对话框中呈现给用户的默认文件名。
 - `filename\*`
-  - : `filename` 和 `filename*` 两个参数的唯一区别在于，`filename*` 采用了 [RFC 5987](https://tools.ietf.org/html/rfc5987) 中规定的编码方式。当 `filename` 和 `filename*` 同时出现的时候，应该优先采用 `filename*`，假如二者都支持的话。
+  - : `filename` 和 `filename*` 两个参数的唯一区别在于，`filename*` 采用了 [RFC 5987](https://datatracker.ietf.org/doc/html/rfc5987) 中规定的编码方式。当 `filename` 和 `filename*` 同时出现的时候，应该优先采用 `filename*`，假如二者都支持的话。
 
 > **警告：** `filename` 参数后面的字符串应该始终用引号包裹。但由于兼容性原因，许多浏览器会尝试解析不带引号的带有空格的文件名。
 
@@ -108,7 +108,7 @@ value2
 
 ## 兼容性说明
 
-- 在 `filename` 和 `filename*` 两个参数同时出现的情况下，Firefox 5 可以更好地处理 `Content-Disposition` HTTP 响应标头。它会遍历所有提供的名称，假如 `filename*` 存在的话，就采用它的值，即使 `filename` 更靠前。之前的版本会采用出现在前面的参数的值，导致有更合适的名称而不被使用。参见 [Firefox bug 588781](https://bugzil.la/588781)。
+- 在 `filename` 和 `filename*` 两个参数同时出现的情况下，Firefox 5 可以更好地处理 `Content-Disposition` HTTP 响应标头。它会遍历所有提供的名称，假如 `filename*` 存在的话，就采用它的值，即使 `filename` 更靠前。之前的版本会采用出现在前面的参数的值，导致有更合适的名称而不被使用。参见 [Firefox bug 588781](https://bugzilla.mozilla.org/show_bug.cgi?id%3D588781)。
 - Firefox 82（及更高版本）和 Chrome 优先考虑 HTML [\<a> 元素](/zh-CN/docs/Web/HTML/Element/a)的 `download` 属性，而不是 `Content-Disposition：inline` 参数（对于[同源 URL](/zh-CN/docs/Web/Security/Same-origin_policy)）。早期的 Firefox 版本优先考虑标头，并会内联显示内容。
 
 ## 参见
