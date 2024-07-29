@@ -31,7 +31,7 @@ for (control variable; boolean conditional; counter) {
 }
 ```
 
-布尔值是以英国数学家[乔治·布尔](https://zh.wikipedia.org/wiki/乔治·布尔)命名的，他开创了数理逻辑领域。
+布尔值是以英国数学家[乔治·布尔](https://zh.wikipedia.org/wiki/乔治%C2%B7布尔)命名的，他开创了数理逻辑领域。
 
 上面是一个通用介绍。术语布尔在不同的语境下可能有更具体的含义。它可能指：
 

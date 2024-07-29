@@ -12,4 +12,4 @@ l10n:
 ## 参见
 
 - [渐进式 Web 应用程序](/zh-CN/docs/Web/Progressive_web_apps)
-- [响应式 Web 设计](https://docs.microsoft.com/archive/msdn-magazine/2011/november/html5-responsive-web-design)
+- [响应式 Web 设计](https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/november/html5-responsive-web-design)

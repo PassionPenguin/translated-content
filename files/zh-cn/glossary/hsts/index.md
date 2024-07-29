@@ -14,5 +14,5 @@ l10n:
 ## 参见
 
 - {{HTTPHeader("Strict-Transport-Security")}}
-- OWASP 文章：[HTTP 严格传输安全](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security)
+- OWASP 文章：[HTTP 严格传输安全](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)
 - 维基百科上的 [HTTP 严格传输安全](https://zh.wikipedia.org/wiki/HTTP严格传输安全)

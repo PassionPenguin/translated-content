@@ -11,5 +11,5 @@ l10n:
 
 ## 参见
 
-- HTML 规范：[WindowProxy 小节](https://html.spec.whatwg.org/multipage/window-object.html#the-windowproxy-exotic-object)
+- HTML 规范：[WindowProxy 小节](https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-windowproxy-exotic-object)
 - Stack Overflow 问题：[WindowProxy 与 Window 对象？](https://stackoverflow.com/questions/16092835/windowproxy-and-window-objects)

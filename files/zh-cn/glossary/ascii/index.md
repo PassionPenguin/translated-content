@@ -16,4 +16,4 @@ l10n:
 ## 参见
 
 - 维基百科上的 [ASCII](https://zh.wikipedia.org/wiki/ASCII)
-- IETF 上的 [RFC 20](https://datatracker.ietf.org/doc/rfc20)
+- IETF 上的 [RFC 20](https://datatracker.ietf.org/doc/rfc20/)

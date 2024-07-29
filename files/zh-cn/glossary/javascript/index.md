@@ -7,7 +7,7 @@ l10n:
 
 {{GlossarySidebar}}
 
-JavaScript（JS）是一种程序设计语言，通常用于客户端（client-side）的网页动态脚本，不过，也常通过像 [Node.js](https://nodejs.org/) 这样的运行时，用于{{Glossary("Server","服务器")}}端。
+JavaScript（JS）是一种程序设计语言，通常用于客户端（client-side）的网页动态脚本，不过，也常通过像 [Node.js](https://nodejs.org/enen) 这样的运行时，用于{{Glossary("Server","服务器")}}端。
 
 **不应该**把 JavaScript 和 [Java](https://zh.wikipedia.org/wiki/Java) 混淆。“_Java_”和“_JavaScript_”都是 Oracle 公司在美国和其他国家注册的商标，但是这两种程序设计语言在语法、语义和使用方面都明显不同。
 
@@ -19,7 +19,7 @@ Brendan Eich（彼时受雇于 Netscape）为服务器端构想的语言——Ja
 
 1996 年 11 月，Netscape 开始与 ECMA 国际化组织合作以使 JavaScript 成为行业标准。从此以后，标准化的 JavaScript 就被称为 ECMAScript 并由 ECMA-262 规范，其最新版（第十四版，ECMA2023）于 2023 年 6 月生效。
 
-最近，JavaScript 的流行程度，随着除浏览器外最流行的跨平台 JavaScript 运行环境——[Node.js](https://nodejs.org/) 平台的成功而大大提升。Node.js——使用 [Chrome 的 V8 JavaScript 引擎](<https://zh.wikipedia.org/wiki/V8_(JavaScript引擎)>)——使开发者可以在 PC 上使用 JavaScript 作为脚本语言以自动化处理和构建功能完备的 {{Glossary("HTTP")}} 和 {{Glossary("Web Sockets", " WebSocket")}} 服务器。
+最近，JavaScript 的流行程度，随着除浏览器外最流行的跨平台 JavaScript 运行环境——[Node.js](https://nodejs.org/enen) 平台的成功而大大提升。Node.js——使用 [Chrome 的 V8 JavaScript 引擎](<https://zh.wikipedia.org/wiki/V8_(JavaScript引擎)>)——使开发者可以在 PC 上使用 JavaScript 作为脚本语言以自动化处理和构建功能完备的 {{Glossary("HTTP")}} 和 {{Glossary("Web Sockets", " WebSocket")}} 服务器。
 
 ## 参见
 
@@ -27,6 +27,6 @@ Brendan Eich（彼时受雇于 Netscape）为服务器端构想的语言——Ja
 - MDN 的 [JavaScript 指南](/zh-CN/docs/Web/JavaScript/Guide)
 - [NodeSchool 的“javascripting”工坊](https://nodeschool.io/#workshoppers)
 - [codecademy.com 的 JavaScript 课程](https://www.codecademy.com/catalog/language/javascript)
-- [最新的 ECMAScript 标准](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+- [最新的 ECMAScript 标准](https://ecma-international.org/publications-and-standards/standards/ecma-262/)
 - MDN 的 [JavaScript 参考](/zh-CN/docs/Web/JavaScript/reference)
 - [_Eloquent JavaScript_](https://eloquentjavascript.net/) 一书

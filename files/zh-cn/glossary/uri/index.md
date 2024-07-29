@@ -14,4 +14,4 @@ l10n:
 ## 参见
 
 - 在维基百科上的 [URI](https://zh.wikipedia.org/wiki/URI)
-- [关于 URI 的 RFC 3986](https://tools.ietf.org/html/rfc3986)
+- [关于 URI 的 RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986)

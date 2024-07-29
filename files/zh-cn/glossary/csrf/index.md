@@ -22,4 +22,4 @@ l10n:
 ## 参见
 
 - 维基百科上的[跨站请求伪造](https://zh.wikipedia.org/wiki/跨站请求伪造)
-- [防御方法](<https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet>)
+- [防御方法](<https://owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF>)_Prevention_Cheat_Sheet>)

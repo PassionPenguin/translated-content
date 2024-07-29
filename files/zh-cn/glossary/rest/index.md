@@ -18,4 +18,4 @@ REST 的基本思想是通过公认的、与语言无关的、可靠标准化的
 - [restapitutorial.com](https://www.restapitutorial.com/)
 - [restcookbook.com](https://restcookbook.com/)
 - 维基百科上的[表现层状态转换](https://zh.wikipedia.org/wiki/表现层状态转换)
-- [REST 架构](https://www.service-architecture.com/articles/web-services/representational_state_transfer_rest.html)
+- [REST 架构](https://www.service-architecture.com/articles/web-services/representational-state-transfer-rest.html)

@@ -27,7 +27,7 @@ slug: Games
 
 ## 示例
 
-有关网页游戏示例的列表，请参阅[教程页面](/zh-CN/docs/Games/Tutorials)。此外，请访问 [games.mozilla.org](https://games.mozilla.org/) 以获得更多有用的资源！
+有关网页游戏示例的列表，请参阅[教程页面](/zh-CN/docs/Games/Tutorials)。此外，请访问 [games.mozilla.org](https://developer.mozilla.org/en-US/docs/Games) 以获得更多有用的资源！
 
 ## 参见
 

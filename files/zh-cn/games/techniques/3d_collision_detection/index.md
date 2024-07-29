@@ -166,5 +166,5 @@ MDN 上的相关文章：
 
 外部资源：
 
-- Gamasutra 上的[游戏的简单相交测试](https://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php)
+- Gamasutra 上的[游戏的简单相交测试](https://www.gamedeveloper.com/game-platforms)
 - 维基百科上的[包围体](https://zh.wikipedia.org/wiki/包围体)

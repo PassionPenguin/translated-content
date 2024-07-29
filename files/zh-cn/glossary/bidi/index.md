@@ -19,4 +19,4 @@ Unicode 标准为完整的双向文本支持提供了基础，并详细规定了
 
 - {{glossary("Unicode", "统一码")}}
 - 维基百科上的[双向文本](https://zh.wikipedia.org/wiki/雙向文稿)
-- [UAX#9：Unicode 双向文本算法](https://www.unicode.org/reports/tr9)
+- [UAX#9：Unicode 双向文本算法](https://www.unicode.org/reports/tr9/)

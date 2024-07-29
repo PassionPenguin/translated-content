@@ -77,7 +77,7 @@ function update() {}
 
 你可以用物理学来做更多的事情，例如添加`ball.body.gravity.y = 100;`你将设置球的垂直重力。因此，它将向上发射，但是由于重力的作用而下降。
 
-这种功能只是冰山一角 - 有各种功能和变量可以帮助你操纵物理对象。查看官方[物理文档，](http://phaser.io/docs#physics)并使用[Arcade](http://phaser.io/examples/v2/category/arcade-physics)和[P2](http://phaser.io/examples/v2/category/p2-physics)物理系统查看大量示例。
+这种功能只是冰山一角 - 有各种功能和变量可以帮助你操纵物理对象。查看官方[物理文档，](https://phaser.io/docs/2.6.2/index#physics)并使用[Arcade](https://samme.github.io/phaser-examples-mirror/)和[P2](https://samme.github.io/phaser-examples-mirror/)物理系统查看大量示例。
 
 ## 比较你的代码
 

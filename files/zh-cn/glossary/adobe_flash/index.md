@@ -14,6 +14,6 @@ l10n:
 ## 参见
 
 - [Adobe Flash 生命周期结束声明](https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update#gs.g8mmgf)
-- [告别 Chrome 中的 Flash](https://www.blog.google/products/chrome/saying-goodbye-flash-chrome/)
+- [告别 Chrome 中的 Flash](https://blog.google/products/chrome/saying-goodbye-flash-chrome/)
 - [Firefox 关于 Flash 生命周期结束的路线图](https://blog.mozilla.org/futurereleases/2017/07/25/firefox-roadmap-flash-end-life/)
 - [Microsoft Windows 移除 Flash 播放器](https://blogs.windows.com/msedgedev/2020/09/04/update-adobe-flash-end-support/)

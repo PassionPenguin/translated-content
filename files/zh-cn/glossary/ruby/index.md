@@ -14,5 +14,5 @@ Ruby 还是一种用于在 HTML 文档中提供发音信息的东亚文本注释
 ## 参见
 
 - 维基百科上的 [Ruby](https://zh.wikipedia.org/wiki/Ruby)
-- [Ruby 官网](https://www.ruby-lang.org)
+- [Ruby 官网](https://www.ruby-lang.org/)
 - [Ruby On Rails 官网](https://rubyonrails.org/)

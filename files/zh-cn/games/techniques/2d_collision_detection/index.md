@@ -132,7 +132,7 @@ circle2.bind("EnterFrame", function () {
 
 1. [分离轴定理（SAT）解释](https://www.sevenson.com.au/programming/sat/)
 2. [碰撞检测与响应](https://www.metanetsoftware.com/technique/tutorialA.html)
-3. [使用分离轴定理进行碰撞检测](https://gamedevelopment.tutsplus.com/tutorials/collision-detection-using-the-separating-axis-theorem--gamedev-169)
+3. [使用分离轴定理进行碰撞检测](https://code.tutsplus.com/collision-detection-using-the-separating-axis-theorem--gamedev-169t)
 4. [SAT（分离轴定理）](https://dyn4j.org/2010/01/sat/)
 5. [分离轴定理](https://programmerart.weebly.com/separating-axis-theorem.html)
 

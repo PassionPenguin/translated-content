@@ -109,7 +109,7 @@ l10n:
 - [IndexedDB](/zh-CN/docs/Web/API/IndexedDB_API)
   - : 一个强大的数据存储 API，用来在电脑或者设备上保存用户自己的数据。这是用来保存游戏的状态和其他最近的信息的好方法，这样在需要的时候不用每次重新下载。也可以用来让你的游戏在用户没有连接到网络的情况下也能继续玩（例如在飞机上的数小时）。
 - [JavaScript](/zh-CN/docs/Web/JavaScript)
-  - : JavaScript 是 web 所使用的编程语言，在现代浏览器中正在快速发展，而且一直在快速发展。使用它的力量为你的游戏编写代码，或者使用 [Emscripten](https://github.com/kripken/emscripten/wiki) 或 [Asm.js](http://asmjs.org/spec/latest/) 等技术轻松移植你现有的游戏。
+  - : JavaScript 是 web 所使用的编程语言，在现代浏览器中正在快速发展，而且一直在快速发展。使用它的力量为你的游戏编写代码，或者使用 [Emscripten](https://github.com/emscripten-core/emscripten/wiki) 或 [Asm.js](http://asmjs.org/spec/latest/) 等技术轻松移植你现有的游戏。
 - [指针锁定 API](/zh-CN/docs/Web/API/Pointer_Lock_API)
   - : 指针锁定 API 允许你在游戏界面中锁定鼠标或其他指针设备，以便你不用绝对定位光标就可以获得坐标变化值，从而准确地判断用户正在做什么，并且还可以防止用户意外地进入另一块屏幕或别的什么地方，从而导致误操作。
 - [SVG](/zh-CN/docs/Web/SVG)（可缩放矢量图形）

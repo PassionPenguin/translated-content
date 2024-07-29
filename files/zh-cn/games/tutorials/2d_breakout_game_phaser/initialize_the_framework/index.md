@@ -48,7 +48,7 @@ HTML 文档结构非常的简单，这个游戏将整个被渲染在框架生成
 
 下面我们将下载 Phaser 的代码，并应用到我们的 HTML 文档中。
 
-1. 进入 [Phaser 下载页面](http://phaser.io/download/stable).
+1. 进入 [Phaser 下载页面](https://phaser.io/download/stable).
 2. 选择最适合你的下载项 — 我们建议选择 min.js，因为它最小，而且你不太可能想去看它的源码
 3. 将 Phaser 的源码存到一个和 index.html 同级的 /js 的目录下
 4. 在上面第一个 {{htmlelement("script")}} 标签里写下 phaser 的路径。

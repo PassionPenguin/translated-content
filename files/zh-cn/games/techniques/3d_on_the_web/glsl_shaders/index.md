@@ -51,7 +51,7 @@ void main() {
 
 - 确保你在使用对 [WebGL](/zh-CN/docs/Web/API/WebGL_API) 有良好支持的现代浏览器，比如最新版的 Firefox 或 Chrome.
 - 创建一个目录保存你的实验。
-- 拷贝一份的 [压缩版的 Three.js 库](http://threejs.org/build/three.min.js) 到你的目录。
+- 拷贝一份的 [压缩版的 Three.js 库](https://threejs.org/build/three.min.js) 到你的目录。
 
 ### HTML 结构
 
@@ -140,7 +140,7 @@ void main() {
 // var basicMaterial = new THREE.MeshBasicMaterial({color: 0x0095DD});
 ```
 
-然后创建 [`shaderMaterial`](http://threejs.org/docs/#Reference/Materials/ShaderMaterial):
+然后创建 [`shaderMaterial`](https://threejs.org/docs/#Reference/Materials/ShaderMaterial):
 
 ```js
 var shaderMaterial = new THREE.ShaderMaterial({
@@ -180,4 +180,4 @@ Three.js 编译和运行这两个这两个着色器到材质所在的网格 (mes
 ## 其他链接
 
 - [学习 WebGL](http://learningwebgl.com/blog/?page_id=1217) — 基本 WebGL 知识
-- [WebGL 着色器和 WebGL 中的 GLSL 基础](http://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html) — GLSL 特定信息
+- [WebGL 着色器和 WebGL 中的 GLSL 基础](https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html) — GLSL 特定信息

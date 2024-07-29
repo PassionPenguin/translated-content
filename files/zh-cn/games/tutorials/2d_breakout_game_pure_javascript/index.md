@@ -17,7 +17,7 @@ slug: Games/Tutorials/2D_Breakout_game_pure_JavaScript
 
 ## 教程详情
 
-全部教程 — [MDN 消除小游戏](http://breakout.enclavegames.com/lesson10.html) 的各个版本我们正一起管理并托管到 [GitHub](https://github.com/end3r/Canvas-gamedev-workshop) 上：
+全部教程 — [MDN 消除小游戏](http://breakout.enclavegames.com/lesson10.html) 的各个版本我们正一起管理并托管到 [GitHub](https://github.com/end3r/Gamedev-Canvas-workshop) 上：
 
 1. [创建、绘制画布](/zh-CN/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it)
 2. [让球动起来](/zh-CN/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript/Move_the_ball)

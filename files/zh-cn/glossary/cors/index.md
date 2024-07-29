@@ -38,4 +38,4 @@ l10n:
 
 - [跨源资源共享（CORS）](/zh-CN/docs/Web/HTTP/CORS)
 - 维基百科上的[跨源资源共享](https://zh.wikipedia.org/wiki/跨來源資源共享)
-- [Fetch 规范](https://fetch.spec.whatwg.org)
+- [Fetch 规范](https://fetch.spec.whatwg.org/)

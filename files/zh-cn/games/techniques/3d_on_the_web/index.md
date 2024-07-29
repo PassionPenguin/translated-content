@@ -38,13 +38,13 @@ WebGL 2.0（基于 OpenGL ES 3.0）将在不久的将来发布，它将带来许
 
 虚拟现实的概念并不新鲜，但由于 [Meta Quest](https://www.meta.com/quest/)、[WebXR API](/zh-CN/docs/Web/API/WebXR_Device_API)（目前处于试验阶段）等硬件的进步，它正风靡网络，用于从 XR 硬件捕捉信息并将其提供给 JavaScript 应用程序使用。更多信息，请阅读 [WebXR——Web 虚拟和增强现实](/zh-CN/docs/Games/Techniques/3D_on_the_web/WebXR)。
 
-还有一篇[用 A-Frame 构建基本演示](/zh-CN/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame)的文章，向你展示了使用 [A-Frame](http://aframe.io/) 框架构建 3D 环境的虚拟现实是多么的简单。
+还有一篇[用 A-Frame 构建基本演示](/zh-CN/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame)的文章，向你展示了使用 [A-Frame](https://aframe.io//) 框架构建 3D 环境的虚拟现实是多么的简单。
 
 ## 库和框架的兴起
 
 编码原生 WebGL 是相当复杂的，从长远来看，随着项目更进一步，你会希望掌握它（请参阅我们的 [WebGL 文档](/zh-CN/docs/Web/API/WebGL_API)以开始学习）。在实际项目中，你可能也会使用框架来加快开发速度，并帮助你管理正在进行的项目。在 3D 游戏中使用框架还有助于优化性能，因为所使用的工具可以解决很多问题，这样就可以专注于构建游戏本身。
 
-最流行的 JavaScript 3D 库是 [Three.js](https://threejs.org/)，这是一个多用途工具，它使常见的 3D 技术更易于实现。还有其他一些流行的游戏开发库和框架也值得一看。[A-Frame](https://aframe.io)、[PlayCanvas](https://playcanvas.com/) 和 [Babylon.js](http://www.babylonjs.com/) 是其中最知名的几个，它们拥有丰富的文档、在线编辑器和活跃的社区。
+最流行的 JavaScript 3D 库是 [Three.js](https://threejs.org/)，这是一个多用途工具，它使常见的 3D 技术更易于实现。还有其他一些流行的游戏开发库和框架也值得一看。[A-Frame](https://aframe.io/)、[PlayCanvas](https://playcanvas.com/) 和 [Babylon.js](https://www.babylonjs.com/) 是其中最知名的几个，它们拥有丰富的文档、在线编辑器和活跃的社区。
 
 ### 使用 A-Frame 搭建一个基础演示
 
@@ -87,7 +87,7 @@ PlayCanvas 是一个流行的 GitHub 开源 3D WebGL 游戏引擎，有在线编
 - [Three.js](https://threejs.org/)
 - [PlayCanvas](https://playcanvas.com/)
 - [Babylon.js](https://www.babylonjs.com/)
-- [A-Frame](https://aframe.io/)
+- [A-Frame](https://aframe.io//)
 
 ### 教程
 

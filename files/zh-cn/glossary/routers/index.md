@@ -21,6 +21,6 @@ Web **路由器**有三种定义：
 
 对于应用层中的单页应用，大多数流行的单页应用框架都有其路由库：
 
-- [Angular router](https://angular.io/guide/router)
-- [React router](https://reactrouter.com/)
-- [Vue router](https://router.vuejs.org)
+- [Angular router](https://v17.angular.io/guide/router)
+- [React router](https://reactrouter.com/en/main)
+- [Vue router](https://router.vuejs.org/)

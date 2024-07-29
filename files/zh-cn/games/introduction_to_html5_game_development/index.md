@@ -20,9 +20,9 @@ slug: Games/Introduction_to_HTML5_Game_Development
 | **Function**   | **Technology**                                                                                                                                                                                                                                                      |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Audio**      | [Web Audio API](/zh-CN/docs/Web_Audio_API)                                                                                                                                                                                                                          |
-| **Graphics**   | [WebGL](/zh-CN/docs/WebGL) ([OpenGL ES](http://www.khronos.org/opengles/) 2.0)                                                                                                                                                                                      |
+| **Graphics**   | [WebGL](/zh-CN/docs/WebGL) ([OpenGL ES](https://www.khronos.org/opengles/) 2.0)                                                                                                                                                                                      |
 | **Input**      | [Touch events](/zh-CN/docs/DOM/Touch_events), [Gamepad API](/zh-CN/docs/API/Gamepad/Using_Gamepad_API), device sensors, [WebRTC](/zh-CN/docs/WebRTC), [Full Screen API](/zh-CN/docs/DOM/Using_fullscreen_mode), [Pointer Lock API](/zh-CN/docs/WebAPI/Pointer_Lock) |
-| **Language**   | [JavaScript](/zh-CN/docs/JavaScript) (or C/C++ using [Emscripten](https://github.com/kripken/emscripten/wiki) to compile to JavaScript)                                                                                                                             |
+| **Language**   | [JavaScript](/zh-CN/docs/JavaScript) (or C/C++ using [Emscripten](https://github.com/emscripten-core/emscripten/wiki) to compile to JavaScript)                                                                                                                             |
 | **Networking** | [WebRTC](/zh-CN/docs/WebRTC) and/or [WebSockets](/zh-CN/docs/WebSockets)                                                                                                                                                                                            |
 | **Storage**    | [IndexedDB](/zh-CN/docs/IndexedDB) or the "cloud"                                                                                                                                                                                                                   |
 | **Web**        | [HTML](/zh-CN/docs/HTML), [CSS](/zh-CN/docs/CSS), [SVG](/zh-CN/docs/SVG), [Social API](/zh-CN/docs/Social_API) (and much more!)                                                                                                                                     |
@@ -38,7 +38,7 @@ slug: Games/Introduction_to_HTML5_Game_Development
 - [IndexedDB](/zh-CN/docs/IndexedDB)
   - : 将用户数据存储在他们自己的计算机或设备上。
 - [JavaScript](/zh-CN/docs/JavaScript)
-  - : 快速的网页编程语言为你的游戏编写代码。轻松移植你现有的游戏 [Emscripten](https://github.com/kripken/emscripten/wiki) 或 [Asm.js](http://asmjs.org/spec/latest/)。
+  - : 快速的网页编程语言为你的游戏编写代码。轻松移植你现有的游戏 [Emscripten](https://github.com/emscripten-core/emscripten/wiki) 或 [Asm.js](http://asmjs.org/spec/latest/)。
 - [Pointer Lock API](/zh-CN/docs/WebAPI/Pointer_Lock)
   - : 在游戏界面中锁定鼠标或其他指针设备。
 - [SVG](/zh-CN/docs/SVG) (Scalable Vector Graphics)
@@ -50,7 +50,7 @@ slug: Games/Introduction_to_HTML5_Game_Development
 - [Web Audio API](/zh-CN/docs/Web_Audio_API)
   - : 实时控制音频的播放，合成和操纵。
 - [WebGL](/zh-CN/docs/WebGL)
-  - : 创建高性能，硬件加速的 3D（和 2D）图形。[OpenGL ES](http://www.khronos.org/opengles/) 2.0.
+  - : 创建高性能，硬件加速的 3D（和 2D）图形。[OpenGL ES](https://www.khronos.org/opengles/) 2.0.
 - [WebRTC](/zh-CN/docs/WebRTC)
   - : 实时通讯控制音频和视频数据，包括电话会议，并在两个用户之间来回传送其他应用数据，如聊天。
 - [WebSockets](/zh-CN/docs/WebSockets)

@@ -44,7 +44,7 @@ function ballHitPaddle(ball, paddle) {
 - 如果砖块被迅速摧毁，并排排列（或你选择的其他奖金），则可获得额外的奖励积分。
 - 创建不同砖块布局的水平。
 
-一定要检查越来越多的[示例](http://examples.phaser.io/)列表和[官方文档](http://docs.phaser.io/)，如果你需要任何帮助，请访问[HTML5 Gamedevs 论坛](http://www.html5gamedevs.com/forum/14-phaser/)。
+一定要检查越来越多的[示例](http://examples.phaser.io/)列表和[官方文档](http://docs.phaser.io/)，如果你需要任何帮助，请访问[HTML5 Gamedevs 论坛](https://phaser.discourse.group/)。
 
 你也可以返回[本教程系列的索引页](/zh-CN/docs/Games/Workflows/2D_breakout_game_Phaser)。
 

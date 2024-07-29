@@ -19,6 +19,6 @@ l10n:
 
 ## 参见
 
-- OWASP 文章：[中间人攻击](https://www.owasp.org/index.php/Man-in-the-middle_attack)
+- OWASP 文章：[中间人攻击](https://owasp.org/www-community/attacks/Man-in-the-middle_attack)
 - PortSwigger：[最新的中间人攻击新闻](https://portswigger.net/daily-swig/mitm)
 - 维基百科：[中间人攻击](https://zh.wikipedia.org/zh-cn/中间人攻击)

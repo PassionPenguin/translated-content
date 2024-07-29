@@ -12,4 +12,4 @@ l10n:
 ## 参见
 
 - [MIME 类型](/zh-CN/docs/Glossary/MIME_type)
-- 维基百科上的[多用途互联网邮件扩展](https://zh.wikipedia.org/wiki/多用途互联网邮件扩展)
+- 维基百科上的[多用途互联网邮件扩展](https://zh.wikipedia.org/wiki/多用途互聯網郵件擴展)

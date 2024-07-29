@@ -12,5 +12,5 @@ l10n:
 ## 参见
 
 - [重绘](/zh-CN/docs/Glossary/Repaint)
-- [尽可能减少浏览器重排](https://developer.google.cn/speed/docs/insights/browser-reflow)（developer.google.cn）
+- [尽可能减少浏览器重排](https://developers.google.cn/speed/docs/insights/browser-reflow?hl%3Dzh-cn)（developer.google.cn）
 - [了解浏览器中的重排和重绘](https://dev.to/gopal1996/understanding-reflow-and-repaint-in-the-browser-1jbg)（dev.to，2020）

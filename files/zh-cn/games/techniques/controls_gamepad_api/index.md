@@ -5,7 +5,7 @@ slug: Games/Techniques/Controls_Gamepad_API
 
 {{GamesSidebar}}
 
-这篇文章着眼于使用 Gamepad API 为网页游戏实现一个有效的跨浏览器控制系统，可以让你使用端游控制器来控制你的网页游戏。Hungry Fridge，就是 [Enclave Games](http://enclavegames.com/) 以此制作的游戏。
+这篇文章着眼于使用 Gamepad API 为网页游戏实现一个有效的跨浏览器控制系统，可以让你使用端游控制器来控制你的网页游戏。Hungry Fridge，就是 [Enclave Games](https://enclavegames.com/) 以此制作的游戏。
 
 ## 网页游戏的控制
 
@@ -13,7 +13,7 @@ slug: Games/Techniques/Controls_Gamepad_API
 
 ## API 状态与浏览器支持
 
-[Gamepad API](http://www.w3.org/TR/gamepad/) 在 W3C 的进程中仍然还是工作草案的状态，这意味着它的实现方法可能还会出现变动，但是就目前来说[浏览器的支持性](http://caniuse.com/gamepad)相当不错。Firefox 29+ 和 Chrome 35+ 对其支持得非常好。Opera 在版本 22+ 对 API 进行了支持 (一点也不奇怪，因为他们现在使用 Chrome 的引擎了。) 并且微软最近在 Edge 中对 API 实现了支持，也就是说四大主流浏览器现在都支持 Gamepad API。
+[Gamepad API](https://www.w3.org/TR/gamepad/) 在 W3C 的进程中仍然还是工作草案的状态，这意味着它的实现方法可能还会出现变动，但是就目前来说[浏览器的支持性](https://caniuse.com/gamepad)相当不错。Firefox 29+ 和 Chrome 35+ 对其支持得非常好。Opera 在版本 22+ 对 API 进行了支持 (一点也不奇怪，因为他们现在使用 Chrome 的引擎了。) 并且微软最近在 Edge 中对 API 实现了支持，也就是说四大主流浏览器现在都支持 Gamepad API。
 
 ## 哪种控制器最好？
 
@@ -23,7 +23,7 @@ slug: Games/Techniques/Controls_Gamepad_API
 
 ## 实例分析：Hungry Fridge
 
-[GitHub Game Off II](https://github.com/blog/1674-github-game-off-ii) 比赛举行于 2013 年 11 月，[Enclave Games](http://enclavegames.com/) 决定参加比赛。比赛的主题为“改变”(change)，所以他们提交了这样一个游戏——你需要通过点击来喂食饥饿的冰箱健康的食物 (苹果、萝卜、莴苣) 并避开“坏”的食物 (啤酒、汉堡、披萨) 。其中会有倒计时会改变接下来几秒内冰箱想吃的东西，所以你又要小心动作又要块。你可以[在这里尝试 Hungry Fridge](http://enclavegames.com/games/hungry-fridge/)。
+[GitHub Game Off II](https://github.blog/open-source/gaming/github-game-off-ii/) 比赛举行于 2013 年 11 月，[Enclave Games](https://enclavegames.com/) 决定参加比赛。比赛的主题为“改变”(change)，所以他们提交了这样一个游戏——你需要通过点击来喂食饥饿的冰箱健康的食物 (苹果、萝卜、莴苣) 并避开“坏”的食物 (啤酒、汉堡、披萨) 。其中会有倒计时会改变接下来几秒内冰箱想吃的东西，所以你又要小心动作又要块。你可以[在这里尝试 Hungry Fridge](https://enclavegames.com/games/hungry-fridge/)。
 
 第二个隐藏的“改变”的实现是可以从单纯静态的冰箱改变成涡轮驱动、射击和吞食的机器能力。当你连接控制器后，游戏会有很明显的改变 (饥饿冰箱会变成超级涡轮的饥饿冰箱) 并且你可以使用 Gamepad API 来控制装甲冰箱。你需要击落食物但是你仍然需要找到冰箱目前想吃的食物，否则你会失去能量。
 
@@ -239,4 +239,4 @@ enum GamepadMappingType {
 
 ## 总结
 
-Gamepad API 非常易于开发。现在它比以往更容易向浏览器提供游戏主机的体验而不需要任何插件。你可以直接在你的浏览器中游玩完整的 [Hungry Fridge](http://enclavegames.com/games/hungry-fridge/) 游戏。你可以从 [Firefox Marketplace](https://marketplace.firefox.com/app/hungry-fridge) 中安装，或者可以在 [Gamepad API Content Kit](https://github.com/EnclaveGames/Hungry-Fridge) 中查看示例源代码。
+Gamepad API 非常易于开发。现在它比以往更容易向浏览器提供游戏主机的体验而不需要任何插件。你可以直接在你的浏览器中游玩完整的 [Hungry Fridge](https://enclavegames.com/games/hungry-fridge/) 游戏。你可以从 [Firefox Marketplace](https://marketplace.firefox.com/app/hungry-fridge) 中安装，或者可以在 [Gamepad API Content Kit](https://github.com/EnclaveGames/Hungry-Fridge) 中查看示例源代码。

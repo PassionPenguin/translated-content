@@ -13,5 +13,5 @@ l10n:
 
 - [MDN 上的 XPath 文档](/zh-CN/docs/Web/XPath)
 - [XPath 规范](https://www.w3.org/TR/xpath-30/)
-- [官方网站](https://www.w3.org/TR/?tag=xml)
+- [官方网站](https://www.w3.org/TR/?tags[0]%3Dxml)
 - 维基百科上的 [XPath](https://zh.wikipedia.org/wiki/XPath)

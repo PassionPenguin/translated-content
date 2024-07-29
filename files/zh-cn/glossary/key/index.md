@@ -15,7 +15,7 @@ l10n:
 
 ## 参见
 
-- 维基百科上的[柯克霍夫原则](https://zh.wikipedia.org/wiki/柯克霍夫原则)
+- 维基百科上的[柯克霍夫原则](https://zh.wikipedia.org/wiki/柯克霍夫原則)
 - [MDN 术语表](/zh-CN/docs/Glossary)
 
   - {{Glossary("Block cipher mode of operation", "分组密码工作模式")}}

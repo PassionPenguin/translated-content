@@ -11,7 +11,7 @@ l10n:
 
 ## 案例分析
 
-我们将使用 [Captain Rogers: Battle at Andromeda](http://rogers2.enclavegames.com/demo/) 演示版作为示例。
+我们将使用 [Captain Rogers: Battle at Andromeda](https://rogers2.enclavegames.com/demo/) 演示版作为示例。
 
 ![Captain Rogers: Battle at Andromeda——包含 Enclave Games 和 Blackmoon Design 徽标、罗杰的太空船和游戏名称的游戏封面。](captainrogers2-cover.png)
 

@@ -27,7 +27,7 @@ document.body.appendChild(script);
 
 ## 什么时候用 async 或者不用？
 
-两种常见的情况下是脚本是**非**异步的（由[HTML 规范](https://www.w3.org/TR/html5/scripting-1.html)定义）
+两种常见的情况下是脚本是**非**异步的（由[HTML 规范](https://html.spec.whatwg.org/multipage/scripting.html)定义）
 
 ```js
 <script async>code();</script>
