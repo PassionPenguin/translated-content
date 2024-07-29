@@ -13,4 +13,4 @@ AJAX（Asynchronous {{glossary("JavaScript")}} And {{glossary("XML")}}、非同�
 - {{DOMxRef("Fetch API")}}
 - [使用 Fetch API](/zh-TW/docs/Web/API/Fetch_API/Using_Fetch)
 - 維基百科的 [AJAX](https://zh.wikipedia.org/wiki/AJAX)
-- [Synchronous vs. Asynchronous Communications](http://peoplesofttutorial.com/difference-between-synchronous-and-asynchronous-messaging/)
+- [Synchronous vs. Asynchronous Communications](https://peoplesofttutorial.com/difference-between-synchronous-and-asynchronous-messaging/)

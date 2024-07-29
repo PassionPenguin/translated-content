@@ -13,4 +13,4 @@ slug: Glossary/Key
 
 ### 技術參考
 
-- 維基百科上的 [Kerckhoffs's principle](http://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
+- 維基百科上的 [Kerckhoffs's principle](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)

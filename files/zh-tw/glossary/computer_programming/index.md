@@ -14,4 +14,4 @@ slug: Glossary/Computer_Programming
 ### 基礎知識
 
 - 維基百科上的 [程式設計](https://zh.wikipedia.org/wiki/程式設計)
-- 維基百科上的 [程式語言列表](https://zh.wikipedia.org/wiki/程式語言列表)
+- 維基百科上的 [程式語言列表](https://zh.wikipedia.org/wiki/编程语言列表)

@@ -32,7 +32,7 @@ var defaultReference = new Default();
 
 ### 基本知識
 
-- 維基百科的 [構造器](https://zh.wikipedia.org/wiki/構造器)
+- 維基百科的 [構造器](https://zh.wikipedia.org/wiki/构造器)
 
 ### 技術資訊
 

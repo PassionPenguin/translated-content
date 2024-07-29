@@ -48,7 +48,7 @@ Cache-Control: no-cache
 
 ### 基礎知識
 
-- HTTP 規範中 [可緩存](https://tools.ietf.org/html/rfc7231#section-4.2.3) 的定義。
+- HTTP 規範中 [可緩存](https://datatracker.ietf.org/doc/html/rfc7231#section-4.2.3) 的定義。
 
 ### 技術資訊
 

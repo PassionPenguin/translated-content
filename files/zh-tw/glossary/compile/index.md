@@ -15,4 +15,4 @@ slug: Glossary/Compile
 
 ### 學習資源
 
-- [在 StackOverflow 上的學習資料清單](https://stackoverflow.com/a/1672/133203)
+- [在 StackOverflow 上的學習資料清單](https://stackoverflow.com/questions/1669/learning-to-write-a-compiler/1672#1672)

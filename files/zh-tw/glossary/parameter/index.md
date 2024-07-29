@@ -24,7 +24,7 @@ slug: Glossary/Parameter
 
 ### 一般常識篇
 
-- [Difference between _parameter_ and _argument_](http://en.wikipedia.org/wiki/Parameter_%28computer_programming%29#Parameters_and_arguments) on Wikipedia
+- [Difference between _parameter_ and _argument_](<https://en.wikipedia.org/wiki/Parameter_(computer_programming)#Parameters_and_arguments>) on Wikipedia
 
 ### 技術參考
 

@@ -17,4 +17,4 @@ slug: Glossary/Progressive_Enhancement
 
 ## 參見
 
-- 維基百科的[漸進增強](https://zh.wikipedia.org/wiki/漸進增強)
+- 維基百科的[漸進增強](https://zh.wikipedia.org/wiki/渐进增强)

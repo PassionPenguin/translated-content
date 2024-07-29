@@ -16,4 +16,4 @@ slug: Glossary/Browsing_context
 ### 技術參考
 
 - [WHATWG 上的瀏覽上下文](https://html.spec.whatwg.org/multipage/browsers.html#windows)
-- [W3C 上的瀏覽上下文](https://w3c.github.io/html/browsers.html#sec-browsing-contexts)
+- [W3C 上的瀏覽上下文](https://html.spec.whatwg.org/multipage/browsers.html#sec-browsing-contexts)

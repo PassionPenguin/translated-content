@@ -17,7 +17,7 @@ slug: Games/Tutorials/2D_Breakout_game_pure_JavaScript
 
 ## 課程細節
 
-所有課程和其他不同版本的 [MDN 打磚塊遊戲](http://breakout.enclavegames.com/lesson10.html)，均可至 [GitHub 找到：](https://github.com/end3r/Canvas-gamedev-workshop)
+所有課程和其他不同版本的 [MDN 打磚塊遊戲](http://breakout.enclavegames.com/lesson10.html)，均可至 [GitHub 找到：](https://github.com/end3r/Gamedev-Canvas-workshop)
 
 1. [建立 Canvas 並繪製](/zh-TW/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it)
 2. [讓球移動](/zh-TW/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Move_the_ball)

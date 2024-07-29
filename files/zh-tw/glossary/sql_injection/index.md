@@ -66,4 +66,4 @@ $id = $_GET['id']
 ## 參見
 
 - 維基百科上的 [SQL 注入](https://zh.wikipedia.org/wiki/SQL注入)
-- OWASP（Open Web Application Security Project）上的[解釋 SQL 注入](https://www.owasp.org/index.php/SQL_Injection)
+- OWASP（Open Web Application Security Project）上的[解釋 SQL 注入](https://owasp.org/www-community/attacks/SQL_Injection)

@@ -12,4 +12,4 @@ slug: Glossary/SGML
 ## 了解更多
 
 - 維基百科上的 [SGML](https://zh.wikipedia.org/wiki/SGML) 條目
-- [SGML 簡介](http://www.isgmlug.org/)
+- [SGML 簡介](http://isgmlug.org/)

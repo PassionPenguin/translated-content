@@ -34,4 +34,4 @@ slug: Glossary/CORS
 
 - MDN 上的 [HTTP 存取控制（CORS）](/zh-TW/docs/Web/HTTP/CORS)
 - 維基百科上的[跨來源資源共享](https://zh.wikipedia.org/wiki/跨來源資源共享)
-- [Fetch 規範](https://fetch.spec.whatwg.org)
+- [Fetch 規範](https://fetch.spec.whatwg.org/)

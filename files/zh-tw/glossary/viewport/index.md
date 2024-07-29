@@ -13,6 +13,6 @@ slug: Glossary/Viewport
 
 - 維基百科上的[視角](https://zh.wikipedia.org/wiki/视口)
 - [What is viewport in HTML](https://stackoverflow.com/questions/2939693/what-is-viewport-in-html) on Stackoverflow
-- [Get viewport/window size (width and height) with javascript](https://andylangton.co.uk/blog/development/get-viewportwindow-size-width-and-height-javascript)
+- [Get viewport/window size (width and height) with javascript](https://andylangton.co.uk/web-development/get-viewport-size-width-and-height-with-javascript/)
 - [A tale of two viewports](https://www.quirksmode.org/mobile/viewports.html) (Quirksmode)
 - [VisualViewport API](/zh-TW/docs/Web/API/Visual_Viewport_API)

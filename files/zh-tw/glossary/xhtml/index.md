@@ -14,12 +14,12 @@ slug: Glossary/XHTML
 
 關於 XHTML 的更多資訊，請見︰
 
-- [Wikipedia 的 XHTML 條目](http://zh.wikipedia.org/wiki/XHTML)
+- [Wikipedia 的 XHTML 條目](https://zh.wikipedia.org/wiki/XHTML)
 - [Sending XHTML as text/html considered harmful](https://www.hixie.ch/advocacy/xhtml)
 
 ### 工具
 
-- [Markup validation service (W3C)](http://validator.w3.org/)
+- [Markup validation service (W3C)](https://validator.w3.org/)
 - [Standards-Compliant Authoring Tools](/zh-TW/Standards-Compliant_Authoring_Tools)
 
 ### 參閱

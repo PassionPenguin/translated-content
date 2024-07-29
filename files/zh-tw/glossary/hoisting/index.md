@@ -5,7 +5,7 @@ slug: Glossary/Hoisting
 
 {{GlossarySidebar}}
 
-提升（Hoisting）是在 [ECMAScript® 2015 Language Specification](https://www.ecma-international.org/ecma-262/6.0/index.html) 裡面找不到的專有名詞。它是一種釐清 JaveScript 在執行階段內文如何運行的思路（尤其是在創建和執行階段）。然而，提升一詞可能會引起誤解：例如，提升看起來是單純地將變數和函式宣告，移動到程式的區塊頂端，然而並非如此。變數和函數的宣告會在編譯階段就被放入記憶體，但實際位置和程式碼中完全一樣。
+提升（Hoisting）是在 [ECMAScript® 2015 Language Specification](https://262.ecma-international.org/6.0/index.html) 裡面找不到的專有名詞。它是一種釐清 JaveScript 在執行階段內文如何運行的思路（尤其是在創建和執行階段）。然而，提升一詞可能會引起誤解：例如，提升看起來是單純地將變數和函式宣告，移動到程式的區塊頂端，然而並非如此。變數和函數的宣告會在編譯階段就被放入記憶體，但實際位置和程式碼中完全一樣。
 
 ## 了解更多
 
@@ -65,6 +65,6 @@ y = 2; // 初始化 y
 
 ### 技術參考
 
-- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/) - Udemy.com Course
+- [JavaScript: Understanding the Weird Parts](https://www.udemy.com/course/understand-javascript/) - Udemy.com Course
 - [var statement](/zh-TW/docs/Web/JavaScript/Reference/Statements/var) - MDN
 - [function statement](/zh-TW/docs/Web/JavaScript/Reference/Statements/function) - MDN

@@ -12,6 +12,6 @@ slug: Glossary/Regular_expression
 ## 參見
 
 - 維基百科上的[正規表示式](https://zh.wikipedia.org/wiki/正则表达式)
-- [互動教學](http://regexone.com/)
-- [正規表示式視覺化](http://regexper.com/)
+- [互動教學](https://regexone.com/)
+- [正規表示式視覺化](https://regexper.com/)
 - [在 JavaScript 編寫正規表示式](/zh-TW/docs/Web/JavaScript/Guide/Regular_expressions)

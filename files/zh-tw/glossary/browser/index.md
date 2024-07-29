@@ -18,5 +18,5 @@ slug: Glossary/Browser
 
 - [Mozilla Firefox](https://www.mozilla.org/zh-TW/firefox/features/)
 - [Google Chrome](https://www.google.com/chrome/)
-- [Microsoft Internet Explorer](https://windows.microsoft.com/zh-TW/internet-explorer/)
+- [Microsoft Internet Explorer](https://support.microsoft.com/zh-tw/windows/internet-explorer-help-23360e49-9cd3-4dda-ba52-705336cc0de2)
 - [Opera Browser](https://www.opera.com/)

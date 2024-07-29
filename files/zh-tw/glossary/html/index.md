@@ -34,9 +34,9 @@ HTML 文件的副檔名通常存為 `.htm` 或是 `.html`。它們會放在{{Glo
 ### 學習 HTML
 
 - [我們的 HTML 教學](/zh-TW/docs/Learn/HTML)
-- [codecademy.com 的網路課程](https://www.codecademy.com/en/tracks/web)
+- [codecademy.com 的網路課程](https://www.codecademy.com/catalog/subject/web-development)
 
 ### 技術參考
 
 - [HTML 的 CSS 文件](/zh-TW/docs/Web/HTML)
-- [HTML 規範](https://www.w3.org/TR/html5/)
+- [HTML 規範](https://html.spec.whatwg.org/multipage/)

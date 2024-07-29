@@ -11,6 +11,6 @@ Blink 是一套開放原始碼的瀏覽器排版引擎，由 Google 作為 Chrom
 
 ### 一般知識
 
-- Blink 專案[首頁](https://www.chromium.org/blink)
-- 維基百科上的 [Blink](http://en.wikipedia.org/wiki/Blink_%28layout_engine%29) 條目
+- Blink 專案[首頁](https://www.chromium.org/blink/)
+- 維基百科上的 [Blink](<https://en.wikipedia.org/wiki/Blink_(layout_engine)>) 條目
 - Blink 的[常見問題](https://www.chromium.org/blink/developer-faq)

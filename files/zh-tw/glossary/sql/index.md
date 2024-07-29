@@ -15,5 +15,5 @@ slug: Glossary/SQL
 
 ### 了解 SQL
 
-- [Learn SQL on sqlzoo.net](http://sqlzoo.net/wiki/SQL_Tutorial)
-- [Tutorial Point](http://www.tutorialspoint.com/sql/)
+- [Learn SQL on sqlzoo.net](https://sqlzoo.net/wiki/SQL_Tutorial)
+- [Tutorial Point](https://www.tutorialspoint.com/sql/)

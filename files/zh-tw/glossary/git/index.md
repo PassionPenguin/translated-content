@@ -11,5 +11,5 @@ slug: Glossary/Git
 
 ### 一般知識
 
-- [內含文件的官方網站](http://git-scm.com/)
+- [內含文件的官方網站](https://git-scm.com/)
 - [GitHub](https://github.com/)，以 Git 為基礎的圖像式專案託管服務

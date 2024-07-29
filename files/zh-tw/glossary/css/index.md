@@ -38,4 +38,4 @@ p {
 
 ### 深入了解 CSS
 
-- [codecademy.com 的課程](https://www.codecademy.com/en/tracks/web)
+- [codecademy.com 的課程](https://www.codecademy.com/catalog/subject/web-development)

@@ -20,6 +20,6 @@ slug: Glossary/Routers
 
 針對應用層，訪間熱門的 SPA 框架都有自己的路由器函式庫：
 
-- [Angular router](https://angular.io/guide/router)
+- [Angular router](https://v17.angular.io/guide/router)
 - [React router](https://reacttraining.com/react-router)
-- [Vue router](https://router.vuejs.org)
+- [Vue router](https://router.vuejs.org/)

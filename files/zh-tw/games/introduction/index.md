@@ -16,7 +16,7 @@ slug: Games/Introduction
 | **音效**     | [Web Audio API](/zh-TW/docs/Web/API/Web_Audio_API)                                                                                                                                                                                                                                        |
 | **圖形**     | [WebGL](/zh-TW/docs/Web/API/WebGL_API) ([OpenGL ES](https://www.khronos.org/opengles/) 2.0)                                                                                                                                                                                               |
 | **輸入**     | [觸控事件](/zh-TW/docs/Web/API/Touch_events)、[Gamepad API](/zh-TW/docs/Web/API/Gamepad_API/Using_the_Gamepad_API)、裝置感測器、[WebRTC](/zh-TW/docs/Web/API/WebRTC_API)、[Full Screen API](/zh-TW/docs/Web/API/Fullscreen_API)、[Pointer Lock API](/zh-TW/docs/Web/API/Pointer_Lock_API) |
-| **程式語言** | [JavaScript](/zh-TW/docs/Web/JavaScript)（或 C/C++ 可透過[Emscripten](https://github.com/kripken/emscripten/wiki) 編譯為 JavaScript）                                                                                                                                                     |
+| **程式語言** | [JavaScript](/zh-TW/docs/Web/JavaScript)（或 C/C++ 可透過[Emscripten](https://github.com/emscripten-core/emscripten/wiki) 編譯為 JavaScript）                                                                                                                                                     |
 | **網路連線** | [WebRTC](/zh-TW/docs/Web/API/WebRTC_API) 及/或 [WebSockets](/zh-TW/docs/Web/API/WebSockets_API)                                                                                                                                                                                           |
 | **儲存功能** | [IndexedDB](/zh-TW/docs/Web/API/IndexedDB_API) 或雲端                                                                                                                                                                                                                                     |
 | **Web**      | [HTML](/zh-TW/docs/Web/HTML)、[CSS](/zh-TW/docs/Web/CSS)、[SVG](/zh-TW/docs/Web/SVG)（還有更多！）                                                                                                                                                                                        |
@@ -49,7 +49,7 @@ slug: Games/Introduction
 - [IndexedDB](/zh-TW/docs/Web/API/IndexedDB_API)
   - : 此強大的資料儲存 API，可將使用者的資料保存於電腦或其他裝置之上，亦可於本端儲存遊戲資料與其他資訊；如此可避免每次都需再下載資料一次。即使目前處於無網路連線的狀態 (例如飛機上長達數個小時的旅程...)，也同樣可以玩遊戲 。
 - [JavaScript](/zh-TW/docs/Web/JavaScript)
-  - : JavaScript 就是 Web 上使用的程式語言，可於現有瀏覽器上達到絕佳速度，且目前還在不斷的提升。你可寫出遊戲的程式碼，或可透過如 [Emscripten](https://github.com/kripken/emscripten/wiki) 或 [Asm.js](http://asmjs.org/spec/latest/) 的技術，輕鬆移植現有的遊戲。
+  - : JavaScript 就是 Web 上使用的程式語言，可於現有瀏覽器上達到絕佳速度，且目前還在不斷的提升。你可寫出遊戲的程式碼，或可透過如 [Emscripten](https://github.com/emscripten-core/emscripten/wiki) 或 [Asm.js](http://asmjs.org/spec/latest/) 的技術，輕鬆移植現有的遊戲。
 - [Pointer Lock API](/zh-TW/docs/Web/API/Pointer_Lock_API)
   - : Pointer Lock API 可鎖定遊戲介面中的滑鼠或其他指向裝置。取代之前的絕對游標定位，現可接收座標差而得到更精確的使用者動作，並避免使用者突然在他處輸入，卻遺漏了重要動作。
 - [SVG](/zh-TW/docs/Web/SVG) (Scalable Vector Graphics，[可縮放向量圖形](/zh-TW/docs/Web/SVG))
