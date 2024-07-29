@@ -254,7 +254,7 @@ checkboxes.forEach((checkbox) => {
 
 ## 无横线的分数
 
-有些数学概念有时会使用类似分数的表示法，例如[二项式系数](https://zh.wikipedia.org/wiki/组合)或[勒让德符号](https://zh.wikipedia.org/wiki/勒让德符号)。对于这种不绘制横线的类似分数的表示法，可以在 `<mfrac>` 元素上附加 `linethickness="0"` 属性进行标记：
+有些数学概念有时会使用类似分数的表示法，例如[二项式系数](https://zh.wikipedia.org/wiki/組合)或[勒让德符号](https://zh.wikipedia.org/wiki/勒让德符号)。对于这种不绘制横线的类似分数的表示法，可以在 `<mfrac>` 元素上附加 `linethickness="0"` 属性进行标记：
 
 ```html hidden
 <link

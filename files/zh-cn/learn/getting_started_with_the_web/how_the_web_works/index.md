@@ -89,9 +89,9 @@ slug: Learn/Getting_started_with_the_web/How_the_Web_works
 ## 扩展阅读
 
 - [互联网是如何工作的](/zh-CN/docs/learn/How_the_Internet_works)
-- [HTTP — 一种应用级协议](https://dev.opera.com/articles/http-basic-introduction/)
-- [HTTP：让我们开始吧！](https://dev.opera.com/articles/http-lets-get-it-on/)
-- [HTTP：响应代码](https://dev.opera.com/articles/http-response-codes/)
+- [HTTP — 一种应用级协议](https://blogs.opera.com/news/)
+- [HTTP：让我们开始吧！](https://blogs.opera.com/news/)
+- [HTTP：响应代码](https://blogs.opera.com/news/)
 
 ## 感谢
 

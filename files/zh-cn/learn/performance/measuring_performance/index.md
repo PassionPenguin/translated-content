@@ -53,7 +53,7 @@ slug: Learn/Performance/Measuring_performance
 
 性能报告包含有关用户在页面上显示任何内容之前需要等待多长时间、显示页面需要下载多少字节等信息。它还会让你知道测量的值是否被认为是好的或坏的。
 
-[webpagetest.org](https://webpagetest.org) 是另一个可以自动测试你的网站并返回有用指标的工具示例。
+[webpagetest.org](https://www.webpagetest.org/) 是另一个可以自动测试你的网站并返回有用指标的工具示例。
 
 尝试现在使用这些工具运行你最喜欢的网站，查看分数如何。
 

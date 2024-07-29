@@ -18,7 +18,7 @@ slug: Learn/Getting_started_with_the_web/What_will_your_website_look_like
 3. 背景颜色用什么，或者，用高级一点的话来说，**你的网站外观是什么样的**？使用哪种字体比较合适：正式的、卡通的、粗体还是瘦体？
 
 > [!NOTE]
-> 复杂的网站需要更详细的指引，深入到颜色、字体、页面上元素的间距、适当的书写风格等等以及其他细节。这有时被称为设计指南、设计系统或品牌手册，可以在 [Firefox Photon 设计系统](https://design.firefox.com/photon/)中找到一个示例。
+> 复杂的网站需要更详细的指引，深入到颜色、字体、页面上元素的间距、适当的书写风格等等以及其他细节。这有时被称为设计指南、设计系统或品牌手册，可以在 [Firefox Photon 设计系统](https://acorn.firefox.com/photon/)中找到一个示例。
 
 ## 绘制草图
 

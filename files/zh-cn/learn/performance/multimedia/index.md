@@ -36,7 +36,7 @@ slug: Learn/Performance/Multimedia
 
 对于一般网站而言，[其带宽的 51% 来自图像，其次是视频占 25%](https://discuss.httparchive.org/t/state-of-the-web-top-image-optimization-strategies/1367)，因此可以说处理和优化多媒体内容非常重要。
 
-你需要考虑数据使用情况。许多人使用的是有限流量套餐，甚至是按使用量付费，每兆字节都要付费。这不仅仅是新兴市场的问题。截至 2018 年，[英国仍有 24% 的用户使用按量付费的套餐](https://www.ofcom.org.uk/__data/assets/pdf_file/0021/113169/Technology-Tracker-H1-2018-data-tables.pdf)。
+你需要考虑数据使用情况。许多人使用的是有限流量套餐，甚至是按使用量付费，每兆字节都要付费。这不仅仅是新兴市场的问题。截至 2018 年，[英国仍有 24% 的用户使用按量付费的套餐](https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/technology-research/technology-tracker/technology-tracker-h1-2018-data-tables?v%3D323142)。
 
 你还需要考虑内存问题，因为许多移动设备的 RAM 有限。请记住，当图像下载后，它们需要存储在内存中。
 

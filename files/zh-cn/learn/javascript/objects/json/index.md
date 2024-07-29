@@ -30,7 +30,7 @@ JavaScript 对象表示法（JSON）是用于将结构化数据表示为 JavaScr
 
 ## 什么是 JSON？
 
-{{glossary("JSON")}} 是一种按照 JavaScript 对象语法的数据格式，这是[道格拉斯·克罗克福特](https://zh.wikipedia.org/wiki/道格拉斯·克羅克福特)推广的。虽然它是基于 JavaScript 语法，但它独立于 JavaScript，这也是为什么许多程序环境能够读取（解读）和生成 JSON。
+{{glossary("JSON")}} 是一种按照 JavaScript 对象语法的数据格式，这是[道格拉斯·克罗克福特](https://zh.wikipedia.org/wiki/道格拉斯%C2%B7克羅克福特)推广的。虽然它是基于 JavaScript 语法，但它独立于 JavaScript，这也是为什么许多程序环境能够读取（解读）和生成 JSON。
 
 JSON 可以作为一个对象或者字符串存在，前者用于解读 JSON 中的数据，后者用于通过网络传输 JSON 数据。这不是一个大事件——JavaScript 提供一个全局的 可访问的 [JSON](/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON) 对象来对这两种数据进行转换。
 

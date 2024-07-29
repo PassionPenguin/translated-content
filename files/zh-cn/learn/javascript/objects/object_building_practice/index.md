@@ -415,7 +415,7 @@ Ball.prototype.update = function () {
    - 对于每个小球，我们都要检查其他的小球是否和当前这个小球相撞了。为了达到此目的，我们构造另外一个 `for` 循环来遍历 `balls[]` 数组中的小球。
    - 在循环里面，我们使用一个 `if` 语句来检查遍历的小球是否是当前的小球。我们不希望检测到一个小球撞到了自己！为了达到这个目的，我们需要检查当前小球 (即正在调用 `collisionDetect` 方法的球) 是否和被循环到的小球 (`for` 循环检测中的当前遍历所引用的球) 是不是同一个。我们使用 `!` 来否定判断，因此只有两个小球**不是**同一个时，条件判断中的代码才会运行。
    - 我们使用了一个常见的算法来检测两个小球是否相撞了，两个小球中心的距离是否小于两个小球的半径之和。这些会在 [2D 碰撞检测](/zh-CN/docs/Games/Techniques/2D_collision_detection) 介绍地更加详细。
-   - 如果检测到了碰撞，会运行 `if` 语句中的代码。我们会将两个小球的颜色都设置成随机的一种。我们也可以将这步操作变得复杂一点，比如让两个小球弹开，那样需要植入更加复杂的代码。像这样的物理场景，有以下专门的库比如 [PhysicsJS](http://wellcaffeinated.net/PhysicsJS/)，[matter.js](http://brm.io/matter-js/)，[Phaser](http://phaser.io/) 等。
+   - 如果检测到了碰撞，会运行 `if` 语句中的代码。我们会将两个小球的颜色都设置成随机的一种。我们也可以将这步操作变得复杂一点，比如让两个小球弹开，那样需要植入更加复杂的代码。像这样的物理场景，有以下专门的库比如 [PhysicsJS](https://wellcaffeinated.net/PhysicsJS/)，[matter.js](https://brm.io/matter-js/)，[Phaser](https://phaser.io/) 等。
 
 2. 我们也需要在每一帧动画中都调用这个函数，因此在 `balls[i].update()` 加上下面的代码：
 

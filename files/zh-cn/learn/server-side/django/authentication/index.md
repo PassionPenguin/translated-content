@@ -683,7 +683,7 @@ class MyView(PermissionRequiredMixin, View):
 ## 也可以参考
 
 - [Django 中的用户授权](https://docs.djangoproject.com/en/2.0/topics/auth/) (Django 文档)
-- [使用 Django 授权系统 (默认)](https://docs.djangoproject.com/en/2.0/topics/auth/default//)(Django 文档)
+- [使用 Django 授权系统 (默认)](https://docs.djangoproject.com/en/2.0/topics/auth/default/)(Django 文档)
 - [介绍从基于类别的视图 > 到使用装饰器的基于类别的视图](https://docs.djangoproject.com/en/2.0/topics/class-based-views/intro/#decorating-class-based-views) (Django 文档)
 
 {{PreviousMenuNext("Learn/Server-side/Django/Sessions", "Learn/Server-side/Django/Forms", "Learn/Server-side/Django")}}

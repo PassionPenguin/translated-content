@@ -32,7 +32,7 @@ JavaScript 相当简洁，却非常灵活。开发者们基于 JavaScript 核心
 然而，JavaScript 比 HTML 和 CSS 学习起来更加复杂一点，所以必须一步一个脚印地学习。首先，来看看如何在页面中添加一些基本的 JavaScript 脚本来建造一个“Hello world!”示例（[一切始于 Hello World](https://zh.wikipedia.org/wiki/Hello_World)）。
 
 > [!WARNING]
-> 如果你没有完成之前的课程实践，可下载 [上一章节示例的压缩包](https://github.com/roy-tian/learning-area/raw/master/extras/getting-started-web/beginner-html-site-styled.zip) 并在本地解压作出发点。
+> 如果你没有完成之前的课程实践，可下载 [上一章节示例的压缩包](https://raw.githubusercontent.com/roy-tian/learning-area/master/extras/getting-started-web/beginner-html-site-styled.zip) 并在本地解压作出发点。
 
 1. 首先，打开你的测试站点，创建一个名为 `scripts` 的文件夹。然后在其中创建一个名为 main.js 的文件。
 2. 下一步，在 `index.html` 文件\</body> 标签前的新行添加以下代码。
@@ -79,7 +79,7 @@ let myVariable;
 ```
 
 > [!NOTE]
-> 行末的分号表示当前语句结束，不过只有在单行内需要分割多条语句时，这个分号才是必须的。然而，一些人认为每条语句末尾加分号是一种好的风格。分号使用规则的更多细节请参阅 [JavaScript 分号使用指南](http://news.codecademy.com/your-guide-to-semicolons-in-javascript/)（英文页面）。
+> 行末的分号表示当前语句结束，不过只有在单行内需要分割多条语句时，这个分号才是必须的。然而，一些人认为每条语句末尾加分号是一种好的风格。分号使用规则的更多细节请参阅 [JavaScript 分号使用指南](https://www.codecademy.com/resources/blog/your-guide-to-semicolons-in-javascript/)（英文页面）。
 
 > [!NOTE]
 > 几乎任何内容都可以作为变量名，但还是有一些限制（请参阅 [变量命名规则](/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_Types#变量)）。如果你不确定，还可以 [验证变量名](https://mothereff.in/js-variables) 是否有效。

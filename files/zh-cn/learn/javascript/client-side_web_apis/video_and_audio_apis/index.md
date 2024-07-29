@@ -69,7 +69,7 @@ HTML 提供了用于在文档中嵌入富媒体的元素：{{htmlelement("video"
 
 ### 入门
 
-想要使用这个示例的代码来入门，请下载 [media-player-start.zip](https://github.com/mdn/learning-area/raw/main/javascript/apis/video-audio/start/media-player-start.zip) 并解压到你的硬盘上的一个新建目录里。如果想要下载[示例仓库](https://github.com/mdn/learning-area)，它位于 `javascript/apis/video-audio/start/` 路径下。
+想要使用这个示例的代码来入门，请下载 [media-player-start.zip](https://raw.githubusercontent.com/mdn/learning-area/main/javascript/apis/video-audio/start/media-player-start.zip) 并解压到你的硬盘上的一个新建目录里。如果想要下载[示例仓库](https://github.com/mdn/learning-area)，它位于 `javascript/apis/video-audio/start/` 路径下。
 
 下载并解压之后，如果你加载这个 HTML，你将会看到一个通过浏览器原生播放控件渲染的非常一般的 HTML 视频播放器。
 
@@ -382,7 +382,7 @@ button:before {
 
 #### 更新已用时间
 
-我们要实现的媒体播放器的最后一块是显示的时间。为此，我们将执行一个函数，这样每次在 `<video>` 元素上触发 [`timeupdate`](/zh-CN/docs/Web/API/HTMLMediaElement/timeupdate_event) 事件时更新时间显示。此该事件触发的频率取决于你的浏览器，CPU 电源等（[详见这个 StackOverflow 帖文](http://stackoverflow.com/questions/9678177/how-often-does-the-timeupdate-event-fire-for-an-html5-video)）。
+我们要实现的媒体播放器的最后一块是显示的时间。为此，我们将执行一个函数，这样每次在 `<video>` 元素上触发 [`timeupdate`](/zh-CN/docs/Web/API/HTMLMediaElement/timeupdate_event) 事件时更新时间显示。此该事件触发的频率取决于你的浏览器，CPU 电源等（[详见这个 StackOverflow 帖文](https://stackoverflow.com/questions/9678177/how-often-does-the-timeupdate-event-fire-for-an-html5-video)）。
 
 在代码下方添加 `addEventListener()`：
 

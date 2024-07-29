@@ -283,7 +283,7 @@ btn.onclick = displayMessage();
 
    你能看到我们现在的函数稍微有了点用 (不是非常有用) ，一个小的新功能被我们写出来了（当然，函数可以做很多你想的到的和想不到的事）！
 
-> **备注：** 如果你写这个例子遇到了困难，在这里查看免费的代码 [完整版本的代码](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-stage-4.html) (或者[在线运行的完整代码](http://mdn.github.io/learning-area/javascript/building-blocks/functions/function-stage-4.html)), 也可以向我们寻求帮助。
+> **备注：** 如果你写这个例子遇到了困难，在这里查看免费的代码 [完整版本的代码](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-stage-4.html) (或者[在线运行的完整代码](https://mdn.github.io/learning-area/javascript/building-blocks/functions/function-stage-4.html)), 也可以向我们寻求帮助。
 
 ## 技能测试！
 

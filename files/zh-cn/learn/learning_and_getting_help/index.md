@@ -264,7 +264,7 @@ ul {
 
 找到一个社区是件好事，如果你试图帮助别人回答他们的问题，也可以自己在上面提出问题，你会得到很多尊重。其他好论坛包括：
 
-- [MDN Discourse](https://discourse.mozilla.org/c/mdn)
+- [MDN Discourse](https://discourse.mozilla.org/c/mdn/236)
 - [Sitepoint Forums](https://www.sitepoint.com/community/)
 - [webdeveloper.com Forums](https://www.webdeveloper.com/)
 

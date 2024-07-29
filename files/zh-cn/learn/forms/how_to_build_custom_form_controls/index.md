@@ -656,7 +656,7 @@ slug: Learn/Forms/How_to_build_custom_form_controls
 - 脚本没有加载：这是最常见的情形，特别是在移动端上，在那些网络非常不可靠的地方。
 - 脚本是有问题的：你应该总是考虑这种可能性。
 - 脚本和第三方脚本冲突：这可能会由用户使用的跟踪脚本和一些书签工具引发。
-- 脚本与一个浏览器的扩展冲突，或者受其影响。（比如 Firefox 的 [NoScript](https://addons.mozilla.org/fr/firefox/addon/noscript/) 扩展或者 Chrome 的 [ScriptBlock](https://chrome.google.com/webstore/detail/scriptblock/hcdjknjpbnhdoabbngpmfekaecnpajba) 扩展）。
+- 脚本与一个浏览器的扩展冲突，或者受其影响。（比如 Firefox 的 [NoScript](https://addons.mozilla.org/fr/firefox/addon/noscript/) 扩展或者 Chrome 的 [ScriptBlock](https://chromewebstore.google.com/detail/scriptblock/hcdjknjpbnhdoabbngpmfekaecnpajba) 扩展）。
 - 用户在使用旧版浏览器，而且你需要的一些特性没有被支持。当你使用一些最新的 API 时，这种情况会经常发生。
 - 在 JavaScript 完全下载、解析和执行前，用户已经开始与内容进行交互。
 

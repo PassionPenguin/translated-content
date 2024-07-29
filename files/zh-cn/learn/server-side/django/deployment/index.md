@@ -67,7 +67,7 @@ slug: Learn/Server-side/Django/Deployment
 
 ## 选择托管服务提供商
 
-已知有超过 100 个托管服务提供商，积极支持或与 Django 合作（你可以在 [Djangofriendly hosts](http://djangofriendly.com/hosts/) 主机上，找到相当广泛的列表）。这些供应商提供不同类型的环境（IaaS，PaaS），以及不同价格、不同级别的计算和网络资源。
+已知有超过 100 个托管服务提供商，积极支持或与 Django 合作（你可以在 [Djangofriendly hosts](https://djangofriendly.com/hosts/) 主机上，找到相当广泛的列表）。这些供应商提供不同类型的环境（IaaS，PaaS），以及不同价格、不同级别的计算和网络资源。
 
 选择主机时需要考虑的一些事项：
 
@@ -81,7 +81,7 @@ slug: Learn/Server-side/Django/Deployment
 - 额外的好处。一些提供商将提供免费域名和 SSL 证书支持，否则你将不得不为此支付费用。
 - 你所依赖的“免费”等级，是否会随着时间的推移而过期，以及迁移到更昂贵等级的成本，是否意味着，你最好一开始就使用其他服务！
 
-当你刚开始时，好消息是，有很多网站提供了“免费”的“评估”、“开发者”或“爱好者”计算环境。这些始终是资源相当受限/有限的环境，你需要注意，它们可能会在广告期限后过期。然而，它们非常适合在真实环境中，测试低流量站点，并且可以在你的站点变得更加繁忙时，付费取得更多资源，并轻松迁移。此类别中的热门选择包括[Heroku](https://www.heroku.com/), [Python Anywhere](https://www.pythonanywhere.com/), [Amazon Web Services](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html), [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/app-service/) 等。
+当你刚开始时，好消息是，有很多网站提供了“免费”的“评估”、“开发者”或“爱好者”计算环境。这些始终是资源相当受限/有限的环境，你需要注意，它们可能会在广告期限后过期。然而，它们非常适合在真实环境中，测试低流量站点，并且可以在你的站点变得更加繁忙时，付费取得更多资源，并轻松迁移。此类别中的热门选择包括[Heroku](https://www.heroku.com/), [Python Anywhere](https://www.pythonanywhere.com/), [Amazon Web Services](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html), [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/app-service/linux/) 等。
 
 许多提供商还有“基本”层，可提供更多有用的计算能力和更少的限制。[Digital Ocean](https://www.digitalocean.com/) 和 [Python Anywhere](https://www.pythonanywhere.com/) ，就是流行的托管服务提供商的例子，提供相对便宜的基本计算等级（每月 5 美元到 10 美元不等）。
 
@@ -141,7 +141,7 @@ python3 manage.py check --deploy
 
 ## 示例：在 Heroku 上安装 LocalLibrary
 
-本节提供了如何在 [Heroku PaaS cloud](http://heroku.com) 云上安装 LocalLibrary 的实际演示。
+本节提供了如何在 [Heroku PaaS cloud](https://www.heroku.com/) 云上安装 LocalLibrary 的实际演示。
 
 ### 为何选择 Heroku？
 
@@ -173,7 +173,7 @@ Heroku 在一个或多个“[Dynos](https://devcenter.heroku.com/articles/dynos)
 - **runtime.txt**：要使用的编程语言和版本。
 - **requirements.txt**: Python 组件依赖项，包括 Django。
 - **Procfile**: 启动 Web 应用程序要执行的进程列表。对于 Django，这通常是 Gunicorn Web 应用程序服务器（带有 `.wsgi` 脚本）。
-- **wsgi.py**: 在 Heroku 环境中，调用我们的 Django 应用程序的 [WSGI](http://wsgi.readthedocs.io/en/latest/what.html) 配置。
+- **wsgi.py**: 在 Heroku 环境中，调用我们的 Django 应用程序的 [WSGI](https://wsgi.readthedocs.io/en/latest/what.html) 配置。
 
 开发人员使用特殊的客户端应用程序/终端与 Heroku 交互，这很像 Unix bash 脚本。这允许你上传存在 git 储存库中的代码，检查正在运行的进程，查看日志，设置配置变量等等！
 
@@ -275,7 +275,7 @@ Heroku 与 **git** 源代码版本控制系统紧密集成，使用它来上传/
 
 > **备注：** 这是备份你的“vanilla”项目的一个好时机 - 虽然我们将在以下部分中，进行的一些更改，可能对有些人在任何平台（或开发）上的部署有用，对其他人可能没有用。
 >
-> 执行此操作的最佳方法，是使用 git 来管理你的修订。使用 git，你不仅可以回到特定的旧版本，而且可以在生产变更的单独“分支”中进行维护，并选择在生产和开发分支之间移动的任何更改。[学习 Git](https://help.github.com/articles/good-resources-for-learning-git-and-github/) 非常值得，但超出了本主题的范围。
+> 执行此操作的最佳方法，是使用 git 来管理你的修订。使用 git，你不仅可以回到特定的旧版本，而且可以在生产变更的单独“分支”中进行维护，并选择在生产和开发分支之间移动的任何更改。[学习 Git](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources) 非常值得，但超出了本主题的范围。
 >
 > 最简单的方法是将文件复制到另一个位置。使用最符合你对 git 了解的方法！
 
@@ -295,7 +295,7 @@ web: gunicorn locallibrary.wsgi --log-file -
 
 #### Gunicorn
 
-[Gunicorn](http://gunicorn.org/) 是推荐的 HTTP 服务器，用于 Heroku 上的 Django（如上面的 Procfile 中所述）。它是一个用于 WSGI 应用程序的纯 Python HTTP 服务器，可以在一个 dyno 中，运行多个 Python 并发进程（有关更多信息，请参阅[使用 Gunicorn 部署 Python 应用程序](https://devcenter.heroku.com/articles/python-gunicorn)）。
+[Gunicorn](https://gunicorn.org/) 是推荐的 HTTP 服务器，用于 Heroku 上的 Django（如上面的 Procfile 中所述）。它是一个用于 WSGI 应用程序的纯 Python HTTP 服务器，可以在一个 dyno 中，运行多个 Python 并发进程（有关更多信息，请参阅[使用 Gunicorn 部署 Python 应用程序](https://devcenter.heroku.com/articles/python-gunicorn)）。
 
 虽然在开发期间，我们不需要 Gunicorn 为我们的 LocalLibrary 应用程序提供服务，但我们将安装它，以便它成为我们在远程服务器上设置 Heroku 的 [requirements](#requirements) 的一部分。
 
@@ -311,7 +311,7 @@ pip3 install gunicorn
 
 处理这种情况的 Heroku 机制，是使用[数据库加载项](https://elements.heroku.com/addons#data-stores)，并使用来自加载项设置的环境[配置变量](https://devcenter.heroku.com/articles/config-vars)的信息，来配置 Web 应用程序。有很多数据库选项，但我们将使用 Heroku postgres 数据库的[爱好者等级](https://devcenter.heroku.com/articles/heroku-postgres-plans#plan-tiers)，因为它是免费的，被 Django 所支持，并在使用免费的爱好者 dyno 计划等级时，会自动添加到新的 Heroku 应用程序。
 
-使用名为`DATABASE_URL`的配置变量，将数据库连接信息提供给 Web dyno。Heroku 建议开发人员使用 [dj-database-url](https://warehouse.python.org/project/dj-database-url/) 套件包，以解析`DATABASE_URL`环境变量，并自动将其转换为 Django 所需的配置格式，而不是将此信息硬编码到 Django 中。除了安装 dj-database-url 套件包之外，我们还需要安装[psycopg2](http://initd.org/psycopg/)，因为 Django 需要它与 Postgres 数据库进行交互。
+使用名为`DATABASE_URL`的配置变量，将数据库连接信息提供给 Web dyno。Heroku 建议开发人员使用 [dj-database-url](https://pypi.org/project/dj-database-url/) 套件包，以解析`DATABASE_URL`环境变量，并自动将其转换为 Django 所需的配置格式，而不是将此信息硬编码到 Django 中。除了安装 dj-database-url 套件包之外，我们还需要安装[psycopg2](http://initd.org/psycopg/)，因为 Django 需要它与 Postgres 数据库进行交互。
 
 ##### dj-database-url (Django database configuration from environment variable)
 
@@ -381,15 +381,15 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 ```
 
-我们实际上，将使用名为 [WhiteNoise](https://warehouse.python.org/project/whitenoise/) 的库来提供文件，我们将在下一节中安装和配置。
+我们实际上，将使用名为 [WhiteNoise](https://pypi.org/project/whitenoise/) 的库来提供文件，我们将在下一节中安装和配置。
 
 有关更多信息，请参阅 [Django 和静态资产](https://devcenter.heroku.com/articles/django-assets)（Heroku 文档）。
 
 #### Whitenoise
 
-有许多方法可以在生产环境中提供静态文件（我们在前面的部分中看到了相关的 Django 设置）。Heroku 建议在生产环境中使用 [WhiteNoise](https://warehouse.python.org/project/whitenoise/) 项目，直接从 Gunicorn 提供静态资产。
+有许多方法可以在生产环境中提供静态文件（我们在前面的部分中看到了相关的 Django 设置）。Heroku 建议在生产环境中使用 [WhiteNoise](https://pypi.org/project/whitenoise/) 项目，直接从 Gunicorn 提供静态资产。
 
-> **备注：** Heroku 会在上传你的应用程序后，自动调用 collectstatic 并准备静态文件，以供 WhiteNoise 使用。查看 [WhiteNoise](https://warehouse.python.org/project/whitenoise/) 文档，了解其工作原理以及实现，为什么是提供这些文件的相对有效方法。
+> **备注：** Heroku 会在上传你的应用程序后，自动调用 collectstatic 并准备静态文件，以供 WhiteNoise 使用。查看 [WhiteNoise](https://pypi.org/project/whitenoise/) 文档，了解其工作原理以及实现，为什么是提供这些文件的相对有效方法。
 
 设置 WhiteNoise 以便在项目中使用的步骤如下：
 
@@ -422,7 +422,7 @@ MIDDLEWARE = [
 
 ```python
 # Simplified static file serving.
-# https://warehouse.python.org/project/whitenoise/
+# https://pypi.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ```
 

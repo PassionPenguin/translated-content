@@ -329,7 +329,7 @@ th {
 
 但假设你无法通过视觉关联这些数据呢？那么你应该如何阅读上述的表格？视力受损的用户经常使用一个屏幕阅读设备来为他们读出网页上的信息。对于盲人来说，阅读简单的文字没有什么问题，但是要理解一张表格的内容，这就有一些难度了。然而，通过适当的标记，我们可以用程序化的关联来取代视觉关联。
 
-> **备注：** 根据[世界卫生组织 2017 年的数据](http://www.who.int/zh/news-room/fact-sheets/detail/blindness-and-visual-impairment)，大约有 2.53 亿人患有视觉障碍。
+> **备注：** 根据[世界卫生组织 2017 年的数据](https://www.who.int/zh/news-room/fact-sheets/detail/blindness-and-visual-impairment)，大约有 2.53 亿人患有视觉障碍。
 
 本篇文章提供了更一步的技术来使表格的无障碍性尽可能地提高。
 

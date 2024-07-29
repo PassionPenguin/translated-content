@@ -71,6 +71,6 @@ slug: Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content
 
 ## 测验
 
-如果你是在课堂上进行这个测验，你可以把作品交给导师或教授去打分了。如果你是在自学，也可以在 [本节测验的讨论页](https://discourse.mozilla.org/t/structuring-a-page-of-content-assignment/24678) 或者 [Mozilla 聊天室](https://wiki.mozilla.org/IRC) 的 [#mdn](irc://irc.mozilla.org/mdn) 频道取得帮助。要自己先尝试，作弊是不会有收获的！
+如果你是在课堂上进行这个测验，你可以把作品交给导师或教授去打分了。如果你是在自学，也可以在 [本节测验的讨论页](https://discourse.mozilla.org/t/structuring-a-page-of-content-assessment/24678) 或者 [Mozilla 聊天室](https://wiki.mozilla.org/IRC) 的 [#mdn](irc://irc.mozilla.org/mdn) 频道取得帮助。要自己先尝试，作弊是不会有收获的！
 
 {{PreviousMenu("Learn/HTML/Introduction_to_HTML/Marking_up_a_letter", "Learn/HTML/Introduction_to_HTML")}}

@@ -749,7 +749,7 @@ self.addEventListener("fetch", function (e) {
 });
 ```
 
-这就是我们简单的服务工作者。你可以使用它们进行更多的负载 - 有关详细信息，请参阅[服务工作者手册](https://github.com/mdn/serviceworker-cookbook/)。感谢 Paul Kinlan 在他的文章中[添加服务工作者和离线到你的 Web 应用程序](https://developers.google.com/web/fundamentals/codelabs/offline/)，这启发了这个简单的例子。
+这就是我们简单的服务工作者。你可以使用它们进行更多的负载 - 有关详细信息，请参阅[服务工作者手册](https://github.com/mdn/serviceworker-cookbook/)。感谢 Paul Kinlan 在他的文章中[添加服务工作者和离线到你的 Web 应用程序](https://developers.google.com/codelabs/pwa-training/pwa03--going-offline)，这启发了这个简单的例子。
 
 #### 测试离线示例
 

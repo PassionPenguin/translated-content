@@ -175,7 +175,7 @@ and HTML Apps." />
 
 ![来自 MDN 主页的 OGP 数据在 facebook 上显示，含有图片、标题和描述。](facebook-output.png)
 
-Twitter 还拥有自己的类型的专有元数据协议（称为 [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards)），当网站的 URL 显示在 twitter.com 上时，它具有相似的效果。例如下面：
+Twitter 还拥有自己的类型的专有元数据协议（称为 [Twitter Cards](https://developer.x.com/en/docs/twitter-for-websites/cards/overview/abouts-cards)），当网站的 URL 显示在 twitter.com 上时，它具有相似的效果。例如下面：
 
 ```html
 <meta name="twitter:title" content="Mozilla Developer Network" />
