@@ -23,7 +23,7 @@ _没有特定的方法；继承其父方法 {{domxref("HTMLElement")}}._
 ## 规格
 
 - [HTML Living Standard](https://html.spec.whatwg.org/multipage/interactive-elements.html#htmldetailselement)
-- [HTML 5.2 (W3C Proposed Recommendation)](https://www.w3.org/TR/html52/interactive-elements.html#htmldetailselement)
+- [HTML 5.2 (W3C Proposed Recommendation)](https://html.spec.whatwg.org/multipage/interactive-elements.html#htmldetailselement)
 
 ## 浏览器兼容性
 

@@ -38,7 +38,7 @@ _This interface also inherits methods of its parents, {{domxref("UIEvent")}} and
 
 ## 规范
 
-_不属于任何规范_。苹果在 [Safari Developer Library 中描述了这个接口](https://developer.apple.com/library/iad/documentation/UserExperience/Reference/GestureEventClassReference/index.html)。
+_不属于任何规范_。苹果在 [Safari Developer Library 中描述了这个接口](https://developer.apple.com/documentation/webkitjs/gestureevent)。
 
 ## 浏览器兼容性
 

@@ -21,7 +21,7 @@ evtSource.onerror = function () {
 };
 ```
 
-> **备注：** 你可以在 Github 上查看这个完整例子： [Simple SSE demo using PHP.](https://github.com/mdn/dom-examples/tree/master/server-sent-events)
+> **备注：** 你可以在 Github 上查看这个完整例子： [Simple SSE demo using PHP.](https://github.com/mdn/dom-examples/tree/main/server-sent-events)
 
 ## 规范
 

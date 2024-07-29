@@ -22,7 +22,7 @@ element.slot = aString
 
 ## 示例
 
-在示例 [simple-template example](https://github.com/mdn/web-components-examples/tree/master/simple-template) ([在线查看](https://mdn.github.io/web-components-examples/simple-template/)) 中，我们创建了一个简单的自定义元素叫做 `<my-paragraph>` ，并为它添加了 shadow root，然后使用一个包含以 `my-text`为名称的 slot 的 template 来填充它。
+在示例 [simple-template example](https://github.com/mdn/web-components-examples/tree/main/simple-template) ([在线查看](https://mdn.github.io/web-components-examples/simple-template/)) 中，我们创建了一个简单的自定义元素叫做 `<my-paragraph>` ，并为它添加了 shadow root，然后使用一个包含以 `my-text`为名称的 slot 的 template 来填充它。
 
 当 `<my-paragraph>` 在文档中被使用时，slot 标签中的内容会被填充到拥有`slot="my-text"`属性的元素之中，我们称这种元素为 slotable element。（事实上可以看作是拥有 slot 属性的元素被填充到了 template 中有`<slot>`标签存在的地方）请看下面的示例：
 

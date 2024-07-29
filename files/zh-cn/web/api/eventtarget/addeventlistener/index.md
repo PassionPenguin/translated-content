@@ -50,7 +50,7 @@ addEventListener(type, listener, useCapture);
 
 - `useCapture` {{optional_inline}}
 
-  - : 一个布尔值，表示在 DOM 树中注册了 `listener` 的元素，是否要先于它下面的 `EventTarget` 调用该 `listener`。当 useCapture（设为 true）时，沿着 DOM 树向上冒泡的事件不会触发 listener。当一个元素嵌套了另一个元素，并且两个元素都对同一事件注册了一个处理函数时，所发生的事件冒泡和事件捕获是两种不同的事件传播方式。事件传播模式决定了元素以哪个顺序接收事件。进一步的解释可以查看 [DOM Level 3 事件](https://www.w3.org/TR/DOM-Level-3-Events/#event-flow)及 [JavaScript 事件顺序](https://www.quirksmode.org/js/events_order.html#link4)文档。如果没有指定，`useCapture` 默认为 `false`。
+  - : 一个布尔值，表示在 DOM 树中注册了 `listener` 的元素，是否要先于它下面的 `EventTarget` 调用该 `listener`。当 useCapture（设为 true）时，沿着 DOM 树向上冒泡的事件不会触发 listener。当一个元素嵌套了另一个元素，并且两个元素都对同一事件注册了一个处理函数时，所发生的事件冒泡和事件捕获是两种不同的事件传播方式。事件传播模式决定了元素以哪个顺序接收事件。进一步的解释可以查看 [DOM Level 3 事件](https://www.w3.org/TR/uievents/#event-flow)及 [JavaScript 事件顺序](https://www.quirksmode.org/js/events_order.html#link4)文档。如果没有指定，`useCapture` 默认为 `false`。
 
     > **备注：** 对于事件目标上的事件监听器来说，事件会处于“目标阶段”，而不是冒泡阶段或者捕获阶段。捕获阶段的事件监听器会在任何非捕获阶段的事件监听器之前被调用。
 
@@ -124,7 +124,7 @@ someElement.addEventListener(
 
 我们在 `someElement` 这里添加了一个 {{domxref("Element/mouseup_event", "mouseup")}}。对于第三个参数，如果 `passiveSupported` 是 `true`，我们传递了一个 `passive` 值为 `true` 的 `options` 对象；如果相反的话，我们知道要传递一个布尔值，于是就传递 `false` 作为 `useCapture` 的参数。
 
-如果你愿意，你可以用一个类似 [Modernizr](https://modernizr.com/docs) 或 [Detect It](https://github.com/rafrex/detect-it) 的第三方库来帮助你做这项测试。
+如果你愿意，你可以用一个类似 [Modernizr](https://modernizr.com/docs/) 或 [Detect It](https://github.com/rafgraph/detect-it) 的第三方库来帮助你做这项测试。
 
 你可以在 [Web Incubator Community Group](https://wicg.github.io/admin/charter.html) 里关于[`EventListenerOptions`](https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md#feature-detection) 的文章中了解更多。
 

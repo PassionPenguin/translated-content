@@ -119,7 +119,7 @@ function toggleFullScreen() {
 
 > **备注：** 现在，只有 Firefox 64 和 Chrome 71 支持无前缀。
 
-目前并不是所有的浏览器都实现了 API 的无前缀版本（你可以使用 [Fscreen](https://github.com/rafrex/fscreen) 获取跨浏览器全屏 API），这里有一份表格总结了前缀和它们之间的命名区别：
+目前并不是所有的浏览器都实现了 API 的无前缀版本（你可以使用 [Fscreen](https://github.com/rafgraph/fscreen) 获取跨浏览器全屏 API），这里有一份表格总结了前缀和它们之间的命名区别：
 
 | Standard                                                 | WebKit (Safari) / Blink (Chrome & Opera) / Edge | Gecko (Firefox)          | Internet Explorer       |
 | -------------------------------------------------------- | ----------------------------------------------- | ------------------------ | ----------------------- |

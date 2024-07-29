@@ -53,6 +53,6 @@ padding-bottom
 
 ## 参考
 
-- [MSDN's Measuring Element Dimension and Location](<https://msdn.microsoft.com/en-us/library/hh781509(v=vs.85).aspx>)
+- [MSDN's Measuring Element Dimension and Location](<https://learn.microsoft.com/en-us/>).aspx>)
 - {{domxref("Element.scrollLeft")}}
 - {{domxref("Element.scrollTo()")}}

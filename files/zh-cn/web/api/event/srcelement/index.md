@@ -13,7 +13,7 @@ slug: Web/API/Event/srcElement
 
 不属于任何规范
 
-微软 **[在 MSDN 有一篇描述。](<https://msdn.microsoft.com/en-us/library/ff974945(v=vs.85).aspx>)**
+微软 **[在 MSDN 有一篇描述。](<https://learn.microsoft.com/en-us/>).aspx>)**
 
 ## 浏览器兼容性
 

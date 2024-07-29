@@ -13,7 +13,7 @@ slug: Web/API/Element/shadowRoot
 
 ## 示例
 
-下面代码片段取自 [life-cycle-callbacks](https://github.com/mdn/web-components-examples/tree/master/life-cycle-callbacks) ([在线查看](https://mdn.github.io/web-components-examples/life-cycle-callbacks)), 在这个示例中我们创建了一个在元素属性中指定了大小和颜色的正方形元素。
+下面代码片段取自 [life-cycle-callbacks](https://github.com/mdn/web-components-examples/tree/main/life-cycle-callbacks) ([在线查看](https://mdn.github.io/web-components-examples/life-cycle-callbacks/)), 在这个示例中我们创建了一个在元素属性中指定了大小和颜色的正方形元素。
 
 在`<custom-square>`标签的 class 定义中我们在生命周期的回调函数里调用了一些外部方法——`updateStyle()`，正是这个函数使得我们添加的正方形元素可以改变大小和颜色。你可以看到我们将`this`（即我们创建的正方形元素本身）作为一个参数传入了这个方法。
 

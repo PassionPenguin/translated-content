@@ -430,5 +430,5 @@ if (window.fetch) {
 - {{domxref("Service_Worker_API", "ServiceWorker API")}}
 - [HTTP access control (CORS)](/zh-CN/docs/Web/HTTP/CORS)
 - [HTTP](/zh-CN/docs/Web/HTTP)
-- [Fetch polyfill](https://github.com/github/fetch)
+- [Fetch polyfill](https://github.com/JakeChampion/fetch)
 - [Fetch examples on GitHub](https://github.com/mdn/fetch-examples/)

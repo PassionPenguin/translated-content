@@ -103,7 +103,7 @@ console.log(p.nodeName);
 
 ## 参见
 
-- MSDN: [outerHTML 属性](http://msdn.microsoft.com/en-us/library/ms534310%28v=vs.85%29.aspx)
-- [You Don't Need jQuery](http://youmightnotneedjquery.com/)
-- <http://youmightnotneedjquery.com/>
+- MSDN: [outerHTML 属性](https://developer.mozilla.org/en-US/docs/Web/API/Element/outerHTML)
+- [You Don't Need jQuery](https://youmightnotneedjquery.com/)
+- <https://youmightnotneedjquery.com/>
 - insertAdjacentHTML

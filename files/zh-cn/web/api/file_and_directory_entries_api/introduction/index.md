@@ -40,7 +40,7 @@ slug: Web/API/File_and_Directory_Entries_API/Introduction
 
 - 文件系统 API 提供客户端存储以应对不在数据库中存储的应用场景。如果你需要大型可变的数据块，比数据库而言它就是一种更有效率的存储解决方案。
 - 尽 管 Firefox 支持 IndexedDB 的 blob 存储，但是目前 Chrome 并非如此（Chrome 仍然在对 IndexedDB 的 blob 存储做实现支 持开发中）。如果你的应用面向 Chrome 并且你需要存储 blobs, 那么文件系统 API 和 App Cache 将是你唯一的选择。然而，AppCache 存储并不是本地可变的，并且不支持细粒度的客户端管理。
-- 在 Chrome 中，你可以使用文件系统 API 和配额管理 API [Quota Management API](http://code.google.com/chrome/whitepapers/storage.html), 后者允许你请求更多的存储以及管理你的存储配额。
+- 在 Chrome 中，你可以使用文件系统 API 和配额管理 API [Quota Management API](https://developer.chrome.com/docs/apps/offline_storage?csw%3D1), 后者允许你请求更多的存储以及管理你的存储配额。
 
 ### 示例使用场景
 
@@ -98,7 +98,7 @@ slug: Web/API/File_and_Directory_Entries_API/Introduction
 
 为了防止一个网络应用占用整个磁盘，浏览器可能会给每一个应用限定配额并分配存储。
 
-存储空间如何分配以及你可以如何管理存储是浏览器的特性，因此你需要查阅浏览器各自的文档。例如，Google Chrome 在规范中允许超过 5MB 的临时存储并支持配额管理 API. 了解更多关于 Chrome 的实现，查看[管理 HTML5 线下存储](http://code.google.com/chrome/whitepapers/storage.html).
+存储空间如何分配以及你可以如何管理存储是浏览器的特性，因此你需要查阅浏览器各自的文档。例如，Google Chrome 在规范中允许超过 5MB 的临时存储并支持配额管理 API. 了解更多关于 Chrome 的实现，查看[管理 HTML5 线下存储](https://developer.chrome.com/docs/apps/offline_storage?csw%3D1).
 
 ### 文件系统 API 拥有异步和同步两种版本
 
@@ -177,5 +177,5 @@ slug: Web/API/File_and_Directory_Entries_API/Introduction
 
 ## 参见
 
-- [Exploring the FileSystem APIs](http://www.html5rocks.com/en/tutorials/file/filesystem/)
-- [The Synchronous FileSystem API for Workers](http://www.html5rocks.com/en/tutorials/file/filesystem-sync/)
+- [Exploring the FileSystem APIs](https://www.html5rocks.com/en/tutorials/file/filesystem/)
+- [The Synchronous FileSystem API for Workers](https://www.html5rocks.com/en/tutorials/file/filesystem-sync/)

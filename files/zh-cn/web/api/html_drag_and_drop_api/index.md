@@ -221,7 +221,7 @@ function dragstart_handler(ev) {
 ## 示例和演示
 
 - [使用 `DataTransfer` 接口拷贝和移动元素](https://mdn.github.io/dom-examples/drag-and-drop/copy-move-DataTransfer.html)
-- [使用 `DataTransferListItem` 接口拷贝和移动元素](http://mdn.github.io/dom-examples/drag-and-drop/copy-move-DataTransferItemList.html)
+- [使用 `DataTransferListItem` 接口拷贝和移动元素](https://mdn.github.io/dom-examples/drag-and-drop/copy-move-DataTransferItemList.html)
 - 拖放文件；仅 Firefox 支持：<https://jsfiddle.net/9C2EF/>
 - 拖放文件；所有浏览器支持：[https://jsbin.com/hiqasek/](https://jsbin.com/hiqasek/edit?html,js,output)
 - 使用了拖放 API 的停车小页面：<https://park.glitch.me/> （在 [这里](https://glitch.com/edit/#!/park) 编辑）
@@ -235,4 +235,4 @@ function dragstart_handler(ev) {
 - [拖拽操作](/zh-CN/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations)
 - [推荐拖拽元素类型](/zh-CN/docs/Web/API/HTML_Drag_and_Drop_API/Recommended_drag_types)
 - [HTML5 Living Standard：HTML5 拖放操作](https://html.spec.whatwg.org/multipage/interaction.html#dnd)
-- [来自 CanIUse 的拖放兼容数据](http://caniuse.com/#search=draganddrop)
+- [来自 CanIUse 的拖放兼容数据](https://caniuse.com/#search%3Ddraganddrop)

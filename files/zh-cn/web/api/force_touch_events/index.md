@@ -38,4 +38,4 @@ The following property is known to be available on the {{domxref("Element/webkit
 
 ## 规范
 
-*不是任何规格的一部分。*苹果[在 Mac 开发者图书馆有一个描述](https://developer.apple.com/library/prerelease/mac/documentation/AppleApplications/Conceptual/SafariJSProgTopics/RespondingtoForceTouchEventsfromJavaScript.html)。
+*不是任何规格的一部分。*苹果[在 Mac 开发者图书馆有一个描述](https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/RespondingtoForceTouchEventsfromJavaScript.html)。

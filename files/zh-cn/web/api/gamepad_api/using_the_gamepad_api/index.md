@@ -101,7 +101,7 @@ window.addEventListener("gamepadconnected", function (e) {
 
 - `id`: 包含一些关于控制器信息的字符串。它的格式没有特定规范，但是在 Firefox 中它将会含有三部分信息并以连接线连接 (`-`)：包含控制器的 USB 供应商、产品 ID 的两个 4 位十六进制字符串以及驱动程序提供的控制器的名称。此信息旨在允许你为设备上的控件查找适当的映射，并向用户显示有用的反馈。
 - `index`: 每个已连接手柄唯一的索引数字，可以用来区分多个控制器。请注意，断开目前的设备并连接一个新的设备可能会使用之前的索引值。
-- `mapping`: 一个用来指示浏览器是否已将设备上的控件重新映射到已知布局的字符串。目前只有一个受支持的已知布局 - [standard gamepad](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html#remapping)(标准控制器)。如果浏览器能够将设备上的控件映射为该布局，`mapping` 属性将会为字符串 `standard`。
+- `mapping`: 一个用来指示浏览器是否已将设备上的控件重新映射到已知布局的字符串。目前只有一个受支持的已知布局 - [standard gamepad](https://w3c.github.io/gamepad/gamepad.html#remapping)(标准控制器)。如果浏览器能够将设备上的控件映射为该布局，`mapping` 属性将会为字符串 `standard`。
 - `connected`: 一个用来指示控制器是否连接到系统的布尔值。如果已连接则为 `True`；反之则为 `False`。
 - `buttons`: 一个表示设备上按钮的 {{ domxref("GamepadButton") }} 数组对象。每个 {{ domxref("GamepadButton") }} 都含有一个 `pressed` 和一个 `value` 属性：
 
