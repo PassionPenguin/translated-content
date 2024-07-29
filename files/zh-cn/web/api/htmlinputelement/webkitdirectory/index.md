@@ -46,7 +46,7 @@ slug: Web/API/HTMLInputElement/webkitdirectory
 
 如果用户选择了 `PhotoAlbums`，则文件列表上将会包含上面列出的每个文件（而不包含目录）的 {{domxref("File")}} 对象。条目 `PIC2343.jpg` 的 `webkitRelativePath` 属性值将会是 `PhotoAlbums/Birthdays/Don's 40th birthday/PIC2343.jpg`。即使 {{domxref("FileList")}} 是扁平的，这也使得知道层次结构成为可能。
 
-> **备注：** 在 _Chromium < 72_ 的版本中，`webkitRelativePath` 的行为表现有所不同。有关更多详细信息，请参见[此 bug](https://crbug.com/124187)。
+> **备注：** 在 _Chromium < 72_ 的版本中，`webkitRelativePath` 的行为表现有所不同。有关更多详细信息，请参见[此 bug](https://bugs.chromium.org/p/chromium/issues/detail?id%3D124187)。
 
 ## 示例
 

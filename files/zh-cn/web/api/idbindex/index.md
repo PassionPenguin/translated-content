@@ -100,4 +100,4 @@ To learn more about various topics, see the following
 - Starting transactions: {{domxref("IDBDatabase")}}
 - Setting transaction modes: {{domxref("IDBTransaction")}}
 - Setting a range of keys: {{domxref("IDBKeyRange")}}
-- The reference application for the examples in this reference: [To-do Notifications](https://github.com/chrisdavidmills/to-do-notifications/tree/gh-pages) ([view example live](http://chrisdavidmills.github.io/to-do-notifications/).) Not every snippet appears in this example, but every example uses the same data structure and syntax, and they will make sense in the context of this example.
+- The reference application for the examples in this reference: [To-do Notifications](https://github.com/mdn/to-do-notifications/tree/main) ([view example live](http://chrisdavidmills.github.io/to-do-notifications/).) Not every snippet appears in this example, but every example uses the same data structure and syntax, and they will make sense in the context of this example.

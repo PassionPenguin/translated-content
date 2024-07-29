@@ -15,7 +15,7 @@ cursor.direction;
 
 ### 取值
 
-用一个字符串 (defined by the [`IDBCursorDirection` enum](https://dvcs.w3.org/hg/IndexedDB/raw-file/default/Overview.html#idl-def-IDBCursorDirection)) 表示游标的遍历方向。相关取值如下表所示：
+用一个字符串 (defined by the [`IDBCursorDirection` enum](https://w3c.github.io/IndexedDB/#idl-def-IDBCursorDirection)) 表示游标的遍历方向。相关取值如下表所示：
 
 | Value        | Description                                    |
 | ------------ | ---------------------------------------------- |

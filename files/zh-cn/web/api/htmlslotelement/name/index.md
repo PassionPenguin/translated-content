@@ -20,7 +20,7 @@ htmlSlotElement.name = name
 
 ## 例子
 
-下面的片段来自 [slotchange example](https://github.com/mdn/web-components-examples/tree/master/slotchange) ([see it live also](https://mdn.github.io/web-components-examples/slotchange/)).
+下面的片段来自 [slotchange example](https://github.com/mdn/web-components-examples/tree/main/slotchange) ([see it live also](https://mdn.github.io/web-components-examples/slotchange/)).
 
 ```js
 let slots = this.shadowRoot.querySelectorAll("slot");

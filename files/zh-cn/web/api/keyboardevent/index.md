@@ -179,7 +179,7 @@ _此接口也从父类 {{domxref("UIEvent")}} 和 {{domxref("Event")}} 中继承
 
 > **备注：** 在 Linux 上，Firefox 12 和更早版本也会为这些按键发送 `keypress` 事件。
 
-不过，由于 macOS 事件模型的限制，大写锁定只能派发 `keydown` 事件。一些较旧的笔记本电脑型号（2007 年及以前的型号）支持数字锁定，但从那时起，即使在外置键盘上，macOS 也不支持数字锁定。在带有数字锁定键的旧款 MacBook 上，该键不会生成任何按键事件。如果连接了带有 F14 键的外置键盘，Gecko 确实支持滚动锁定键。在某些旧版本的 Firefox 中，该键会生成 `keypress` 事件；这种不一致的行为是 [Firefox bug 602812](https://bugzil.la/602812)。
+不过，由于 macOS 事件模型的限制，大写锁定只能派发 `keydown` 事件。一些较旧的笔记本电脑型号（2007 年及以前的型号）支持数字锁定，但从那时起，即使在外置键盘上，macOS 也不支持数字锁定。在带有数字锁定键的旧款 MacBook 上，该键不会生成任何按键事件。如果连接了带有 F14 键的外置键盘，Gecko 确实支持滚动锁定键。在某些旧版本的 Firefox 中，该键会生成 `keypress` 事件；这种不一致的行为是 [Firefox bug 602812](https://bugzilla.mozilla.org/show_bug.cgi?id%3D602812)。
 
 ### 处理自动重复
 
@@ -260,7 +260,7 @@ document.addEventListener(
 
 ### 兼容性说明
 
-- 从 Firefox 65 开始，[非打印按键](/zh-CN/docs/Web/API/KeyboardEvent/keyCode#不可打印键（功能键）)不再触发 `keypress` 事件（[Firefox bug 968056](https://bugzil.la/968056)），除
+- 从 Firefox 65 开始，[非打印按键](/zh-CN/docs/Web/API/KeyboardEvent/keyCode#不可打印键（功能键）)不再触发 `keypress` 事件（[Firefox bug 968056](https://bugzilla.mozilla.org/show_bug.cgi?id%3D968056)），除
 
   <kbd>Enter</kbd>
 

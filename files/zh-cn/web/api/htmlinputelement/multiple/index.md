@@ -31,7 +31,7 @@ if (fileInput.multiple == true) {
 
 ## Specification
 
-- [The multiple attribute](http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#attr-input-multiple) (HTML 5 working draft)
+- [The multiple attribute](https://html.spec.whatwg.org/multipage/input.html#attr-input-multiple) (HTML 5 working draft)
 
 ## Browser compatibility
 

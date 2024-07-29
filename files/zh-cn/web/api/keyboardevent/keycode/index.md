@@ -2518,7 +2518,7 @@ gecko 在 keyboardvent 中定义了许多 keycode 值，用于显式地生成映
 | `DOM_VK_TAB`                 | 0x09 (9)   | Tab key.                                                                                                                   |
 | `DOM_VK_CLEAR`               | 0x0C (12)  | "5" key on Numpad when NumLock is unlocked. Or on Mac, clear key which is positioned at NumLock key.                       |
 | `DOM_VK_RETURN`              | 0x0D (13)  | Return/enter key on the main keyboard.                                                                                     |
-| `DOM_VK_ENTER`               | 0x0E (14)  | Reserved, but not used. {{Deprecated_Inline}} (Dropped, see [Firefox bug 969247](https://bugzil.la/969247).)               |
+| `DOM_VK_ENTER`               | 0x0E (14)  | Reserved, but not used. {{Deprecated_Inline}} (Dropped, see [Firefox bug 969247](https://bugzilla.mozilla.org/show_bug.cgi?id%3D969247).)               |
 | `DOM_VK_SHIFT`               | 0x10 (16)  | Shift key.                                                                                                                 |
 | `DOM_VK_CONTROL`             | 0x11 (17)  | Control key.                                                                                                               |
 | `DOM_VK_ALT`                 | 0x12 (18)  | Alt (Option on Mac) key.                                                                                                   |
@@ -2705,4 +2705,4 @@ gecko 在 keyboardvent 中定义了许多 keycode 值，用于显式地生成映
 
 从 gecko 21（并且早于 15）开始，仅在 Windows 上的 keycode 属性上提供 OEM 特定的键值。因此，它们对于通常的 Web 应用程序不有用。它们仅对内部网应用程序或类似情况有用。
 
-查看 MSDN 上的"[Manufacturer-specific Virtual-Key Codes (Windows CE 5.0)](http://msdn.microsoft.com/en-us/library/aa452679.aspx)"了解更多
+查看 MSDN 上的"[Manufacturer-specific Virtual-Key Codes (Windows CE 5.0)](<https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452679(v%3Dmsdn.10)?redirectedfrom%3DMSDN>)"了解更多

@@ -58,7 +58,7 @@ void initMouseScrollEvent(
 | -------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------- | ------------------- |
 | [mousewheel](/zh-CN/docs/DOM/DOM_event_reference/mousewheel)         | [MouseWheelEvent](/zh-CN/docs/DOM/MouseWheelEvent)   | 非标准                                                                    | 只有 Firefox 不支持 |
 | [DOMMouseScroll](/zh-CN/docs/DOM/DOM_event_reference/DOMMouseScroll) | [MouseScrollEvent](/zh-CN/docs/DOM/MouseScrollEvent) | 非标准                                                                    | 只有 Firefox 支持   |
-| [wheel](/zh-CN/docs/DOM/DOM_event_reference/wheel)                   | [WheelEvent](/zh-CN/docs/DOM/WheelEvent)             | [DOM Level 3](https://www.w3.org/TR/DOM-Level-3-Events/#event-type-wheel) | Firefox 17+ ie9+    |
+| [wheel](/zh-CN/docs/DOM/DOM_event_reference/wheel)                   | [WheelEvent](/zh-CN/docs/DOM/WheelEvent)             | [DOM Level 3](https://www.w3.org/TR/uievents/#event-type-wheel) | Firefox 17+ ie9+    |
 
 ## 浏览器兼容性
 

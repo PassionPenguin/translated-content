@@ -125,5 +125,5 @@ if ( isset ( $_GET["value"] ) ) {
 
 - [window.navigator.registerContentHandler](/zh-CN/docs/DOM/window.navigator.registerContentHandler)
 - [nsIProtocolHandler](/zh-CN/docs/XPCOM_Interface_Reference/nsIProtocolHandler) (XUL only)
-- [RegisterProtocolHandler Enhancing the Federated Web](http://blog.mozilla.com/webdev/2010/07/26/registerprotocolhandler-enhancing-the-federated-web/) at Mozilla Webdev
-- [Register a custom protocolHandler](https://developers.google.com/web/updates/2011/06/Registering-a-custom-protocol-handler) at Google Developers.
+- [RegisterProtocolHandler Enhancing the Federated Web](https://blog.mozilla.org/webdev/2010/07/26/registerprotocolhandler-enhancing-the-federated-web/) at Mozilla Webdev
+- [Register a custom protocolHandler](https://web.dev/articles/registering-a-custom-protocol-handler) at Google Developers.

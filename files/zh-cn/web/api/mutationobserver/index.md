@@ -73,4 +73,4 @@ observer.disconnect();
 - {{domxref('IntersectionObserver')}}
 - [A brief overview](http://updates.html5rocks.com/2012/02/Detect-DOM-changes-with-Mutation-Observers)
 - [A more in-depth discussion](http://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/)
-- [A screencast by Chromium developer Rafael Weinstein](http://www.youtube.com/watch?v=eRZ4pO0gVWw)
+- [A screencast by Chromium developer Rafael Weinstein](https://www.youtube.com/watch?v%3DeRZ4pO0gVWw)

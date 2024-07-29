@@ -105,7 +105,7 @@ navigator.registerProtocolHandler(
 ## 参见
 
 - [Web-based protocol handlers](/zh-CN/docs/Web-based_protocol_handlers)
-- [RegisterProtocolHandler Enhancing the Federated Web](http://blog.mozilla.com/webdev/2010/07/26/registerprotocolhandler-enhancing-the-federated-web/) at Mozilla Webdev
-- [Web Application APIs - Custom scheme and content handlers - Whitelisted schemes](http://www.whatwg.org/specs/web-apps/current-work/multipage/timers.html#whitelisted-scheme)
+- [RegisterProtocolHandler Enhancing the Federated Web](https://blog.mozilla.org/webdev/2010/07/26/registerprotocolhandler-enhancing-the-federated-web/) at Mozilla Webdev
+- [Web Application APIs - Custom scheme and content handlers - Whitelisted schemes](https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#whitelisted-scheme)
 - [Register a webmail service as mailto handler](/zh-CN/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIWebContentHandlerRegistrar#Getting_most_recent_window) shows how to do `registerProtocolHandler` from XPCOM scope.
 - [XPCOM Interface Reference > nsIWebContentHandlerRegistrar > registerContentHandler](/zh-CN/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIWebContentHandlerRegistrar#registerProtocolHandler) - This shows how to use this function XPCOM scope

@@ -61,4 +61,4 @@ if (
 ## 相关链接
 
 - [`Node.contains`](/zh-CN/docs/DOM/Node.contains)
-- [John Resig - Comparing Document Position](http://ejohn.org/blog/comparing-document-position/)
+- [John Resig - Comparing Document Position](https://johnresig.com/blog/comparing-document-position/)

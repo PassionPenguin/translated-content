@@ -13,7 +13,7 @@ IndexedDB api 中的 IDBRequest 接口提供了根据绑定事件处理函数访
 
 ## About this document
 
-This document was last updated on August 17, 2012 and follows the [W3C Specifications (Editor's Draft)](http://dvcs.w3.org/hg/IndexedDB/raw-file/tip/Overview.html#request-api) drafted on July 24, 2012. It has not yet been verified.
+This document was last updated on August 17, 2012 and follows the [W3C Specifications (Editor's Draft)](https://w3c.github.io/IndexedDB/#request-api) drafted on July 24, 2012. It has not yet been verified.
 
 ## 基础概念
 
@@ -178,7 +178,7 @@ request.onupgradeneeded= function(event) {
 
 ### `readyState` constants
 
-> **警告：** These constants are no longer available. You should use directly the string constants instead. ([Firefox bug 887524](https://bugzil.la/887524))
+> **警告：** These constants are no longer available. You should use directly the string constants instead. ([Firefox bug 887524](https://bugzilla.mozilla.org/show_bug.cgi?id%3D887524))
 
 | Constant      | Value     | Description                                                         |
 | ------------- | --------- | ------------------------------------------------------------------- |

@@ -26,7 +26,7 @@ var insertedNode = parentNode.insertBefore(newNode, referenceNode);
 
 如果 `referenceNode` 为 `null` 则 `newNode` 将被插入到子节点的末尾*。*
 
-> **备注：** `referenceNode` 引用节点**不是**可选参数——你必须显式传入一个 `Node` 或者 `null`。如果不提供节点或者传入无效值，在不同的浏览器中会有[不同](https://bugzilla.mozilla.org/show_bug.cgi?id=119489)的[表现](https://code.google.com/p/chromium/issues/detail?id=419780)。
+> **备注：** `referenceNode` 引用节点**不是**可选参数——你必须显式传入一个 `Node` 或者 `null`。如果不提供节点或者传入无效值，在不同的浏览器中会有[不同](https://bugzilla.mozilla.org/show_bug.cgi?id=119489)的[表现](https://bugs.chromium.org/p/chromium/issues/detail?id%3D419780)。
 
 ## 返回值
 

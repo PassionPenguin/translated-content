@@ -224,7 +224,7 @@ IDBRequest delete (in any key) raises (DOMException);
 ##### Returns
 
 - [IDBRequest](/zh-CN/IndexedDB/IDBRequest)
-  - : A request object on which subsequent events related to this operation are fired. As [per spec](http://www.w3.org/TR/IndexedDB/#object-store-deletion-operation) the result of the Object Store Deletion Operation algorithm is `undefined`, so it's not possible to know if some records were actually deleted by looking at the request result.
+  - : A request object on which subsequent events related to this operation are fired. As [per spec](https://www.w3.org/TR/IndexedDB/#object-store-deletion-operation) the result of the Object Store Deletion Operation algorithm is `undefined`, so it's not possible to know if some records were actually deleted by looking at the request result.
 
 ##### Exceptions
 
@@ -358,7 +358,7 @@ This method may raise a [DOMException](/zh-CN/docs/DOM/DOMException) with a [DOM
 
 ### put()
 
-Returns an [IDBRequest](/zh-CN/IndexedDB/IDBRequest) object, and, in a separate thread, creates a [structured clone](http://www.whatwg.org/specs/web-apps/current-work/multipage/common-dom-interfaces.html#structured-clone) of the `value`, and stores the cloned value in the object store. If the record is successfully stored, then a success event is fired on the returned request object with the [`result`](/zh-CN/docs/IndexedDB/IDBRequest) set to the key for the stored record, and [`transaction`](/zh-CN/docs/IndexedDB/IDBRequest) set to the transaction in which this object store is opened.
+Returns an [IDBRequest](/zh-CN/IndexedDB/IDBRequest) object, and, in a separate thread, creates a [structured clone](https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#structured-clone) of the `value`, and stores the cloned value in the object store. If the record is successfully stored, then a success event is fired on the returned request object with the [`result`](/zh-CN/docs/IndexedDB/IDBRequest) set to the key for the stored record, and [`transaction`](/zh-CN/docs/IndexedDB/IDBRequest) set to the transaction in which this object store is opened.
 
 The put method is an _update or insert_ method. See also the [add()](#add) method.
 
