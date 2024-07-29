@@ -65,7 +65,7 @@ l10n:
 
     刚好位于 TLD 前面的标签也被称为*二级域名*（SLD）。
 
-    一个域名可以有多个标签（或组成部分）。没有强制规定必须要 3 个标签来构成域名。例如，[informatics.ed.ac.uk](https://informatics.ed.ac.uk/) 是一个有效的域名。对于任何由你控制的域名（例如 [mozilla.org](https://mozilla.org)），你可以创建包含不同内容的“子域名”（例如 [developer.mozilla.org](/)、[iot.mozilla.org](https://iot.mozilla.org/) 或 [bugzilla.mozilla.org](https://bugzilla.mozilla.org)）。
+    一个域名可以有多个标签（或组成部分）。没有强制规定必须要 3 个标签来构成域名。例如，[informatics.ed.ac.uk](https://informatics.ed.ac.uk/) 是一个有效的域名。对于任何由你控制的域名（例如 [mozilla.org](https://www.mozilla.org/)），你可以创建包含不同内容的“子域名”（例如 [developer.mozilla.org](/)、[iot.mozilla.org](https://webthings.io/) 或 [bugzilla.mozilla.org](https://bugzilla.mozilla.org/)）。
 
 ### 购买域名
 

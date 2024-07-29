@@ -61,7 +61,7 @@ slug: Learn/CSS/Styling_text/Fundamentals
 </p>
 ```
 
-你可以在这找到完成版本 [finished example on Github](http://mdn.github.io/learning-area/css/styling-text/fundamentals/) (也可以看源码 [the source code](https://github.com/mdn/learning-area/blob/main/css/styling-text/fundamentals/index.html).)
+你可以在这找到完成版本 [finished example on Github](https://mdn.github.io/learning-area/css/styling-text/fundamentals/) (也可以看源码 [the source code](https://github.com/mdn/learning-area/blob/main/css/styling-text/fundamentals/index.html).)
 
 ### 颜色
 
@@ -168,7 +168,7 @@ p {
 </table>
 
 > [!NOTE]
-> 在各种资源中，[cssfontstack.com](http://www.cssfontstack.com/) 网站维护了一个可用在 Windows 和 Mac 操作系统上使用的网页安全字体的列表，这可以帮助决策网站的安全性。
+> 在各种资源中，[cssfontstack.com](https://www.cssfontstack.com/) 网站维护了一个可用在 Windows 和 Mac 操作系统上使用的网页安全字体的列表，这可以帮助决策网站的安全性。
 
 > [!NOTE]
 > 有一个可以下载来自一个网页的自定义字体的方法，允许你通过任何你想要的方法来定制你使用的字体：**网页字体**。这个有一点复杂，我们将在这个模块中的另一篇文章中讨论这一点。
@@ -517,7 +517,7 @@ p {
 {{ EmbedLiveSample('多种阴影', '100%', 260) }}
 
 > [!NOTE]
-> 你可以看到更多有趣的关于 `text-shadow` 使用的示例在 [Moonlighting with CSS text-shadow](http://www.sitepoint.com/moonlighting-css-text-shadow/).
+> 你可以看到更多有趣的关于 `text-shadow` 使用的示例在 [Moonlighting with CSS text-shadow](https://www.sitepoint.com/moonlighting-css-text-shadow/).
 
 ## 文本布局
 

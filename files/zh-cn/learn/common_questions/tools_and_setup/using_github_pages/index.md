@@ -7,16 +7,16 @@ l10n:
 
 {{QuicklinksWithSubPages("/zh-CN/docs/Learn/Common_questions")}}
 
-[GitHub](https://github.com/) 是一个“公共编码”网站。它允许你上传代码仓库并存储在 [Git](http://git-scm.com/) 版本控制系统上。然后，你可以在代码项目上进行协作，默认情况下系统是开源的，这意味着世界上任何人都可以找到你的 GitHub 代码，使用它，从中学习，并改进它。同样的，对于其他人的代码你也可以这么做！本文提供了一个使用 Github 的 gh-pages 特性发布内容的基本指南。
+[GitHub](https://github.com/) 是一个“公共编码”网站。它允许你上传代码仓库并存储在 [Git](https://git-scm.com/) 版本控制系统上。然后，你可以在代码项目上进行协作，默认情况下系统是开源的，这意味着世界上任何人都可以找到你的 GitHub 代码，使用它，从中学习，并改进它。同样的，对于其他人的代码你也可以这么做！本文提供了一个使用 Github 的 gh-pages 特性发布内容的基本指南。
 
 ## 发布内容
 
-GitHub 是一个非常重要和有用的社区，值得参与其中，Git/GitHub 也是非常受欢迎的[版本控制系统](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)——现在大多数科技公司在其工作流程中使用它。GitHub 有一个非常有用的特性，称为 [GitHub Pages](https://pages.github.com/)，它允许你在 Web 上实时发布网站代码。
+GitHub 是一个非常重要和有用的社区，值得参与其中，Git/GitHub 也是非常受欢迎的[版本控制系统](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)——现在大多数科技公司在其工作流程中使用它。GitHub 有一个非常有用的特性，称为 [GitHub Pages](https://pages.github.com/)，它允许你在 Web 上实时发布网站代码。
 
 ### 基本 Github 设置
 
-1. 首先，在你的机器上[安装 Git](http://git-scm.com/downloads)。这是 GitHub 工作的底层版本控制系统软件。
-2. 接下来，[注册一个 GitHub 帐户](https://github.com/join)。这很简单易操作。
+1. 首先，在你的机器上[安装 Git](https://git-scm.com/downloads)。这是 GitHub 工作的底层版本控制系统软件。
+2. 接下来，[注册一个 GitHub 帐户](https://github.com/signup)。这很简单易操作。
 3. 注册后，用你的用户名和密码登录 [github.com](https://github.com/)。
 
 ### 准备上传代码

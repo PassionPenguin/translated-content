@@ -120,7 +120,7 @@ article p:first-child::first-line {
 
 {{EmbedGHLiveSample("css-examples/learn/selectors/before-styled.html", '100%', 500)}}
 
-`::before`和`::after`伪元素与`content`属性的共同使用，在 CSS 中被叫做“生成内容”，而且你会见到这种技术被用于完成各种任务。[CSS Arrow Please](http://www.cssarrowplease.com/)网站就是一个著名的示例，它帮你用 CSS 生成一个箭头。在你创建你的箭头的时候看下 CSS，你将会看到实际使用的{{cssxref("::before")}}和{{cssxref("::after")}}伪元素。无论什么时候你看到了这些选择器，都要看下{{cssxref("content")}}属性，以了解文档中添加了什么。
+`::before`和`::after`伪元素与`content`属性的共同使用，在 CSS 中被叫做“生成内容”，而且你会见到这种技术被用于完成各种任务。[CSS Arrow Please](https://cssarrowplease.com/)网站就是一个著名的示例，它帮你用 CSS 生成一个箭头。在你创建你的箭头的时候看下 CSS，你将会看到实际使用的{{cssxref("::before")}}和{{cssxref("::after")}}伪元素。无论什么时候你看到了这些选择器，都要看下{{cssxref("content")}}属性，以了解文档中添加了什么。
 
 ## 参考节
 

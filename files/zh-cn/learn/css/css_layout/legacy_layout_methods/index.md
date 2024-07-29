@@ -262,7 +262,7 @@ body {
 创建了这些类以后，我们可以在网格上布局不同宽度的列。试试保存并在你的浏览器上加载这个页面，来查看效果。
 
 > [!NOTE]
-> 如果你在让上面的示例实现的时候正遇到麻烦，尝试将它和我们在 GitHub 上的[完成版](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/simple-grid-finished.html)进行比较（再[看下实时的示例](http://mdn.github.io/learning-area/css/css-layout/grids/simple-grid-finished.html)）。
+> 如果你在让上面的示例实现的时候正遇到麻烦，尝试将它和我们在 GitHub 上的[完成版](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/simple-grid-finished.html)进行比较（再[看下实时的示例](https://mdn.github.io/learning-area/css/css-layout/grids/simple-grid-finished.html)）。
 
 试试修改这些类，甚至添加、删除一些容器，来看看你能怎么改变这个布局。例如，你可以把第二行写成这样：
 
@@ -378,7 +378,7 @@ body {
 现在保存你的代码，从浏览器里加载它，尝试改变视口长度——你应该可以看到网格完美地适配了。
 
 > [!NOTE]
-> 如果你在让上面的示例实现的时候正遇到困难，试着把它和我们[GitHub 上的完成版](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/fluid-grid.html)比较（另[见实时的示例](http://mdn.github.io/learning-area/css/css-layout/grids/fluid-grid.html)）。
+> 如果你在让上面的示例实现的时候正遇到困难，试着把它和我们[GitHub 上的完成版](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/fluid-grid.html)比较（另[见实时的示例](https://mdn.github.io/learning-area/css/css-layout/grids/fluid-grid.html)）。
 
 ### 使用 calc() 函数的更简单计算
 
@@ -431,7 +431,7 @@ body {
 ```
 
 > [!NOTE]
-> 你能在 [fluid-grid-calc.html](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/fluid-grid-calc.html) 里看到我们的完成版（另[见实时版](http://mdn.github.io/learning-area/css/css-layout/grids/fluid-grid-calc.html)）。
+> 你能在 [fluid-grid-calc.html](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/fluid-grid-calc.html) 里看到我们的完成版（另[见实时版](https://mdn.github.io/learning-area/css/css-layout/grids/fluid-grid-calc.html)）。
 
 > [!NOTE]
 > 如果你不能让这个正常工作，可能是你的浏览器不支持`calc()`函数，尽管各浏览器对它的支持相当好——远至 IE9 那样老。
@@ -449,7 +449,7 @@ body {
 ```
 
 > [!NOTE]
-> 如果你要用预处理工具，如[Sass](http://sass-lang.com/)，你可以建立一个简单的类（mixin）以插入那个值。
+> 如果你要用预处理工具，如[Sass](https://sass-lang.com/)，你可以建立一个简单的类（mixin）以插入那个值。
 
 ### 在我们的网格里启用偏移容器
 
@@ -490,7 +490,7 @@ body {
 > [!NOTE]
 > 注意你需要别让横跨多列的列太多，给偏移留点空间！
 
-试着载入，刷新来查看区别，或者查看我们的[fluid-grid-offset.html](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/fluid-grid-offset.html)示例（另见[实时](http://mdn.github.io/learning-area/css/css-layout/grids/fluid-grid-offset.html)示例）。完成的示例应该看起来像这样：
+试着载入，刷新来查看区别，或者查看我们的[fluid-grid-offset.html](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/fluid-grid-offset.html)示例（另见[实时](https://mdn.github.io/learning-area/css/css-layout/grids/fluid-grid-offset.html)示例）。完成的示例应该看起来像这样：
 
 ![](offset-grid-finished.png)
 
@@ -535,7 +535,7 @@ body {
 }
 ```
 
-你可以试着在你自己的示例里做这些替换，或者看下我们的[flexbox-grid.html](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/flexbox-grid.html)示例代码（另见[实时版](http://mdn.github.io/learning-area/css/css-layout/grids/flexbox-grid.html)）。
+你可以试着在你自己的示例里做这些替换，或者看下我们的[flexbox-grid.html](https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/flexbox-grid.html)示例代码（另见[实时版](https://mdn.github.io/learning-area/css/css-layout/grids/flexbox-grid.html)）。
 
 这里，我们会把每行变成一个弹性容器。有了弹性盒为基础的网格，我们仍然需要行，以让我们的元素加起来能不超过 100%。我们将容器设为`display: flex`。
 
@@ -555,7 +555,7 @@ body {
 
 ## 第三方网格系统
 
-既然我们理解了我们的网格计算背后的数学了，我们现在该看看一些常用的第三方网格系统了。如果你在互联网上搜索“CSS 网格框架”的话，你会发现一个包含了可选项的庞大列表。流行的框架，例如[Bootstrap](http://getbootstrap.com/)和[Foundation](http://foundation.zurb.com/)，就包含了网格系统。此外还有独立的网格系统，不是用 CSS 开发的就是用预处理器开发的。
+既然我们理解了我们的网格计算背后的数学了，我们现在该看看一些常用的第三方网格系统了。如果你在互联网上搜索“CSS 网格框架”的话，你会发现一个包含了可选项的庞大列表。流行的框架，例如[Bootstrap](https://getbootstrap.com/)和[Foundation](https://get.foundation/)，就包含了网格系统。此外还有独立的网格系统，不是用 CSS 开发的就是用预处理器开发的。
 
 让我们看下这些独立系统其中的一个，它阐释了利用网格框架工作的常见技术。我们将要使用的网格是 Skeleton 的一部分，它是一种简单的 CSS 框架。
 

@@ -40,7 +40,7 @@ l10n:
 - Web 服务器（web server）
   - : 一个在互联网上托管网站的计算机。
 - 搜索引擎（search engine）
-  - : 搜索引擎是帮助你查找其他网页的网络服务，例如 Google、Bing、Yahoo 或 DuckDuckGo。通常通过网络浏览器（例如，你可以直接在 Firefox、Chrome 等浏览器的地址栏中进行搜索引擎搜索）或通过网页（例如 [bing.com](https://www.bing.com/) 或 [duckduckgo.com](https://duckduckgo.com/)）访问搜索引擎。
+  - : 搜索引擎是帮助你查找其他网页的网络服务，例如 Google、Bing、Yahoo 或 DuckDuckGo。通常通过网络浏览器（例如，你可以直接在 Firefox、Chrome 等浏览器的地址栏中进行搜索引擎搜索）或通过网页（例如 [bing.com](https://www.bing.com/?mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN) 或 [duckduckgo.com](https://duckduckgo.com/)）访问搜索引擎。
 
 一个简单的类比——公共图书馆。通常当你访问图书馆时会做以下事情：
 
@@ -98,7 +98,7 @@ _还没有可用的资料，[请考虑贡献一个](/zh-CN/docs/MDN/Community/Co
 
 搜索引擎是网络上常见的混乱之源。搜索引擎是一个特定类型的网站，用以帮助用户在*其他*网站中寻找网页。
 
-搜索引擎数不胜数，有 [Google](https://www.google.com/)、[Bing](https://www.bing.com/)、[Yandex](https://www.yandex.com/)、[DuckDuckGo](https://duckduckgo.com/) 等等。其中有的功能宽泛，有的专注于特定的主题。你可按需使用。
+搜索引擎数不胜数，有 [Google](https://www.google.com/)、[Bing](https://www.bing.com/?mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN)、[Yandex](https://yandex.com)、[DuckDuckGo](https://duckduckgo.com/) 等等。其中有的功能宽泛，有的专注于特定的主题。你可按需使用。
 
 许多网上的初学者将搜索引擎和浏览器混淆了。让我们明确一下：浏览器是一个接收并显示网页的软件，搜索引擎则是一个帮助用户从其他网站中寻找网页的网站。这种混淆之所以出现是因为当一个人打开一个浏览器的时候，浏览器展现的是一个搜索引擎的主页。这有什么意义呢？很明显，因为你打开浏览器要做的第一件事就是去寻找一个网站。不要把基础设施（浏览器）和服务（搜索引擎）混淆。这种区分会对你很有帮助，但是甚至有些专业人员也还把它们说得很宽泛，所以不用对这种区分太过谨慎。
 

@@ -424,11 +424,11 @@ slug: Learn/Common_questions/Tools_and_setup/Available_text_editors
 
 如果你喜欢的功能*很多*，并且你的编辑器因为安装插件而变慢，请尝试使用 [IDE](https://zh.wikipedia.org/zh-cn/集成开发环境)（集成开发环境）。IDE 在一个界面中提供了许多工具，对于初学者来说，这是一个令人望而生畏的工作，但是如果你感觉你的文本编辑器功能有限，这是一个不错的选项。以下是一些流行的 IDE：
 
-- [Aptana Studio](http://www.aptana.com/)
-- [Eclipse](https://eclipse.org/)
-- [Komodo IDE](http://komodoide.com/)
-- [NetBeans IDE](https://netbeans.org/)
-- [Visual Studio](http://www.visualstudio.com/)
+- [Aptana Studio](https://www.axway.com/en/aptana)
+- [Eclipse](https://www.eclipse.org/)
+- [Komodo IDE](https://www.activestate.com/products/komodo-ide/)
+- [NetBeans IDE](https://netbeans.apache.org/front/main/index.html)
+- [Visual Studio](https://visualstudio.microsoft.com/)
 - [WebStorm](https://www.jetbrains.com/webstorm/)
 
 #### 当使用文本编辑器时我需要支持或者帮助吗？
@@ -460,12 +460,12 @@ slug: Learn/Common_questions/Tools_and_setup/Available_text_editors
   - [Windows 7](https://support.microsoft.com/zh-cn/windows/更改-windows-7-默认使用的程序-62fd162f-8c82-0436-806f-c60d69dcf495)
   - [更旧的系统](https://www.lifewire.com/how-to-change-file-associations-in-windows-2624477)
 
-- [Mac OS X](http://osxdaily.com/2013/08/08/change-default-application-open-files-mac-os-x/)
+- [Mac OS X](https://osxdaily.com/2013/08/08/change-default-application-open-files-mac-os-x/)
 - Linux
 
-  - [Ubuntu Unity](http://askubuntu.com/questions/289337/how-can-i-change-file-association-globally)
+  - [Ubuntu Unity](https://askubuntu.com/questions/289337/how-can-i-change-file-association-globally)
   - [GNOME](https://help.gnome.org/users/gnome-help/stable/files-open.html.en)
-  - [KDE](http://doc.opensuse.org/documentation/html/openSUSE_113/opensuse-kdeuser/cha.kde.cust.html#pro.kde.cust.system.fileass)
+  - [KDE](https://doc.opensuse.org/documentation/html/openSUSE_113/opensuse-kdeuser/cha.kde.cust.html#pro.kde.cust.system.fileass)
 
 ## 下一步
 

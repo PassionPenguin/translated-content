@@ -28,7 +28,7 @@ slug: Learn/CSS/Building_blocks/Fundamental_CSS_comprehension
 - 下载 [CSS resources text file](https://github.com/mdn/learning-area/blob/main/css/introduction-to-css/fundamental-css-comprehension/style-resources.txt) 到你的本地环境，这个文件包含了一组原始选择器和规则集。你需要学习并将他们组合，这是测验的一部分。
 
 > [!NOTE]
-> 另外，你可以使用一个网站比如 [JSBin](https://jsbin.com/) 或 [Glitch](https://glitch.com/) 来做你的测验。你可以复制 HTML 和 CSS 到其中一个在线编辑器中，以及使用这个 [this URL](http://mdn.github.io/learning-area/css/introduction-to-css/fundamental-css-comprehension/chris.jpg) 来让 `<img>` 显示图片。如果你使用的在线编辑器无法让你链接 CSS 文件 (没有单独的 CSS 面板)，你也可以将 CSS 直接放入`<style>` 元素中。
+> 另外，你可以使用一个网站比如 [JSBin](https://jsbin.com/) 或 [Glitch](https://glitch.com/) 来做你的测验。你可以复制 HTML 和 CSS 到其中一个在线编辑器中，以及使用这个 [this URL](https://mdn.github.io/learning-area/css/introduction-to-css/fundamental-css-comprehension/chris.jpg) 来让 `<img>` 显示图片。如果你使用的在线编辑器无法让你链接 CSS 文件 (没有单独的 CSS 面板)，你也可以将 CSS 直接放入`<style>` 元素中。
 
 ## 项目概要
 
@@ -83,6 +83,6 @@ slug: Learn/CSS/Building_blocks/Fundamental_CSS_comprehension
 
 ## 评估
 
-如果你将此评估作为有组织的课程的一部分，你应该能够将你的工作交给你的老师/导师进行打分。如果你是自学的，那么你可以通过询问 [Learning Area Discourse thread](https://discourse.mozilla-community.org/t/learning-web-development-marking-guides-and-questions/16294), 或在 [#mdn](irc://irc.mozilla.org/mdn)的 IRC 频道 [Mozilla IRC](https://wiki.mozilla.org/IRC) 中轻松获得打分指南。首先尝试练习 - 作弊学不到什么！
+如果你将此评估作为有组织的课程的一部分，你应该能够将你的工作交给你的老师/导师进行打分。如果你是自学的，那么你可以通过询问 [Learning Area Discourse thread](https://discourse.mozilla.org/t/learning-web-development-marking-guides-and-questions/16294), 或在 [#mdn](irc://irc.mozilla.org/mdn)的 IRC 频道 [Mozilla IRC](https://wiki.mozilla.org/IRC) 中轻松获得打分指南。首先尝试练习 - 作弊学不到什么！
 
 {{PreviousMenuNext("Learn/CSS/Building_blocks/Organizing", "Learn/CSS/Building_blocks/Creating_fancy_letterheaded_paper", "Learn/CSS/Building_blocks")}}

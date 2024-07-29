@@ -57,13 +57,13 @@ slug: Learn
 
 ## 获取代码示例
 
-学习区的所有代码示例都可以在 GitHub 上的 [MDN 学习区示例中文版](https://github.com/roy-tian/learning-area/) 上寻得。如果你想把获取所有代码示例的副本，直接 [包含最新 master 分支内容的压缩文件](https://github.com/roy-tian/learning-area/archive/master.zip) 即可。
+学习区的所有代码示例都可以在 GitHub 上的 [MDN 学习区示例中文版](https://github.com/roy-tian/learning-area/) 上寻得。如果你想把获取所有代码示例的副本，直接 [包含最新 master 分支内容的压缩文件](https://codeload.github.com/roy-tian/learning-area/zip/refs/heads/master) 即可。
 
 如果你希望以更灵活的方式复制代码仓库并随时更新本地副本，可参考以下更复杂的步骤：
 
 1. 在电脑上安装 Github 底层使用的版本控制系统 [Git](https://git-scm.com/downloads)。
 
-2. 打开操作系统的命令提示符（[Windows](https://docs.microsoft.com/zh-cn/windows/terminal/)）或终端（[Linux](https://help.ubuntu.com/community/UsingTheTerminal)、[macOS](https://support.apple.com/zh-cn/guide/terminal/welcome/mac)）。
+2. 打开操作系统的命令提示符（[Windows](https://learn.microsoft.com/zh-cn/windows/terminal/)）或终端（[Linux](https://help.ubuntu.com/community/UsingTheTerminal)、[macOS](https://support.apple.com/zh-cn/guide/terminal/welcome/mac)）。
 
 3. 在命令提示符 / 终端中输入以下命令，即可将 `roy-tian/learning-area` 仓库拷贝到本地的 `learning-area` 文件夹：
 

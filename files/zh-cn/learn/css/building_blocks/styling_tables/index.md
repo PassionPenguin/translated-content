@@ -77,7 +77,7 @@ slug: Learn/CSS/Building_blocks/Styling_tables
 </table>
 ```
 
-由于[`scope`](/zh-CN/docs/Web/HTML/Element/th#scope)、{{htmlelement("caption")}}、{{htmlelement("thead")}}、{{htmlelement("tbody")}}等特性，表格被很好地标记了，易于使用，并且易于访问，不幸的是，它在屏幕上呈现时看起来不太好（见它的预览版 [punk-bands-unstyled.html](http://mdn.github.io/learning-area/css/styling-boxes/styling-tables/punk-bands-unstyled.html)）：
+由于[`scope`](/zh-CN/docs/Web/HTML/Element/th#scope)、{{htmlelement("caption")}}、{{htmlelement("thead")}}、{{htmlelement("tbody")}}等特性，表格被很好地标记了，易于使用，并且易于访问，不幸的是，它在屏幕上呈现时看起来不太好（见它的预览版 [punk-bands-unstyled.html](https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/punk-bands-unstyled.html)）：
 
 ![](table-unstyled.png)
 
@@ -149,7 +149,7 @@ td {
 
 现在我们把类型整理一下。
 
-首先，我们在[Google Fonts](https://www.google.com/fonts)上找到了一种适合于朋克乐队的字体的字体。如果你愿意，你可以去那里找一个不同的。现在，你只需替换我们提供的{{htmlelement("link")}}元素和定制的{{cssxref("font-family")}}声明，并使用 Google 字体提供给你的内容。
+首先，我们在[Google Fonts](https://fonts.google.com/)上找到了一种适合于朋克乐队的字体的字体。如果你愿意，你可以去那里找一个不同的。现在，你只需替换我们提供的{{htmlelement("link")}}元素和定制的{{cssxref("font-family")}}声明，并使用 Google 字体提供给你的内容。
 
 首先，将下面的{{htmlelement("link")}}元素添加到你的 HTML 头部，就在你现有的 `<link>` 元素之上：
 
@@ -280,7 +280,7 @@ caption {
 }
 ```
 
-这里没有什么值得注意的地方，除了{{cssxref("caption-side")}}属性，它被赋予了一个`bottom`的值。这就导致标题被放置在表格的底部，与其他声明一起提供了最后的外观（见预览版[punk-bands-complete.html](http://mdn.github.io/learning-area/css/styling-boxes/styling-tables/punk-bands-complete.html)）：
+这里没有什么值得注意的地方，除了{{cssxref("caption-side")}}属性，它被赋予了一个`bottom`的值。这就导致标题被放置在表格的底部，与其他声明一起提供了最后的外观（见预览版[punk-bands-complete.html](https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/punk-bands-complete.html)）：
 
 ![](table-with-caption.png)
 

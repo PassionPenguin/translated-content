@@ -23,7 +23,7 @@ slug: Learn/CSS/CSS_layout/Grid_skills
 {{EmbedGHLiveSample("css-examples/learn/tasks/grid/grid1.html", '100%', 700)}}
 
 > [!NOTE]
-> 评估或进一步的工作目的，可以[下载此任务的源文件](https://github.com/mdn/css-examples/blob/master/learn/tasks/grid/grid1-download.html)在你自己的编辑器或使用线编辑器。
+> 评估或进一步的工作目的，可以[下载此任务的源文件](https://github.com/mdn/css-examples/blob/main/learn/tasks/grid/grid1-download.html)在你自己的编辑器或使用线编辑器。
 
 ## 网格布局 二
 
@@ -40,7 +40,7 @@ slug: Learn/CSS/CSS_layout/Grid_skills
 - 你可以把第一个元素覆盖到第二个元素，而不通过改变 html 元素的顺序吗？
 
 > [!NOTE]
-> 评估或进一步的工作目的，可以 [下载此任务的源文件](https://github.com/mdn/css-examples/blob/master/learn/tasks/grid/grid2-download.html) 在你自己的编辑器或使用线编辑器。
+> 评估或进一步的工作目的，可以 [下载此任务的源文件](https://github.com/mdn/css-examples/blob/main/learn/tasks/grid/grid2-download.html) 在你自己的编辑器或使用线编辑器。
 
 ## 网格布局 三
 
@@ -53,7 +53,7 @@ slug: Learn/CSS/CSS_layout/Grid_skills
 {{EmbedGHLiveSample("css-examples/learn/tasks/grid/grid3.html", '100%', 800)}}
 
 > [!NOTE]
-> 评估或进一步的工作目的，可以 [下载此任务的源文件](https://github.com/mdn/css-examples/blob/master/learn/tasks/grid/grid3-download.html) 在你自己的编辑器或使用线编辑器。
+> 评估或进一步的工作目的，可以 [下载此任务的源文件](https://github.com/mdn/css-examples/blob/main/learn/tasks/grid/grid3-download.html) 在你自己的编辑器或使用线编辑器。
 
 ## 网格布局 四
 
@@ -66,7 +66,7 @@ slug: Learn/CSS/CSS_layout/Grid_skills
 {{EmbedGHLiveSample("css-examples/learn/tasks/grid/grid4.html", '100%', 1200)}}
 
 > [!NOTE]
-> 评估或进一步的工作目的，可以 [下载此任务的源文件](https://github.com/mdn/css-examples/blob/master/learn/tasks/grid/grid4-download.html) 在你自己的编辑器或使用线编辑器。
+> 评估或进一步的工作目的，可以 [下载此任务的源文件](https://github.com/mdn/css-examples/blob/main/learn/tasks/grid/grid4-download.html) 在你自己的编辑器或使用线编辑器。
 
 ## 评估 或者 帮助
 
@@ -75,8 +75,8 @@ slug: Learn/CSS/CSS_layout/Grid_skills
 如果你的作业需要评估，或者有困难想要帮助：
 
 1. 把你的作业放在一个在线可分享的编辑器上，比如 [CodePen](https://codepen.io/), [jsFiddle](https://jsfiddle.net/), 或者 [Glitch](https://glitch.com/). 你可以自己重头开始写，或者使用上面章节提供的源文件。
-2. Write a post asking for assessment and/or help at the [MDN Discourse forum Learning category](https://discourse.mozilla.org/c/mdn/learn). Your post should include:
-   发布一个评估的帖子 或者 帮助在[MDN Discourse forum Learning category](https://discourse.mozilla.org/c/mdn/learn)你的发布应该涵盖以下几点：
+2. Write a post asking for assessment and/or help at the [MDN Discourse forum Learning category](https://discourse.mozilla.org/c/mdn/learn/250). Your post should include:
+   发布一个评估的帖子 或者 帮助在[MDN Discourse forum Learning category](https://discourse.mozilla.org/c/mdn/learn/250)你的发布应该涵盖以下几点：
 
    - A descriptive title such as "Assessment wanted for Grid layout 1 skill test".
    - Details of what you have already tried, and what you would like us to do, e.g. if you are stuck and need help, or want an assessment.

@@ -194,7 +194,7 @@ html {
 {{EmbedGHLiveSample("css-examples/learn/box-model/box-models.html", '100%', 1100)}}
 
 > [!NOTE]
-> 在[这里](https://github.com/mdn/css-examples/blob/master/learn/solutions.md#the-box-model)查看该任务的解答。
+> 在[这里](https://github.com/mdn/css-examples/blob/main/learn/solutions.md#the-box-model)查看该任务的解答。
 
 ### 使用浏览器开发者工具来查看盒模型
 

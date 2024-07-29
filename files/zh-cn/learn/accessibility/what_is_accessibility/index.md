@@ -46,15 +46,15 @@ slug: Learn/Accessibility/What_is_accessibility
 
 有视觉障碍的人包括盲人、视力水平低下者、色盲。许多视觉障碍人士使用屏幕放大镜，要么是物理放大镜或是软件缩放功能。现今大多数浏览器和操作系统都具备缩放功能。某些用户使用屏幕阅读器，这是一种可以大声朗读数字文本的软件。一些屏幕阅读器的示例如下：
 
-- 有些是付费产品，比如 [JAWS](http://www.freedomscientific.com/Products/Blindness/JAWS) (Windows) 和 [Window Eyes](http://www.gwmicro.com/window-eyes/) (Windows).
-- 有些是免费产品，比如 [NVDA](http://www.nvaccess.org/) (Windows)， [ChromeVox](http://www.chromevox.com/) (Chrome, Windows 和 Mac OS X)，和 [Orca](https://wiki.gnome.org/Projects/Orca) (Linux).
-- 有些内置在操作系统中，比如 [VoiceOver](http://www.apple.com/accessibility/osx/voiceover/) (Mac OS X and iOS)， [Narrator](https://support.microsoft.com/en-us/help/22798/windows-10-narrator-get-started) (Microsoft Windows)， [ChromeVox](http://www.chromevox.com/) (on ChromeOS)，和 [TalkBack](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback) (Android).
+- 有些是付费产品，比如 [JAWS](https://www.freedomscientific.com/Products/Blindness/JAWS) (Windows) 和 [Window Eyes](http://www.gwmicro.com/window-eyes/) (Windows).
+- 有些是免费产品，比如 [NVDA](https://www.nvaccess.org/) (Windows)， [ChromeVox](https://support.google.com/chromebook/answer/7031755) (Chrome, Windows 和 Mac OS X)，和 [Orca](https://wiki.gnome.org/Projects/Orca) (Linux).
+- 有些内置在操作系统中，比如 [VoiceOver](https://www.apple.com/accessibility/vision/) (Mac OS X and iOS)， [Narrator](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1) (Microsoft Windows)， [ChromeVox](https://support.google.com/chromebook/answer/7031755) (on ChromeOS)，和 [TalkBack](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback) (Android).
 
 让自己熟悉屏幕阅读器是个好主意；你还应该设置一个屏幕阅读器并充分的使用它（盘它），以了解它是如何工作的。请参阅我们的[跨浏览器屏幕阅读器测试向导](/zh-CN/docs/Learn/Tools_and_testing/Cross_browser_testing/%E5%8F%AF%E8%AE%BF%E9%97%AE%E6%80%A7#%E5%B1%8F%E5%B9%95%E9%98%85%E8%AF%BB%E5%99%A8)，以了解更多使用它们的细节。下面的视频还提供了一个简单的例子说明了体验是怎样的。
 
 {{EmbedYouTube("IK97XMibEws")}}
 
-据统计，世界卫生组织估计“全球有 2.85 亿人视力受损：3900 万人失明，2.46 亿人视力低下。”(参见[视力障碍和失明](http://www.who.int/mediacentre/factsheets/fs282/en/))。这是一个庞大而重要的用户群却仅因为你的网站没有合理的设计代码而流失——几乎相当于美国的人口总数。
+据统计，世界卫生组织估计“全球有 2.85 亿人视力受损：3900 万人失明，2.46 亿人视力低下。”(参见[视力障碍和失明](https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment))。这是一个庞大而重要的用户群却仅因为你的网站没有合理的设计代码而流失——几乎相当于美国的人口总数。
 
 ### 有听觉障碍的人
 
@@ -94,7 +94,7 @@ slug: Learn/Accessibility/What_is_accessibility
 
 - 具有[认知无障碍](/zh-CN/docs/Web/Accessibility/Cognitive_accessibility)的设计将导致良好的设计实践。他们将使所有人受益。
 - 许多有认知障碍的人也可能患有身体残疾。网站必须遵循 W3C 的“[网页内容无障碍指南](https://www.w3.org/WAI/standards-guidelines/wcag/)”包括[认知无障碍指南](/zh-CN/docs/Web/Accessibility/Cognitive_accessibility#Guidelines)。
-- W3C 的“[认知和学习残疾无障碍专案组](https://www.w3.org/WAI/GL/task-forces/coga/)”为认知障碍人士制作了 web 无障碍指南。
+- W3C 的“[认知和学习残疾无障碍专案组](https://www.w3.org/WAI/about/groups/task-forces/coga/)”为认知障碍人士制作了 web 无障碍指南。
 - WebAIM 有一个[认知网页](https://webaim.org/articles/cognitive/)提供了相关的信息和资源。
 - 美国疾病控制中心估计，截至 2018 年，美国四分之一的公民有残疾，[其中认知障碍是年轻人最常见的疾病](https://www.cdc.gov/media/releases/2018/p0816-disability.html)。
 - 在美国，“智力障碍”是“智力低下”的新术语。在英国，“智力障碍”通常是指“学习障碍”或“学习困难”。

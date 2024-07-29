@@ -106,7 +106,7 @@ slug: Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
 
 Python 的 `http.server`（或 Python 2 的 `SimpleHTTPServer`）模块很有用，但它仅仅是一个*静态*文件服务器，不知道如何运行用 Python、PHP 或 JavaScript 等语言编写的代码。为了处理这个问题，你需要更多的东西——你需要的东西取决于你尝试运行的服务器端语言。这里有几个例子：
 
-- 要运行 Python 服务器端代码，你需要使用 Python web 框架。Python 有很多流行的 web 框架，例如 Django（有一个[指南](/zh-CN/docs/Learn/Server-side/Django)可供参考）、[Flask](https://flask.palletsprojects.com/) 和 [Pyramid](https://trypyramid.com)。
+- 要运行 Python 服务器端代码，你需要使用 Python web 框架。Python 有很多流行的 web 框架，例如 Django（有一个[指南](/zh-CN/docs/Learn/Server-side/Django)可供参考）、[Flask](https://flask.palletsprojects.com/en/3.0.x/) 和 [Pyramid](https://trypyramid.com/)。
 - 要运行 Node.js（JavaScript）服务器端代码，你可以直接使用 Node 或选择构建于其上的框架。Express 是一个不错的选择——请参阅 [Express Web 框架（Node.js/JavaScript）](/zh-CN/docs/Learn/Server-side/Express_Nodejs)。
 - 要运行 PHP 服务器端代码，启动 [PHP 的内置开发服务器](https://www.php.net/manual/zh/features.commandline.webserver.php)：
 

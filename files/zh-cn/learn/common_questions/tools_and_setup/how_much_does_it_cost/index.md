@@ -40,7 +40,7 @@ slug: Learn/Common_questions/Tools_and_setup/How_much_does_it_cost
 
 你八成已经拥有一个文本编辑器，例如 Windows 上的记事本、Linux 上的 Gedit 或是 Mac 上的 TextEdit。但如果选择一个拥有语法高亮、语法检查和代码组织功能的编辑器，就能更得心应手地写代码。
 
-有很多免费的编辑器，例如 [Atom](https://atom.io/)、[Brackets](http://brackets.io/)、[Bluefish](http://bluefish.openoffice.nl/)、[TextWrangler](http://www.barebones.com/products/textwrangler/)、[Eclipse](http://eclipse.org/)、[Netbeans](https://netbeans.org/) 和 [Visual Studio Code](https://code.visualstudio.com/)。[Sublime Text](http://www.sublimetext.com/) 之类的编辑器可以无限制试用，但最好还是付费购买。[PhpStorm](https://www.jetbrains.com/phpstorm/) 之类的编辑器则需花费几十至两百美元不等，取决于你购买的种类。[Microsoft Visual Studio](http://www.visualstudio.com/) 之类的编辑器则可能需要花费数百至数千美元，不过 Visual Studio Express 对独立开发者和开源项目免费。付费编辑器通常都有试用版。
+有很多免费的编辑器，例如 [Atom](https://github.blog/news-insights/product-news/sunsetting-atom/)、[Brackets](https://brackets.io/)、[Bluefish](https://bluefish.openoffice.nl/index.html)、[TextWrangler](http://www.barebones.com/products/textwrangler/)、[Eclipse](https://www.eclipse.org/)、[Netbeans](https://netbeans.apache.org/front/main/index.html) 和 [Visual Studio Code](https://code.visualstudio.com/)。[Sublime Text](http://www.sublimetext.com/) 之类的编辑器可以无限制试用，但最好还是付费购买。[PhpStorm](https://www.jetbrains.com/phpstorm/) 之类的编辑器则需花费几十至两百美元不等，取决于你购买的种类。[Microsoft Visual Studio](https://visualstudio.microsoft.com/) 之类的编辑器则可能需要花费数百至数千美元，不过 Visual Studio Express 对独立开发者和开源项目免费。付费编辑器通常都有试用版。
 
 开始学习时，我们建议你尝试几个不同的编辑器，找到最适合自己的。如果你只写简单的 {{Glossary("HTML")}}、{{Glossary("CSS")}} 和 {{Glossary("Javascript")}}，就挑个简易的编辑器。
 
@@ -66,7 +66,7 @@ slug: Learn/Common_questions/Tools_and_setup/How_much_does_it_cost
 
 每个系统都包含一个 FTP 客户端作为文件管理器的一部分。Windows 资源管理器，Nautilus（一个常见的 Linux 文件管理器）和 Mac Finder 都包含该功能。然而，人们更经常选择专门的 FTP 客户端，可以存储密码并且并行显示本地和远程目录。
 
-如果你需要安装一个 FTP 客户端，这里有很多免费的选择：例如，可以全平台使用的 [FileZilla](https://filezilla-project.org/) , windows 上使用的[WinSCP](http://winscp.net/) , Mac 和 windows 上都能使用的 [Cyberduck](https://cyberduck.io/) ，还有很多)。
+如果你需要安装一个 FTP 客户端，这里有很多免费的选择：例如，可以全平台使用的 [FileZilla](https://filezilla-project.org/) , windows 上使用的[WinSCP](https://winscp.net/eng/index.php) , Mac 和 windows 上都能使用的 [Cyberduck](https://cyberduck.io/) ，还有很多)。
 
 > [!NOTE]
 > 还有其他方法可以在远程服务器上发布内容，如 rsync 和 git，但并不像 FTP 那样简单，我们不会在这里讨论。
@@ -103,16 +103,16 @@ slug: Learn/Common_questions/Tools_and_setup/How_much_does_it_cost
 
 ### 域名
 
-你的域名必须由域名提供商（注册商）购买。你的托管服务提供商也可能是注册服务商（[1＆1](https://www.1and1.com/)，例如 [甘地](https://www.gandi.net/?lang=en) 同时是注册商和托管服务提供商）。域名通常每年花费 5-15 美元。费用取决于：
+你的域名必须由域名提供商（注册商）购买。你的托管服务提供商也可能是注册服务商（[1＆1](https://www.ionos.com/)，例如 [甘地](https://www.gandi.net/en?lang%3Den) 同时是注册商和托管服务提供商）。域名通常每年花费 5-15 美元。费用取决于：
 
 - 地方合同（一些国家顶级域名的成本非常高，因为不同的国家设定了不同的价格）
 - 与域名相关的服务：一些注册商通过将你的邮政地址和电子邮件地址隐藏在他们自己的地址后面来提供垃圾邮件保护（相应地，邮政地址可以提供给注册服务商，邮件地址可以隐藏在属于注册服务商的别名下）。
 
 ### 自己动手托管与“打包”托管
 
-当你想发布一个网站时，你可以自己做所有事情：建立一个数据库（如果需要的话），建立一个内容管理系统或{{Glossary("CMS")}}（如 [Wordpress](http://wordpress.org/) ， [Dotclear](http://dotclear.org/) ，[spip](http://www.spip.net/en_rubrique25.html) ，等等），上传预制的模板或你自己的模板。
+当你想发布一个网站时，你可以自己做所有事情：建立一个数据库（如果需要的话），建立一个内容管理系统或{{Glossary("CMS")}}（如 [Wordpress](https://wordpress.org/) ， [Dotclear](http://dotclear.org/) ，[spip](https://www.spip.net/en_rubrique25.html) ，等等），上传预制的模板或你自己的模板。
 
-你还可以依赖你的托管服务提供商已设置的环境，通常每月支付十美元至十五美元的费用，或者直接通过预先打包的 CMS（例如 [Wordpress](http://wordpress.com/) ，[Tumblr](https://www.tumblr.com/)，[Blogger](https://www.blogger.com/) ）直接订阅专用托管服务。在后一种情况下，你不需要支付任何费用，但是你对模板的控制可能较少。
+你还可以依赖你的托管服务提供商已设置的环境，通常每月支付十美元至十五美元的费用，或者直接通过预先打包的 CMS（例如 [Wordpress](https://wordpress.com/) ，[Tumblr](https://www.tumblr.com/)，[Blogger](https://www.blogger.com/about/?bpli%3D1) ）直接订阅专用托管服务。在后一种情况下，你不需要支付任何费用，但是你对模板的控制可能较少。
 
 ### 免费托管与付费托管对比
 

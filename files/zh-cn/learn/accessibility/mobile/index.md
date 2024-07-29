@@ -177,7 +177,7 @@ iOS 操作系统内置了移动版旁白（VoiceOver）。
 7. 选择*标题*，现在你可以通过上下滑动在页面的不同标题中切换。
 
 > [!NOTE]
-> 有关 iOS 上可用的旁白手势以及有关辅助功能的其他提示的更完整资料可以查看[在你的设备上用旁白测试辅助功能](https://developer.apple.com/library/archive/technotes/TestingAccessibilityOfiOSApps/TestAccessibilityonYourDevicewithVoiceOver/TestAccessibilityonYourDevicewithVoiceOver.html)。
+> 有关 iOS 上可用的旁白手势以及有关辅助功能的其他提示的更完整资料可以查看[在你的设备上用旁白测试辅助功能](https://developer.apple.com/documentation/accessibility/accessibility-inspector)。
 
 ## 控制机制
 

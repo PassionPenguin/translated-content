@@ -225,7 +225,7 @@ _现在还没有动手练习的内容。[请考虑投稿](/zh-CN/docs/MDN/Commun
 
 ### 浏览网站
 
-正如你所知，你需要一个网页浏览器去查看网页。这里有一系列的[许多](http://en.wikipedia.org/wiki/List_of_web_browsers)可选浏览器供你个人使用，不过当你在开发一个网页时，你应当至少用以下的主流浏览器测试它，以保证你的网站可供大部分人浏览：
+正如你所知，你需要一个网页浏览器去查看网页。这里有一系列的[许多](https://en.wikipedia.org/wiki/List_of_web_browsers)可选浏览器供你个人使用，不过当你在开发一个网页时，你应当至少用以下的主流浏览器测试它，以保证你的网站可供大部分人浏览：
 
 - [Mozilla Firefox](https://www.mozilla.org/zh-CN/firefox/new/)
 - [Google Chrome](https://www.google.cn/chrome/)

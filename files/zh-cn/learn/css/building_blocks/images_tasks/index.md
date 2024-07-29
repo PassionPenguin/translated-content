@@ -23,7 +23,7 @@ slug: Learn/CSS/Building_blocks/Images_tasks
 {{EmbedGHLiveSample("css-examples/learn/tasks/images/object-fit.html", '100%', 1000)}}
 
 > [!NOTE]
-> 为了为了评估或进一步完成任务，请[下载此任务的起点](https://github.com/mdn/css-examples/blob/master/learn/tasks/images/object-fit-download.html)，以便在你自己的编辑器或在线编辑器中工作。
+> 为了为了评估或进一步完成任务，请[下载此任务的起点](https://github.com/mdn/css-examples/blob/main/learn/tasks/images/object-fit-download.html)，以便在你自己的编辑器或在线编辑器中工作。
 
 ## 任务二
 
@@ -41,7 +41,7 @@ slug: Learn/CSS/Building_blocks/Images_tasks
 {{EmbedGHLiveSample("css-examples/learn/tasks/images/form.html", '100%', 600)}}
 
 > [!NOTE]
-> 为了为了评估或进一步完成任务，请[下载此任务的起点](https://github.com/mdn/css-examples/blob/master/learn/tasks/images/form-download.html)，以便在你自己的编辑器或在线编辑器中工作。
+> 为了为了评估或进一步完成任务，请[下载此任务的起点](https://github.com/mdn/css-examples/blob/main/learn/tasks/images/form-download.html)，以便在你自己的编辑器或在线编辑器中工作。
 
 ## 评价以及更多帮助
 
@@ -50,7 +50,7 @@ slug: Learn/CSS/Building_blocks/Images_tasks
 如果你希望对自己的工作进行评估，或者遇到困难并希望寻求帮助，请执行以下操作：
 
 1. 将你的工作上传到在线共享编辑器中，例如 [CodePen](https://codepen.io/), [jsFiddle](https://jsfiddle.net/), [Glitch](https://glitch.com/).。你可以自己编写代码，也可以使用以上部分中链接到的起点文件。
-2. 在[MDN Discourse forum Learning category](https://discourse.mozilla.org/c/mdn/learn). “学习”类别中写一篇帖子，要求评估帮助。你的帖子应包括：
+2. 在[MDN Discourse forum Learning category](https://discourse.mozilla.org/c/mdn/learn/250). “学习”类别中写一篇帖子，要求评估帮助。你的帖子应包括：
 
 - 描述性标题，例如“**Assessment wanted for Images skill test 1**”。
 - 你已经尝试过的内容以及你希望我们做什么的详细信息，例如 **如果你陷入困境并需要帮助**，或者**需要评估**。

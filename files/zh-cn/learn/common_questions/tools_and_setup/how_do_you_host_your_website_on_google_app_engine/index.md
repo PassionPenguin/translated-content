@@ -13,7 +13,7 @@ slug: Learn/Common_questions/Tools_and_setup/How_do_you_host_your_website_on_Goo
 
 为了在你自己的网站或者 app 使用谷歌的工具，你需要在谷歌云平台上创建一个新项目 ( a new project ) 当然，需要谷歌账号。
 
-1. 打开谷歌云平台控制台（Google Cloud Platform Console），再打开 [App Engine dashboard](https://console.cloud.google.com/projectselector/appengine) 页面 并点击 _Create_ .
+1. 打开谷歌云平台控制台（Google Cloud Platform Console），再打开 [App Engine dashboard](https://accounts.google.com/v3/signin/identifier?continue%3Dhttps://console.cloud.google.com/projectselector/appengine%26followup%3Dhttps://console.cloud.google.com/projectselector/appengine%26ifkv%3DAdF4I74LmWG5yFfcGdAdyhVeCZIUc8BKhbdopxYR9Zt6t_huVAWyZfc40AtpQtaiiIOO7lkszrw8zw%26osid%3D1%26passive%3D1209600%26service%3Dcloudconsole%26flowName%3DWebLiteSignIn%26flowEntry%3DServiceLogin%26dsh%3DS2013410315:1722258602741873) 页面 并点击 _Create_ .
 2. 如果从未创建过项目 (project)，会提示你是否选择接收邮箱升级，并需要同意团队服务条款才能继续。
 3. 键入项目名，并编辑项目 ID(请记下你的项目 ID)
    本教程的示例值：
@@ -37,7 +37,7 @@ slug: Learn/Common_questions/Tools_and_setup/How_do_you_host_your_website_on_Goo
 
 现在我们已经制作了我们的项目并将示例应用程序文件收集在一起，下面发布应用程序。
 
-1. 打开[Google Cloud Shell](https://console.cloud.google.com/cloudshell/editor).
+1. 打开[Google Cloud Shell](https://accounts.google.com/v3/signin/identifier?continue%3Dhttps://shell.cloud.google.com/cloudshell/editor%26followup%3Dhttps://shell.cloud.google.com/cloudshell/editor%26ifkv%3DAdF4I77on18XJLiRKz5xfiQo0ivUWYy81jKQ7ghCt8K8ITMLB0TMaL_x3L1JX_GOJZfXoPO_j1dh%26osid%3D1%26passive%3D1209600%26flowName%3DWebLiteSignIn%26flowEntry%3DServiceLogin%26dsh%3DS-1758673313:1722258608221597).
 2. 把 `sample-app`目录拖拽到代码编辑器左边
 3. 在命令行中键入如下命令选择你的项目：
 

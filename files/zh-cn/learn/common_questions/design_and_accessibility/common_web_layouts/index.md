@@ -75,7 +75,7 @@ _目前还没有可以深入学习的文章。[何不考虑发一篇？](/zh-CN/
 
 ### “双列”布局
 
-**[Abduzeedo](https://abduzeedo.com/typography-mania-261)**，一个简单的博客布局。博客一般都是“两列”：一列偏宽用来承载主要内容，一列偏窄用来承载“边缘内容”（如小部件、二级导航栏、广告等）。
+**[Abduzeedo](https://abduzeedo.com/page-not-found)**，一个简单的博客布局。博客一般都是“两列”：一列偏宽用来承载主要内容，一列偏窄用来承载“边缘内容”（如小部件、二级导航栏、广告等）。
 
 ![Example of a 2 column layout for a blog](screenshot-blog.jpg) ![A 2 column layout with the main content on the left column](screenshot-blog-overlay.jpg)
 

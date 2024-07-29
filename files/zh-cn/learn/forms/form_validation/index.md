@@ -40,7 +40,7 @@ slug: Learn/Forms/Form_validation
 > [!NOTE]
 > 下面一段在英文原文中已经删除
 
-（事实上，没有人愿意填写表单——很多证据表明，用户对填写表单这件事情都感到很烦恼，如果他们在填写表单的过程中遇到一些自己无法理解的问题，通常都会导致他们直接离开你的 Web 应用，简而言之，[表单是一个很烦人的东西](https://www.slideshare.net/jwegesin/forms-suck/)。）
+（事实上，没有人愿意填写表单——很多证据表明，用户对填写表单这件事情都感到很烦恼，如果他们在填写表单的过程中遇到一些自己无法理解的问题，通常都会导致他们直接离开你的 Web 应用，简而言之，[表单是一个很烦人的东西](https://www.slideshare.net/jwegesin/forms-suck)。）
 
 我们希望把填写表单变的越简单越好。那么，为什么我们还坚持进行表单的数据校验呢？这有三个最主要的原因：
 
@@ -356,7 +356,7 @@ input:focus:invalid {
 
 要自定义这些消息的外观和文本，你必须使用 JavaScript; 不能使用 HTML 和 CSS 来改变。
 
-HTML5 提供 [constraint validation API](http://www.w3.org/TR/html5/forms.html#the-constraint-validation-api) 来检测和自定义表单元素的状态。除此之外，他可以改变错误信息的文本。让我们快速的看一个例子：
+HTML5 提供 [constraint validation API](https://html.spec.whatwg.org/multipage/forms.html#the-constraint-validation-api) 来检测和自定义表单元素的状态。除此之外，他可以改变错误信息的文本。让我们快速的看一个例子：
 
 ```html
 <form>
@@ -599,10 +599,10 @@ form.addEventListener(
 
   - : 为了减少用户的挫折感，提供尽可能多的有用的信息是非常重要的，以便引导他们纠正他们的输入。你应该提供前期建议，以便他们知道预期的输入是什么以及明确的错误消息。如果你想深入了解表单校验用户界面要求，那么你应该阅读一些有用的文章：
 
-    - SmashingMagazine: [Form-Field Validation: The Errors-Only Approach](http://uxdesign.smashingmagazine.com/2012/06/27/form-field-validation-errors-only-approach/)
-    - SmashingMagazine: [Web Form Validation: Best Practices and Tutorials](http://www.smashingmagazine.com/2009/07/07/web-form-validation-best-practices-and-tutorials/)
-    - Six Revision: [Best Practices for Hints and Validation in Web Forms](http://sixrevisions.com/user-interface/best-practices-for-hints-and-validation-in-web-forms/)
-    - A List Apart: [Inline Validation in Web Forms](http://www.alistapart.com/articles/inline-validation-in-web-forms/)
+    - SmashingMagazine: [Form-Field Validation: The Errors-Only Approach](https://www.smashingmagazine.com/2012/06/form-field-validation-errors-only-approach/)
+    - SmashingMagazine: [Web Form Validation: Best Practices and Tutorials](https://www.smashingmagazine.com/2009/07/web-form-validation-best-practices-and-tutorials/)
+    - Six Revision: [Best Practices for Hints and Validation in Web Forms](https://www.webfx.com/blog/web-design/best-practices-for-hints-and-validation-in-web-forms/)
+    - A List Apart: [Inline Validation in Web Forms](https://alistapart.com/article/inline-validation-in-web-forms/)
 
 #### 不使用约束校验 API 的例子
 
@@ -781,7 +781,7 @@ addEvent(form, "submit", function () {
 - jQuery 插件：
 
   - [Validation](http://bassistance.de/jquery-plugins/jquery-plugin-validation/)
-  - [Valid8](http://unwrongest.com/projects/valid8/)
+  - [Valid8](http://3.8.18.174)
 
 #### 远程校验
 

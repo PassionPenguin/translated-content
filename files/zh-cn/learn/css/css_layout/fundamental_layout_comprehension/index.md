@@ -71,7 +71,7 @@ slug: Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension
 
 如果你希望你的作业得到评估，或遇到问题需要帮助：
 
-1. 将你的作业放在在线可分享编辑器中，如 [CodePen](https://codepen.io/)、[jsFiddle](https://jsfiddle.net) 或 [Glitch](https://glitch.com/)
+1. 将你的作业放在在线可分享编辑器中，如 [CodePen](https://codepen.io/)、[jsFiddle](https://jsfiddle.net/) 或 [Glitch](https://glitch.com/)
 2. 在 [MDN Discouse 论坛 Learning 分区](https://discourse.mozilla.org/c/mdn/learn/250)发贴，你的贴文应包含：
 
    - 一个描述性的标题，如“Assessment wanted for Fundamental layout comprehension”。

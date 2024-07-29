@@ -25,7 +25,7 @@ slug: Learn/CSS/CSS_layout/Position_skills
 作为一个额外的挑战，你能改变目标元素显示在文本下面吗？
 
 > [!NOTE]
-> 为了评估和进一步编辑，[下载源代码](https://github.com/mdn/css-examples/blob/master/learn/tasks/position/position1-download.html)在本地编辑器或在线编辑器中编辑
+> 为了评估和进一步编辑，[下载源代码](https://github.com/mdn/css-examples/blob/main/learn/tasks/position/position1-download.html)在本地编辑器或在线编辑器中编辑
 
 ## 定位练习二
 
@@ -38,7 +38,7 @@ slug: Learn/CSS/CSS_layout/Position_skills
 {{EmbedGHLiveSample("css-examples/learn/tasks/position/position2.html", '100%', 1000)}}
 
 > [!NOTE]
-> 为了评估和进一步编辑，[下载源代码](https://github.com/mdn/css-examples/blob/master/learn/tasks/position/position2-download.html)在本地编辑器或在线编辑器中编辑
+> 为了评估和进一步编辑，[下载源代码](https://github.com/mdn/css-examples/blob/main/learn/tasks/position/position2-download.html)在本地编辑器或在线编辑器中编辑
 
 ## Assessment or further help
 
@@ -47,7 +47,7 @@ You can practice these examples in the Interactive Editors mentioned above.
 If you would like your work assessed, or are stuck and want to ask for help:
 
 1. Put your work into an online shareable editor such as [CodePen](https://codepen.io/), [jsFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/). You can write the code yourself, or use the starting point files linked to in the above sections.
-2. Write a post asking for assessment and/or help at the [MDN Discourse forum Learning category](https://discourse.mozilla.org/c/mdn/learn). Your post should include:
+2. Write a post asking for assessment and/or help at the [MDN Discourse forum Learning category](https://discourse.mozilla.org/c/mdn/learn/250). Your post should include:
 
    - A descriptive title such as "Assessment wanted for Position skill test 1".
    - Details of what you have already tried, and what you would like us to do, e.g. if you are stuck and need help, or want an assessment.

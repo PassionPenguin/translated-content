@@ -39,7 +39,7 @@ l10n:
 
 ### 一个简单的网络
 
-当两台电脑需要通信的时候，你必须要连接他们，无论通过有线方式（通常是[网线](http://en.wikipedia.org/wiki/Ethernet_crossover_cable)）或是无线方式（比如 [WiFi](https://zh.wikipedia.org/wiki/Wi-Fi) 或[蓝牙](https://zh.wikipedia.org/wiki/藍牙)）。所有现代电脑都支持这些连接。
+当两台电脑需要通信的时候，你必须要连接他们，无论通过有线方式（通常是[网线](https://en.wikipedia.org/wiki/Ethernet_crossover_cable)）或是无线方式（比如 [WiFi](https://zh.wikipedia.org/wiki/Wi-Fi) 或[蓝牙](https://zh.wikipedia.org/wiki/藍牙)）。所有现代电脑都支持这些连接。
 
 > [!NOTE]
 > 接下来的内容，我们将只谈论有线连接，而无线连接的原理与此相同。

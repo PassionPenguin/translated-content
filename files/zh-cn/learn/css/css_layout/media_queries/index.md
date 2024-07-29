@@ -91,7 +91,7 @@ slug: Learn/CSS/CSS_layout/Media_queries
 }
 ```
 
-在浏览器中[打开这个示例](https://mdn.github.io/css-examples/learn/media-queries/width.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/width.html)。
+在浏览器中[打开这个示例](https://mdn.github.io/css-examples/learn/media-queries/width.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/width.html)。
 
 `width`（和`height`）媒体特征可以以数值范围使用，于是就有了`min-`或者`max-`的前缀，指示所给的值是最小值还是最大值。例如，要让颜色在视口窄于 400 像素的时候变成蓝色的话，可以用`max-width`：
 
@@ -103,7 +103,7 @@ slug: Learn/CSS/CSS_layout/Media_queries
 }
 ```
 
-在浏览器中[打开示例](https://mdn.github.io/css-examples/learn/media-queries/max-width.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/max-width.html)。
+在浏览器中[打开示例](https://mdn.github.io/css-examples/learn/media-queries/max-width.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/max-width.html)。
 
 实践中，使用最小值和最大值对响应式设计有很多的用处，所以你会很少见到`width`或`height` 单独使用的情况。
 
@@ -121,7 +121,7 @@ slug: Learn/CSS/CSS_layout/Media_queries
 }
 ```
 
-在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/orientation.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/orientation.html)。
+在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/orientation.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/orientation.html)。
 
 标准的桌面视图是横放朝向的，在这种朝向上能够表现良好的设计，在处于竖放模式的手机或平板电脑上可能不会表现得这么好。对朝向的测试可以帮你建立一个为竖放设备优化的布局。
 
@@ -137,7 +137,7 @@ slug: Learn/CSS/CSS_layout/Media_queries
 }
 ```
 
-在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/hover.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/hover.html)。
+在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/hover.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/hover.html)。
 
 如果我们知道用户不能悬浮的话，我们可以默认显示一些交互功能。对于能够悬浮的用户，我们可以选择在悬浮在链接上的时候，让这些功能可用。
 
@@ -161,7 +161,7 @@ slug: Learn/CSS/CSS_layout/Media_queries
 }
 ```
 
-在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/and.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/and.html)。
+在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/and.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/and.html)。
 
 ### 媒体查询中的“或”逻辑
 
@@ -175,7 +175,7 @@ slug: Learn/CSS/CSS_layout/Media_queries
 }
 ```
 
-在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/or.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/or.html)。
+在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/or.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/or.html)。
 
 ### 媒体查询中的“非”逻辑
 
@@ -189,7 +189,7 @@ slug: Learn/CSS/CSS_layout/Media_queries
 }
 ```
 
-在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/not.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/not.html)。
+在浏览器中[打开此示例](https://mdn.github.io/css-examples/learn/media-queries/not.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/not.html)。
 
 ## 怎么选择断点
 
@@ -310,9 +310,9 @@ article {
 
 这个简单的布局在移动端上也能表现得很好。如果我们在开发者工具中的响应式设计模式里面查看这个布局的话，我们可以看到，它作为一个直截了当的站点移动版布局来说，表现得相当优秀。
 
-在浏览器里[打开步骤一](https://mdn.github.io/css-examples/learn/media-queries/step1.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/step1.html)。
+在浏览器里[打开步骤一](https://mdn.github.io/css-examples/learn/media-queries/step1.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/step1.html)。
 
-**如果你想要在我们继续的时候，按步骤来并尝试这个示例，在你的电脑上建立一个[step1.html](https://github.com/mdn/css-examples/blob/master/learn/media-queries/step1.html)的本地副本。**
+**如果你想要在我们继续的时候，按步骤来并尝试这个示例，在你的电脑上建立一个[step1.html](https://github.com/mdn/css-examples/blob/main/learn/media-queries/step1.html)的本地副本。**
 
 从这里开始，脱拽响应式设计的窗口，让它变得变得更宽，直到你看到一行变得非常长，有足够空间把导航栏放在一个水平行里面。这是我们加入第一个媒体查询的地方。我们将会使用 em，因为这意味着，如果用户已经增加了文本的大小，断点会在行差不多也是这样长，但是视口更宽的时候产生；而文本更小的时候，视口也会更窄。
 
@@ -338,7 +338,7 @@ article {
 
 这个 CSS 让我们的文章里面有了个两列布局，两栏分别是文章的内容和在 aside 元素中相关的信息。我们也已经用弹性盒把导航栏放在了一行里面。
 
-在浏览器中[打开步骤二](https://mdn.github.io/css-examples/learn/media-queries/step2.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/step2.html)。
+在浏览器中[打开步骤二](https://mdn.github.io/css-examples/learn/media-queries/step2.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/step2.html)。
 
 让我们继续增加宽度，直到我们觉得这里有了足够多的空间来放置侧栏，再形成一列。在媒体查询中，我们会让 main 元素变成两栏网格。我们之后需要移除文章上的{{cssxref("margin-bottom")}}，让两个侧栏和彼此对齐，然后我们将会往页脚的顶部加上一个{{cssxref("border")}} 。一般来说，为了让设计看起来好看，这些小调整是你将会在每一个断点都需要做的。
 
@@ -363,7 +363,7 @@ article {
 }
 ```
 
-在浏览器中[打开步骤三](https://mdn.github.io/css-examples/learn/media-queries/step3.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/step3.html)。
+在浏览器中[打开步骤三](https://mdn.github.io/css-examples/learn/media-queries/step3.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/step3.html)。
 
 如果你在不同的宽度下，看下最后的示例，你会看到设计是如何响应的，在可用的宽度下是如何表现为单栏、双栏或者三栏的。这是一个移动优先的响应式设计的非常简单的示例。
 
@@ -414,7 +414,7 @@ article {
 }
 ```
 
-在浏览器中[打开网格布局示例](https://mdn.github.io/css-examples/learn/media-queries/grid.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/master/learn/media-queries/grid.html)。
+在浏览器中[打开网格布局示例](https://mdn.github.io/css-examples/learn/media-queries/grid.html)，或者[查看源代码](https://github.com/mdn/css-examples/blob/main/learn/media-queries/grid.html)。
 
 在你的浏览器里打开这个示例，让屏幕变宽变窄，看一看列轨数目的变化。这个方法里面的好事是，网格不是靠视口宽度判断的，而是可以容纳组件的宽度。对媒体查询这章节的建议就是，你可能根本不需要它！但是，实践中你会发现，由媒体查询改进的现代布局方式的恰当使用，将会产生最佳效果。
 
