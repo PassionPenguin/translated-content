@@ -166,7 +166,7 @@ void gl.texImage2D(target, level, internalformat, width, height, border, format,
 - `border`
   - : {{domxref("GLint")}} 指定纹理的边框宽度。必须为 0。
 - `format`
-  - : {{domxref("GLenum")}} 指定 texel 数据格式。在 WebGL 1 中，它必须与 `internalformat` 相同（查看上面). 在 WebGL 2 中，[这张表](https://www.khronos.org/registry/webgl/specs/latest/2.0/#TEXTURE_TYPES_FORMATS_FROM_DOM_ELEMENTS_TABLE)中列出了这些组合。
+  - : {{domxref("GLenum")}} 指定 texel 数据格式。在 WebGL 1 中，它必须与 `internalformat` 相同（查看上面). 在 WebGL 2 中，[这张表](https://registry.khronos.org/webgl/specs/latest/2.0/#TEXTURE_TYPES_FORMATS_FROM_DOM_ELEMENTS_TABLE)中列出了这些组合。
 - `type`
 
   - : {{domxref("GLenum")}} 指定 texel 数据的数据类型。可能的值：

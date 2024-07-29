@@ -111,32 +111,32 @@ function process_touchmove(ev) {
 
 ## What about Pointer Events?
 
-The introduction of new input mechanisms results in increased application complexity to handle various input events, such as key events, mouse events, pen/stylus events, and touch events. To help address this problem, the [Pointer Events standard](http://www.w3.org/TR/pointerevents/) _defines events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc._. That is, the abstract _pointer_ creates a unified input model that can represent a contact point for a finger, pen/stylus or mouse.
+The introduction of new input mechanisms results in increased application complexity to handle various input events, such as key events, mouse events, pen/stylus events, and touch events. To help address this problem, the [Pointer Events standard](https://www.w3.org/TR/pointerevents/) _defines events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc._. That is, the abstract _pointer_ creates a unified input model that can represent a contact point for a finger, pen/stylus or mouse.
 
 The pointer event model can simplify an application's input processing since a pointer represents input from any input device. Additionally, the pointer event types are very similar to mouse event types (for example, `pointerdown` `pointerup`) thus code to handle pointer events closely matches mouse handling code.
 
-The implementation status of pointer events in browsers is [relatively low](http://caniuse.com/#search=pointer) with IE11 and Edge having complete implementations. Firefox's implementation has been withdrawn because of [Firefox bug 1166347](https://bugzil.la/1166347).
+The implementation status of pointer events in browsers is [relatively low](https://caniuse.com/#search%3Dpointer) with IE11 and Edge having complete implementations. Firefox's implementation has been withdrawn because of [Firefox bug 1166347](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1166347).
 
 ## Examples and demos
 
 The following documents describe how to use touch events and include example code:
 
 - {{domxref("Touch_events","Touch Events Overview")}}
-- [Implement Custom Gestures](https://developers.google.com/web/fundamentals/design-and-ui/input/touch/touch-events)
+- [Implement Custom Gestures](https://web.dev/learn/design/)
 - [Introduction to Touch events in JavaScript](http://www.javascriptkit.com/javatutors/touchevents.shtml)
 - [Add touch screen support to your website (The easy way)](http://www.codicode.com/art/easy_way_to_add_touch_support_to_your_website.aspx)
 
 Touch event demonstrations:
 
 - [Paint Program (by Rick Byers)](https://rbyers.github.io/paint.html)
-- [Touch/pointer tests and demos (by Patrick H. Lauke)](http://patrickhlauke.github.io/touch/)
+- [Touch/pointer tests and demos (by Patrick H. Lauke)](https://patrickhlauke.github.io/touch/)
 
 ## Community
 
 - [Touch Events Community Group](https://github.com/w3c/touch-events)
-- [Mail list](http://lists.w3.org/Archives/Public/public-touchevents/)
+- [Mail list](https://lists.w3.org/Archives/Public/public-touchevents/)
 - [W3C #touchevents IRC channel](irc://irc.w3.org:6667/)
 
 ## Related topics and resources
 
-- [Pointer Events Standard](http://www.w3.org/TR/pointerevents/)
+- [Pointer Events Standard](https://www.w3.org/TR/pointerevents/)

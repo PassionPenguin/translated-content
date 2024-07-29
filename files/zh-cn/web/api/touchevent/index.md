@@ -25,7 +25,7 @@ _{{ domxref("TouchEvent") }}的属性继承了 {{domxref("UIEvent")}} 和 {{domx
 - {{ domxref("event.ctrlKey", "TouchEvent.ctrlKey") }} {{readonlyInline}}
   - : 布尔值，指明触摸事件触发时，键盘 ctrl 键是否被按下。
 - {{ domxref("event.metaKey", "TouchEvent.metaKey") }} {{readonlyInline}}
-  - : 布尔值，指明触摸事件触发时，键盘 meta 键（[Wikipedia - meta Key](http://en.wikipedia.org/wiki/Meta_key)）是否被按下。
+  - : 布尔值，指明触摸事件触发时，键盘 meta 键（[Wikipedia - meta Key](https://en.wikipedia.org/wiki/Meta_key)）是否被按下。
 - {{ domxref("event.shiftKey", "TouchEvent.shiftKey") }} {{readonlyInline}}
   - : 布尔值，指明触摸事件触发时，键盘 shift 键是否被按下。
 - {{ domxref("TouchEvent.targetTouches") }} {{readonlyInline}}
@@ -71,7 +71,7 @@ _{{ domxref("TouchEvent") }}的属性继承了 {{domxref("UIEvent")}} 和 {{domx
 
 很值得注意的是，在很多情况下，触摸事件和鼠标事件会一起触发（以使非触摸专用的代码仍然可以与用户交互）。如果你要使用触摸事件，你可以使用 {{domxref("Event.preventDefault","preventDefault()")}} 来取消鼠标事件。
 
-但 Chrome 是例外，从版本 56（桌面版、安卓版和安卓 webview）开始，Chrome 中 {{domxref("Element/touchstart_event", "touchstart")}} and {{domxref("Element/touchmove_event", "touchmove")}} 的默认值就是 `true`，没有必要调用 {{domxref("Event.preventDefault","preventDefault()")}}。如果要重写这个行为，简单地将 `passive` 设置成 `false` 就行。这样设置可以阻止监听器在用户滚动时停止页面渲染。[Google Developer](https://developers.google.com/web/updates/2016/06/passive-event-listeners) 有一个简单的演示。
+但 Chrome 是例外，从版本 56（桌面版、安卓版和安卓 webview）开始，Chrome 中 {{domxref("Element/touchstart_event", "touchstart")}} and {{domxref("Element/touchmove_event", "touchmove")}} 的默认值就是 `true`，没有必要调用 {{domxref("Event.preventDefault","preventDefault()")}}。如果要重写这个行为，简单地将 `passive` 设置成 `false` 就行。这样设置可以阻止监听器在用户滚动时停止页面渲染。[Google Developer](https://developer.chrome.com/blog/passive-event-listeners) 有一个简单的演示。
 
 ## 全局事件处理
 

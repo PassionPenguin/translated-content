@@ -91,11 +91,11 @@ if (storageAvailable("localStorage")) {
 
 ![](event-output.png)
 
-> **备注：** 除了使用上面的链接查看示例页面外，还可以[获取源码](https://github.com/mdn/dom-examples/tree/master/web-storage)。
+> **备注：** 除了使用上面的链接查看示例页面外，还可以[获取源码](https://github.com/mdn/dom-examples/tree/main/web-storage)。
 
 ### 测试本地存储是否已被填充
 
-在 [main.js](https://github.com/mdn/dom-examples/blob/master/web-storage/main.js) 开头，我们先测试本地存储是否已被填充（即，页面之前被访问过）：
+在 [main.js](https://github.com/mdn/dom-examples/blob/main/web-storage/main.js) 开头，我们先测试本地存储是否已被填充（即，页面之前被访问过）：
 
 ```js
 if (!localStorage.getItem("bgcolor")) {
@@ -159,7 +159,7 @@ imageForm.onchange = populateStorage;
 
 无论何时，{{domxref("Storage")}} 对象发生变化时（即创建/更新/删除数据项时，重复设置相同的键值不会触发该事件，{{domxref("Storage.clear()")}} 方法至多触发一次该事件），{{domxref("StorageEvent")}} 事件会触发。在同一个页面内发生的改变不会起作用——在相同域名下的其他页面（如一个新标签或 iframe）发生的改变才会起作用。在其他域名下的页面不能访问相同的 Storage 对象。
 
-在事件结果页面中的 JavaScript 如下所示（可见 [events.js](https://github.com/mdn/dom-examples/blob/master/web-storage/event.js)）：
+在事件结果页面中的 JavaScript 如下所示（可见 [events.js](https://github.com/mdn/dom-examples/blob/main/web-storage/event.js)）：
 
 ```js
 window.addEventListener("storage", function (e) {

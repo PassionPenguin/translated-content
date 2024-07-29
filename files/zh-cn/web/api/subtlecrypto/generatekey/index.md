@@ -128,4 +128,4 @@ let key = await window.crypto.subtle.generateKey(
 ## 参见
 
 - [加密密钥长度的建议](https://www.keylength.com/)。
-- [NIST 过度使用的加密算法和密钥长度](https://csrc.nist.gov/publications/detail/sp/800-131a/rev-2/final)。
+- [NIST 过度使用的加密算法和密钥长度](https://csrc.nist.gov/pubs/sp/800/131/a/r2/final)。

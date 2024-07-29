@@ -74,7 +74,7 @@ void gl.texImage3D(target, level, internalformat, width, height, depth, border, 
 - `border`
   - : {{domxref("GLint")}}指定边框宽度，必须为 0
 - `format`
-  - : {{domxref("GLenum")}}制定纹素的版本。正确的 `内部格式` 组合被列举在 [这个列表](https://www.khronos.org/registry/webgl/specs/latest/2.0/#TEXTURE_TYPES_FORMATS_FROM_DOM_ELEMENTS_TABLE)。
+  - : {{domxref("GLenum")}}制定纹素的版本。正确的 `内部格式` 组合被列举在 [这个列表](https://registry.khronos.org/webgl/specs/latest/2.0/#TEXTURE_TYPES_FORMATS_FROM_DOM_ELEMENTS_TABLE)。
 - `type`
 
   - : A {{domxref("GLenum")}}指定纹素的数据类型，可能值：

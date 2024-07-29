@@ -35,7 +35,7 @@ gl.getExtension("WEBGL_lose_context").loseContext();
 
 ## WebGL 扩展
 
-WebGL API 的扩展在 [WebGL Extension Registry](https://www.khronos.org/registry/webgl/extensions/) 定义。目前支持的扩展在[这里](/zh-CN/docs/Web/API/WebGL_API#扩展)列出
+WebGL API 的扩展在 [WebGL Extension Registry](https://registry.khronos.org/webgl/extensions/) 定义。目前支持的扩展在[这里](/zh-CN/docs/Web/API/WebGL_API#扩展)列出
 
 ## 规范
 
@@ -48,4 +48,4 @@ WebGL API 的扩展在 [WebGL Extension Registry](https://www.khronos.org/regist
 ## 参阅
 
 - {{domxref("WebGLRenderingContext.getSupportedExtensions()")}}
-- [webglreport.com](http://webglreport.com)
+- [webglreport.com](https://webglreport.com/)

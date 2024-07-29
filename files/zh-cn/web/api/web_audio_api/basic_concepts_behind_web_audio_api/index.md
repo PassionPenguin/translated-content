@@ -34,7 +34,7 @@ slug: Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API
 
 ## 音频数据：什么是样本
 
-当一个音频信号被处理时，取样意味着从一个[连续的信号](http://wikipedia.org/wiki/Continuous_signal)转化为[离散的信号](http://wikipedia.org/wiki/Discrete_signal)；更具体地说，一个连续的声波（例如一个正在演奏的乐队发出的声音）会被转化成一系列的样本点（一个时间上离散的信号），计算机只可以处理这些离散的样本块。
+当一个音频信号被处理时，取样意味着从一个[连续的信号](https://en.wikipedia.org/wiki/Continuous_signal)转化为[离散的信号](https://en.wikipedia.org/wiki/Discrete_signal)；更具体地说，一个连续的声波（例如一个正在演奏的乐队发出的声音）会被转化成一系列的样本点（一个时间上离散的信号），计算机只可以处理这些离散的样本块。
 
 更多的细节可以查看维基百科的[采样](https://zh.wikipedia.org/wiki/取樣)页面。
 
@@ -66,7 +66,7 @@ var buffer = context.createBuffer(2, 22050, 44100);
 
 如果你使用上面的方法调用，你将会得到一个立体声（两个声道）的音频片段 (Buffer)，当它在一个频率为 44100 赫兹（这是目前大部分声卡处理声音的频率）的音频环境中播放的时候，会持续 0.5 秒：22050 帧 / 44100 赫兹 = 0.5 秒。
 
-> **备注：** 在[数字音频](https://zh.wikipedia.org/wiki/數位音訊)中，**44,100 [赫兹](https://zh.wikipedia.org/wiki/赫兹)**（有时也写作 **44.1 kHz**）是一个常见的[采样频率](https://zh.wikipedia.org/wiki/取樣)。为什么选取 44.1kHz 呢？首先，因为[人耳的接收频率](https://zh.wikipedia.org/wiki/聽力範圍)大约在 20 Hz 到 20,000 Hz 之间，根据[采样定理](https://zh.wikipedia.org/wiki/采样定理)，采样频率一定要大于最终生成数据最大频率的二倍，因此就一定要大于 40,000 Hz（即 40kHz）。不仅如此，在采样之前信号还必须通过[低通滤波器](https://zh.wikipedia.org/wiki/低通滤波器)，否则 会发生[混叠](https://zh.wikipedia.org/wiki/混疊)现象，一个理想低通滤波器会完全留下低于 20kHz 的信号（且没有使它衰减）并完美阻拦一切高于 20kHz 的信号，而事实上[过度频带](https://wikipedia.org/wiki/Transition_band)总是存在，在这个区域内信号会被部分衰减。这个频带越宽，建立一个[抗混叠滤波器](https://zh.wikipedia.org/wiki/抗混疊濾波器)才越容易。因此我们选取 44.1kHz 允许我们有 2.05kHz 的空间预留给过度频带。
+> **备注：** 在[数字音频](https://zh.wikipedia.org/wiki/數位音訊)中，**44,100 [赫兹](https://zh.wikipedia.org/wiki/赫兹)**（有时也写作 **44.1 kHz**）是一个常见的[采样频率](https://zh.wikipedia.org/wiki/取樣)。为什么选取 44.1kHz 呢？首先，因为[人耳的接收频率](https://zh.wikipedia.org/wiki/聽力範圍)大约在 20 Hz 到 20,000 Hz 之间，根据[采样定理](https://zh.wikipedia.org/wiki/采样定理)，采样频率一定要大于最终生成数据最大频率的二倍，因此就一定要大于 40,000 Hz（即 40kHz）。不仅如此，在采样之前信号还必须通过[低通滤波器](https://zh.wikipedia.org/wiki/低通滤波器)，否则 会发生[混叠](https://zh.wikipedia.org/wiki/混疊)现象，一个理想低通滤波器会完全留下低于 20kHz 的信号（且没有使它衰减）并完美阻拦一切高于 20kHz 的信号，而事实上[过度频带](https://en.wikipedia.org/wiki/Transition_band)总是存在，在这个区域内信号会被部分衰减。这个频带越宽，建立一个[抗混叠滤波器](https://zh.wikipedia.org/wiki/抗混疊濾波器)才越容易。因此我们选取 44.1kHz 允许我们有 2.05kHz 的空间预留给过度频带。
 
 ```js
 var context = new AudioContext();

@@ -67,11 +67,11 @@ ECDSA（椭圆曲线数字签名算法）是 [FIPS-186](https://nvlpubs.nist.gov
 
 签名被编码为 RFC 6090 中指定的 `s1` 和 `s2` 值（在 [RFC 4754](https://datatracker.ietf.org/doc/html/rfc4754#section-3) 中分别被称为 `r` 和 `s`）。两个值都是大端字节数组，长度为曲线的位数，向上取整为整数个字节。这些值按顺序连接在一起。
 
-这种编码也被 [IEEE 1363-2000](https://standards.ieee.org/ieee/1363/2049/) 标准所提出，因此有时也被称为 IEEE P1363 格式。它不同于 [X.509](https://www.itu.int/rec/T-REC-X.509) 签名结构，后者是一些工具和库（例如 [OpenSSL](https://www.openssl.org)）默认生成的格式。
+这种编码也被 [IEEE 1363-2000](https://standards.ieee.org/ieee/1363/2049/) 标准所提出，因此有时也被称为 IEEE P1363 格式。它不同于 [X.509](https://www.itu.int/rec/T-REC-X.509) 签名结构，后者是一些工具和库（例如 [OpenSSL](https://www.openssl.org/)）默认生成的格式。
 
 ### HMAC
 
-HMAC 算法根据 [FIPS 198-1 标准](https://csrc.nist.gov/csrc/media/publications/fips/198/1/final/documents/fips-198-1_final.pdf) 计算和验证基于散列的消息认证码。
+HMAC 算法根据 [FIPS 198-1 标准](https://csrc.nist.gov/files/pubs/fips/198-1/final/docs/fips-198-1_final.pdf) 计算和验证基于散列的消息认证码。
 
 需要在传入 {{domxref("SubtleCrypto.generateKey()", "generateKey()")}} 的 [`HmacKeyGenParams`](/zh-CN/docs/Web/API/HmacKeyGenParams) 对象或传入 {{domxref("SubtleCrypto.importKey()", "importKey()")}} 的 [`HmacImportParams`](/zh-CN/docs/Web/API/HmacImportParams) 对象中指定要使用的散列算法。
 
@@ -191,4 +191,4 @@ let signature = await window.crypto.subtle.sign("HMAC", key, encoded);
 - [RFC 3447](https://datatracker.ietf.org/doc/html/rfc3447) 定义了 RSASSA-PKCS1-v1_5。
 - [RFC 3447](https://datatracker.ietf.org/doc/html/rfc3447) 定义了 RSA-PSS。
 - [FIPS-186](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf) 定义了 ECDSA。
-- [FIPS 198-1](https://csrc.nist.gov/csrc/media/publications/fips/198/1/final/documents/fips-198-1_final.pdf) 定义了 HMAC。
+- [FIPS 198-1](https://csrc.nist.gov/files/pubs/fips/198-1/final/docs/fips-198-1_final.pdf) 定义了 HMAC。

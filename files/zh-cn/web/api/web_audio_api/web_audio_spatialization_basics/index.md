@@ -13,11 +13,11 @@ slug: Web/API/Web_Audio_API/Web_audio_spatialization_basics
 
 它对 WebXR 和游戏非常有用。在 3D 空间中，它是实现逼真的音频效果的唯一方式。像 [three.js](https://threejs.org/) 和 [A-frame](https://aframe.io/) 这样的库在处理声音时就利用了它的潜力。值得注意的是，你不必在完整的 3D 空间中移动声音 - 你可以只使用 2D 平面，因此如果你计划实现一个 2D 游戏，这依然是你要寻找的节点。
 
-> **备注：** 还有一个设计用于处理创建简单的左右立体声平移效果的 {{domxref("StereoPannerNode")}} 。这使用起来更简单，但显然无处可用。如果你只想要一个简单的立体声平移效果，我们的 [StereoPannerNode 示例](https://mdn.github.io/webaudio-examples/stereo-panner-node/)（[请参阅源码](https://github.com/mdn/webaudio-examples/tree/master/stereo-panner-node)）应该可以为你提供所需的一切。
+> **备注：** 还有一个设计用于处理创建简单的左右立体声平移效果的 {{domxref("StereoPannerNode")}} 。这使用起来更简单，但显然无处可用。如果你只想要一个简单的立体声平移效果，我们的 [StereoPannerNode 示例](https://mdn.github.io/webaudio-examples/stereo-panner-node/)（[请参阅源码](https://github.com/mdn/webaudio-examples/tree/main/stereo-panner-node)）应该可以为你提供所需的一切。
 
 ## 3D boombox 演示
 
-为了演示 3D 空间化，我们在 [Using the Web Audio API](/zh-CN/docs/Web/API/Web_Audio_API/Using_Web_Audio_API) 指南中的 boombox 演示的基础上创建一个修改版本。参见 [3D spatialization demo live](https://mdn.github.io/webaudio-examples/spatialization/) （同时也可以看 [source code](https://github.com/mdn/webaudio-examples/tree/master/spatialization)）
+为了演示 3D 空间化，我们在 [Using the Web Audio API](/zh-CN/docs/Web/API/Web_Audio_API/Using_Web_Audio_API) 指南中的 boombox 演示的基础上创建一个修改版本。参见 [3D spatialization demo live](https://mdn.github.io/webaudio-examples/spatialization/) （同时也可以看 [source code](https://github.com/mdn/webaudio-examples/tree/main/spatialization)）
 
 ![A simple UI with a rotated boombox and controls to move it left and right and in and out, and rotate it.](web-audio-spatialization.png)
 
@@ -455,6 +455,6 @@ moveControls.forEach(function (el) {
 
 > **备注：** 音频空间化在不同浏览器中的听起来略有不同。panner 节点在底层做了一些非常复杂的数学运算；这里有 [许多测试](https://wpt.fyi/results/webaudio/the-audio-api/the-pannernode-interface?label=stable&aligned=true)，因此你可以跟踪不同平台上此节点的内部工作状态。
 
-再次，你可以在 [这里查看最终的演示](https://mdn.github.io/webaudio-examples/spatialization/)，同时[最终的源代码在这里](https://github.com/mdn/webaudio-examples/tree/master/spatialization)。还有一个 [Codepen 的演示](https://codepen.io/Rumyra/pen/MqayoK?editors=0100)。
+再次，你可以在 [这里查看最终的演示](https://mdn.github.io/webaudio-examples/spatialization/)，同时[最终的源代码在这里](https://github.com/mdn/webaudio-examples/tree/main/spatialization)。还有一个 [Codepen 的演示](https://codepen.io/Rumyra/pen/MqayoK?editors=0100)。
 
 如果你正在使用 3D 游戏和/或 WebXR，最好利用 3D 库来创建此类功能，而不是尝试从最初的规则完成所有这些操作。我们在本文中提出了自己的想法，让你了解它是如何工作的，但是通过利用别人在你之前所做的工作，你将节省大量时间。

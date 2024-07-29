@@ -145,11 +145,11 @@ importScripts("//example.com/hello.js"); /* 你可以从其他来源导入脚本
 
 > **备注：** 如果共享 worker 可以被多个浏览上下文调用，所有这些浏览上下文必须属于同源（相同的协议，主机和端口号）。
 
-> **备注：** 在 Firefox 中，共享 worker 不能被私有和非私有 window 对象的 document 所共享（[Firefox bug 1177621](https://bugzil.la/1177621)）。
+> **备注：** 在 Firefox 中，共享 worker 不能被私有和非私有 window 对象的 document 所共享（[Firefox bug 1177621](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1177621)）。
 
 ### 生成一个共享 worker
 
-生成一个新的共享 worker 与生成一个专用 worker 非常相似，只是构造器的名字不同（查看 [index.html](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-shared-worker/index.html) 和 [index2.html](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-shared-worker/index2.html)）——生成共享 worker 的代码如下：
+生成一个新的共享 worker 与生成一个专用 worker 非常相似，只是构造器的名字不同（查看 [index.html](https://github.com/mdn/dom-examples/blob/main/web-workers/simple-shared-worker/index.html) 和 [index2.html](https://github.com/mdn/dom-examples/blob/main/web-workers/simple-shared-worker/index2.html)）——生成共享 worker 的代码如下：
 
 ```js
 const myWorker = new SharedWorker("worker.js");
@@ -163,7 +163,7 @@ const myWorker = new SharedWorker("worker.js");
 
 ### 共享 worker 中消息的接收和发送
 
-现在，消息可以像之前那样发送到 worker 了，但是 `postMessage()` 方法必须被端口对象调用（你会再一次看到 [multiply.js](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-shared-worker/multiply.js) 和 [square.js](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-shared-worker/square.js) 中相似的结构）：
+现在，消息可以像之前那样发送到 worker 了，但是 `postMessage()` 方法必须被端口对象调用（你会再一次看到 [multiply.js](https://github.com/mdn/dom-examples/blob/main/web-workers/simple-shared-worker/multiply.js) 和 [square.js](https://github.com/mdn/dom-examples/blob/main/web-workers/simple-shared-worker/square.js) 中相似的结构）：
 
 ```js
 squareNumber.onchange = () => {
@@ -172,7 +172,7 @@ squareNumber.onchange = () => {
 };
 ```
 
-回到 worker 中，这里也有些复杂（[worker.js](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-shared-worker/worker.js)）:
+回到 worker 中，这里也有些复杂（[worker.js](https://github.com/mdn/dom-examples/blob/main/web-workers/simple-shared-worker/worker.js)）:
 
 ```js
 onconnect = (e) => {
@@ -191,7 +191,7 @@ onconnect = (e) => {
 
 然后，为端口添加一个 `onmessage` 处理函数用来做运算并回传结果给主线程。在 worker 线程中设置此 `onmessage` 处理函数也会隐式的打开与主线程的端口连接，因此这里跟前文一样，对 `port.start()` 的调用也是不必要的。
 
-最后，回到主脚本，我们处理消息（你会又一次看到 [multiply.js](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-shared-worker/multiply.js) 和 [square.js](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-shared-worker/square.js)中相似的结构）：
+最后，回到主脚本，我们处理消息（你会又一次看到 [multiply.js](https://github.com/mdn/dom-examples/blob/main/web-workers/simple-shared-worker/multiply.js) 和 [square.js](https://github.com/mdn/dom-examples/blob/main/web-workers/simple-shared-worker/square.js)中相似的结构）：
 
 ```js
 myWorker.port.onmessage = (e) => {
@@ -592,7 +592,7 @@ onmessage = (event) => {
 
 ### 通过转让所有权（可转移对象）来传递数据
 
-现代浏览器包含另一种性能更高的方法来将特定类型的对象传递给一个 worker 或从 worker 传回。[可转移对象](http://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Transferable_objects)从一个上下文转移到另一个上下文而不会经过任何拷贝操作。这意味着当传递大型数据集时会获得极大的性能提升。
+现代浏览器包含另一种性能更高的方法来将特定类型的对象传递给一个 worker 或从 worker 传回。[可转移对象](https://developer.mozilla.org:443/zh-CN/docs/Web/API/Web_Workers_API/Transferable_objects)从一个上下文转移到另一个上下文而不会经过任何拷贝操作。这意味着当传递大型数据集时会获得极大的性能提升。
 
 例如，当你将一个 {{jsxref("ArrayBuffer")}} 对象从主应用转让到 Worker 中，原始的 {{jsxref("ArrayBuffer")}} 被清除并且无法使用。它包含的内容会（完整无差的）传递给 Worker 上下文。
 
@@ -796,7 +796,7 @@ worker 将属性 `onmessage` 设置为一个函数，当 worker 对象调用 `po
 
 要了解如何调试 Web Worker，请参阅每个浏览器的 JavaScript 调试器的文档：
 
-- [Chrome Sources panel](https://developer.chrome.com/docs/devtools/javascript/sources/)
+- [Chrome Sources panel](https://developer.chrome.com/docs/devtools/sources)
 - [Firefox JavaScript Debugger](https://firefox-source-docs.mozilla.org/devtools-user/debugger/)
 
 ## worker 中可用的函数和接口

@@ -72,7 +72,7 @@ Web Audio API 使用的音频源接口。
 - {{domxref("ConvolverNode")}}
   - : **`ConvolverNode`** 接口是一个{{domxref("AudioNode")}}，对给定的 AudioBuffer 执行线性卷积，通常用于实现混响效果。
 - {{domxref("DelayNode")}}
-  - : **`DelayNode`** 接口表示[延迟线](http://en.wikipedia.org/wiki/Digital_delay_line)；是{{domxref("AudioNode")}} 类型的音频处理模块，使输入的数据延时输出。
+  - : **`DelayNode`** 接口表示[延迟线](https://en.wikipedia.org/wiki/Digital_delay_line)；是{{domxref("AudioNode")}} 类型的音频处理模块，使输入的数据延时输出。
 - {{domxref("DynamicsCompressorNode")}}
   - : **`DynamicsCompressorNode`** 提供了一个压缩效果，当多个音频在同时播放并且混合的时候，可以通过它降低音量最大的部分的音量来帮助避免发生削波和失真。
 - {{domxref("GainNode")}}
@@ -334,11 +334,11 @@ function voiceMute() {
 
 - [Using the Web Audio API](/zh-CN/docs/Web/API/Web_Audio_API/Using_Web_Audio_API)
 - [Visualizations with Web Audio API](/zh-CN/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API)
-- [Voice-change-O-matic example](http://mdn.github.io/voice-change-o-matic/)
+- [Voice-change-O-matic example](https://mdn.github.io/voice-change-o-matic/)
 - [Violent Theremin example](http://mdn.github.io/violent-theremin/)
 - [Web audio spatialisation basics](/zh-CN/docs/Web/API/Web_Audio_API/Web_audio_spatialisation_basics)
-- [Mixing Positional Audio and WebGL](http://www.html5rocks.com/tutorials/webaudio/positional_audio/)
-- [Developing Game Audio with the Web Audio API](http://www.html5rocks.com/tutorials/webaudio/games/)
+- [Mixing Positional Audio and WebGL](https://www.html5rocks.com/tutorials/webaudio/positional_audio/)
+- [Developing Game Audio with the Web Audio API](https://www.html5rocks.com/tutorials/webaudio/games/)
 - [Porting webkitAudioContext code to standards based AudioContext](/zh-CN/docs/Web/API/Web_Audio_API/Porting_webkitAudioContext_code_to_standards_based_AudioContext)
 - [Tones](https://github.com/bit101/tones): a simple library for playing specific tones/notes using the Web Audio API.
-- [howler.js](https://github.com/goldfire/howler.js/): a JS audio library that defaults to [Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html) and falls back to [HTML5 Audio](http://www.whatwg.org/specs/web-apps/current-work/#the-audio-element), as well as providing other useful features.
+- [howler.js](https://github.com/goldfire/howler.js/): a JS audio library that defaults to [Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html) and falls back to [HTML5 Audio](https://html.spec.whatwg.org/#the-audio-element), as well as providing other useful features.

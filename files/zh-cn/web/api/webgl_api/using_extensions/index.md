@@ -5,7 +5,7 @@ slug: Web/API/WebGL_API/Using_Extensions
 
 {{DefaultAPISidebar("WebGL")}}
 
-WebGL，像它的姐妹 API（OpenGL 和 OpenGL ES），支持使用扩展（extension）。可在 [khronos webgl extension registry](https://www.khronos.org/registry/webgl/extensions/) 查看完整的扩展列表。
+WebGL，像它的姐妹 API（OpenGL 和 OpenGL ES），支持使用扩展（extension）。可在 [khronos webgl extension registry](https://registry.khronos.org/webgl/extensions/) 查看完整的扩展列表。
 
 > **备注：** 不像别的 GL API，在 WebGL 中，扩展只有在明确需要的情况下才会加载。
 

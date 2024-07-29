@@ -180,7 +180,7 @@ customElements.define("my-custom-element", MyCustomElement);
 
 首先，我们来看一个独立自定义元素。`<popup-info>` 自定义元素接受图像图标和文本字符串作为属性，并将图标嵌入到页面中。当焦点在图标上时，它会在弹出的信息框中显示文本，以提供更多上下文信息。
 
-- [查看在线示例](https://mdn.github.io/web-components-examples/popup-info-box-web-component)
+- [查看在线示例](https://mdn.github.io/web-components-examples/popup-info-box-web-component/)
 - [查看源代码](https://github.com/mdn/web-components-examples/tree/main/popup-info-box-web-component)
 
 首先，JavaScript 文件定义了一个名为 `PopupInfo` 的类，该类扩展了 {{domxref("HTMLElement")}} 类。
@@ -293,7 +293,7 @@ customElements.define("popup-info", PopupInfo);
 在上面的示例中，我们使用 {{htmlelement("style")}} 元素为影子 DOM 应用样式，但你也可以从 {{htmlelement("link")}} 元素引用外部样式表。在此示例中，我们将修改 `<popup-info>` 自定义元素以使用外部样式表。
 
 - [查看在线示例](https://mdn.github.io/web-components-examples/popup-info-box-external-stylesheet/)
-- [查看源代码](https://github.com/mdn/web-components-examples/blob/main/popup-info-box-external-stylesheet/)
+- [查看源代码](https://github.com/mdn/web-components-examples/tree/main/popup-info-box-external-stylesheet)
 
 下面是类的定义：
 

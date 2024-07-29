@@ -7,7 +7,7 @@ slug: Web/API/WebGL_API/Matrix_math_for_the_web
 
 矩阵可以用于表示空间中的对象的变换，并且是 Web 页面可视化的重要工具。本文探索如何创建并配合 [CSS 变换](/zh-CN/docs/Web/CSS/CSS_transforms/Using_CSS_transforms)和 matrix3d 变换类型使用矩阵。
 
-虽然本文为了便于解释而使用了 CSS，矩阵却是许多技术中的核心概念，包括 WebGL 和着色器。本文也是 [MDN content kit](https://github.com/TatumCreative/mdn-matrix-math) 的一部分。示例使用了一组全局对象 MDN 下的[工具函数](https://github.com/TatumCreative/mdn-webgl)。
+虽然本文为了便于解释而使用了 CSS，矩阵却是许多技术中的核心概念，包括 WebGL 和着色器。本文也是 [MDN content kit](https://github.com/gregtatum/mdn-matrix-math) 的一部分。示例使用了一组全局对象 MDN 下的[工具函数](https://github.com/gregtatum/mdn-webgl)。
 
 ## 什么是变换矩阵？
 
@@ -138,7 +138,7 @@ var identityMatrix = [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1];
 var someMatrixResult = multiplyMatrices(identityMatrix, someMatrix);
 ```
 
-> **警告：** 这些函数是为了解释的清晰而编写，而不是为了速度或者内存管理。这些函数新建了大量数组，可能在实时运算时导致垃圾回收的巨大开销。在实际产品中最好使用优化过的函数。比如[glMatrix](http://glmatrix.net/)就是一个注重速度和性能的库。
+> **警告：** 这些函数是为了解释的清晰而编写，而不是为了速度或者内存管理。这些函数新建了大量数组，可能在实时运算时导致垃圾回收的巨大开销。在实际产品中最好使用优化过的函数。比如[glMatrix](https://glmatrix.net/)就是一个注重速度和性能的库。
 
 ## 平移矩阵
 
@@ -183,7 +183,7 @@ var matrix3dRule = matrixArrayToCssMatrix(translationMatrix);
 moveMe.style.transform = matrix3dRule;
 ```
 
-[在 JSFiddle 中查看](https://jsfiddle.net/g24mgw6y)
+[在 JSFiddle 中查看](https://jsfiddle.net/tatumcreative/g24mgw6y/)
 
 ![An example of matrix translation](matrix-translation.jpg)
 
@@ -199,7 +199,7 @@ var d = 1; // depth  (z)
 var scaleMatrix = [w, 0, 0, 0, 0, h, 0, 0, 0, 0, d, 0, 0, 0, 0, 1];
 ```
 
-[在 JSFiddle 中查看](https://jsfiddle.net/fndd6e1b)
+[在 JSFiddle 中查看](https://jsfiddle.net/tatumcreative/fndd6e1b/)
 
 ![An example of matrix scaling](matrix-scale.jpg)
 
@@ -255,7 +255,7 @@ var rotateZMatrix = [
 ];
 ```
 
-[在 JSFiddle 中查看](https://jsfiddle.net/9vr2dorz)
+[在 JSFiddle 中查看](https://jsfiddle.net/tatumcreative/9vr2dorz/)
 
 ![](matrix-rotation.jpg)
 
@@ -275,7 +275,7 @@ function rotateAroundZAxis(a) {
 }
 ```
 
-[在 JSFiddle 中查看](https://jsfiddle.net/tk072doc)
+[在 JSFiddle 中查看](https://jsfiddle.net/tatumcreative/tk072doc/)
 
 ## 矩阵组合
 
@@ -291,7 +291,7 @@ function rotateAroundZAxis(a) {
 
 ### 组合多种变换
 
-我们将使用的函数是[工具函数](https://github.com/TatumCreative/mdn-webgl)的一部分。其接受矩阵的数组并把它们乘起来。在 WebGL 着色器代码里，这内建在语言里，并且我们可以使用 \* 运算符。除此之外，本例使用了一个缩放函数，一个平移函数，它们返回之前定义的矩阵。
+我们将使用的函数是[工具函数](https://github.com/gregtatum/mdn-webgl)的一部分。其接受矩阵的数组并把它们乘起来。在 WebGL 着色器代码里，这内建在语言里，并且我们可以使用 \* 运算符。除此之外，本例使用了一个缩放函数，一个平移函数，它们返回之前定义的矩阵。
 
 ```js
 var transformMatrix = MDN.multiplyArrayOfMatrices([
@@ -301,7 +301,7 @@ var transformMatrix = MDN.multiplyArrayOfMatrices([
 ]);
 ```
 
-[在 JSFiddle 中查看](https://jsfiddle.net/qxxg3yvc)
+[在 JSFiddle 中查看](https://jsfiddle.net/tatumcreative/qxxg3yvc/)
 
 ![An example of matrix composition](matrix-composition.jpg)
 

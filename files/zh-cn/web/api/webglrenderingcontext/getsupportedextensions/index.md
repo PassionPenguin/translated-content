@@ -35,7 +35,7 @@ const extensions = gl.getSupportedExtensions();
 
 ## WebGL 扩展
 
-所有 WebGL API 扩展都被注册在 [WebGL Extension Registry](https://www.khronos.org/registry/webgl/extensions/) 中。当前的扩展在[这里](/zh-CN/docs/Web/API/WebGL_API#扩展)列出。
+所有 WebGL API 扩展都被注册在 [WebGL Extension Registry](https://registry.khronos.org/webgl/extensions/) 中。当前的扩展在[这里](/zh-CN/docs/Web/API/WebGL_API#扩展)列出。
 
 ## 规范
 
@@ -48,4 +48,4 @@ const extensions = gl.getSupportedExtensions();
 ## 参见
 
 - {{domxref("WebGLRenderingContext.getExtension()")}}
-- [webglreport.com](https://webglreport.com)
+- [webglreport.com](https://webglreport.com/)

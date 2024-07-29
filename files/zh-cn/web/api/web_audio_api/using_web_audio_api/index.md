@@ -19,7 +19,7 @@ Web Audio API 的一个强大之处在于，它没有任何严格的声音呼叫
 
 注意带有播放按钮的复古磁带卡座，及用于改变音量和立体声声像的平移滑块。我们可以使其更复杂，但这是该阶段进行简单学习的理想选择。
 
-查看最终 demo 代码 [here on Codepen](https://codepen.io/Rumyra/pen/qyMzqN/)，或者在 [GitHub 查看源代码 on GitHub](https://github.com/mdn/webaudio-examples/tree/master/audio-basics)。
+查看最终 demo 代码 [here on Codepen](https://codepen.io/Rumyra/pen/qyMzqN/)，或者在 [GitHub 查看源代码 on GitHub](https://github.com/mdn/webaudio-examples/tree/main/audio-basics)。
 
 ## 浏览器支持
 
@@ -331,7 +331,7 @@ oscillator.connect(gainNode);
 gainNode.connect(audioCtx.destination);
 ```
 
-一个更复杂的例子，（比如 [Voice-change-O-matic](http://mdn.github.io/voice-change-o-matic/)), 你可以链接很多你想要的节点在一起，例如：
+一个更复杂的例子，（比如 [Voice-change-O-matic](https://mdn.github.io/voice-change-o-matic/)), 你可以链接很多你想要的节点在一起，例如：
 
 ```js
 source = audioCtx.createMediaStreamSource(stream);
@@ -497,7 +497,7 @@ mute.onclick = function () {
 var distortion = audioCtx.createWaveShaper();
 ```
 
-这个对象一定会数学化的定义 wave shape，一个被应用于基础声音波来创造扭曲的效果。这些波并不好被计算，最好的开始方法是搜索 web 算法。比如，我们可以从 [Stack Overflow](http://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion) 找到：
+这个对象一定会数学化的定义 wave shape，一个被应用于基础声音波来创造扭曲的效果。这些波并不好被计算，最好的开始方法是搜索 web 算法。比如，我们可以从 [Stack Overflow](https://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion) 找到：
 
 ```js
 function makeDistortionCurve(amount) {
