@@ -147,5 +147,5 @@ div {
 ## 参见
 
 - [`<color>` 数据类型](/zh-CN/docs/Web/CSS/color_value)所列的所有颜色记号
-- [CSS 中的 LCH 颜色——是什么，为什么，怎么用？](https://lea.verou.me/2020/04/lch-colors-in-css-what-why-and-how/)
+- [CSS 中的 LCH 颜色——是什么，为什么，怎么用？](https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/)
 - [Safari 技术预览 122 发布记录](https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/)：含 `lch()` 和 {{CSSXref("color_value/lab", "lab()")}} 颜色

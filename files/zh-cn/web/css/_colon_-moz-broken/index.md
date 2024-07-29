@@ -49,4 +49,4 @@ slug: Web/CSS/:-moz-broken
 ## 参见
 
 - {{cssxref(":-moz-loading")}}、{{cssxref(":-moz-suppressed")}}、{{cssxref(":-moz-user-disabled")}}
-- [Firefox bug 11011](https://bugzil.la/11011)
+- [Firefox bug 11011](https://bugzilla.mozilla.org/show_bug.cgi?id%3D11011)

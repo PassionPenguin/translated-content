@@ -128,7 +128,7 @@ animation:
 
 考虑提供一种暂停或禁用动画的机制，以及使用 [Reduced Motion Media Query](/zh-CN/docs/Web/CSS/@media/prefers-reduced-motion)（简约运动媒体查询），为那些表示不喜欢动画的用户创建一个良好的体验。
 
-- [Designing Safer Web Animation For Motion Sensitivity · An A List Apart Article](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity)
+- [Designing Safer Web Animation For Motion Sensitivity · An A List Apart Article](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity/)
 - [An Introduction to the Reduced Motion Media Query | CSS-Tricks](https://css-tricks.com/introduction-reduced-motion-media-query/)
 - [Responsive Design for Motion | WebKit](https://webkit.org/blog/7551/responsive-design-for-motion/)
 - [MDN Understanding WCAG, Guideline 2.2 explanations](/zh-CN/docs/Web/Accessibility/Understanding_WCAG/Operable#Guideline_2.2_%E2%80%94_Enough_Time_Provide_users_enough_time_to_read_and_use_content)

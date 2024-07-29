@@ -138,5 +138,5 @@ slug: Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_floating_elem
 ### 原始文档信息
 
 - 作者：Paolo Lombardi
-- 该文档的英文原始版本是从我为 [YappY](http://www.yappy.it) 写的意大利文章翻译而来的，该文章版权为 [Creative Commons: Attribution-Sharealike license](http://creativecommons.org/licenses/by-sa/2.0/)
+- 该文档的英文原始版本是从我为 [YappY](http://www.yappy.it/) 写的意大利文章翻译而来的，该文章版权为 [Creative Commons: Attribution-Sharealike license](https://creativecommons.org/licenses/by-sa/2.0/)
 - 上次更新于：2014 年 11 月 3 日

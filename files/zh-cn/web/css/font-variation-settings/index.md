@@ -124,6 +124,6 @@ font-variation-settings: unset;
 
 - [可变字体指南](/zh-CN/docs/Web/CSS/CSS_fonts/Variable_fonts_guide)
 - microsoft.com 的 [OpenType 可变字体概述](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview)
-- microsoft.com 的 [OpenType 设计变异轴标签注册表](https://docs.microsoft.com/typography/opentype/spec/dvaraxisreg)
+- microsoft.com 的 [OpenType 设计变异轴标签注册表](https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg)
 - axis-praxis.org 的 [OpenType 可变字体](https://www.axis-praxis.org/)
 - v-fonts.com 的[可变字体](https://v-fonts.com/)

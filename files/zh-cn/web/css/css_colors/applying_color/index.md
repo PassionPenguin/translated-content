@@ -135,7 +135,7 @@ RGB（红/绿/蓝）函数表示法与十六进制字符串表示法一样，都
 
 ![HSL 颜色柱](640px-hsl_color_solid_cylinder.png)
 
-图片由用户 [SharkD](https://commons.wikimedia.org/wiki/User:SharkD) 在 [Wikipedia](https://en.wikipedia.org/) 上提供，采用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 许可发布。
+图片由用户 [SharkD](https://commons.wikimedia.org/wiki/User:SharkD) 在 [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) 上提供，采用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 许可发布。
 
 HSL 颜色的色相（H）分量值是从红色开始，依次经过黄色、绿色、青色、蓝色和洋红色（360° 时又回到红色）的一个角度，用于确定基色。该值可以用 CSS 支持的任何 {{cssxref("&lt;angle&gt;")}} 单位指定，包括度（`deg`）、弧度（`rad`）、梯度（`grad`）或转数（`turn`）。但这并不能控制颜色的鲜艳或暗淡、明亮或昏暗程度。
 
@@ -486,7 +486,7 @@ Oklab 是一种色彩空间，它使用与 CIELAB 相同的模型类型，但在
 
 ## 让用户选择颜色
 
-在许多情况下，网站可能需要让用户选择一种颜色。也许你有一个可定制的用户界面，或者你正在实现一个绘图应用程序。也许你有可编辑的文本，需要让用户选择文本颜色。或者，你的应用程序可以让用户为文件夹或项目指定颜色。虽然从历史上看，有必要实现自己的[颜色选择器](https://en.wikipedia.org/wiki/Color_picker)，但 HTML 现在支持浏览器通过 {{HTMLElement("input")}} 元素，使用 `"color"` 作为其 [`type`](/zh-CN/docs/Web/HTML/Element/input#type) 属性的值，提供一个开箱即用的颜色选择器。
+在许多情况下，网站可能需要让用户选择一种颜色。也许你有一个可定制的用户界面，或者你正在实现一个绘图应用程序。也许你有可编辑的文本，需要让用户选择文本颜色。或者，你的应用程序可以让用户为文件夹或项目指定颜色。虽然从历史上看，有必要实现自己的[颜色选择器](https://en.wikipedia.org/wiki/Main_Pagewiki/Color_picker)，但 HTML 现在支持浏览器通过 {{HTMLElement("input")}} 元素，使用 `"color"` 作为其 [`type`](/zh-CN/docs/Web/HTML/Element/input#type) 属性的值，提供一个开箱即用的颜色选择器。
 
 `<input>` 元素仅使用上述[十六进制字符串表示法](#十六进制字符串表示法)表示一种颜色。
 
@@ -615,7 +615,7 @@ colorPicker.addEventListener(
 
 - [Medline Plus：色盲](https://medlineplus.gov/colorblindness.html) （载于美国国家卫生研究院）
 - [美国眼科学会：什么是色盲](https://www.aao.org/eye-health/diseases/what-is-color-blindness)
-- [色盲与网页设计](https://www.usability.gov/get-involved/blog/2010/02/color-blindness.html)（载于 Usability.gov：美国卫生与公众服务部）
+- [色盲与网页设计](https://digital.gov/topics/usability/)（载于 Usability.gov：美国卫生与公众服务部）
 
 ### 调色板设计示例
 

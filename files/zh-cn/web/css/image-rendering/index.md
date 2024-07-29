@@ -94,7 +94,7 @@ img {
 
 > **备注：** 这是来自旧版浏览器兼容性表格的备注，保留以便查阅。可另行参阅 [Can I use](https://caniuse.com/#search=image-rendering)。
 
-Internet Explorer 7 和 8 支持非标准的 [`-ms-interpolation-mode` 属性](<http://msdn.microsoft.com/en-us/library/ie/ms530822(v=vs.85).aspx>)，有两个属性值：`bicubic` 和 `nearest-neighbor`，和大量差距：
+Internet Explorer 7 和 8 支持非标准的 [`-ms-interpolation-mode` 属性](<https://learn.microsoft.com/en-us/>).aspx>)，有两个属性值：`bicubic` 和 `nearest-neighbor`，和大量差距：
 
 - 只应用于 `<img>` 等元素带的图片
 - IE 7 上此属性只支持无透明度的图片

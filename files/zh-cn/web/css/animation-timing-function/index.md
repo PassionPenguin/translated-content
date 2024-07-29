@@ -248,5 +248,5 @@ animation-timing-function: unset;
 - [使用 CSS 动画](/zh-CN/docs/CSS/Tutorials/Using_CSS_animations)
 - {{cssxref('easing-function')}}
 - JavaScript {{domxref("AnimationEvent")}} API
-- [cubic-bezier.com](https://cubic-bezier.com)
+- [cubic-bezier.com](https://cubic-bezier.com/)
 - 其他相关的动画属性：{{cssxref("animation")}}、{{cssxref("animation-composition")}}、{{cssxref("animation-delay")}}、{{cssxref("animation-direction")}}、{{cssxref("animation-duration")}}、{{cssxref("animation-fill-mode")}}、{{cssxref("animation-iteration-count")}}、{{cssxref("animation-name")}}、{{cssxref("animation-timeline")}}、{{cssxref("animation-play-state")}}

@@ -142,8 +142,8 @@ slug: Web/CSS/CSS_grid_layout
 
 ## 外部资源
 
-- [Examples from Jen Simmons](http://labs.jensimmons.com/)
-- [Grid by Example - a collection of usage examples and video tutorials](http://gridbyexample.com/)
+- [Examples from Jen Simmons](https://labs.jensimmons.com/)
+- [Grid by Example - a collection of usage examples and video tutorials](https://gridbyexample.com/)
 - [Codrops Grid Reference](https://tympanus.net/codrops/css_reference/grid/)
 - [Firefox DevTools CSS Grid Inspector](/zh-CN/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts)
 - [CSS Grid Playground](https://mozilladevelopers.github.io/playground/)

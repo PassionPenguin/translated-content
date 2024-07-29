@@ -587,5 +587,5 @@ h2 {
 
 学习使用网格布局的最佳方法是继续构建我们在这里介绍的示例。选择一些你通常使用选择的框架构建的东西，或者使用浮动构建的东西，看看是否可以使用 grid 构建它。不要忘记寻找用当前方法无法构建的示例。这可能意味着从杂志或其他非网络资源中获取灵感。网格布局提供了我们以前没有过的可能性，我们不需要绑定到相同的旧布局来使用它。
 
-- 有关灵感，请参阅 [Layout Labs from Jen Simmons](http://labs.jensimmons.com/), 她一直在创建基于一系列资源的布局。
-- 有关其他常见布局模式，请参见 [Grid by Example](http://gridbyexample.com), 这里有许多网格布局的小例子，也有一些较大的 UI 模式和完整的页面布局。
+- 有关灵感，请参阅 [Layout Labs from Jen Simmons](https://labs.jensimmons.com/), 她一直在创建基于一系列资源的布局。
+- 有关其他常见布局模式，请参见 [Grid by Example](https://gridbyexample.com/), 这里有许多网格布局的小例子，也有一些较大的 UI 模式和完整的页面布局。

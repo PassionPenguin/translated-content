@@ -201,11 +201,11 @@ h1 {
 
 ## 资源
 
-- [W3C CSS Fonts Module 4 Specification](https://drafts.csswg.org/css-fonts-4) (editor’s draft)
+- [W3C CSS Fonts Module 4 Specification](https://drafts.csswg.org/css-fonts-4/) (editor’s draft)
 - [W3C Github issue queue](https://github.com/w3c/csswg-drafts/issues)
-- [Microsoft Open Type Variations introduction](https://docs.microsoft.com/en-us/typography/opentype/spec/otvaroverview)
-- [Microsoft OpenType Design-Variation Axis Tag Registry](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg)
-- [Wakamai Fondue](https://wakamaifondue.com) （通过简单的拖拽告诉你字体可以做什么的网站）
-- [Axis Praxis](https://www.axis-praxis.org) （独创的可变字体排版试验网站）
-- [V-Fonts.com](https://v-fonts.com) （可变字体目录网站）
-- [Font Playground](https://play.typedetail.com) （另一个拥有独特用户界面的可变字体排版试验网站）
+- [Microsoft Open Type Variations introduction](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview)
+- [Microsoft OpenType Design-Variation Axis Tag Registry](https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg)
+- [Wakamai Fondue](https://wakamaifondue.com/) （通过简单的拖拽告诉你字体可以做什么的网站）
+- [Axis Praxis](https://www.axis-praxis.org/) （独创的可变字体排版试验网站）
+- [V-Fonts.com](https://v-fonts.com/) （可变字体目录网站）
+- [Font Playground](https://play.typedetail.com/) （另一个拥有独特用户界面的可变字体排版试验网站）

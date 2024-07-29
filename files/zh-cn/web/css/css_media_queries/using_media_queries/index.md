@@ -194,6 +194,6 @@ slug: Web/CSS/CSS_media_queries/Using_media_queries
 ## 参见
 
 - [使用编程方法测试媒体查询](/zh-CN/docs/Web/CSS/CSS_media_queries/Testing_media_queries)
-- [CSS Animations Between Media Queries](http://davidwalsh.name/animate-media-queries)
+- [CSS Animations Between Media Queries](https://davidwalsh.name/animate-media-queries)
 - [Extended Mozilla media features](/zh-CN/docs/Web/CSS/Mozilla_Extensions#Media_features)
 - [Extended WebKit media features](/zh-CN/docs/Web/CSS/Webkit_Extensions#Media_features)

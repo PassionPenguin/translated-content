@@ -439,5 +439,5 @@ selectElem.addEventListener("change", () => {
 
 其他网站上对各种混合模式的说明与介绍：
 
-- Wikipedia 上的[混合模式](http://en.wikipedia.org/wiki/Blend_modes)（暂无中文）
+- Wikipedia 上的[混合模式](https://en.wikipedia.org/wiki/Blend_modes)（暂无中文）
 - Adobe 提供的 [Blending modes in Adobe Photoshop](https://helpx.adobe.com/photoshop/using/blending-modes.html)（英文）

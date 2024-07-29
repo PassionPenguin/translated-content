@@ -74,4 +74,4 @@ p {
 
 ## 参见
 
-- [David Baron about font-size-adjust](http://dbaron.org/log/20080613-firefox3-css#font-size-adjust)
+- [David Baron about font-size-adjust](https://dbaron.org/log/20080613-firefox3-css#font-size-adjust)

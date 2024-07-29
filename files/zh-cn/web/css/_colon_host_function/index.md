@@ -26,7 +26,7 @@ slug: Web/CSS/:host_function
 
 ## 示例
 
-以下片段取自我们的[宿主选择器示例](https://github.com/mdn/web-components-examples/tree/master/host-selectors)（[也可以观看在线演示](https://mdn.github.io/web-components-examples/host-selectors/)）。
+以下片段取自我们的[宿主选择器示例](https://github.com/mdn/web-components-examples/tree/main/host-selectors)（[也可以观看在线演示](https://mdn.github.io/web-components-examples/host-selectors/)）。
 
 在这个例子中，有一个简单的自定义元素 `<context-span>` 可以用它包裹文本：
 

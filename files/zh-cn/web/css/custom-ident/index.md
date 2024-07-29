@@ -16,7 +16,7 @@ slug: Web/CSS/custom-ident
 - 连字符 (`-`),
 - 下划线 (`_`),
 - 转义字符 ( `\`),
-- [Unicode](http://en.wikipedia.org/wiki/Unicode) 编码（格式：转义字符（`\`）后跟 1 到 6 位十六进制数）
+- [Unicode](https://en.wikipedia.org/wiki/Unicode) 编码（格式：转义字符（`\`）后跟 1 到 6 位十六进制数）
 
 注意：`id1`, `Id1`, `iD1`和`ID1`都是不同标识符，因为标识符是区分大小写的。另一方面，因为可以解码，所以 `toto\?` 和 `toto\3F` 是相同的。
 

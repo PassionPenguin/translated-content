@@ -18,7 +18,7 @@ slug: Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context
 - {{cssxref("position")}} 值为 `fixed`（固定定位）或 `sticky`（粘滞定位）的元素（沾滞定位适配所有移动设备上的浏览器，但老的桌面浏览器不支持）；
 - flex ({{cssxref("flex")}}) 容器的子元素，且 {{cssxref("z-index")}} 值不为 `auto`；
 - grid ({{cssxref("grid")}}) 容器的子元素，且 {{cssxref("z-index")}} 值不为 `auto`；
-- {{cssxref("opacity")}} 属性值小于 `1` 的元素（参见 [the specification for opacity](https://www.w3.org/TR/css3-color/#transparency)）；
+- {{cssxref("opacity")}} 属性值小于 `1` 的元素（参见 [the specification for opacity](https://www.w3.org/TR/css-color-3/#transparency)）；
 - {{cssxref("mix-blend-mode")}} 属性值不为 `normal` 的元素；
 - 以下任意属性值不为 `none` 的元素：
 
@@ -30,7 +30,7 @@ slug: Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context
   - {{cssxref("mask")}} / {{cssxref("mask-image")}} / {{cssxref("mask-border")}}
 
 - {{cssxref("isolation")}} 属性值为 `isolate` 的元素；
-- {{cssxref("will-change")}} 值设定了任一属性而该属性在 non-initial 值时会创建层叠上下文的元素（参考[这篇文章](https://dev.opera.com/articles/css-will-change-property/)）；
+- {{cssxref("will-change")}} 值设定了任一属性而该属性在 non-initial 值时会创建层叠上下文的元素（参考[这篇文章](https://blogs.opera.com/news/)）；
 - {{cssxref("contain")}} 属性值为 `layout`、`paint` 或包含它们其中之一的合成值（比如 `contain: strict`、`contain: content`）的元素。
 
 在层叠上下文中，子元素同样也按照上面解释的规则进行层叠。重要的是，其子级层叠上下文的 `z-index` 值只在父级中才有意义。子级层叠上下文被自动视为父级层叠上下文的一个独立单元。
@@ -210,5 +210,5 @@ h1 {
 ## 原始文档信息
 
 - 作者：Paolo Lombardi
-- 此文是我用意大利语写给 [YappY](http://www.yappy.it) 的英文版本。我授权以 [Creative Commons: Attribution-Sharealike license](http://creativecommons.org/licenses/by-sa/2.0/) 将所有内容分享。
+- 此文是我用意大利语写给 [YappY](http://www.yappy.it/) 的英文版本。我授权以 [Creative Commons: Attribution-Sharealike license](https://creativecommons.org/licenses/by-sa/2.0/) 将所有内容分享。
 - 上次更新时间：July 9th, 2005

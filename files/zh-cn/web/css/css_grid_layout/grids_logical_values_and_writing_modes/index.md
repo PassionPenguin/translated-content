@@ -466,4 +466,4 @@ CSS 中布满了**物理**位置的关键字——left 和 right，top 和 botto
 
 新的布局方法赋予使用逻辑值定位项目的能力，不过如果和使用物理属性的 `margin`、`padding` 属性混用，切记这些物理属性并不会依据书写模式来改变它们的显示效果。
 
-[CSS 逻辑属性规范](https://drafts.csswg.org/css-logical-props/)的目标是改变现状，在未来的 CSS 中，{{cssxref("margin-left")}} 和 {{cssxref("margin-right")}} 将与[逻辑属性](/zh-CN/docs/Web/CSS/CSS_logical_properties_and_values)相同。Firefox 已经实现了，所以你现在就可以在 Firefox 中试上一试。未来如果得到全面支持，那么通过网格学习到的“块和行内”的知识，你也能马上举一反三地用在其他地方了。
+[CSS 逻辑属性规范](https://drafts.csswg.org/css-logical/)的目标是改变现状，在未来的 CSS 中，{{cssxref("margin-left")}} 和 {{cssxref("margin-right")}} 将与[逻辑属性](/zh-CN/docs/Web/CSS/CSS_logical_properties_and_values)相同。Firefox 已经实现了，所以你现在就可以在 Firefox 中试上一试。未来如果得到全面支持，那么通过网格学习到的“块和行内”的知识，你也能马上举一反三地用在其他地方了。

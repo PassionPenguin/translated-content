@@ -104,6 +104,6 @@ td.tabular {
 
 ## 其他参考
 
-- [FontFont OpenType User Guide (pdf)](https://www.fontfont.com/staticcontent/downloads/FF_OT_User_Guide.pdf)
+- [FontFont OpenType User Guide (pdf)](https://www.myfonts.com/collections/fontfont-foundry)
 - [OpenType Feature Tags](http://www.microsoft.com/typography/otspec/featurelist.htm) 列表
-- [Using the whole font](http://blogs.msdn.com/b/ie/archive/2012/01/09/css-corner-using-the-whole-font.aspx) ( -moz 语法是旧的。在 Gecko 上，使用-ms 语法，但使用-moz ).
+- [Using the whole font](https://devblogs.microsoft.com/ie/css-corner-using-the-whole-font.aspx) ( -moz 语法是旧的。在 Gecko 上，使用-ms 语法，但使用-moz ).

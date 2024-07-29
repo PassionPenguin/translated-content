@@ -159,4 +159,4 @@ li:nth-last-child(n + 3) ~ li {
 ## 参见
 
 - {{ Cssxref(":nth-child") }}
-- [Quantity Queries for CSS](https://alistapart.com/article/quantity-queries-for-css)
+- [Quantity Queries for CSS](https://alistapart.com/article/quantity-queries-for-css/)
