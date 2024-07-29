@@ -84,7 +84,7 @@ var a3 = a.concat(a2);
 
 大多数内存管理的问题都在这个阶段。在这里最艰难的任务是找到“哪些被分配的内存确实已经不再需要了”。它往往要求开发人员来确定在程序中哪一块内存不再需要并且释放它。
 
-高级语言解释器嵌入了“垃圾回收器”，它的主要工作是跟踪内存的分配和使用，以便当分配的内存不再使用时，自动释放它。这只能是一个近似的过程，因为要知道是否仍然需要某块内存是[无法判定的](http://en.wikipedia.org/wiki/Decidability_%28logic%29)（无法通过某种算法解决）。
+高级语言解释器嵌入了“垃圾回收器”，它的主要工作是跟踪内存的分配和使用，以便当分配的内存不再使用时，自动释放它。这只能是一个近似的过程，因为要知道是否仍然需要某块内存是[无法判定的](<https://en.wikipedia.org/wiki/Decidability_(logic)>)（无法通过某种算法解决）。
 
 ## 垃圾回收
 
@@ -177,6 +177,6 @@ window.onload = function () {
 
 ## 参考
 
-- [IBM article on "Memory leak patterns in JavaScript" (2007)](http://www.ibm.com/developerworks/web/library/wa-memleak/)
-- [Kangax article on how to register event handler and avoid memory leaks (2010)](http://msdn.microsoft.com/en-us/magazine/ff728624.aspx)
+- [IBM article on "Memory leak patterns in JavaScript" (2007)](https://developer.ibm.com/technologies/web-development/)
+- [Kangax article on how to register event handler and avoid memory leaks (2010)](<https://learn.microsoft.com/en-us/previous-versions/msdn10/ff728624(v%3Dmsdn.10)>)
 - [Performance](/zh-CN/docs/Mozilla/Performance)

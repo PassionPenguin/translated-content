@@ -408,7 +408,7 @@ console.log(docCookies.myCookie1);
 
 ## 参考
 
-- ["Proxies are awesome" Brendan Eich presentation at JSConf](http://jsconf.eu/2010/speaker/be_proxy_objects.html) ([slides](http://www.slideshare.net/BrendanEich/metaprog-5303821))
+- ["Proxies are awesome" Brendan Eich presentation at JSConf](https://www.jsconf.eu/2010/speaker/be_proxy_objects.html) ([slides](https://www.slideshare.net/slideshow/metaprog-5303821/5303821))
 - [ECMAScript Harmony Proxy proposal page](http://wiki.ecmascript.org/doku.php?id=harmony:proxies) and [ECMAScript Harmony proxy semantics page](http://wiki.ecmascript.org/doku.php?id=harmony:proxies_semantics)
 - [Tutorial on proxies](http://soft.vub.ac.be/~tvcutsem/proxies/)
 - [SpiderMonkey specific Old Proxy API](/zh-CN/docs/JavaScript/Old_Proxy_API)
@@ -416,4 +416,4 @@ console.log(docCookies.myCookie1);
 
 ## 版权声明
 
-一些内容（如文本、例子）是复制自或修改自[ECMAScript wiki](http://wiki.ecmascript.org/doku.php)（版权声明 [CC 2.0 BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/2.0/)）。
+一些内容（如文本、例子）是复制自或修改自[ECMAScript wiki](http://wiki.ecmascript.org/doku.php)（版权声明 [CC 2.0 BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/2.0/)）。

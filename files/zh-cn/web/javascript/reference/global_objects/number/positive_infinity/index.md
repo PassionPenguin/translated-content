@@ -22,7 +22,7 @@ slug: Web/JavaScript/Reference/Global_Objects/Number/POSITIVE_INFINITY
 - 任何正值，包括 `POSITIVE_INFINITY`，乘以 `POSITIVE_INFINITY` 等于 `POSITIVE_INFINITY`。
 - 任何负值，包括 {{jsxref("Number.NEGATIVE_INFINITY", "NEGATIVE_INFINITY")}}，除以 `POSITIVE_INFINITY` 等于 {{jsxref("Number.NEGATIVE_INFINITY", "NEGATIVE_INFINITY")}}。
 - 任何正数除以 `POSITIVE_INFINITY` 都是[正零](https://zh.wikipedia.org/wiki/0)（正如 [IEEE 754](https://zh.wikipedia.org/wiki/IEEE_754) 中所定义的）。
-- 任何负数除以 `POSITIVE_INFINITY` 都是[负零](https://zh.wikipedia.org/wiki/−0)（正如 [IEEE 754](https://zh.wikipedia.org/wiki/IEEE_754) 中所定义的）。
+- 任何负数除以 `POSITIVE_INFINITY` 都是[负零](https://zh.wikipedia.org/wiki/%E2%88%920)（正如 [IEEE 754](https://zh.wikipedia.org/wiki/IEEE_754) 中所定义的）。
 - 零乘以 `POSITIVE_INFINITY` 等于 {{jsxref("NaN")}}。
 - {{jsxref("Global_Objects/NaN", "NaN")}} 乘以 `POSITIVE_INFINITY` 等于 {{jsxref("NaN")}}。
 - `POSITIVE_INFINITY`，除以任何负值（除了 {{jsxref("Number.NEGATIVE_INFINITY", "NEGATIVE_INFINITY")}}）都等于 {{jsxref("Number.NEGATIVE_INFINITY", "NEGATIVE_INFINITY")}}。

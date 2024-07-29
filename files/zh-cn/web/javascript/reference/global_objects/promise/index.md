@@ -447,4 +447,4 @@ btn.addEventListener("click", testPromise);
 - [使用 promise](/zh-CN/docs/Web/JavaScript/Guide/Using_promises)
 - [Promises/A+ 规范](https://promisesaplus.com/)
 - [JavaScript Promise：简介](https://web.dev/articles/promises)
-- [Domenic Denicola：回调、Promise 和协程——JavaScript 中的异步编程模式](https://www.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript)
+- [Domenic Denicola：回调、Promise 和协程——JavaScript 中的异步编程模式](https://www.slideshare.net/slideshow/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript/9953720)

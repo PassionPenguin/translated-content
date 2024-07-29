@@ -165,7 +165,7 @@ employee.address.city = "Noida"; // 可以修改子对象的属性
 console.log(employee.address.city); // "Noida"
 ```
 
-为了使对象不可变，需要递归地冻结每个对象类型的属性（深冻结）。当且仅当你知道对象在引用图中不包含[循环引用](<https://zh.wikipedia.org/wiki/環_(圖論)>)时，可以根据你的设计逐个案例地使用该模式，否则会导致无限循环。`deepFreeze()` 的一个增强功能是添加一个内部函数，该函数接收一个路径（例如一个数组）参数，这样可以在调用 `deepFreeze()` 递归地冻结对象时，避免冻结正在被处理的对象。但仍有可能会冻结不应该被冻结的对象，例如 [`window`](/zh-CN/docs/Web/API/Window)。
+为了使对象不可变，需要递归地冻结每个对象类型的属性（深冻结）。当且仅当你知道对象在引用图中不包含[循环引用](<https://zh.wikipedia.org/wiki/環_(圖論>)>)时，可以根据你的设计逐个案例地使用该模式，否则会导致无限循环。`deepFreeze()` 的一个增强功能是添加一个内部函数，该函数接收一个路径（例如一个数组）参数，这样可以在调用 `deepFreeze()` 递归地冻结对象时，避免冻结正在被处理的对象。但仍有可能会冻结不应该被冻结的对象，例如 [`window`](/zh-CN/docs/Web/API/Window)。
 
 ```js
 function deepFreeze(object) {

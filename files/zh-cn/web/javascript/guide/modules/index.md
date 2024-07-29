@@ -62,7 +62,7 @@ modules 目录下的两个模块的描述如下：
 纵观此文，我们使用 `.js` 扩展名的模块文件，但在其他一些文章中，你可能会看到 `.mjs` 扩展名的使用。[V8 推荐了这样的做法](https://v8.dev/features/modules#mjs)，比如有下列理由：
 
 - 比较清晰，这可以指出哪些文件是模块，哪些是常规的 JavaScript。
-- 这能保证你的模块可以被运行时环境和构建工具识别，比如 [Node.js](https://nodejs.org/api/esm.html#esm_enabling) 和 [Babel](https://babeljs.io/docs/en/options#sourcetype)。
+- 这能保证你的模块可以被运行时环境和构建工具识别，比如 [Node.js](https://nodejs.org/api/esm.html#esm_enabling) 和 [Babel](https://babeljs.io/docs/options#sourcetype)。
 
 但是我们决定继续使用 `.js` 扩展名，未来可能会更改。为了使模块可以在浏览器中正常地工作，你需要确保你的服务器能够正常地处理 `Content-Type` 头，其应该包含 JavaScript 的 MIME 类型 `text/javascript`。如果没有这么做，你可能会得到 一个严格 MIME 类型检查错误：“The server responded with a non-JavaScript MIME type（服务器返回了非 JavaScript MIME 类型）”，并且浏览器会拒绝执行相应的 JavaScript 代码。多数服务器可以正确地处理 `.js` 文件的类型，但是 `.mjs` 还不行。已经可以正常响应 `.mjs` 的服务器有 [GitHub 页面](https://pages.github.com/) 和 Node.js 的 [`http-server`](https://github.com/http-party/http-server#readme)。
 
@@ -131,7 +131,7 @@ import { name, draw, reportArea, reportPerimeter } from '/js-examples/modules/ba
 ./modules/square.js
 ```
 
-你可以在 [`main.js`](https://github.com/mdn/js-examples/blob/master/module-examples/basic-modules/main.js) 中看到这些。
+你可以在 [`main.js`](https://github.com/mdn/js-examples/blob/main/module-examples/basic-modules/main.js) 中看到这些。
 
 > **备注：** 在一些模块系统中你可以忽略文件扩展名（比如 `'/model/squre'`）。这在原生 JavaScript 模块系统中不工作。~~此外，记住你需要包含最前面的正斜杠。~~ （修订版 1889482）
 
@@ -412,7 +412,7 @@ modules/
 export { Square };
 ```
 
-接下来是聚合部分。在 [`shapes.js`](https://github.com/mdn/js-examples/blob/master/module-examples/module-aggregation/modules/shapes.js) 里面，我们包括以下几行：
+接下来是聚合部分。在 [`shapes.js`](https://github.com/mdn/js-examples/blob/main/module-examples/module-aggregation/modules/shapes.js) 里面，我们包括以下几行：
 
 ```js
 export { Square } from "/js-examples/modules/module-aggregation/modules/shapes/square.js";
@@ -454,7 +454,7 @@ import("/modules/mymodule.js").then((module) => {
 
 我们来看一个例子。在 [dynamic-module-imports](https://github.com/mdn/js-examples/tree/main/module-examples/dynamic-module-imports) 目录中，我们有另一个基于类示例的示例。但是这次我们在示例加载时没有在画布上绘制任何东西。相反，我们包括三个按钮——“圆形”、“方形”和“三角形”——按下时，动态加载所需的模块，然后使用它来绘制相关的形状。
 
-在这个例子中，我们只对 [index.html](https://github.com/mdn/js-examples/blob/master/module-examples/dynamic-module-imports/index.html) 和 [main.js](https://github.com/mdn/js-examples/blob/master/module-examples/dynamic-module-imports/main.js) 文件进行了更改——模块导出保持与以前相同。
+在这个例子中，我们只对 [index.html](https://github.com/mdn/js-examples/blob/main/module-examples/dynamic-module-imports/index.html) 和 [main.js](https://github.com/mdn/js-examples/blob/main/module-examples/dynamic-module-imports/main.js) 文件进行了更改——模块导出保持与以前相同。
 
 在`main.js`中，我们使用[`document.querySelector()`](/zh-CN/docs/Web/API/Document/querySelector)调用获取了对每个按钮的引用，例如：
 
@@ -496,9 +496,9 @@ squareBtn.addEventListener("click", () => {
 
 ## 参见
 
-- [Using JavaScript modules on the web](https://developers.google.com/web/fundamentals/primers/modules#mjs), by Addy Osmani and Mathias Bynens
+- [Using JavaScript modules on the web](https://v8.dev/features/modules#mjs), by Addy Osmani and Mathias Bynens
 - [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/), Hacks blog post by Lin Clark
 - [ES6 in Depth: Modules](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/), Hacks blog post by Jason Orendorff
-- Axel Rauschmayer's book [Exploring JS: Modules](http://exploringjs.com/es6/ch_modules.html)
+- Axel Rauschmayer's book [Exploring JS: Modules](https://exploringjs.com/es6/ch_modules.html)
 
 {{Previous("Web/JavaScript/Guide/Meta_programming")}}

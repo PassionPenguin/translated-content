@@ -46,7 +46,7 @@ var expression = new String("2 + 2");
 eval(expression.toString());
 ```
 
-如果你间接的使用 `eval()`，比如通过一个引用来调用它，而不是直接的调用 `eval`。从 [ECMAScript 5](http://www.ecma-international.org/ecma-262/5.1/#sec-10.4.2) 起，它工作在全局作用域下，而不是局部作用域中。这就意味着，例如，下面的代码的作用声明创建一个全局函数，并且 `eval` 中的这些代码在执行期间不能在被调用的作用域中访问局部变量。
+如果你间接的使用 `eval()`，比如通过一个引用来调用它，而不是直接的调用 `eval`。从 [ECMAScript 5](https://262.ecma-international.org/5.1/#sec-10.4.2) 起，它工作在全局作用域下，而不是局部作用域中。这就意味着，例如，下面的代码的作用声明创建一个全局函数，并且 `eval` 中的这些代码在执行期间不能在被调用的作用域中访问局部变量。
 
 ```js
 function test() {
@@ -309,7 +309,7 @@ var fct2 = eval(fctStr2); // 返回一个函数
 
 ## Firefox 相关
 
-- 从历史上看，`eval()` 有一个可选的第二个参数，指定上下文执行对象。这个参数是非标准的，并且明确地从 Firefox 4 中删除。请参阅 [Firefox bug 531675](https://bugzil.la/531675)。
+- 从历史上看，`eval()` 有一个可选的第二个参数，指定上下文执行对象。这个参数是非标准的，并且明确地从 Firefox 4 中删除。请参阅 [Firefox bug 531675](https://bugzilla.mozilla.org/show_bug.cgi?id%3D531675)。
 
 ## 参见
 

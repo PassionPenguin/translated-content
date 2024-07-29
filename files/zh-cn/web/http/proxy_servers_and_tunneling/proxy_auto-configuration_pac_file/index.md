@@ -127,7 +127,7 @@ application/x-ns-proxy-autoconfig
 
   - `ProxyConfig.bindings` {{Deprecated_Inline}}
 
-> **备注：** pactester ([pacparser](https://github.com/pacparser/pacparser) 的一部分) 可以用来检测语法是否符合要求，使用方法如下：
+> **备注：** pactester ([pacparser](https://github.com/manugarg/pacparser) 的一部分) 可以用来检测语法是否符合要求，使用方法如下：
 >
 > - PAC 文件保存为 `proxy.pac`
 > - 命令行输入：`pactester -p ~/pacparser-master/tests/proxy.pac -u https://www.mozilla.org`（传入 `host` 参数 `www.mozilla.org`、`url` 参数 `https://www.mozilla.org`）
@@ -701,6 +701,6 @@ function FindProxyForURL(url, host) {
 
 Proxy auto-config was introduced into Netscape Navigator 2.0 in the late 1990s, at the same time when JavaScript was introduced. Open-sourcing Netscape eventually lead to Firefox itself.
 
-The most "original" implementation of PAC and its JavaScript libraries is, therefore, `nsProxyAutoConfig.js` found in early versions of Firefox. These utilities are found in many other open-source systems including Chromium. Firefox later integrated the file into [`ProxyAutoConfig.cpp`](https://dxr.mozilla.org/mozilla-central/source/netwerk/base/ProxyAutoConfig.cpp) as a string literal.
+The most "original" implementation of PAC and its JavaScript libraries is, therefore, `nsProxyAutoConfig.js` found in early versions of Firefox. These utilities are found in many other open-source systems including Chromium. Firefox later integrated the file into [`ProxyAutoConfig.cpp`](https://searchfox.org/mozilla-central/source/netwerk/base/ProxyAutoConfig.cpp) as a string literal.
 
-Microsoft in general made its own implementation. There used to be [some problems with their libraries](https://en.wikipedia.org/wiki/Proxy_auto-config#Old_Microsoft_problems), but most are resolved by now. They have defined [some new "Ex" suffixed functions](https://docs.microsoft.com/en-us/windows/win32/winhttp/ipv6-extensions-to-navigator-auto-config-file-format) around the address handling parts to support IPv6. The feature is supported by Chromium, but not yet by Firefox ([bugzilla #558253](https://bugzilla.mozilla.org/show_bug.cgi?id=558253)).
+Microsoft in general made its own implementation. There used to be [some problems with their libraries](https://en.wikipedia.org/wiki/Proxy_auto-config#Old_Microsoft_problems), but most are resolved by now. They have defined [some new "Ex" suffixed functions](https://learn.microsoft.com/en-us/windows/win32/winhttp/ipv6-extensions-to-navigator-auto-config-file-format) around the address handling parts to support IPv6. The feature is supported by Chromium, but not yet by Firefox ([bugzilla #558253](https://bugzilla.mozilla.org/show_bug.cgi?id=558253)).

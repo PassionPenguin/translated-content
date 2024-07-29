@@ -158,10 +158,10 @@ console.log("b");
 
 - `Proxy.create` 和 `Proxy.createFunction` 已经过时了，请使用 {{jsxref("Proxy/Proxy", "Proxy()")}} 构造函数。
 - 下列陷入已经过时：
-  - `hasOwn`（[bug 980565](https://bugzil.la/980565)，Firefox 33）
-  - `getEnumerablePropertyKeys`（[bug 783829](https://bugzil.la/783829)，Firefox 37）
-  - `getOwnPropertyNames`（[bug 1007334](https://bugzil.la/1007334)，Firefox 33）
-  - `keys`（[bug 1007334](https://bugzil.la/1007334)，Firefox 33）
+  - `hasOwn`（[bug 980565](https://bugzilla.mozilla.org/show_bug.cgi?id%3D980565)，Firefox 33）
+  - `getEnumerablePropertyKeys`（[bug 783829](https://bugzilla.mozilla.org/show_bug.cgi?id%3D783829)，Firefox 37）
+  - `getOwnPropertyNames`（[bug 1007334](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1007334)，Firefox 33）
+  - `keys`（[bug 1007334](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1007334)，Firefox 33）
 
 ### ParallelArray
 

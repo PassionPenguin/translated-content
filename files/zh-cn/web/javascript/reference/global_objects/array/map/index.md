@@ -145,7 +145,7 @@ console.log(
 
 ### 将 parseInt() 与 map() 一起使用
 
-（[受到这篇博文的启发](https://www.wirfs-brock.com/allen/posts/166)）
+（[受到这篇博文的启发](https://wirfs-brock.com/allen/posts/166)）
 
 通常情况下，我们使用只有一个参数（即正在遍历的元素）的回调函数。尽管某些函数可以接受额外的可选参数，但在实际应用中，我们通常只传递一个参数。这种习惯可能会导致一些令人困惑的现象。
 

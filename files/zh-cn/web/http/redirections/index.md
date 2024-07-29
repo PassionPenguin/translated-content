@@ -171,7 +171,7 @@ Redirect permanent / https://www.example.com
 Redirect 301 / https://www.example.com
 ```
 
-[mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) 模块也可以用来设置重定向。它应用起来更灵活，但也更加复杂。
+[mod_rewrite](https://httpd.apache.org/docs/current/mod/mod_rewrite.html) 模块也可以用来设置重定向。它应用起来更灵活，但也更加复杂。
 
 ### Nginx
 
@@ -194,7 +194,7 @@ rewrite ^/images/(.*)$ https://images.example.com/$1 permanent;
 
 ### IIS
 
-在 IIS 中，你可以使用 [`<httpRedirect>`](https://www.iis.net/configreference/system.webserver/httpredirect) 元素来配置重定向。
+在 IIS 中，你可以使用 [`<httpRedirect>`](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/httpRedirect/) 元素来配置重定向。
 
 ## 重定向死锁（循环）
 

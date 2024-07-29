@@ -15,7 +15,7 @@ slug: Web/JavaScript/Reference/Global_Objects/Function/displayName
 
 如果存在 `displayName` 属性，其可能会被控制台和性能分析工具优先选择，作为函数的名称显示。
 
-在各种浏览器中，只有 Firefox 控制台使用该属性。React 开发者工具在显示组件树时也使用 [`displayName`](https://reactjs.org/docs/higher-order-components.html#convention-wrap-the-display-name-for-easy-debugging) 属性。
+在各种浏览器中，只有 Firefox 控制台使用该属性。React 开发者工具在显示组件树时也使用 [`displayName`](https://legacy.reactjs.org/docs/higher-order-components.html#convention-wrap-the-display-name-for-easy-debugging) 属性。
 
 Firefox 对可能由[匿名 JavaScript 函数命名约定](http://johnjbarton.github.io/nonymous/index.html)算法生成的 `displayName` 进行了一些基本的解码尝试。以下模式可以被检测到：
 

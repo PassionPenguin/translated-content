@@ -21,7 +21,7 @@ slug: Web/JavaScript/Reference/Functions/arguments/callee
 
 `callee` 是 `arguments` 对象的一个属性。它可以用于引用某个函数的函数体内当前正在执行的函数。这在函数的名称未知时很有用，例如在没有名称的函数表达式（也称为“匿名函数”）内。
 
-（以下内容大部分改编自 [olliej 在 Stack Overflow 上的回答](https://stackoverflow.com/a/235760/578288)）
+（以下内容大部分改编自 [olliej 在 Stack Overflow 上的回答](https://stackoverflow.com/questions/103598/why-was-the-arguments-callee-caller-property-deprecated-in-javascript/235760#235760)）
 
 早期版本的 JavaScript 不允许使用具名函数表达式，出于这样的原因，你不能创建递归函数表达式。
 

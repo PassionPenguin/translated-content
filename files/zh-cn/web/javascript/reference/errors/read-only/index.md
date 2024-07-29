@@ -75,5 +75,5 @@ LUNG_COUNT = 3; //
 
 - {{jsxref("Object.defineProperty()")}}
 - {{jsxref("Object.freeze()")}}
-- ["Which animals have three lungs?" on answers.com](https://www.answers.com/Q/Which_animals_have_three_lungs)
-- [Klingons](https://aliens.wikia.com/wiki/Klingon) (another answer to that query)
+- ["Which animals have three lungs?" on answers.com](https://www.answers.com/mammals/Which_animals_have_three_lungs)
+- [Klingons](https://aliens.fandom.com/wiki/Klingon) (another answer to that query)
