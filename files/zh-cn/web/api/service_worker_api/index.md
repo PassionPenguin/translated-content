@@ -70,7 +70,7 @@ Service workers 也可以用来做这些事情：
 
 未来 service worker 能够用来做更多使 web 平台接近原生应用的事。值得关注的是，其他标准也能并且将会使用 service worker，例如：
 
-- [后台同步](https://github.com/slightlyoff/BackgroundSync)：启动一个 service worker 即使没有用户访问特定站点，也可以更新缓存
+- [后台同步](https://github.com/WICG/background-sync)：启动一个 service worker 即使没有用户访问特定站点，也可以更新缓存
 - [响应推送](/zh-CN/docs/Web/API/Push_API)：启动一个 service worker 向用户发送一条信息通知新的内容可用
 - 对时间或日期作出响应
 - 进入地理围栏

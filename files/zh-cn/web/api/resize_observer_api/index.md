@@ -32,8 +32,8 @@ Resize Observer API 提供了一种解决此类问题的解决方案，此外，
 
 你可以在我们的 GitHub 存储库中找到几个简单的示例：
 
-- [resize-observer-border-radius.html](https://mdn.github.io/dom-examples/resize-observer/resize-observer-border-radius.html)（[源码](https://github.com/mdn/dom-examples/blob/master/resize-observer/resize-observer-border-radius.html)）：一个带有绿色框的简单示例，其大小为视口大小的百分比。更改视口大小时，框的圆角将根据框的大小成比例地变化。我们可以通过 {{cssxref("border-radius")}} 的百分比来实现，但这很快就会导致丑陋的椭圆形角，而上述解决方案为你提供了随盒子大小缩放的漂亮的圆角。
-- [resize-observer-text.html](https://mdn.github.io/dom-examples/resize-observer/resize-observer-text.html) ([源码](https://github.com/mdn/dom-examples/blob/master/resize-observer/resize-observer-text.html)): 这里我们使用 resize observer 来改变 {{cssxref("font-size")}}，标题和段落的值随着滑块值的改变而改变，导致包含的\<div>改变宽度。这表明你可以响应元素大小的变化，即使它们与视口无关。
+- [resize-observer-border-radius.html](https://mdn.github.io/dom-examples/resize-observer/resize-observer-border-radius.html)（[源码](https://github.com/mdn/dom-examples/blob/main/resize-observer/resize-observer-border-radius.html)）：一个带有绿色框的简单示例，其大小为视口大小的百分比。更改视口大小时，框的圆角将根据框的大小成比例地变化。我们可以通过 {{cssxref("border-radius")}} 的百分比来实现，但这很快就会导致丑陋的椭圆形角，而上述解决方案为你提供了随盒子大小缩放的漂亮的圆角。
+- [resize-observer-text.html](https://mdn.github.io/dom-examples/resize-observer/resize-observer-text.html) ([源码](https://github.com/mdn/dom-examples/blob/main/resize-observer/resize-observer-text.html)): 这里我们使用 resize observer 来改变 {{cssxref("font-size")}}，标题和段落的值随着滑块值的改变而改变，导致包含的\<div>改变宽度。这表明你可以响应元素大小的变化，即使它们与视口无关。
 
 代码通常将遵循这种模式（取自 resize-observer-border-radius.html）：
 
@@ -70,4 +70,4 @@ resizeObserver.observe(document.querySelector("div"));
 
 ## 参见
 
-- [ResizeObserver: It’s Like document.onresize for Elements](https://developers.google.com/web/updates/2016/10/resizeobserver)
+- [ResizeObserver: It’s Like document.onresize for Elements](https://web.dev/articles/resize-observer)

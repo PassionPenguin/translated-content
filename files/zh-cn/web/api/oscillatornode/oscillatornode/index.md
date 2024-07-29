@@ -28,7 +28,7 @@ var oscillatorNode = new OscillatorNode(context, options)
     - `detune`
       - : 音高微调值（cents）可以对给定的频率值进行偏移。默认值是 0.
     - `frequency`
-      - : 周期性波形的频率 (in [hertz](https://zh.wikipedia.org/wiki/hertz))。默认值是 440.
+      - : 周期性波形的频率 (in [hertz](https://zh.wikipedia.org/wiki/Hertz))。默认值是 440.
     - `periodicWave`
       - : 任意的周期性波形，通过一个 {{domxref("PeriodicWave")}} 对象描述。
 

@@ -182,6 +182,6 @@ deriveBitsButton.addEventListener("click", () => {
 ## 参见
 
 - [HKDF 规范](https://datatracker.ietf.org/doc/html/rfc5869)。
-- [NIST 基于密码的密钥派生指南](https://csrc.nist.gov/publications/detail/sp/800-132/final)。
+- [NIST 基于密码的密钥派生指南](https://csrc.nist.gov/pubs/sp/800/132/final)。
 - [密码存储备忘录](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)。
 - [关于为 PBKDF2 选择迭代计数器的建议](https://security.stackexchange.com/questions/3959/recommended-of-iterations-when-using-pbkdf2-sha256/3993#3993)。

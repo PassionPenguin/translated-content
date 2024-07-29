@@ -110,7 +110,7 @@ function decryptMessage(key, ciphertext) {
 
 - {{domxref("SubtleCrypto.encrypt()")}}。
 - [RFC 3447](https://datatracker.ietf.org/doc/html/rfc3447) 规定了 RSAOAEP。
-- [NIST SP800-38A](https://csrc.nist.gov/publications/detail/sp/800-38a/final) 规定了 CTR 模式。
-- [NIST SP800-38A](https://csrc.nist.gov/publications/detail/sp/800-38a/final) 规定了 CBC 模式。
-- [NIST SP800-38D](https://csrc.nist.gov/publications/detail/sp/800-38d/final) 规定了 GCM 模式。
-- [FIPS 198-1](https://csrc.nist.gov/csrc/media/publications/fips/198/1/final/documents/fips-198-1_final.pdf) 规定了 HMAC。
+- [NIST SP800-38A](https://csrc.nist.gov/pubs/sp/800/38/a/final) 规定了 CTR 模式。
+- [NIST SP800-38A](https://csrc.nist.gov/pubs/sp/800/38/a/final) 规定了 CBC 模式。
+- [NIST SP800-38D](https://csrc.nist.gov/pubs/sp/800/38/d/final) 规定了 GCM 模式。
+- [FIPS 198-1](https://csrc.nist.gov/files/pubs/fips/198-1/final/docs/fips-198-1_final.pdf) 规定了 HMAC。

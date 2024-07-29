@@ -59,7 +59,7 @@ evtSource.addEventListener("ping", (event) => {
 
 每当服务器发送一个 `event` 字段设置为 `ping` 的消息时，就会调用这段代码；这段代码接着解析 `data` 字段中的 JSON，并输出这些信息。
 
-> **警告：** 当**不通过 HTTP/2 使用时**，SSE（server-sent events）会受到最大连接数的限制，这在打开多个选项卡时特别麻烦，因为该限制是针对*每个浏览器*的，并且被设置为一个非常低的数字（6）。该问题在 [Chrome](https://crbug.com/275955) 和 [Firefox](https://bugzil.la/906896) 中被标记为“不会解决”。此限制是针对每个浏览器 + 域的，因此这意味着你可以跨所有选项卡打开 6 个 SSE 连接到 `www.example1.com`，并打开 6 个 SSE 连接到 `www.example2.com`。（来自 [Stackoverflow](https://stackoverflow.com/questions/5195452/websockets-vs-server-sent-events-eventsource/5326159)）。使用 HTTP/2 时，同一时间内 *HTTP 最大连接数*由服务器和客户端之间协商（默认为 100）。
+> **警告：** 当**不通过 HTTP/2 使用时**，SSE（server-sent events）会受到最大连接数的限制，这在打开多个选项卡时特别麻烦，因为该限制是针对*每个浏览器*的，并且被设置为一个非常低的数字（6）。该问题在 [Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id%3D275955) 和 [Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id%3D906896) 中被标记为“不会解决”。此限制是针对每个浏览器 + 域的，因此这意味着你可以跨所有选项卡打开 6 个 SSE 连接到 `www.example1.com`，并打开 6 个 SSE 连接到 `www.example2.com`。（来自 [Stackoverflow](https://stackoverflow.com/questions/5195452/websockets-vs-server-sent-events-eventsource/5326159)）。使用 HTTP/2 时，同一时间内 *HTTP 最大连接数*由服务器和客户端之间协商（默认为 100）。
 
 ## 从服务器端发送事件
 

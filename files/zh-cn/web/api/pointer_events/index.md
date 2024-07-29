@@ -338,14 +338,14 @@ button#tiny {
 
 ## 演示和示例
 
-- [Touch/pointer tests and demos (by Patrick H. Lauke)](http://patrickhlauke.github.io/touch/)
+- [Touch/pointer tests and demos (by Patrick H. Lauke)](https://patrickhlauke.github.io/touch/)
 
 ## 社区资源
 
 - [Pointer Events Working Group](https://github.com/w3c/pointerevents)
-- [Mail list](http://lists.w3.org/Archives/Public/public-pointer-events/)
+- [Mail list](https://lists.w3.org/Archives/Public/public-pointer-events/)
 - [W3C #pointerevents IRC channel](irc://irc.w3.org:6667/)
 
 ## 相关主题与资源
 
-- [Touch Events Standard](http://www.w3.org/TR/touch-events/)
+- [Touch Events Standard](https://www.w3.org/TR/touch-events/)

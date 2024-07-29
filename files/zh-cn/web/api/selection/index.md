@@ -124,13 +124,13 @@ var range = selObj.getRangeAt(0);
 
 `getRangeAt` 方法返回对象的**引用**，并且对该函数返回的 `Range` 对象所运行的函数，会直接作用到选区上，并可能影响用户焦点的情况。
 
-正如 [Selection API 规范](http://www.w3.org/TR/selection-api/#h_note_15) 所指出的，Selection API 最初由 Netscape 创建，并允许多个区域（例如，允许用户从 {{HTMLElement("table")}} 中选择列）。但是，Gecko 以外的浏览器没有实现多个区域，而且规范还要求选择的内容始终（仅）具有一个范围（允许多个区域可能引起不必要的兼容性问题，例如同时从多处输入，译者注）。
+正如 [Selection API 规范](https://www.w3.org/TR/selection-api/#h_note_15) 所指出的，Selection API 最初由 Netscape 创建，并允许多个区域（例如，允许用户从 {{HTMLElement("table")}} 中选择列）。但是，Gecko 以外的浏览器没有实现多个区域，而且规范还要求选择的内容始终（仅）具有一个范围（允许多个区域可能引起不必要的兼容性问题，例如同时从多处输入，译者注）。
 
 ### Selection 及输入焦点
 
 选择和输入焦点（由 {{domxref("Document.activeElement")}} 表示）有一个复杂的关系，该关系因浏览器而异。在跨浏览器兼容的代码中，最好分别处理它们。
 
-Safari 和 Chrome（与 Firefox 不同）目前在以编程方式修改 `Selection` 时会将包含选区的元素作为焦点；这可能在将来会发生变化（请参见 [W3C Bug 14383](https://www.w3.org/Bugs/Public/show_bug.cgi?id=14383) 和 [WebKit bug 3869](https://webkit.org/b/3869)）。
+Safari 和 Chrome（与 Firefox 不同）目前在以编程方式修改 `Selection` 时会将包含选区的元素作为焦点；这可能在将来会发生变化（请参见 [W3C Bug 14383](https://www.w3.org/Bugs/Public/show_bug.cgi?id=14383) 和 [WebKit bug 3869](https://bugs.webkit.org/show_bug.cgi?id%3D3869)）。
 
 ### Selection API 在可编辑元素焦点更改方面的行为
 
@@ -177,6 +177,6 @@ Selection API 有一个共同的行为（即在浏览器之间共通），该行
 ## 参见
 
 - {{domxref("window.getSelection")}}，{{domxref("document.getSelection")}}及{{domxref("Range")}}
-- HTML5 DOM Range [Interface Selection](http://html5.org/specs/dom-range.html#selection)
+- HTML5 DOM Range [Interface Selection](https://html5.org/specs/dom-range.html#selection)
 - [IDL definition in Mozilla cross-reference](http://lxr.mozilla.org/mozilla/source/content/base/public/nsISelection.idl)
-- [目前 CSS 实现竖排文本较为通用的方式是什么？](http://www.zhihu.com/question/20874144)（页内搜索"Bidi"可了解 Bidi 优先顺序）
+- [目前 CSS 实现竖排文本较为通用的方式是什么？](https://www.zhihu.com/question/20874144)（页内搜索"Bidi"可了解 Bidi 优先顺序）

@@ -46,7 +46,7 @@ pipeThrough(transformStream, options)
 
 ## 示例
 
-在下面的例子中（有关运行实例的完整代码，参见[解压 PNG](https://mdn.github.io/dom-examples/streams/png-transform-stream/)，有关源代码，参见 [png-transform-stream](https://github.com/mdn/dom-examples/tree/master/streams/png-transform-stream)），使用 `fetch` 获取图像并将响应的 body 作为 {{domxref("ReadableStream")}}。
+在下面的例子中（有关运行实例的完整代码，参见[解压 PNG](https://mdn.github.io/dom-examples/streams/png-transform-stream/)，有关源代码，参见 [png-transform-stream](https://github.com/mdn/dom-examples/tree/main/streams/png-transform-stream)），使用 `fetch` 获取图像并将响应的 body 作为 {{domxref("ReadableStream")}}。
 
 接下来，我们记录可读流的内容，并且使用 `pipeThrough()` 将它发送到一个转换灰度图的转换流，然后记录新的流中的内容。
 

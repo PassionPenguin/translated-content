@@ -25,7 +25,7 @@ A {{jsxref("Promise")}} that resolves to a {{domxref("PushSubscription")}} objec
 
 ## 例子
 
-这个代码片段来自 [push messaging and notification sample](https://github.com/GoogleChrome/samples/blob/gh-pages/push-messaging-and-notifications). (没有能直接运行的例子.)
+这个代码片段来自 [push messaging and notification sample](https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications). (没有能直接运行的例子.)
 
 ```js
 // We need the service worker registration to check for a subscription

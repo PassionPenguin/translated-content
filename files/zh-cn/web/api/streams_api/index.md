@@ -81,7 +81,7 @@ Stream API 允许 JavaScript 以编程方式访问从网络接收的数据流，
 
 ## 示例
 
-我们创建了流的示例目录，以配合 Stream API 文档——参见 [mdn/dom-examples/streams](https://github.com/mdn/dom-examples/tree/master/streams)。示例如下：
+我们创建了流的示例目录，以配合 Stream API 文档——参见 [mdn/dom-examples/streams](https://github.com/mdn/dom-examples/tree/main/streams)。示例如下：
 
 - [简单的流 pump](https://mdn.github.io/dom-examples/streams/simple-pump/)：此示例展示了如何消费流并且传递它的数据进入另一个。
 - [转换一个 PNG 到灰度](https://mdn.github.io/dom-examples/streams/grayscale-png/)：这个示例展示了如何使用可读流将 PNG 转换到灰度。

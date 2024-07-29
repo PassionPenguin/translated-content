@@ -44,7 +44,7 @@ _`ShadowRoot` 接口包含了下列几个在 {{domxref("DocumentOrShadowRoot")}}
 
 ## 例子
 
-下面的这段代码是从我们的 [life-cycle-callbacks](https://github.com/mdn/web-components-examples/tree/master/life-cycle-callbacks) 示例 ([查看在线示例](https://mdn.github.io/web-components-examples/life-cycle-callbacks)) 中提取出来的，它创建了一个由元素的属性指定的大小相等的正方形。
+下面的这段代码是从我们的 [life-cycle-callbacks](https://github.com/mdn/web-components-examples/tree/main/life-cycle-callbacks) 示例 ([查看在线示例](https://mdn.github.io/web-components-examples/life-cycle-callbacks/)) 中提取出来的，它创建了一个由元素的属性指定的大小相等的正方形。
 
 Inside the `<custom-square>` element's class definition we include some life cycle callbacks that make a call to an external function, `upateStyle()`, which actually applies the size and color to the element. You'll see that we are passing it `this` (the custom element itself) as a parameter.
 

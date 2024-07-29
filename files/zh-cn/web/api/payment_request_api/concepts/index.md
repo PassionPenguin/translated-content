@@ -42,7 +42,7 @@ slug: Web/API/Payment_Request_API/Concepts
 - `https://apple.com/apple-pay`
   - : 交易使用[Apple Pay](https://www.apple.com/apple-pay/)服务。目前，只有 Safari 浏览器支持这种交易方式。
 - `https://google.com/pay`
-  - : 交易使用[Google Pay](https://pay.google.com/). 目前，只有 Chrome 及 Chrome 内核的浏览器支持这种交易方式。
+  - : 交易使用[Google Pay](https://accounts.google.com/v3/signin/identifier?continue%3Dhttps://wallet.google.com/wallet?p%3Dpgc%26utm_source%3Dpgc%26utm_medium%3Dwebsite%26utm_campaign%3Dredirect%26followup%3Dhttps://wallet.google.com/wallet?p%3Dpgc%26utm_source%3Dpgc%26utm_medium%3Dwebsite%26utm_campaign%3Dredirect%26ifkv%3DAdF4I77eBq0t5aA4jQh-4pIM9OGHRLYiXCwwIXirPnGQt8sXeDxxs7nhhwFlIA6SbQKLnap2yufpFw%26osid%3D1%26passive%3D1209600%26flowName%3DWebLiteSignIn%26flowEntry%3DServiceLogin%26dsh%3DS-1473565015:1722263788710338). 目前，只有 Chrome 及 Chrome 内核的浏览器支持这种交易方式。
 
 ## 交易处理机的功能
 

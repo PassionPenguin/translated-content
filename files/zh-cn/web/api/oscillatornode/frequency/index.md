@@ -22,7 +22,7 @@ oscillator.frequency.value = 440; // value in hertz
 
 ## 示例
 
-下列示例使用 {{ domxref("AudioContext") }} 创建了一个 oscillator node. 这是一个用于展示的示例，查看 [Violent Theremin demo](http://mdn.github.io/violent-theremin/) ([see app.js](https://github.com/mdn/violent-theremin/blob/gh-pages/scripts/app.js) 是相关代码).
+下列示例使用 {{ domxref("AudioContext") }} 创建了一个 oscillator node. 这是一个用于展示的示例，查看 [Violent Theremin demo](http://mdn.github.io/violent-theremin/) ([see app.js](https://github.com/mdn/violent-theremin/blob/main/scripts/app.js) 是相关代码).
 
 ```js
 // create web audio api context

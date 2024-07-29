@@ -28,7 +28,7 @@ slug: Web/API/ResizeObserverEntry
 
 ## 示例
 
-以下片段取自 [resize-observer-text.html](https://mdn.github.io/dom-examples/resize-observer/resize-observer-text.html)（[参见源代码](https://github.com/mdn/dom-examples/blob/master/resize-observer/resize-observer-text.html)）示例。这使用了一个简单的特征检查去查看是否浏览器支持较新的 `contentBoxSize` 属性——如果支持，它将使用它获取需要的尺寸数据。如果不支持，它将使用一个较旧的 `contentRect` 属性。
+以下片段取自 [resize-observer-text.html](https://mdn.github.io/dom-examples/resize-observer/resize-observer-text.html)（[参见源代码](https://github.com/mdn/dom-examples/blob/main/resize-observer/resize-observer-text.html)）示例。这使用了一个简单的特征检查去查看是否浏览器支持较新的 `contentBoxSize` 属性——如果支持，它将使用它获取需要的尺寸数据。如果不支持，它将使用一个较旧的 `contentRect` 属性。
 
 ```js
 const resizeObserver = new ResizeObserver((entries) => {
