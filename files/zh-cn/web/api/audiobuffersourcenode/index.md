@@ -41,7 +41,7 @@ _从父级的_ _{{domxref("AudioNode")}} 继承属性_.
 - {{domxref("AudioBufferSourceNode.buffer")}}
   - : 是一个 {{domxref("AudioBuffer")}} 它定义了要播放的音频，当设置它的值为 0 时，它会定义一个静默的单通道。
 - {{domxref("AudioBufferSourceNode.detune")}}
-  - : Is a [k-rate](/zh-CN/docs/DOM/AudioParam#k-rate) {{domxref("AudioParam")}} representing detuning of oscillation in [cents](http://en.wikipedia.org/wiki/Cent_%28music%29). Its default value is `0`.
+  - : Is a [k-rate](/zh-CN/docs/DOM/AudioParam#k-rate) {{domxref("AudioParam")}} representing detuning of oscillation in [cents](<https://en.wikipedia.org/wiki/Cent_(music)>). Its default value is `0`.
 - {{domxref("AudioBufferSourceNode.loop")}}
   - : Is a Boolean attribute indicating if the audio asset must be replayed when the end of the {{domxref("AudioBuffer")}} is reached. Its default value is `false`.
 - {{domxref("AudioBufferSourceNode.loopStart")}}

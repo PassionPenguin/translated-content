@@ -42,5 +42,5 @@ console.exception(msg [, subst1, ..., substN]);
 ## 参见
 
 - [Opera Dragonfly documentation: Console](http://www.opera.com/dragonfly/documentation/console/)
-- [MSDN: Using the F12 Tools Console to View Errors and Status](http://msdn.microsoft.com/library/gg589530)
-- [Chrome Developer Tools: Using the Console](https://developers.google.com/chrome-developer-tools/docs/console#errors_and_warnings)
+- [MSDN: Using the F12 Tools Console to View Errors and Status](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589530(v%3Dvs.85)?redirectedfrom%3DMSDN>)
+- [Chrome Developer Tools: Using the Console](https://developer.chrome.com/docs/devtools/#errors_and_warnings)

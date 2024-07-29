@@ -41,7 +41,7 @@ slug: MDN/Writing_guidelines/Howto/Write_a_new_entry_in_the_glossary
 我们建议你将链接分为以下三个部分：
 
 - 基础知识
-  - : 提供更多一般信息的链接。如：到[维基百科](https://zh.wikipedia.org/)的链接是一个很棒的点。
+  - : 提供更多一般信息的链接。如：到[维基百科](https://zh.wikipedia.org/wiki/Wikipedia:首页)的链接是一个很棒的点。
 - 技术参考
   - : 链接到更深入的技术信息，MDN 或其他地方的相关内容。
 - 学习它

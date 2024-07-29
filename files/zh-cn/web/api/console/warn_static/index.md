@@ -42,4 +42,4 @@ warn(msg, subst1, /* …, */ substN)
 ## 参见
 
 - [Opera Dragonfly 文档：控制台](http://www.opera.com/dragonfly/documentation/console/)
-- [MSDN：使用 F12 工具控制台来查看错误和状态](http://msdn.microsoft.com/library/gg589530)
+- [MSDN：使用 F12 工具控制台来查看错误和状态](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589530(v%3Dvs.85)?redirectedfrom%3DMSDN>)

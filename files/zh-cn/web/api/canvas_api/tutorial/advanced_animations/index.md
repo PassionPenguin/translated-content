@@ -393,7 +393,7 @@ ball.draw();
 
 ## Breakout
 
-本短文仅仅解释了一小部分的创建高级动画的技巧。其实还有更多！试试添加一个球拍，一些砖块，然后将这个例子弄成一个 [Breakout](http://en.wikipedia.org/wiki/Breakout_%28video_game%29)（译者注：打砖块游戏）如何？查看我们的[游戏开发](/zh-CN/docs/Games)区去查阅更多相关文章。
+本短文仅仅解释了一小部分的创建高级动画的技巧。其实还有更多！试试添加一个球拍，一些砖块，然后将这个例子弄成一个 [Breakout](<https://en.wikipedia.org/wiki/Breakout_(video_game)>)（译者注：打砖块游戏）如何？查看我们的[游戏开发](/zh-CN/docs/Games)区去查阅更多相关文章。
 
 ## 参考
 

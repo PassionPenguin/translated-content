@@ -29,9 +29,9 @@ ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle, counterclockwise
 - `rotation`
   - : 椭圆的旋转角度，以弧度表示。
 - `startAngle`
-  - : 椭圆弧的起始[偏心角](https://www.simply.science/index.php/math/geometry/conic-sections/ellipse/10022-eccentric-angle-and-parametric-equations-of-an-ellipse)，从正 x 轴沿顺时针测量，用弧度表示。
+  - : 椭圆弧的起始[偏心角](https://www.simply.science:443/index.html)，从正 x 轴沿顺时针测量，用弧度表示。
 - `endAngle`
-  - : 椭圆弧的结束[偏心角](https://www.simply.science/index.php/math/geometry/conic-sections/ellipse/10022-eccentric-angle-and-parametric-equations-of-an-ellipse)，从正 x 轴沿顺时针测量，用弧度表示。
+  - : 椭圆弧的结束[偏心角](https://www.simply.science:443/index.html)，从正 x 轴沿顺时针测量，用弧度表示。
 - `counterclockwise` {{optional_inline}}
   - : 一个可选的布尔值，如果为 `true`，则逆时针绘制椭圆弧。默认值为 `false`（顺时针）。
 

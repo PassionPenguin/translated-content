@@ -35,8 +35,8 @@ _该接口也继承了其父类 {{domxref("Event")}} 的属性。_
     | `1009`        | `CLOSE_TOO_LARGE`      | 由于收到过大的数据帧而断开连接。                                                                                                             |
     | `1010`        | Missing Extension      | 客户端期望服务器商定一个或多个拓展，但服务器没有处理，因此客户端断开连接。                                                                   |
     | `1011`        | Internal Error         | 客户端由于遇到没有预料的情况阻止其完成请求，因此服务端断开连接。                                                                             |
-    | `1012`        | Service Restart        | 服务器由于重启而断开连接。\[[Ref](https://www.ietf.org/mail-archive/web/hybi/current/msg09670.html)]                                         |
-    | `1013`        | Try Again Later        | 服务器由于临时原因断开连接，如服务器过载因此断开一部分客户端连接。\[[Ref](https://www.ietf.org/mail-archive/web/hybi/current/msg09670.html)] |
+    | `1012`        | Service Restart        | 服务器由于重启而断开连接。\[[Ref](https://mailarchive.ietf.org/arch/msg/hybi/P_1vbD9uyHl63nbIIbFxKMfSwcM/)]                                         |
+    | `1013`        | Try Again Later        | 服务器由于临时原因断开连接，如服务器过载因此断开一部分客户端连接。\[[Ref](https://mailarchive.ietf.org/arch/msg/hybi/P_1vbD9uyHl63nbIIbFxKMfSwcM/)] |
     | `1014`        |                        | **由 WebSocket 标准保留以便未来使用。**                                                                                                      |
     | `1015`        | TLS Handshake          | **保留。** 表示连接由于无法完成 TLS 握手而关闭 (例如无法验证服务器证书).                                                                     |
     | `1016`–`1999` |                        | **由 WebSocket 标准保留以便未来使用。**                                                                                                      |

@@ -38,5 +38,5 @@ dir(object);
 
 ## 参见
 
-- [MSDN：使用 F12 工具控制台查看错误和状态](http://msdn.microsoft.com/library/gg589530)
-- [Chrome 控制台 API 参考](https://developers.google.com/chrome-developer-tools/docs/console-api#consoledirobject)
+- [MSDN：使用 F12 工具控制台查看错误和状态](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589530(v%3Dvs.85)?redirectedfrom%3DMSDN>)
+- [Chrome 控制台 API 参考](https://developer.chrome.com/docs/devtools/#consoledirobject)

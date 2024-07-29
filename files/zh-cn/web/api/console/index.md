@@ -60,7 +60,7 @@ console.log("Failed to open the specified link");
 - {{domxref("console.timelog_static", "console.timeLog()")}}
   - : 打印特定[定时器](#定时器)所运行的时间。
 - {{domxref("console.timestamp_static", "console.timeStamp()")}} {{Non-standard_inline}}
-  - : 添加一个标记到浏览器的 [Timeline](https://developer.chrome.com/devtools/docs/timeline) 或 [Waterfall](https://profiler.firefox.com/docs/) 工具。
+  - : 添加一个标记到浏览器的 [Timeline](https://developer.chrome.com/docs/devtools/) 或 [Waterfall](https://profiler.firefox.com/docs/) 工具。
 - {{domxref("console.trace_static", "console.trace()")}}
   - : 输出[堆栈跟踪](#堆栈跟踪)。
 - {{domxref("console.warn_static", "console.warn()")}}
@@ -256,6 +256,6 @@ foo();
 
 ### 其他实现
 
-- [Google Chrome DevTools](https://developers.google.com/chrome-developer-tools/docs/console-api)
-- [Microsoft Edge DevTools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/console/console-api)
-- [Safari Web Inspector](https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Console/Console.html)
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Microsoft Edge DevTools](https://learn.microsoft.com/en-us/archive/microsoft-edge/legacy/developer/)
+- [Safari Web Inspector](https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Console/Console.html)

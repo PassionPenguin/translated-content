@@ -144,4 +144,4 @@ try {
 ## 参见
 
 - [Fetch API](/zh-CN/docs/Web/API/Fetch_API)
-- [Abortable Fetch](https://developers.google.com/web/updates/2017/09/abortable-fetch) by Jake Archibald
+- [Abortable Fetch](https://developer.chrome.com/blog/abortable-fetch) by Jake Archibald

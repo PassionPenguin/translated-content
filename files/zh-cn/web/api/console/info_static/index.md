@@ -40,4 +40,4 @@ info(msg, subst1, /* …, */ substN)
 ## 参见
 
 - [Opera Dragonfly documentation: Console](http://www.opera.com/dragonfly/documentation/console/)
-- [MSDN: Using the F12 Tools Console to View Errors and Status](http://msdn.microsoft.com/library/gg589530)
+- [MSDN: Using the F12 Tools Console to View Errors and Status](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589530(v%3Dvs.85)?redirectedfrom%3DMSDN>)

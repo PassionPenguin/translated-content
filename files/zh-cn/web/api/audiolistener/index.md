@@ -46,7 +46,7 @@ slug: Web/API/AudioListener
 ## Deprecated features
 
 - {{domxref("AudioListener.dopplerFactor")}} {{Deprecated_Inline}}
-  - : 一个 Double 值，表示在呈现 [多普勒效应](http://en.wikipedia.org/wiki/Doppler_effect) 时要使用的音高偏移量。
+  - : 一个 Double 值，表示在呈现 [多普勒效应](https://en.wikipedia.org/wiki/Doppler_effect) 时要使用的音高偏移量。
 - {{domxref("AudioListener.speedOfSound")}} {{Deprecated_Inline}}
   - : 一个 Double 值代表了声音的速度，以米每秒的单位计算。
 

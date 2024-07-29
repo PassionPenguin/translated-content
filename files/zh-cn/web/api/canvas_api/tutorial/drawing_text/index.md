@@ -75,7 +75,7 @@ draw();
 
 如果你之前使用过 CSS，那么这些选项你会很熟悉。
 
-下面的图片（from the [WHATWG](http://www.whatwg.org/)）展示了 textBaseline 属性支持的不同的基线情况：
+下面的图片（from the [WHATWG](https://whatwg.org/)）展示了 textBaseline 属性支持的不同的基线情况：
 
 ![The top of the em square is
 roughly at the top of the glyphs in a font, the hanging baseline is
@@ -86,7 +86,7 @@ f, and Ω are anchored, the ideographic baseline is
 where glyphs like 私 and 達 are anchored, and the bottom
 of the em square is roughly at the bottom of the glyphs in a
 font. The top and bottom of the bounding box can be far from these
-baselines, due to glyphs extending far outside the em square.](http://www.whatwg.org/specs/web-apps/current-work/images/baselines.png)
+baselines, due to glyphs extending far outside the em square.](https://whatwg.org/specs/web-apps/current-work/images/baselines.png)
 
 ### textBaseline 例子
 

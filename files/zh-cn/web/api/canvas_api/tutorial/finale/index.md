@@ -35,7 +35,7 @@ slug: Web/API/Canvas_API/Tutorial/Finale
 
 ## 解惑
 
-- [Stackoverflow](http://stackoverflow.com/questions/tagged/canvas)
+- [Stackoverflow](https://stackoverflow.com/questions/tagged/canvas)
   - : 到"canvas"标签来提问
 - [Comments about this tutorial – the MDN documentation community](/zh-CN/docs/MDN)
   - : 如果你对本教程有任何意见，或是想感谢我们，在此畅所欲言吧！

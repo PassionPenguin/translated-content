@@ -30,7 +30,7 @@ Beacon API 定义了一个独立的方法：{{domxref("navigator.sendBeacon()")}
 ## 参见
 
 - [信标标准（Beacon standard）](https://w3c.github.io/beacon/)
-- [信标 CanIUse 数据](http://caniuse.com/#search=beacon)
-- [通过服务程序拦截信标](https://ehsanakhgari.org/blog/2015-04-08/intercepting-beacons-through-service-workers)（Intercepting beacons through service workers）; Ehsan Akhgari; 2015-Apr-08
+- [信标 CanIUse 数据](https://caniuse.com/#search%3Dbeacon)
+- [通过服务程序拦截信标](https://ehsanakhgari.org/blog/2015-04-08/intercepting-beacons-through-service-workers/)（Intercepting beacons through service workers）; Ehsan Akhgari; 2015-Apr-08
 - <https://webkit.org/blog/8821/link-click-analytics-and-privacy/>
 - [信标实践](https://calendar.perfplanet.com/2020/beaconing-in-practice/)

@@ -14,25 +14,25 @@ MDN Web 文档的内容是免费的，并在开源协议下提供。
 ### 文档
 
 > [!NOTE]
-> MDN Web 文档中的内容来自于包括 Mozilla 基金会内部与外部编辑者的贡献。除非另有说明，文档基于[知识共享 署名—相同方式共享](https://creativecommons.org/licenses/by-sa/2.5/deed.zh)（CC-BY-SA）V2.5 及以上版本发布。
+> MDN Web 文档中的内容来自于包括 Mozilla 基金会内部与外部编辑者的贡献。除非另有说明，文档基于[知识共享 署名—相同方式共享](https://creativecommons.org/licenses/by-sa/2.5/deed.en)（CC-BY-SA）V2.5 及以上版本发布。
 
 你复用的内容是在与内容相同的许可协议（CC-BY-SA v2.5 及以上的版本）下发布的。在复用 MDN Web 文档的内容时，你需要确保对属于“Mozilla 贡献者”的原始内容进行署名。包括源文档的超链接（在线内容）或 URL（印刷内容）。以*本*文为例，你可以这样署名：
 
-> 归属于 [Mozilla 贡献者](/zh-CN/docs/MDN/About/contributors.txt)的[署名和版权许可](MDN/Writing_guidelines/Attrib_copyright_license)在[知识共享 署名—相同方式共享 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.zh) 许可下提供。
+> 归属于 [Mozilla 贡献者](/zh-CN/docs/MDN/About/contributors.txt)的[署名和版权许可](MDN/Writing_guidelines/Attrib_copyright_license)在[知识共享 署名—相同方式共享 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en) 许可下提供。
 
 在上述示例中，“Mozilla 贡献者”链接了被引用页面的历史记录。参见[署名的推荐做法](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution)以获取更为详细的信息。
 
 ### 代码示例
 
-2010 年 8 月 20 日或之后添加的代码示例都属于[公有领域 CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh)。不需要有意添加许可信息。如果你需要的话，可以使用：`版权属于公有领域：https://creativecommons.org/publicdomain/zero/1.0/deed.zh`
+2010 年 8 月 20 日或之后添加的代码示例都属于[公有领域 CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans-hans)。不需要有意添加许可信息。如果你需要的话，可以使用：`版权属于公有领域：https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans-hans`
 
-2010 年 8 月 20 日之前的代码示例基于 [MIT 许可证](https://opensource.org/license/mit/)，你应该在 MIT 模板中插入以下署名信息：“© \<date of last wiki page revision> \<name of person who put it in the wiki>”
+2010 年 8 月 20 日之前的代码示例基于 [MIT 许可证](https://opensource.org/license/mit)，你应该在 MIT 模板中插入以下署名信息：“© \<date of last wiki page revision> \<name of person who put it in the wiki>”
 
 自 2020 年 12 月 14 日推出新的 Yari MDN 平台以来，目前还无法确定你需要哪一个署名信息。我们正在进行这方面的工作，并将很快更新此内容。
 
 ### 贡献
 
-如果你想对 MDN Web 文档作出贡献，你必须在署名—相同方式共享许可（Attribution-ShareAlike license），或者在你编辑的页面已经指定的其他版权许可下发布你的文档，在[知识共享许可协议 CC-0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh)（专用于公有领域）下发布你的示例代码。
+如果你想对 MDN Web 文档作出贡献，你必须在署名—相同方式共享许可（Attribution-ShareAlike license），或者在你编辑的页面已经指定的其他版权许可下发布你的文档，在[知识共享许可协议 CC-0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans-hans)（专用于公有领域）下发布你的示例代码。
 
 > [!WARNING]
 > 请不要在新建的页面使用其他版权许可。
@@ -56,7 +56,7 @@ Mozilla 基金会的徽标、商标、服务标志，以及网站的外观、视
 
 如果有人想向 MDN 捐赠他们之前在其博客上发布的文章，或者将复杂的参考表格复制到 MDN 上，且这么做是有意义的，则可能有足够的理由重新发布它。对于这些情况，请事先与 MDN 团队讨论你的计划：
 
-- [创建一个 GitHub 议题](https://github.com/mdn/mdn/issues/new/choose)来解释你的意图。
+- [创建一个 GitHub 议题](https://github.com/login?return_to%3Dhttps://github.com/mdn/mdn/issues/new/choose)来解释你的意图。
   - 描述你想要复制或重新发布的内容。
   - 提供资源的 URL。
   - 解释为什么你认为这是合适的。

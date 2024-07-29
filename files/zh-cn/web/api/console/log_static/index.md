@@ -49,5 +49,5 @@ log(msg, subst1, /* …, */ substN)
 
 ## 参见
 
-- [MSDN: Using the F12 Tools Console to View Errors and Status](<https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/samples/gg589530(v=vs.85)>)
+- [MSDN: Using the F12 Tools Console to View Errors and Status](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589530(v%3Dvs.85>)>)
 - [NodeJS: Console API](https://nodejs.org/docs/latest/api/console.html#console_console_log_data)

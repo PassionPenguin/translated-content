@@ -5,7 +5,7 @@ slug: Web/API/Cache
 
 {{APIRef("Service Workers API")}}{{SeeCompatTable}}
 
-**`Cache`** 接口为缓存的 [`Request`](http://fetch.spec.whatwg.org/#request) / `Response` 对象对提供存储机制，例如，作为{{domxref("ServiceWorker")}} 生命周期的一部分。请注意，Cache 接口像 workers 一样，是暴露在 window 作用域下的。尽管它被定义在 service worker 的标准中，但是它不必一定要配合 service worker 使用。
+**`Cache`** 接口为缓存的 [`Request`](https://fetch.spec.whatwg.org/#request) / `Response` 对象对提供存储机制，例如，作为{{domxref("ServiceWorker")}} 生命周期的一部分。请注意，Cache 接口像 workers 一样，是暴露在 window 作用域下的。尽管它被定义在 service worker 的标准中，但是它不必一定要配合 service worker 使用。
 
 一个域可以有多个命名 Cache 对象。你需要在你的脚本 (例如，在 {{domxref("ServiceWorker")}} 中) 中处理缓存更新的方式。除非明确地更新缓存，否则缓存将不会被更新；除非删除，否则缓存数据不会过期。使用 {{domxref("CacheStorage.open", "CacheStorage.open(cacheName)")}} 打开一个 Cache 对象，再使用 Cache 对象的方法去处理缓存。
 
@@ -17,7 +17,7 @@ slug: Web/API/Cache
 
 > **备注：** 自 Chrome 46 版本起，Cache API 只保存安全来源的请求，即那些通过 HTTPS 服务的请求。
 
-> **备注：** The key matching algorithm depends on the [VARY header](https://www.fastly.com/blog/best-practices-for-using-the-vary-header) in the value. So matching a new key requires looking at both key and value for entries in the Cache.
+> **备注：** The key matching algorithm depends on the [VARY header](https://www.fastly.com/blog/best-practices-using-vary-header) in the value. So matching a new key requires looking at both key and value for entries in the Cache.
 
 > **备注：** Cache API 不支持 HTTP 缓存头。
 

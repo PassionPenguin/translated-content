@@ -73,18 +73,18 @@ ctx.fillRect(10, 10, 150, 100);
 
 Canvas API 是非常强大的，但不总是很容易使用。以下列出的库能够使创建基于 canvas 的项目更快、更简单。
 
-- [EaselJS](https://www.createjs.com/easeljs)：使制作游戏、创作类艺术和其他侧重图形化的项目更容易的开源 canvas 库。
-- [Fabric.js](http://fabricjs.com)：具有 SVG 解析功能的开源 canvas 库。
+- [EaselJS](https://createjs.com/easeljs)：使制作游戏、创作类艺术和其他侧重图形化的项目更容易的开源 canvas 库。
+- [Fabric.js](http://fabricjs.com/)：具有 SVG 解析功能的开源 canvas 库。
 - [heatmap.js](https://www.patrick-wied.at/static/heatmapjs/)：基于 canvas 的数据热力图的开源库。
 - [JavaScript InfoVis Toolkit](https://philogb.github.io/jit/)：创建交互式数据可视化。
 - [Konva.js](https://konvajs.org/)：用于桌面端和移动端应用的 2D canvas 库。
 - [p5.js](https://p5js.org/)：包含给艺术家、设计师、教育者、初学者使用的完整的 canvas 绘制功能。
 - [Paper.js](http://paperjs.org/)：运行于 HTML Canvas 上的开源矢量图形脚本框架。
 - [Phaser](https://phaser.io/)：用于基于 Canvas 和 WebGL 的浏览器游戏的快速、自由、有趣的开源框架。
-- [Pts.js](https://ptsjs.org)：用于 canvas 和 SVG 的创意编码和可视化的库。
+- [Pts.js](https://ptsjs.org/)：用于 canvas 和 SVG 的创意编码和可视化的库。
 - [Rekapi](https://github.com/jeremyckahn/rekapi)：用于 Canvas 动画关键帧的 API。
 - [Scrawl-canvas](https://scrawl.rikweb.org.uk/)：用于创建和操控 2D canvas 元素的开源 JavaScript 库。
-- [ZIM](https://zimjs.com)：为在 canvas 上进行创意代码编写提供便利性以及相关组件和控件的框架，包括无障碍和数百个色彩缤纷的教程。
+- [ZIM](https://zimjs.com/)：为在 canvas 上进行创意代码编写提供便利性以及相关组件和控件的框架，包括无障碍和数百个色彩缤纷的教程。
 - [Sprig](https://github.com/hackclub/sprig)：使用 Canvas 实现的基于图块的游戏的开发库，适合初学者并且开源。
 
 > **备注：** 与 WebGL 有关的 2D 和 3D 的库请参见 [WebGL API](/zh-CN/docs/Web/API/WebGL_API)。

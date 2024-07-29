@@ -74,7 +74,7 @@ img.src = "myImage.png"; // 设置图片源地址
 
 ### 通过 data: url 方式嵌入图像
 
-我们还可以通过 [data:url](http://en.wikipedia.org/wiki/Data:_URL) 方式来引用图像。Data urls 允许用一串 Base64 编码的字符串的方式来定义一个图片。
+我们还可以通过 [data:url](https://en.wikipedia.org/wiki/Data:_URL) 方式来引用图像。Data urls 允许用一串 Base64 编码的字符串的方式来定义一个图片。
 
 ```js
 img.src =

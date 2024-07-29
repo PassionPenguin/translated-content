@@ -28,9 +28,9 @@ isPointInPath(path, x, y, fillRule)
     允许的值：
 
     - `nonzero`
-      - : [非零环绕规则](http://en.wikipedia.org/wiki/Nonzero-rule)，默认的规则。
+      - : [非零环绕规则](https://en.wikipedia.org/wiki/Nonzero-rule)，默认的规则。
     - `evenodd`
-      - : [奇偶环绕原则](http://en.wikipedia.org/wiki/Even%E2%80%93odd_rule)。
+      - : [奇偶环绕原则](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule)。
 
 - `path`
   - : {{domxref("Path2D")}}应用的路径。
