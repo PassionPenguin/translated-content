@@ -27,7 +27,7 @@ MDN Web 文档项目的成功和发展在很大程度上要归功于我们的贡
 
 - 在[沟通渠道](/zh-CN/docs/MDN/Community/Communication_channels)中参与社区讨论。
 - 帮助其他贡献者处理拉取请求和问题，或指导新贡献者。
-- 提交缺陷报告。查看 MDN [`content`](https://github.com/mdn/content) 仓库中[你可以提出议题的类型](https://github.com/mdn/content/issues/new/choose)。如果你发现了平台的缺陷，你可以在 MDN 的 `yari` 仓库中[提出议题](https://github.com/mdn/yari/issues/new/choose)。
+- 提交缺陷报告。查看 MDN [`content`](https://github.com/mdn/content) 仓库中[你可以提出议题的类型](https://github.com/login?return_to%3Dhttps://github.com/mdn/content/issues/new/choose)。如果你发现了平台的缺陷，你可以在 MDN 的 `yari` 仓库中[提出议题](https://github.com/login?return_to%3Dhttps://github.com/mdn/yari/issues/new/choose)。
 - 对问题发表评论，推动对话取得丰硕成果。
 - 通过提交[拉取请求](/zh-CN/docs/MDN/Community/Pull_requests)来解决开启的议题（例如，在 [`content`](https://github.com/mdn/content/issues) 仓库中）。
 - 参与社区活动。
@@ -102,19 +102,19 @@ MDN Web 文档项目的成功和发展在很大程度上要归功于我们的贡
 
 ### 所有者
 
-所有者拥有管理用户和 [GitHub 团队](https://github.com/orgs/mdn/teams)、维护 [MDN 组织](https://github.com/mdn)中各仓库的访问权限、维护仓库设置以及部署到生产环境的广泛权限。所有者受其他贡献者角色的所有要求约束。
+所有者拥有管理用户和 [GitHub 团队](https://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/orgs/mdn/teams)、维护 [MDN 组织](https://github.com/mdn)中各仓库的访问权限、维护仓库设置以及部署到生产环境的广泛权限。所有者受其他贡献者角色的所有要求约束。
 
 > [!NOTE]
 > 所有者角色目前仅限于 Mozilla 员工。
 
 **要求：**
 
-- 遵守并执行 MDN 团队规范，包括[社区参与准则](https://www.mozilla.org/zh-CN/about/governance/policies/participation/)和 [Mozilla 政策](https://www.mozilla.org/zh-CN/about/governance/policies/)。
+- 遵守并执行 MDN 团队规范，包括[社区参与准则](https://www.mozilla.org/en-US/about/governance/policies/participation/)和 [Mozilla 政策](https://www.mozilla.org/en-US/about/governance/policies/)。
 - 遵守 MDN 组织政策并以身作则。
 - 通过[拉取请求过程](/zh-CN/docs/MDN/Community/Pull_requests)建议、记录和实施新政策。
 - 关注并参与整个 MDN 组织的问题和讨论。
 - 确保问题或拉动请求在一周内得到一名或多名成员的反馈。
-- [归档](https://help.github.com/articles/about-archiving-repositories/)或删除未维护的软件源。
+- [归档](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories)或删除未维护的软件源。
 - 讨论 GitHub 功能，选择要使用的功能，并将决定记录在案。
 
 **权利：**
@@ -167,7 +167,7 @@ MDN Web 文档项目的成功和发展在很大程度上要归功于我们的贡
 
 **权利：**
 
-受邀专家会被添加到[受邀专家团队](https://github.com/orgs/mdn/teams/invited-experts-and-co-maintainers)以及相应的专题或项目团队中。受邀专家可以：
+受邀专家会被添加到[受邀专家团队](https://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/orgs/mdn/teams/invited-experts-and-co-maintainers)以及相应的专题或项目团队中。受邀专家可以：
 
 - 访问所需的仓库，进行提交、拉取请求审批和合并。
 - 推荐并投票选举其他成员成为特邀专家。
@@ -198,7 +198,7 @@ MDN Web 文档项目的成功和发展在很大程度上要归功于我们的贡
 
 想要提名某人为维护者，在 GitHub 上开启议题：
 
-1. 在 `mdn/mdn` 仓库的 `Issues` 选项卡中，点击右侧的 [**New issue**](https://github.com/mdn/mdn/issues/new/choose) 按钮。
+1. 在 `mdn/mdn` 仓库的 `Issues` 选项卡中，点击右侧的 [**New issue**](https://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/mdn/mdn/issues/new/choose) 按钮。
 2. 在“Nominate a maintainer”（提名维护者）下，点击 **Get Started** 按钮。
 3. 在表单中填写你要提名的人员的贡献细节并提交表单。
 
@@ -208,7 +208,7 @@ MDN Web 文档项目的成功和发展在很大程度上要归功于我们的贡
 
 想要提名某人为杰出贡献者，在 GitHub 上开启议题：
 
-1. 在 `mdn/mdn` 仓库的 `Issues` 选项卡中，点击右侧的 [**New issue**](https://github.com/mdn/mdn/issues/new/choose) 按钮。
+1. 在 `mdn/mdn` 仓库的 `Issues` 选项卡中，点击右侧的 [**New issue**](https://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/mdn/mdn/issues/new/choose) 按钮。
 2. 在“Nominate a spotlight contributor”（提名杰出贡献者）下，点击 **Get Started** 按钮。
 3. 在表单中填写你要提名的人员的贡献细节并提交表单。
 
@@ -220,7 +220,7 @@ MDN 团队将会联系被提名的人，以获得在[网站](/zh-CN/)“Contribu
 
 想要提名某人为特邀专家，在 GitHub 上开启议题：
 
-1. 在 `mdn/mdn` 仓库的 `Issues` 选项卡中，点击右侧的 [**New issue**](https://github.com/mdn/mdn/issues/new/choose) 按钮。
+1. 在 `mdn/mdn` 仓库的 `Issues` 选项卡中，点击右侧的 [**New issue**](https://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/mdn/mdn/issues/new/choose) 按钮。
 2. 在“Nominate an invited expert”（提名特邀专家）下，点击 **Get Started** 按钮。
 3. 在表单中填写你要提名的人员的贡献细节并提交表单。
 
@@ -259,7 +259,7 @@ MDN 团队将会联系被提名的人，以获得在[网站](/zh-CN/)“Contribu
 - 当拉取请求对你相关领域的文件作出改动时，GitHub 会基于 CODEOWNERS 文件，使用[负载均衡算法](https://docs.github.com/zh/organizations/organizing-members-into-teams/managing-code-review-settings-for-your-team#routing-algorithms)自动将你添加为拉取请求的审阅者。
 - 团队中的成员拥有更高级别的仓库访问权限。仓库权限只分配给成员需要访问的仓库。
 
-[MDN GitHub 组织](https://github.com/orgs/mdn/teams)包含这些团队：
+[MDN GitHub 组织](https://github.com/login?return_to%3Dhttps://github.com/login?return_to%3Dhttps://github.com/orgs/mdn/teams)包含这些团队：
 
 - `@Core`：MDN Web 文档核心团队
 - `@mdn-community-engagement`：负责我们所有仓库的社区参与的成员
@@ -274,8 +274,8 @@ MDN 团队将会联系被提名的人，以获得在[网站](/zh-CN/)“Contribu
 
 为了成为团队中的一员，你必须：
 
-- 同意遵守我们的[社区参与准则](https://www.mozilla.org/zh-CN/about/governance/policies/participation/)。
-- 同意 Mozilla 的[提交访问要求](https://www.mozilla.org/zh-CN/about/governance/policies/commit/requirements/)。
+- 同意遵守我们的[社区参与准则](https://www.mozilla.org/en-US/about/governance/policies/participation/)。
+- 同意 Mozilla 的[提交访问要求](https://www.mozilla.org/en-US/about/governance/policies/commit/requirements/)。
 - 在 GitHub 账户上设置[双因素身份验证](https://docs.github.com/zh/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)（2FA）。
 
 ## 联系 MDN 团队

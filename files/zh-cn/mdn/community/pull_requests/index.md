@@ -29,9 +29,9 @@ slug: MDN/Community/Pull_requests
 
 **拉取请求必须解决或部分解决现有的议题**。我们之所以有此限制，是为了避免你开始任何其他人可能已经在做的任务。在你想要贡献的 [MDN 仓库](https://github.com/orgs/mdn/repositories)中搜索议题和拉取请求，并确认你想要开始的工作尚未有其他人正在进行。当寻求为 MDN 项目做出贡献时，你会发现自己处于以下情况之一：
 
-- **如果你希望为该项目做出贡献**，你可以在任意 [MDN GitHub 仓库](https://github.com/orgs/mdn/repositories)的“议题（Issues）”（例如 [`mdn/content` 仓库的议题](https://github.com/mdn/content/issues)）下以及我们[公开的 GitHub 项目看板](https://github.com/orgs/mdn/projects)中找到任务。请确保议题未被分配给其他人，并且没有人已经为该任务创建拉取请求。标记为 `good first issue` 的议题是一个很好的起点。
-- **如果你在 MDN 上发现了问题**，你应该首先创建一个议题。**在开始工作之前，议题需要维护者的回复**，以便你知道拉取请求所解决的问题是有效的，并且你的拉取请求将被接受。有关议题的更多信息，请参阅我们的 [GitHub 议题的社区页面](https://github.com/mdn/mdn/issues/new?labels=proposal%2Cneeds+triage&template=content-or-feature-suggestion.yml&title=Enter+your+proposal+here)。
-- **如果你想提议新内容或新特性**，请通过 [GitHub 议题模板](https://github.com/mdn/mdn/issues/new/choose)“New content or feature suggestion”提交提议。
+- **如果你希望为该项目做出贡献**，你可以在任意 [MDN GitHub 仓库](https://github.com/orgs/mdn/repositories)的“议题（Issues）”（例如 [`mdn/content` 仓库的议题](https://github.com/mdn/content/issues)）下以及我们[公开的 GitHub 项目看板](https://github.com/orgs/mdn/projects?query%3Dis:open)中找到任务。请确保议题未被分配给其他人，并且没有人已经为该任务创建拉取请求。标记为 `good first issue` 的议题是一个很好的起点。
+- **如果你在 MDN 上发现了问题**，你应该首先创建一个议题。**在开始工作之前，议题需要维护者的回复**，以便你知道拉取请求所解决的问题是有效的，并且你的拉取请求将被接受。有关议题的更多信息，请参阅我们的 [GitHub 议题的社区页面](https://github.com/login?return_to%3Dhttps://github.com/mdn/mdn/issues/new?labels%3Dproposal%252Cneeds%2Btriage%26template%3Dcontent-or-feature-suggestion.yml%26title%3DEnter%2Byour%2Bproposal%2Bhere)。
+- **如果你想提议新内容或新特性**，请通过 [GitHub 议题模板](https://github.com/login?return_to%3Dhttps://github.com/mdn/mdn/issues/new/choose)“New content or feature suggestion”提交提议。
 
 如果你不确定从哪里开始，请在 [Discord 服务器](/zh-CN/docs/MDN/Community/Communication_channels#discord_服务器)上与我们联系并寻求反馈。
 

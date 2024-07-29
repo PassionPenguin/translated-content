@@ -279,7 +279,7 @@ class SomeView(generic.ListView):
 
 ## 评估
 
-这个任务的评估，可以在[Github](https://github.com/mdn/django-diy-blog/blob/master/MarkingGuide.md)上找到。此评估主要基于你的应用程序，满足上面列出要求的程度，尽管评估的某些部分，会检查你的代码是否使用了适当的模型，并且你至少编写了一些测试代码。完成后，你可以查看我们[完成的示例](https://github.com/mdn/django-diy-blog)，该示例项目的表现是“满分”。
+这个任务的评估，可以在[Github](https://github.com/mdn/django-diy-blog/blob/main/MarkingGuide.md)上找到。此评估主要基于你的应用程序，满足上面列出要求的程度，尽管评估的某些部分，会检查你的代码是否使用了适当的模型，并且你至少编写了一些测试代码。完成后，你可以查看我们[完成的示例](https://github.com/mdn/django-diy-blog)，该示例项目的表现是“满分”。
 
 完成本单元后，表示你还完成了所有 MDN 用于学习《基本 Django 服务器端网站编程》的内容！我们希望你喜欢这个模块，并感觉你已经掌握了基础知识！
 

@@ -112,13 +112,13 @@ Web 框架通常都会包含一些类似的 CSRF 防范技巧。
 
 其他常见的攻击/漏洞利用方式包括：
 
-- [劫持](https://www.owasp.org/index.php/Clickjacking). 通过这种方式，恶意用户劫持了对可见上层站点的点击，然后将其转发给下层隐藏的页面。这种技术例如可以用来显示一个合法的银行网站，但是将登陆认证信息截获到由攻击者控制的隐藏的{{htmlelement("iframe")}}中。另外也可以用于促使用户点击可见网页的按钮，实际上却在不知情的情况点击了一个完全不同的按钮。作为防范手段，你的站点可以通过设置适当的 HTTP 头来防止其被嵌入到另一个站点的 iframe 中。
+- [劫持](https://owasp.org/www-community/attacks/Clickjacking). 通过这种方式，恶意用户劫持了对可见上层站点的点击，然后将其转发给下层隐藏的页面。这种技术例如可以用来显示一个合法的银行网站，但是将登陆认证信息截获到由攻击者控制的隐藏的{{htmlelement("iframe")}}中。另外也可以用于促使用户点击可见网页的按钮，实际上却在不知情的情况点击了一个完全不同的按钮。作为防范手段，你的站点可以通过设置适当的 HTTP 头来防止其被嵌入到另一个站点的 iframe 中。
 - [拒绝服务](/zh-CN/docs/Glossary/Distributed_Denial_of_Service) (DoS). Dos 通常通过使用伪造的请求淹没站点，这样合法用户的访问就会被中断。这些请求可能仅仅是数量巨大或者是单独消耗了大量资源 (如 延缓读，上传大文件等) 。DoS 防护通常通过识别并堵塞“恶意”的网络数据来工作，同时允许合法信息通过。这些防护一般都是在 Web 服务器之前或服务器中进行 (它们并非 web 应用本身所为).
 - [目录遍历](https://en.wikipedia.org/wiki/Directory_traversal_attack)(File and disclosure). 在这种攻击中，攻击者会尝试访问 Web 服务器文件系统中他们本不该访问的部分。这种漏洞会在用户可以传递包含文件系统导航字符的文件名时出现（比如 ../../ ）。解决方法就是在使用前对用户输入进行过滤。
 - [文件包含](https://en.wikipedia.org/wiki/File_inclusion_vulnerability). 在此攻击方式中，用户在传递给服务器的数据中指定一个“非故意”的文件来显示或执行。一旦载入成功，这个文件就可以在服务器或客户端（造成 XSS 攻击）执行。解决方式就是在使用前对输入进行过滤。
-- [命令行注入](https://www.owasp.org/index.php/Command_Injection). 命令行注入攻击允许恶意用户在主机操作系统中执行任意系统命令。解决方法就是在系统调用中使用前对用户输入进行过滤。
+- [命令行注入](https://owasp.org/www-community/attacks/Command_Injection). 命令行注入攻击允许恶意用户在主机操作系统中执行任意系统命令。解决方法就是在系统调用中使用前对用户输入进行过滤。
 
-还有很多的方式。要查看更全面的列表，请访问 [Category:Web security exploits](https://en.wikipedia.org/wiki/Category:Web_security_exploits) (Wikipedia) 和 [Category:Attack](https://www.owasp.org/index.php/Category:Attack) (Open Web Application Security Project).
+还有很多的方式。要查看更全面的列表，请访问 [Category:Web security exploits](https://en.wikipedia.org/wiki/Category:Web_security_exploits) (Wikipedia) 和 [Category:Attack](https://owasp.org/www-community/attacks/) (Open Web Application Security Project).
 
 ## 一些关键信息
 
@@ -131,7 +131,7 @@ Web 框架通常都会包含一些类似的 CSRF 防范技巧。
 - 采取更加强大的密码管理措施。当密码频繁更换时鼓励更加健壮的密码。采取双因素认证，也就是说除了密码，用户还应该输入另一种认证码（通常是只有唯一一个用户拥有的通过一些物理硬件传输的，比如发送给用户手机的验证短信）。
 - 将你的服务器配制成 [HTTPS](/zh-CN/docs/Glossary/https) 和 [HTTP Strict Transport Security](/zh-CN/docs/Web/Security/HTTP_strict_transport_security) (HSTS)。HTTPS 会加密你的用户和服务器之间传输的信息。这使得登录认证、cookise、POST 数据及头信息不易被攻击者获得。
 - 持续追踪那些常见的网络攻击 (the [current OWASP list is here](/zh-CN/docs/))，先解决最脆弱的部分。
-- 使用 [vulnerability scanning tools](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools) 来对你的网站进行一些安全测试 (然后，你的非常受欢迎的网站还可以靠提供赏金来寻找 bug，就像 Mozilla 这样（[like Mozilla does here](https://www.mozilla.org/en-US/security/bug-bounty/faq-webapp/)）。
+- 使用 [vulnerability scanning tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools) 来对你的网站进行一些安全测试 (然后，你的非常受欢迎的网站还可以靠提供赏金来寻找 bug，就像 Mozilla 这样（[like Mozilla does here](https://www.mozilla.org/en-US/security/bug-bounty/faq-webapp/)）。
 - 只存储和展示你不得不需要的东西。比如，如果你的用户不得不存储一些敏感信息（如信用卡详明），只展示足以让用户识别卡号的几位数字即可，却不足以让黑客复制之后在另一个站点使用。现今最常见的是只展示信用卡卡号后 4 位数字。
 
 web 框架可以帮助抵御很多常见的攻击。

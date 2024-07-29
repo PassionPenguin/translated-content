@@ -89,7 +89,7 @@ if (window.XMLHttpRequest) {
 
 #### 其他方式
 
-还有其他的方法来使用这种 linter；你可以在 [JSHint](https://jshint.com/install/) 和 [ESLint](https://eslint.org/docs/user-guide/getting-started) 的安装页面上读到这些方法。
+还有其他的方法来使用这种 linter；你可以在 [JSHint](https://jshint.com/install/) 和 [ESLint](https://eslint.org/docs/latest/use/getting-started) 的安装页面上读到这些方法。
 
 值得一提的是命令行的使用——你可以使用 npm（Node 包管理器——你必须先安装 [NodeJS](https://nodejs.org/zh-cn/)）将这些工具作为命令行工具来安装（可通过 CLI——命令行界面）。例如，下面的命令安装了 JSHint：
 
@@ -101,7 +101,7 @@ npm install -g jshint
 
 ![命令行输入了 jshint filename.js。响应是一个有行号的列表和对发现的错误的描述。](js-hint-commandline.png)
 
-你也可以将这些工具与任务运行器/构建工具（如 [Gulp](https://gulpjs.com/) 或 [Webpack](https://webpack.github.io/)）一起使用，以便在开发过程中自动对你的 JavaScript 进行 lint。（见后面文章中的[使用任务运行器来自动测试工具](/zh-CN/docs/Learn/Tools_and_testing/Cross_browser_testing/Automated_testing#使用任务运行器作为自动化测试工具)。）关于 ESLint 选项，请参见 [ESLint 集成](https://eslint.org/docs/user-guide/integrations)；Grunt 开箱即支持 JSHint，并且还有其他可用的集成，例如 [Webpack 的 JSHint 加载器](https://github.com/webpack-contrib/jshint-loader)。
+你也可以将这些工具与任务运行器/构建工具（如 [Gulp](https://gulpjs.com/) 或 [Webpack](https://webpack.github.io/)）一起使用，以便在开发过程中自动对你的 JavaScript 进行 lint。（见后面文章中的[使用任务运行器来自动测试工具](/zh-CN/docs/Learn/Tools_and_testing/Cross_browser_testing/Automated_testing#使用任务运行器作为自动化测试工具)。）关于 ESLint 选项，请参见 [ESLint 集成](https://eslint.org/docs/latest/use/integrations)；Grunt 开箱即支持 JSHint，并且还有其他可用的集成，例如 [Webpack 的 JSHint 加载器](https://github.com/webpack-contrib/jshint-loader)。
 
 > **备注：** 尽管 ESLint 的安装和配置过程比起 JSHint 更繁琐，但是它也更强大。
 
@@ -109,7 +109,7 @@ npm install -g jshint
 
 浏览器开发工具有许多有用的特性，可以帮助调试 JavaScript。首先，JavaScript 控制台会报告代码中的错误。
 
-下载示例 [fetch-broken](https://mdn.github.io/learning-area/tools-testing/cross-browser-testing/javascript/fetch-broken) 到本地（也可以查看[源代码](https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/javascript/fetch-broken)）。
+下载示例 [fetch-broken](https://mdn.github.io/learning-area/tools-testing/cross-browser-testing/javascript/fetch-broken/) 到本地（也可以查看[源代码](https://github.com/mdn/learning-area/tree/main/tools-testing/cross-browser-testing/javascript/fetch-broken)）。
 
 如果查看控制台，你会看到一条错误消息。确切的语句会因浏览器而异，但大致会是：“Uncaught TypeError: heroes is not iterable”（未捕获的类型错误：heroes 不可迭代），并且引用的行号是 25。如果我们查看源代码，相关的代码部分如下：
 

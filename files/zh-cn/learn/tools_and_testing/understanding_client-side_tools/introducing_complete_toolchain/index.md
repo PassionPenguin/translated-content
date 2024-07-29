@@ -41,7 +41,7 @@ slug: Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_comple
 
 在本文中，我们将使用以下工具和功能：
 
-- [JSX](https://reactjs.org/docs/introducing-jsx.html)，一组与 [React](https://reactjs.org) 相关的语法扩展，允许你在 JavaScript 中定义组件结构等。你不需要了解 React 就可以按照本教程进行操作，但我们已经包含了这一点，以便让你了解非原生 Web 语言如何集成到工具链中。
+- [JSX](https://legacy.reactjs.org/docs/introducing-jsx.html)，一组与 [React](https://react.dev/) 相关的语法扩展，允许你在 JavaScript 中定义组件结构等。你不需要了解 React 就可以按照本教程进行操作，但我们已经包含了这一点，以便让你了解非原生 Web 语言如何集成到工具链中。
 - 最新的 JavaScript 内置特性（在撰写本文时），例如 [`import`](/zh-CN/docs/Web/JavaScript/Reference/Statements/import)。
 - 有用的开发工具，例如用于格式化的 [Prettier](https://prettier.io/) 和用于代码规范检测的 [ESLint](https://eslint.org/)。
 - [PostCSS](https://postcss.org/) 提供 CSS 嵌套功能。
@@ -345,7 +345,7 @@ npm install --save-dev eslint prettier babel-eslint
    npm install --save-dev eslint-plugin-react
    ```
 
-   这里有一个完整的 [ESLint 规则列表](https://eslint.org/docs/rules/)，你可以根据自己的需求进行调整和配置，许多公司和团队已发布了自己的 [ESLint 配置](https://www.npmjs.com/search?q=keywords:eslintconfig)，这对于选择一个适合自己标准的配置有时可能有用，可以帮助我们获得灵感。不过需要提醒的是：ESLint 配置是一个非常深的“兔子洞”问题！
+   这里有一个完整的 [ESLint 规则列表](https://eslint.org/docs/latest/rules/)，你可以根据自己的需求进行调整和配置，许多公司和团队已发布了自己的 [ESLint 配置](https://www.npmjs.com/search?q=keywords:eslintconfig)，这对于选择一个适合自己标准的配置有时可能有用，可以帮助我们获得灵感。不过需要提醒的是：ESLint 配置是一个非常深的“兔子洞”问题！
 
 到此为止，我们的开发环境设置完成了。现在，最后，我们（几乎）准备好编写代码了。
 

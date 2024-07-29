@@ -127,7 +127,7 @@ slug: Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_methods_even
    };
    ```
 
-2. 接下来我们需要将该方法绑定到我们的 `<form>` 元素的 `submit` 事件处理程序。就像 Vue 如何使用 [`v-bind`](https://vuejs.org/v2/api/#v-bind) 语法来绑定属性，Vue 有用于事件处理的特殊指令：[`v-on`](https://vuejs.org/v2/api/#v-on)。`v-on` 指令通过 `v-on:event="method"` 语法工作。和 `v-bind` 很像，还有一个简写语法：`@event="method"`。为了保持一致性，我们将在此处使用简写语法。将 `submit` 处理程序添加到你的 `<form>` 元素，如下所示：
+2. 接下来我们需要将该方法绑定到我们的 `<form>` 元素的 `submit` 事件处理程序。就像 Vue 如何使用 [`v-bind`](https://vuejs.org/api/#v-bind) 语法来绑定属性，Vue 有用于事件处理的特殊指令：[`v-on`](https://vuejs.org/api/#v-on)。`v-on` 指令通过 `v-on:event="method"` 语法工作。和 `v-bind` 很像，还有一个简写语法：`@event="method"`。为了保持一致性，我们将在此处使用简写语法。将 `submit` 处理程序添加到你的 `<form>` 元素，如下所示：
 
    ```html
    <form @submit="onSubmit"></form>
@@ -179,7 +179,7 @@ slug: Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_methods_even
    };
    ```
 
-2. 我们现在需要一些方法将 `new-todo-input` 元素字段的值附加到 `label` 字段。Vue 对此有一个特殊的指令：[`v-model`](https://vuejs.org/v2/api/#v-model)。`v-model` 绑定到你在其上设置的数据属性，并使其与 `<input>` 保持同步。`v-model` 适用于所有不同的输入类型，包括复选框、单选框和选择输入。要使用 `v-model`，你需要向 `<input>` 添加一个结构为 `v-model="variable"` 的属性。
+2. 我们现在需要一些方法将 `new-todo-input` 元素字段的值附加到 `label` 字段。Vue 对此有一个特殊的指令：[`v-model`](https://vuejs.org/api/#v-model)。`v-model` 绑定到你在其上设置的数据属性，并使其与 `<input>` 保持同步。`v-model` 适用于所有不同的输入类型，包括复选框、单选框和选择输入。要使用 `v-model`，你需要向 `<input>` 添加一个结构为 `v-model="variable"` 的属性。
 
    所以在我们的例子中，我们会将它添加到我们的 `new-todo-input` 字段中，如下所示。现在就这样做：
 

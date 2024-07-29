@@ -131,7 +131,7 @@ class RenewBookForm(forms.Form):
 
 #### 表单字段
 
-在这种情况下，我们有一个 [`DateField`](https://docs.djangoproject.com/zh-hans/2.0/ref/forms/fields//#datefield) 用于输入续借日期，该日期将使用空白值在 HTML 中呈现，默认标签为“续借日期：”，以及一些有用的用法文本：“输入从现在到 4 周之间的日期（默认为 3）周）。”由于没有指定其他可选参数，该字段将使用 [input_formats](https://docs.djangoproject.com/zh-hans/2.0/ref/forms/fields/#django.forms.DateField.input_formats) 接受日期：YYYY-MM-DD（2016-11-06）、MM/DD/YYYY（02/26/2016）、MM/DD/YY（10/25/16），并且将使用默认[小部件](https://docs.djangoproject.com/zh-hans/2.0/ref/forms/fields/#widget)呈现：[DateInput](https://docs.djangoproject.com/zh-hans/2.0/ref/forms/widgets/#django.forms.DateInput)。
+在这种情况下，我们有一个 [`DateField`](https://docs.djangoproject.com/zh-hans/2.0/ref/forms/fields/#datefield) 用于输入续借日期，该日期将使用空白值在 HTML 中呈现，默认标签为“续借日期：”，以及一些有用的用法文本：“输入从现在到 4 周之间的日期（默认为 3）周）。”由于没有指定其他可选参数，该字段将使用 [input_formats](https://docs.djangoproject.com/zh-hans/2.0/ref/forms/fields/#django.forms.DateField.input_formats) 接受日期：YYYY-MM-DD（2016-11-06）、MM/DD/YYYY（02/26/2016）、MM/DD/YY（10/25/16），并且将使用默认[小部件](https://docs.djangoproject.com/zh-hans/2.0/ref/forms/fields/#widget)呈现：[DateInput](https://docs.djangoproject.com/zh-hans/2.0/ref/forms/widgets/#django.forms.DateInput)。
 
 还有许多其他类型的表单字段，你可以从它们与等效模型字段类的相似性中大致认识到：
 

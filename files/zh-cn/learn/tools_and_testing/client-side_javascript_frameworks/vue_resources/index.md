@@ -39,9 +39,9 @@ slug: Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_resources
 
 - [Vue 文档](https://cn.vuejs.org/)——Vue 网站主页，包含全面的文档，包括示例、指导手册和参考资料。这是开始深入学习 Vue 的最好地方。
 - [Vue Github 仓库](https://github.com/vuejs/vue)——Vue 源码仓库。在这里你可以报告问题和/或直接对 Vue 代码库做出贡献。研究 Vue 的源代码可以帮助你更好地理解该框架的工作原理，并写出更好的代码。
-- [Vue 论坛](https://forum.vuejs.org/)——获取帮助的 Vue 官方论坛。
+- [Vue 论坛](https://github.com/vuejs/core/discussions)——获取帮助的 Vue 官方论坛。
 - [Vue CLI 文档](https://cli.vuejs.org/)——Vue CLI 文档。这包含了关于定制和扩展你通过 CLI 生成的输出的信息。
-- [NuxtJS](https://nuxtjs.org/)——NuxtJS 是服务器端 Vue 框架，它的一些架构意见对创建可维护的应用程序很有用，即使你不使用它提供的任何服务器端渲染功能。这个网站提供了关于使用 NuxtJS 的详细文档。
+- [NuxtJS](https://nuxt.com/)——NuxtJS 是服务器端 Vue 框架，它的一些架构意见对创建可维护的应用程序很有用，即使你不使用它提供的任何服务器端渲染功能。这个网站提供了关于使用 NuxtJS 的详细文档。
 - [Vue Mastery](https://www.vuemastery.com/courses/)——一个 Vue 付费学习平台，也包含一些免费课程。
 - [Vue School](https://vueschool.io/)——也是一个 Vue 付费学习平台。
 

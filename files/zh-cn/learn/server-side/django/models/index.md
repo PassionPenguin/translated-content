@@ -378,7 +378,7 @@ The model `__str__()` represents the `BookInstance` object using a combination o
 >
 > - The value returned by `__str__()` is a _formatted string_. Within the string we use `%s` to declare "placeholders'. After the string we specify `%` and then a tuple containing the values to be inserted in the placeholders. If you just have one placeholder then you can omit the tuple — e.g. `'My value: %s' % variable.`
 >
->   Note also that although this approach is perfectly valid, please be aware that it is no longer prefered. Since Python 3 you should instead use the format method, eg. '{0} ({1})'.format(self.id,self.book.title). You can read more about it [here](https://www.python.org/dev/peps/pep-3101/).
+>   Note also that although this approach is perfectly valid, please be aware that it is no longer prefered. Since Python 3 you should instead use the format method, eg. '{0} ({1})'.format(self.id,self.book.title). You can read more about it [here](https://peps.python.org/pep-3101/).
 
 ### Author model
 
@@ -428,7 +428,7 @@ Some things to consider:
 - Should "language" be associated with a `Book`, `BookInstance`, or some other object?
 - Should the different languages be represented using model, a free text field, or a hard-coded selection list?
 
-After you've decided, add the field. You can see what we decided on Github [here](https://github.com/mdn/django-locallibrary-tutorial/blob/master/catalog/models.py).
+After you've decided, add the field. You can see what we decided on Github [here](https://github.com/mdn/django-locallibrary-tutorial/blob/main/catalog/models.py).
 
 ## Summary
 

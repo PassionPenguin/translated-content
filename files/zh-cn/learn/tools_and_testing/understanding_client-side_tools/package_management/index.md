@@ -65,7 +65,7 @@ slug: Learn/Tools_and_testing/Understanding_client-side_tools/Package_management
 
 为了使软件包管理器工作，它需要知道从哪里安装软件包，这是通过软件包仓库实现的。仓库是实现软件包发布和安装的关键部份。npm 作为一个软件包管理器，同时也是 JavaScript 软件包最常用的软件包仓库。npm 仓库位于 [npmjs.com](https://www.npmjs.com/)。
 
-npm 不是唯一的选择。你可以管理自己的软件包仓库——诸如 [Microsoft Azure](https://azure.microsoft.com/) 等产品允许你创建到 npm 仓库的代理（因此可以覆盖或锁定某些软件包），[GitHub 也提供软件包仓库服务](https://github.com/features/packages)，随着时间的推移，可能会出现更多的选择。
+npm 不是唯一的选择。你可以管理自己的软件包仓库——诸如 [Microsoft Azure](https://azure.microsoft.com/en-us/) 等产品允许你创建到 npm 仓库的代理（因此可以覆盖或锁定某些软件包），[GitHub 也提供软件包仓库服务](https://github.com/features/packages)，随着时间的推移，可能会出现更多的选择。
 
 重要的是，确保你选择了最适合你的仓库。许多项目将使用 npm，在本模块的其余部分中，我们将继续使用 npm 作为示例。
 

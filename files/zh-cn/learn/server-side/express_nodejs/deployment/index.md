@@ -79,7 +79,7 @@ slug: Learn/Server-side/Express_Nodejs/deployment
 - 额外的好处。一些提供商将提供免费域名和 SSL 证书支持，否则你将不得不为此另外支付费用。
 - 你所依赖的“免费”等级，是否会随着时间的推移而过期，以及迁移到更昂贵等级的成本，是否意味着你最好在一开始就使用其他服务！
 
-当你刚开始时，好消息是有很多网站提供“免费”的计算环境，尽管有一些条件。例如， [Heroku](https://www.heroku.com/) “永远”提供免费但资源有限的 PaaS 环境，而 [Amazon Web Services](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html), [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/app-service/) 和开源选项 [PWS/Cloud Foundry](/zh-CN/docs/Learn/Server-side/Express_Nodejs/Installing_on_PWS_Cloud_Foundry) 在你第一次加入时，提供免费信用额度。
+当你刚开始时，好消息是有很多网站提供“免费”的计算环境，尽管有一些条件。例如， [Heroku](https://www.heroku.com/) “永远”提供免费但资源有限的 PaaS 环境，而 [Amazon Web Services](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html), [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/app-service/linux/) 和开源选项 [PWS/Cloud Foundry](/zh-CN/docs/Learn/Server-side/Express_Nodejs/Installing_on_PWS_Cloud_Foundry) 在你第一次加入时，提供免费信用额度。
 
 许多提供商还拥有“基本”层，可提供更多有用的计算能力，和更少的限制。举例来说， [Digital Ocean](https://www.digitalocean.com/) 是一个流行的托管服务提供商，它提供了一个相对便宜的基本计算层（在本教程写作时，是每月 5 美元的较低范围）。
 
@@ -199,7 +199,7 @@ app.use(helmet());
 
 ## 例子：在 Heroku 上安装一个本地图书馆
 
-本节提供了如何在[Heroku PaaS cloud](http://heroku.com)云上安装 LocalLibrary 的实际演示。
+本节提供了如何在[Heroku PaaS cloud](https://www.heroku.com/)云上安装 LocalLibrary 的实际演示。
 
 ### 为什么选择 Heroku?
 
@@ -309,7 +309,7 @@ Heroku 与 **git** 源代码版本控制系统紧密集成，使用它来上传/
 
 > **备注：** 这是备份你的“vanilla”项目的好时机 - 虽然我们将在以下部分中进行的一些更改，可能对任何平台（或开发）上的部署有用，而一些其他的更改可能没有用。
 >
-> 执行此操作的最佳方法，是使用 git 来管理你的修订。使用 git，你不仅可以回到特定的旧版本，而且可以在生产变更的单独“分支”中进行维护，并选择在生产和开发分支之间移动的任何更改。[学习 Git](https://help.github.com/articles/good-resources-for-learning-git-and-github/)非常值得，但超出了本主题的范围。
+> 执行此操作的最佳方法，是使用 git 来管理你的修订。使用 git，你不仅可以回到特定的旧版本，而且可以在生产变更的单独“分支”中进行维护，并选择在生产和开发分支之间移动的任何更改。[学习 Git](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources)非常值得，但超出了本主题的范围。
 >
 > 最简单的方法，是将文件复制到另一个位置。使用最符合你对 git 了解的方法！
 

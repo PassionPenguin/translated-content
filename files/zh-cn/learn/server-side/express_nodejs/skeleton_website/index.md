@@ -40,8 +40,8 @@ slug: Learn/Server-side/Express_Nodejs/skeleton_website
 > **备注：** 本教程中命令操作基于 Linux/macOS 的 bash 终端，Windows 的命令提示符 cmd/PowerShell 与 bash 的概念和用法略有不同，为在 Windows 上获得一致的体验，可以：
 >
 > - 自己弄懂 cmd/PowerShell 与 bash 的区别。
-> - 使用 [Git](https://git-scm.com/) 或 [MSYS2](http://www.msys2.org/) 为 Windows 提供的 bash。（推荐）
-> - 使用 Windows 的 Linux 子系统。（到 Microsoft Store 中搜索“Linux”，安装喜欢的版本（Ubuntu 18.04、openSUSE 42、Debian 等），仅限 Windows 10，使用前需要先安装 [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)）
+> - 使用 [Git](https://git-scm.com/) 或 [MSYS2](https://www.msys2.org/) 为 Windows 提供的 bash。（推荐）
+> - 使用 Windows 的 Linux 子系统。（到 Microsoft Store 中搜索“Linux”，安装喜欢的版本（Ubuntu 18.04、openSUSE 42、Debian 等），仅限 Windows 10，使用前需要先安装 [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)）
 
 > **备注：** 你可能已经发现国内用 NPM 太慢了！这是由众所周知的不可抗力造成的。可用淘宝提供的 [CNPM](https://npm.taobao.org/) 代替之，功能和用法基本一致（只是不能上传自己的包）。
 
@@ -88,7 +88,7 @@ express
 
 ### 我应该用哪个视图引擎？
 
-Express 应用生成器支持多款流行的视图/模板引擎，包括 [EJS](https://www.npmjs.com/package/ejs)、[Hbs](http://github.com/donpark/hbs)、[Pug](https://pugjs.org/api/getting-started.html) (Jade)、[Twig](https://www.npmjs.com/package/twig) 和 [Vash](https://www.npmjs.com/package/vash)，缺省选项是 Jade。Express 本身也支持大量其他模板语言，[开箱即用](https://github.com/expressjs/express/wiki#template-engines)。
+Express 应用生成器支持多款流行的视图/模板引擎，包括 [EJS](https://www.npmjs.com/package/ejs)、[Hbs](https://github.com/pillarjs/hbs)、[Pug](https://pugjs.org/api/getting-started.html) (Jade)、[Twig](https://www.npmjs.com/package/twig) 和 [Vash](https://www.npmjs.com/package/vash)，缺省选项是 Jade。Express 本身也支持大量其他模板语言，[开箱即用](https://github.com/expressjs/express/wiki#template-engines)。
 
 > **备注：** 如果要使用生成器不支持的模板引擎，请参阅 [在 Express 中使用模板引擎](http://expressjs.com.cn/guide/using-template-engines.html)（Express 文档）和所选视图引擎的文档。
 
@@ -114,7 +114,7 @@ Express 应用生成器支持多款流行的视图/模板引擎，包括 [EJS](h
 
 ### 我应该用哪个 CSS 引擎？
 
-Express 应用生成器支持最常见的 CSS 引擎：[LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](http://stylus-lang.com/)。
+Express 应用生成器支持最常见的 CSS 引擎：[LESS](https://lesscss.org/), [SASS](https://sass-lang.com/), [Compass](http://compass-style.org/), [Stylus](https://stylus-lang.com/)。
 
 > **备注：** CSS 的一些限制导致某些任务完成起来非常困难。CSS 引擎提供了更强大的语法来定义 CSS，然后将定义编译为纯 CSS 供浏览器使用。
 

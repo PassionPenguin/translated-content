@@ -32,7 +32,7 @@ DSL 不能直接由浏览器解析；它们首先要被转换成 JavaScript 或 
 
 ### JSX
 
-[JSX](https://reactjs.org/docs/introducing-jsx.html) 代表 JavaScript 和 XML，是 JavaScript 的扩展，为 JavaScript 环境带来了类似 HTML 的语法。它由 React 团队发明，用于 React 应用程序，但也可用于开发其他应用程序——例如 Vue 应用程序。
+[JSX](https://legacy.reactjs.org/docs/introducing-jsx.html) 代表 JavaScript 和 XML，是 JavaScript 的扩展，为 JavaScript 环境带来了类似 HTML 的语法。它由 React 团队发明，用于 React 应用程序，但也可用于开发其他应用程序——例如 Vue 应用程序。
 
 这是一个简单的 JSX 示例：
 
@@ -177,7 +177,7 @@ function CounterButton() {
 }
 ```
 
-[`useState()`](https://reactjs.org/docs/hooks-reference.html#usestate) 是一种 **[React 钩子](https://reactjs.org/docs/hooks-intro.html)**，根据给定初始值，跟踪其更新时的变化。代码最初在浏览器会渲染成下面这样：
+[`useState()`](https://legacy.reactjs.org/docs/hooks-reference.html#usestate) 是一种 **[React 钩子](https://legacy.reactjs.org/docs/hooks-intro.html)**，根据给定初始值，跟踪其更新时的变化。代码最初在浏览器会渲染成下面这样：
 
 ```html
 <button>Clicked 0 times</button>
@@ -252,7 +252,7 @@ import AuthorCredit from "./components/AuthorCredit";
 
 为了规避属性穿透，框架提供了依赖注入的功能，这是一种将某些数据直接传递给需要它的组件的方法，而不需要通过中间的层次。每个框架都以不同的名称和方式来实现依赖注入，但效果最终是一样的。
 
-Angular 把这个过程称为[依赖注入](https://angular.io/guide/dependency-injection)；Vue 有 [`provide()` 和 `inject()` 组件方法](https://v2.vuejs.org/v2/api/#provide-inject)；React 有一个 [Context API](https://reactjs.org/docs/context.html)；Ember 通过[服务](https://guides.emberjs.com/release/services/)分享状态。
+Angular 把这个过程称为[依赖注入](https://v17.angular.io/guide/dependency-injection)；Vue 有 [`provide()` 和 `inject()` 组件方法](https://v2.vuejs.org/v2/api/#provide-inject)；React 有一个 [Context API](https://legacy.reactjs.org/docs/context.html)；Ember 通过[服务](https://guides.emberjs.com/release/services/)分享状态。
 
 ### 生命周期
 
@@ -268,7 +268,7 @@ Angular 把这个过程称为[依赖注入](https://angular.io/guide/dependency-
 
 **虚拟 DOM** 是一种方法，此时关于浏览器的 DOM 信息被存储在 JavaScript 内存中。你的应用程序更新这个 DOM 副本，然后将其与“真正的”DOM（为你的用户实际渲染的 DOM）进行比较，以决定要渲染什么。应用程序建立一个“diff“来比较更新的虚拟 DOM 和当前渲染的 DOM 之间的差异，并使用该差异将更新应用到真实 DOM。React 和 Vue 都利用虚拟 DOM 模型，但它们建立“diff”或渲染应用的逻辑并不完全相同。
 
-你可以[在 React 文档阅读到更多有关虚拟 DOM 的信息](https://reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom)。
+你可以[在 React 文档阅读到更多有关虚拟 DOM 的信息](https://legacy.reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom)。
 
 **增量式 DOM** 与虚拟 DOM 类似，它建立一个 DOM“diff”来决定渲染什么，但不同的是，它不在 JavaScript 内存中创建一个完整的 DOM 副本。它忽略了 DOM 中不需要被改变的部分。Angular 是本模块到目前为止讨论的唯一一个使用增量 DOM 的框架。
 

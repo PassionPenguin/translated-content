@@ -34,7 +34,7 @@ slug: Learn/Tools_and_testing/Cross_browser_testing/Automated_testing
 我们也是这么认为的。手动测试我们在以前的文章中所看到的所有东西可能是一个真正的痛苦。幸运的是，有一些工具可以帮助我们从这种痛苦解放出来。有两种主要方式可以使我们在本模块中讨论的测试自动化：
 
 1. 使用像 [Grunt](https://gruntjs.com/)、[Gulp](https://gulpjs.com/) 或 [npm script](https://docs.npmjs.com/misc/scripts/) 这样的任务运行器在构建过程中运行测试和清理代码。这是执行对代码进行 linting 和压缩、添加 CSS 前缀或转译新生的 JavaScript 功能以达到最大的跨浏览器效果等任务的较好方式。
-2. 使用像 [Selenium](https://www.selenium.dev/) 这样的浏览器自动化系统，在已安装的浏览器上运行特定的测试并返回结果，在浏览器出现故障时提醒你。商业跨浏览器测试应用程序，如 [LambdaTest](https://www.lambdatest.com/)、[Sauce Labs](https://saucelabs.com/)、[BrowserStack](https://www.browserstack.com/) 和 [TestingBot](https://testingbot.com) 都基于 Selenium，但允许你使用一个简单的界面远程访问它们的设置，省去你设置自己测试系统的麻烦。
+2. 使用像 [Selenium](https://www.selenium.dev/) 这样的浏览器自动化系统，在已安装的浏览器上运行特定的测试并返回结果，在浏览器出现故障时提醒你。商业跨浏览器测试应用程序，如 [LambdaTest](https://www.lambdatest.com/)、[Sauce Labs](https://saucelabs.com/)、[BrowserStack](https://www.browserstack.com/) 和 [TestingBot](https://testingbot.com/) 都基于 Selenium，但允许你使用一个简单的界面远程访问它们的设置，省去你设置自己测试系统的麻烦。
 
 我们将在下一篇文章中研究如何建立你自己的基于 Selenium 的测试系统。在这篇文章中，我们将看看如何设置一个任务运行器，并使用像上面提到的那些商业系统的基本功能。
 
@@ -46,7 +46,7 @@ slug: Learn/Tools_and_testing/Cross_browser_testing/Automated_testing
 
 ### 设置 Node 和 npm 环境
 
-很多工具都基于 {{Glossary("Node.js")}}，所以你需要从 [nodejs.org](https://nodejs.org/) 安装它：
+很多工具都基于 {{Glossary("Node.js")}}，所以你需要从 [nodejs.org](https://nodejs.org/en) 安装它：
 
 1. 从上面的网站下载适合你系统的安装软件。（如果你已经安装了 Node 和 npm，跳到步骤 4）
 2. 像其他软件那样正常安装。注意 Node 与 [Node Package Manager](https://www.npmjs.com/)（npm）一同安装，它使你能更快地安装包、同他人分享你的包，并在你的工程上运行有用的脚本。
@@ -372,7 +372,7 @@ exports.watch = watch;
 2. 当你点击 **Real Time Testing** 时，你将被引导到一个屏幕，你可以选择浏览器配置、浏览器版本、操作系统和屏幕分辨率，以测试你的网站。
    ![Real Time Testing](mark-as-bug-1.png)
 3. 当你点击开始按钮时，会出现一个加载屏幕，为你提供一个基于你的配置的虚拟机。一旦加载完成，你就可以用一个网站进行实时、互动的跨浏览器测试。
-   [![Mark as bug](mark-as-bug-2.png)](https://web.archive.org/web/20210608014707if_/https://www.lambdatest.com/support/docs/wp-content/uploads/2019/03/mark-as-bug-2.png)
+   [![Mark as bug](mark-as-bug-2.png)](https://web.archive.org/web/20210608014707if_/https:/www.lambdatest.com/support/docs/wp-content/uploads/2019/03/mark-as-bug-2.png)
    如果你注意到用户界面的问题，那么你可以用截图按钮捕捉虚拟机的截图，与你的同事分享。你还可以通过点击测试会话中的录音机按钮来录制你的测试会话的视频。
 4. 有了内置的图像编辑器，在推送给同事之前，可以以问题所在之处标记你的屏幕截图。![强调问题所在](mark-as-bug-3.png)
 5. 使用“标记为 bug”的按钮，你可以将 bug 推送到许多第三方工具，如 Jira、Asana、Trello 等。这样，你就可以直接从 LambdaTest 的测试会话中记录一个 bug 到你的项目管理实例中。查看所有的[第三方 LambdaTest 集成](https://www.lambdatest.com/integrations)。
@@ -691,12 +691,12 @@ function getSessionDetails(session) {
 
 让我们从 TestingBot 试用账号开始。
 
-1. 创建一个 [TestingBot 试用账号](https://testingbot.com/users/sign_up)。
+1. 创建一个 [TestingBot 试用账号](https://testingbot.com//users/sign_up)。
 2. 登录账号。在验证邮箱后，这应该是自动的。
 
 #### 基础：手动测试
 
-[TestingBot 仪表板](https://testingbot.com/members)列出了你可以选择的各种选项。现在，请确保你是在 _Live Web Testing_ 标签页上。
+[TestingBot 仪表板](https://testingbot.com//members)列出了你可以选择的各种选项。现在，请确保你是在 _Live Web Testing_ 标签页上。
 
 1. 输入你要进行测试的 URL。
 2. 在网格中选择选择你要测试的浏览器/操作系统组合。
@@ -715,7 +715,7 @@ function getSessionDetails(session) {
 
 #### 进阶：TestingBot API
 
-TestingBot 有一个 [restful API](https://testingbot.com/support/api)，允许你以编程方式检索你的账户和现有测试的细节，并以进一步的细节来注释测试，如通过/失败状态，这不是单靠人工测试可以记录的。
+TestingBot 有一个 [restful API](https://testingbot.com//support/api)，允许你以编程方式检索你的账户和现有测试的细节，并以进一步的细节来注释测试，如通过/失败状态，这不是单靠人工测试可以记录的。
 
 TestingBot 有几个 API 客户端，你可以用来与 API 互动，包括 NodeJS、Python、Ruby、Java 和 PHP 的客户端。
 
@@ -743,7 +743,7 @@ TestingBot 有几个 API 客户端，你可以用来与 API 互动，包括 Node
    });
    ```
 
-4. 你需要在指定的地方填写你的 TestingBot 密钥和 Secret。你可以在 [TestingBot 仪表板](https://testingbot.com/members/user/edit)中找到这些。
+4. 你需要在指定的地方填写你的 TestingBot 密钥和 Secret。你可以在 [TestingBot 仪表板](https://testingbot.com//members/user/edit)中找到这些。
 5. 确定所有文件已经保存，然后运行你的文件：
 
    ```bash

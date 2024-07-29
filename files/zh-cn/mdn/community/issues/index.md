@@ -37,15 +37,15 @@ slug: MDN/Community/Issues
 
 - 根据你发现的问题类型，在以下仓库中的某一个创建议题：
 
-  - [文档](https://github.com/mdn/content/issues/new/choose)
-  - [翻译](https://github.com/mdn/translated-content/issues/new/choose)
-  - 网站的[界面外观](https://github.com/mdn/yari/issues/new/choose)
-  - “尝试一下”[交互示例](https://github.com/mdn/interactive-examples/issues/new/choose)部分
+  - [文档](https://github.com/login?return_to%3Dhttps://github.com/mdn/content/issues/new/choose)
+  - [翻译](https://github.com/login?return_to%3Dhttps://github.com/mdn/translated-content/issues/new/choose)
+  - 网站的[界面外观](https://github.com/login?return_to%3Dhttps://github.com/mdn/yari/issues/new/choose)
+  - “尝试一下”[交互示例](https://github.com/login?return_to%3Dhttps://github.com/mdn/interactive-examples/issues/new/choose)部分
   - [DOM 示例](https://github.com/mdn/dom-examples/issues)
   - [学习区](https://github.com/mdn/learning-area/issues)
-  - [浏览器兼容性](https://github.com/mdn/browser-compat-data/issues/new/choose)信息
+  - [浏览器兼容性](https://github.com/login?return_to%3Dhttps://github.com/mdn/browser-compat-data/issues/new/choose)信息
 
-- 请选择适当的类别来报告议题。例如，要报告内容错误，请使用 `mdn/content` 仓库中的[内容议题](https://github.com/mdn/content/issues/new?assignees=&labels=needs+triage&template=content-bug.yml)模板。
+- 请选择适当的类别来报告议题。例如，要报告内容错误，请使用 `mdn/content` 仓库中的[内容议题](https://github.com/login?return_to%3Dhttps://github.com/mdn/content/issues/new?assignees%3D%26labels%3Dneeds%2Btriage%26template%3Dcontent-bug.yml)模板。
 
 - 报告议题时请提供足够的信息：
 

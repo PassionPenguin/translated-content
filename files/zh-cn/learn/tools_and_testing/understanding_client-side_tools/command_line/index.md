@@ -82,7 +82,7 @@ macOS 有一个名为 Darwin 的系统，它位于图形用户界面的下方。
 
 然而，在现代，Windows 的最佳选择是 Windows Linux 子系统 (WSL)，它是一个兼容层，用于从 Windows 10 中直接运行 Linux 操作系统，允许你直接在 Windows 上运行真正的终端，而不需要虚拟机。
 
-这可以直接从 Windows 商店免费安装。在目录中可以找到所需的所有文档 [Windows Subsystem for Linux Documentation](https://docs.microsoft.com/en-us/windows/wsl).
+这可以直接从 Windows 商店免费安装。在目录中可以找到所需的所有文档 [Windows Subsystem for Linux Documentation](https://learn.microsoft.com/en-us/windows/wsl/).
 
 ![a screenshot of the windows subsystem for linux documentation](wsl.png)
 
@@ -307,7 +307,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/fetch
 
 现在我们已经了解了系统自带的一些内置命令，让我们看看如何安装和使用第三方 CLI 工具。
 
-目前，用于前端 web 开发的可安装工具的巨大生态系统主要存在于内部 [npm](https://www.npmjs.com), 与 Node.js 紧密合作的私有的包托管服务。随着时间的推移，你可以期望看到更多的包提供者。
+目前，用于前端 web 开发的可安装工具的巨大生态系统主要存在于内部 [npm](https://www.npmjs.com/), 与 Node.js 紧密合作的私有的包托管服务。随着时间的推移，你可以期望看到更多的包提供者。
 
 [Installing Node.js](https://nodejs.org/en/) 还要安装 npm 命令行工具 (以及一个以 npm 为中心的补充工具 npx)，它提供了安装其他命令行工具的网关。js 和 npm 在所有系统上都能工作:macOS、Windows 和 Linux。
 
@@ -474,7 +474,7 @@ printMe(myObj);
 使用 Prettier 有许多实现自动化的方法，尽管它们超出了本文的范围，但是有一些很好的在线资源可以提供帮助 (已经链接到其中一些)。你可以调用更漂亮的：
 
 - 在将代码提交到 git 存储库之前，使用[Husky](https://github.com/typicode/husky).
-- 当你在代码编辑器中点击“保存”的时候，无论是[VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Atom](https://atom.io/packages/prettier-atom), 或[Sublime Text](https://packagecontrol.io/packages/JsPrettier).
+- 当你在代码编辑器中点击“保存”的时候，无论是[VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Atom](https://github.blog/news-insights/product-news/sunsetting-atom/), 或[Sublime Text](https://packagecontrol.io/packages/JsPrettier).
 - 作为持续集成检查的一部分，可以使用以下工具[Github Actions](https://github.com/features/actions).
 
 我们个人的偏好是第二个当使用 say VS 代码时，Prettier 会启动并清理每次我们点击保存时需要做的格式化。关于以不同方式使用 Prettier，你可以在 [Prettier docs](https://prettier.io/docs/en/).
@@ -485,7 +485,7 @@ printMe(myObj);
 
 - [`bat`](https://github.com/sharkdp/bat) — 一个更好的 `cat` (`cat` 用于打印文件内容）。
 - [`prettyping`](http://denilson.sa.nom.br/prettyping/) — `ping`在命令行上，但是是可视化的 (ping 是检查服务器是否有响应的有用工具)。
-- [`htop`](http://hisham.hm/htop/) —进程查看器，当某些东西使你的 CPU 风扇的行为像一个喷气发动机，并且你想要识别出错的程序时，它非常有用。
+- [`htop`](https://htop.dev) —进程查看器，当某些东西使你的 CPU 风扇的行为像一个喷气发动机，并且你想要识别出错的程序时，它非常有用。
 - [`tldr`](https://tldr.sh/#installation) —在本章前面提到的，但是可以作为命令行工具使用。
 
 注意，上面的一些建议可能需要使用 npm 进行安装，就像我们使用 Prettier 所做的那样。

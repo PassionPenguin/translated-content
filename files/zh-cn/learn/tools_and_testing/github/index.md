@@ -26,7 +26,7 @@ slug: Learn/Tools_and_testing/GitHub
 
 - 安装了 Git 的台式电脑（详见 [Git 下载网址](https://git-scm.com/downloads)）。
 - 用于使用 Git 的工具。你可以使用一个 [Git 图形操作界面客户端](https://git-scm.com/downloads/guis/)（我们推荐 GitHub Desktop、SourceTree 或者 Git Kraken）或者也可以直接使用命令行，这取决于你的喜好。事实上，尽管你打算使用图形界面进行操作，了解一些基本的 Git 命令行指令也或许会比较有用。
-- [GitHub 账户](https://github.com/join)。如果还没有的话，现在就通过这个链接去注册一个吧！
+- [GitHub 账户](https://github.com/signup)。如果还没有的话，现在就通过这个链接去注册一个吧！
 
 在此之前你并不一定要有关于网络开发、Git 和 GitHub 或者版本控制系统的任何知识。但是最好还是能有一点基础的计算机使用技能并且懂一点编程，以及有一些可以存放进储存库的代码。
 
@@ -38,11 +38,11 @@ slug: Learn/Tools_and_testing/GitHub
 
 先提醒一下这些链接将会带你去访问一些外部资源。我们最终将致力于开发我们专属的 Git 和 GitHub 教程，但现在，这些资料将会带你轻松入门。
 
-- [Hello World（来自 GitHub）](https://docs.github.com/zh/get-started/quickstart/hello-world)
+- [Hello World（来自 GitHub）](https://docs.github.com/zh/get-started/start-your-journey/hello-world)
   - : 这里是开始使用 GitHub 的正大门，在这里你可以学到 Git 的基础操作，例如：创建**仓库**和**分支** 、**创建提交**以及打开和合并**拉取请求**。
 - [Git 使用手册（来自 GitHub）](https://docs.github.com/zh/get-started/using-git/about-git)
   - : 这个 Git 使用手册就稍微更深入一点了，它解释了什么是**版本控制系统**、什么是**仓库**、**GitHub 模型**如何运行、**Git 指令**和示例等。
-- [复刻项目（来自 GitHub）](https://docs.github.com/zh/get-started/quickstart/contributing-to-projects)
+- [复刻项目（来自 GitHub）](https://docs.github.com/zh/get-started/exploring-projects-on-github/contributing-to-a-project)
   - : 当你想要对别人的代码做出贡献时，**复刻**（fork）项目是必不可少的步骤。这个指南将告诉你如何操作。
 - [关于拉取请求（来自 GitHub）](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
   - : 这是一个管理拉取请求的有用的指南：你所修改的代码需要通过拉取请求来让项目的管理者决定是否采纳。
@@ -53,7 +53,7 @@ slug: Learn/Tools_and_testing/GitHub
 
 ## 参见
 
-- [理解 GitHub 流程](https://docs.github.com/zh/get-started/quickstart/github-flow)
+- [理解 GitHub 流程](https://docs.github.com/zh/get-started/using-github/github-flow)
 - [Git 指令列表](https://git-scm.com/docs)
 - [掌握 Markdown 格式](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)（在网页上、评论区常用的格式以及 `.md` 文件所使用的格式）。
 - [Github Pages 快速入门](https://docs.github.com/zh/pages/quickstart) （如何在 GitHub 上发布示例和网站）。

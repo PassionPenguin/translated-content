@@ -26,15 +26,15 @@ slug: MDN/Community/Contributing/Getting_started
 > 注意：无需为此感到不知所措，或觉得必须阅读和完成*所有*的课程任务。在了解了“GitHub 简介”课程后，你便能够顺利上手。
 
 - [GitHub 简介](https://github.com/skills/introduction-to-github)
-- [安装并配置 Git](https://docs.github.com/cn/get-started/quickstart/set-up-git)
-- [GitHub 工作流](https://docs.github.com/cn/get-started/quickstart/github-flow)
+- [安装并配置 Git](https://docs.github.com/zh/get-started/getting-started-with-git/set-up-git)
+- [GitHub 工作流](https://docs.github.com/zh/get-started/using-github/github-flow)
 - [使用 Markdown](https://github.com/skills/communicate-using-markdown)
 
 ### 额外的阅读和学习资料
 
 - [开源项目基本礼节](/zh-CN/docs/MDN/Community/Open_source_etiquette)：如果你还没有为开源项目贡献过，我们鼓励你首先阅读这篇文档。
 - [学习 Web 开发](/zh-CN/docs/Learn)：如果你不熟悉 HTML、CSS、JavaScript，我们为你准备了丰富的内容来帮助你入门。
-- [协作处理拉取请求](https://docs.github.com/cn/pull-requests/collaborating-with-pull-requests)
+- [协作处理拉取请求](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests)
 
 某些写作相关的贡献机会需要对英语有一定的理解。也就是说，至善者，善之敌。即使你的语法不够好，也不用担心！我们有团队致力于完善 MDN 上的内容。此外，有人会在一旁确保内容的整洁和行文的正确性。
 
@@ -44,6 +44,6 @@ slug: MDN/Community/Contributing/Getting_started
 
 ### 贡献
 
-如若参与贡献，视为你同意[署名—相同方式共享许可](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)（或已经在所编辑页面中指定的其他许可）。此外，代码示例的许可为[知识共享 CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/)（专用于公有领域）。
+如若参与贡献，视为你同意[署名—相同方式共享许可](https://creativecommons.org/licenses/by-sa/4.0/deed.en)（或已经在所编辑页面中指定的其他许可）。此外，代码示例的许可为[知识共享 CC-0](https://creativecommons.org/public-domain/cc0/)（专用于公有领域）。
 
 > 如果你对这里提到的内容有任何疑问，请[与我们联系](/zh-CN/docs/MDN/Community/Communication_channels)。

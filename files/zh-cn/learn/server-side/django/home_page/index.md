@@ -237,7 +237,7 @@ def index(request):
 </html>
 ```
 
-该模版使用（并包含）JavaScript 和 [Bootstrap](http://getbootstrap.com/)（css 框架）来改进 HTML 页面的布局和显示，这个框架或者另一个客户端网络框架，这是快速创建一个可用页面来适应在不同浏览器尺寸和允许我们处理页面呈现且不用一点细节—我们只需要专注在服务器端。
+该模版使用（并包含）JavaScript 和 [Bootstrap](https://getbootstrap.com/)（css 框架）来改进 HTML 页面的布局和显示，这个框架或者另一个客户端网络框架，这是快速创建一个可用页面来适应在不同浏览器尺寸和允许我们处理页面呈现且不用一点细节—我们只需要专注在服务器端。
 
 基本模版还引用了一个本地 css 文件 (**styles.css**) ，它提供了一些额外的样式。新建 **/locallibrary/catalog/static/css/styles.css** 如下：
 

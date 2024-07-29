@@ -201,7 +201,7 @@ app.get("/users/:userId/books/:bookId", (req, res) => {
     genreController.js
 ```
 
-> **备注：** 上述四个文件可到 GitHub 下载 [dummyControllers.zip](https://github.com/roy-tian/mdn-examples/blob/master/server/express-locallibrary-tutorial/controllers/dummyControllers.zip)。（链接已失效，请移步英文版查看具体代码）
+> **备注：** 上述四个文件可到 GitHub 下载 [dummyControllers.zip](https://github.com/roy-tian/learning-area/blob/master/server/express-locallibrary-tutorial/controllers/dummyControllers.zip)。（链接已失效，请移步英文版查看具体代码）
 
 ### `Author` 控制器
 

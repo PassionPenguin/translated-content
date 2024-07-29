@@ -45,7 +45,7 @@ slug: Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environm
 ### 在 Node 下建立 Selenium
 
 1. 参考上一个章节[创建 Node 和 npm](/zh-CN/docs/Learn/Tools_and_testing/Cross_browser_testing/Automated_testing#Setting_up_Node_and_npm) 创建一个新的 npm 工程，取一个不同的名字，如 `selenium-test`。
-2. 接下来，我们需要安装一个框架来允许我们从 Node 中运行 Selenium。我们选择 selenium 官方提供的 [selenium-webdriver](https://www.npmjs.com/package/selenium-webdriver)，它的文档更新得很好，维护得也很好。如果你想要其他的选择，[webdriver.io](http://webdriver.io/) 和 [nightwatch.js](http://nightwatchjs.org/) 也都不错。要安装 selenium-webdriver，在你的工程目录下运行如下命令：
+2. 接下来，我们需要安装一个框架来允许我们从 Node 中运行 Selenium。我们选择 selenium 官方提供的 [selenium-webdriver](https://www.npmjs.com/package/selenium-webdriver)，它的文档更新得很好，维护得也很好。如果你想要其他的选择，[webdriver.io](https://webdriver.io/) 和 [nightwatch.js](https://nightwatchjs.org/) 也都不错。要安装 selenium-webdriver，在你的工程目录下运行如下命令：
 
    ```bash
    npm install selenium-webdriver
@@ -829,7 +829,7 @@ driver.quit();
 - [集成 Jenkins 的 LambdaTest](https://www.lambdatest.com/support/docs/jenkins-with-lambdatest/)
 - [集成 Travis CI 的 Sauce Labs](https://docs.travis-ci.com/user/sauce-connect/)
 
-> **备注：** 如果你希望用**无代码自动化**进行持续测试，那么你可以使用 [Endtest](https://endtest.io) 或 [TestingBot](https://testingbot.com)。
+> **备注：** 如果你希望用**无代码自动化**进行持续测试，那么你可以使用 [Endtest](https://www.endtest.io/) 或 [TestingBot](https://testingbot.com/)。
 
 ## 总结
 

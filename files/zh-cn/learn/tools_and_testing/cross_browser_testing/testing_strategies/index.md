@@ -51,7 +51,7 @@ l10n:
 
 在这个统计数据中，大多数人也使用 iOS 或 Android 手机，所以你可能需要测试最新版本的 iOS Safari、旧版 Android 原生浏览器的最后几个版本，以及 iOS 和 Android 上的 Chrome 和 Firefox。最好在手机和平板电脑上都进行测试，以确保响应式设计正常工作。
 
-Opera Mini [在运行复杂 JavaScript 方面性能不太好](https://dev.opera.com/articles/opera-mini-and-javascript/)，因此我们也应将其放入 B 级别。
+Opera Mini [在运行复杂 JavaScript 方面性能不太好](https://blogs.opera.com/news/)，因此我们也应将其放入 B 级别。
 
 因此，我们基于预计用户会使用的浏览器来确定选择测试哪些浏览器。通过这种方法，我们得到了以下支持图表：
 
@@ -69,14 +69,14 @@ Opera Mini [在运行复杂 JavaScript 方面性能不太好](https://dev.opera.
 
 ### 使用分析工具
 
-使用像 [Google Analytics](https://www.google.com/analytics/) 这样的分析网站来获取更准确的数据。它能够为你提供诸如人们在用什么浏览器来浏览你的网站这样的精准的统计数据。当然，这需要你已经有一个网站在使用它，所以它不太适合新上线的网站。
+使用像 [Google Analytics](https://marketingplatform.google.com/about/analytics/) 这样的分析网站来获取更准确的数据。它能够为你提供诸如人们在用什么浏览器来浏览你的网站这样的精准的统计数据。当然，这需要你已经有一个网站在使用它，所以它不太适合新上线的网站。
 
-你还可以考虑使用开源且注重隐私的分析平台，如 [Open Web Analytics](https://www.openwebanalytics.com/) 和 [Matomo](https://matomo.org)。它们要求你自行托管分析平台。
+你还可以考虑使用开源且注重隐私的分析平台，如 [Open Web Analytics](https://www.openwebanalytics.com/) 和 [Matomo](https://matomo.org/)。它们要求你自行托管分析平台。
 
 #### 配置 Google Analytics
 
 1. 首先，你需要一个谷歌帐户。使用此帐户登录 [Google Analytics](https://marketingplatform.google.com/about/analytics/)。
-2. 选择 [Google Analytics](https://analytics.google.com/analytics/web/)（web）选项，然后点击*注册*按钮。
+2. 选择 [Google Analytics](https://analytics.google.com/analytics/web//)（web）选项，然后点击*注册*按钮。
 3. 在注册页面中输入你的网站/应用详细信息。配置过程相当直观；最重要的字段是网站 URL，你需要确保它填写正确。这应当是你的网站/应用的根 URL。
 4. 填写完所有内容后，按*获取跟踪 ID*按钮，然后接受显示的服务条款。
 5. 下一页会为你提供一些代码段和其他说明。对于基本网站，你需要做的是复制*网站跟踪*代码块，并将其粘贴到你要在网站上使用 Google Analytics 跟踪的所有页面。你可以将跟踪代码放在关闭标记 `</body>` 的下方，也可以放在其他适当位置，以防止其与应用程序代码混淆。
@@ -86,7 +86,7 @@ Opera Mini [在运行复杂 JavaScript 方面性能不太好](https://dev.opera.
 
 #### 学习分析数据
 
-现在你可以回到 [Analytics Web](https://analytics.google.com/analytics/web) 首页，并开始查看你收集到的关于网站的数据（当然，你需要留出一些时间来收集一些实际的数据）。
+现在你可以回到 [Analytics Web](https://analytics.google.com/analytics/web/) 首页，并开始查看你收集到的关于网站的数据（当然，你需要留出一些时间来收集一些实际的数据）。
 
 默认情况下，你应该看到类似下面这样的报告标签页：
 
@@ -230,11 +230,11 @@ A 级：
 
 ### 自动化和商业应用
 
-正如上一章所述，通过使用某种自动化系统，在浏览器测试的过程中你可以减少很多痛苦。你可以配置自己的测试自动化系统（[Selenium](http://www.seleniumhq.org/) 是首选的流行应用程序），它确实需要一些设置，但是当它开始起作用时你会受益匪浅。
+正如上一章所述，通过使用某种自动化系统，在浏览器测试的过程中你可以减少很多痛苦。你可以配置自己的测试自动化系统（[Selenium](https://www.selenium.dev/) 是首选的流行应用程序），它确实需要一些设置，但是当它开始起作用时你会受益匪浅。
 
 如果你愿意在测试中投入一些资金，也可以使用一些商业工具，如 [Sauce Labs](https://saucelabs.com/)、[Browser Stack](https://www.browserstack.com/) 和 [LambdaTest](https://www.lambdatest.com/)，它们可以为你完成此类工作，而无需担心配置问题。
 
-另一种选择是使用无代码测试自动化工具，如 [Endtest](https://endtest.io)。
+另一种选择是使用无代码测试自动化工具，如 [Endtest](https://www.endtest.io/)。
 
 我们将在后续文章中了解如何使用此类工具。
 
@@ -260,7 +260,7 @@ A 级：
 
 > **备注：** 如果你有可用的硬件，另一个有用的低功耗选项是在低端手机/其他设备上测试你的网站——随着网站变得更大并且具有更多特性，网站放慢速度的可能性更高，因此你需要开始更多考虑性能。尝试在低端设备上运行你的功能，也会使更高端设备上网站的体验更好。
 
-> **备注：** 某些服务器端开发环境提供了一些有用的机制，可仅向部分用户推出网站变更，从而提供了一种有用的机制，可以在不需要单独的开发服务器的情况下让一部分用户测试特性。示例：[Django Waffle Flags](https://github.com/jsocol/django-waffle)。
+> **备注：** 某些服务器端开发环境提供了一些有用的机制，可仅向部分用户推出网站变更，从而提供了一种有用的机制，可以在不需要单独的开发服务器的情况下让一部分用户测试特性。示例：[Django Waffle Flags](https://github.com/jazzband/django-waffle)。
 
 ## 总结
 

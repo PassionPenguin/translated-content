@@ -164,7 +164,7 @@ git status
    git push github main
    ```
 
-   此时，Git 会提示你输入用户名和密码，然后才允许发送推送。这是因为我们使用了 HTTPS 选项，而不是 SSH 选项，如前面的截图所示。为此，你需要输入 GitHub 用户名，如果没有开启双因素身份验证（2FA），还需要输入 GitHub 密码。我们一直鼓励你尽可能使用 2FA，但请记住，如果你使用了 2FA，你还需要使用一个“个人访问令牌”。GitHub 帮助页面有[关于如何获取个人访问令牌的出色而简单的攻略](https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)。
+   此时，Git 会提示你输入用户名和密码，然后才允许发送推送。这是因为我们使用了 HTTPS 选项，而不是 SSH 选项，如前面的截图所示。为此，你需要输入 GitHub 用户名，如果没有开启双因素身份验证（2FA），还需要输入 GitHub 密码。我们一直鼓励你尽可能使用 2FA，但请记住，如果你使用了 2FA，你还需要使用一个“个人访问令牌”。GitHub 帮助页面有[关于如何获取个人访问令牌的出色而简单的攻略](https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)。
 
 > **备注：** 如果你有兴趣使用 SSH 选项，从而避免每次推送到 GitHub 时都要输入用户名和密码，[本教程将指导你如何操作](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh)。
 
@@ -310,7 +310,7 @@ Netlify 部分的内容就到此为止。我们可以选择更改 Netlify 项目
 
 - 能否在构建步骤中[压缩图片](https://github.com/ralscha/parcel-plugin-compress)？
 - 能否将 React 换成[更小的](https://preactjs.com/)依赖？
-- 能否添加更多测试来防止糟糕的构建部署，例如[性能审核](https://developer.chrome.com/docs/lighthouse/performance/)？
+- 能否添加更多测试来防止糟糕的构建部署，例如[性能审核](https://developer.chrome.com/docs/lighthouse/performance/performance-scoring)？
 - 能否设置一个通知，令你及时得知部署成功与否？
 
 {{PreviousMenu("Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain", "Learn/Tools_and_testing/Understanding_client-side_tools")}}

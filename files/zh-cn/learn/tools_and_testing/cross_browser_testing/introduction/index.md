@@ -130,7 +130,7 @@ l10n:
 测试即将发布的浏览器版本也是个不错的主意。请看下面的链接：
 
 - [Firefox 开发者版本](https://www.mozilla.org/zh-CN/firefox/developer/)
-- [Microsoft Edge Insider](https://www.microsoftedgeinsider.com/)
+- [Microsoft Edge Insider](https://www.microsoft.com/edge/download/insider)
 - [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
 - [Chrome 每日构建版](https://www.google.cn/chrome/canary/)
 - [Opera Developer](http://www.opera.com/computer/beta)
@@ -155,7 +155,7 @@ l10n:
 
 - [Firefox Bugzilla](https://bugzilla.mozilla.org/)
 - [Safari](https://bugs.webkit.org/)
-- [Chrome](https://bugs.chromium.org/p/chromium/issues/list)
+- [Chrome](https://issues.chromium.org/issues)
 - [Opera](https://bugs.opera.com/wizard/desktop)
 
 ## 总结

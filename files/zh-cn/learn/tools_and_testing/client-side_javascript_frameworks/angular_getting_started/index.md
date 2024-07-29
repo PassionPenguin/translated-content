@@ -85,7 +85,7 @@ Angular 是一个开发平台，基于 [TypeScript](https://www.typescriptlang.o
 
 - **Node.js**
 
-  Angular 需要一个 Node.js 的[目前活跃的（active）长期支持版本（LTS）或者一个维护的（maintenance）长期支持版本](https://nodejs.org/about/releases)。有关特定版本要求的信息，参见在 [package.json](https://unpkg.com/@angular/cli/package.json) 文件中的 `engines` 值。更多安装 Node.js 的信息，参见 [nodejs.org](https://nodejs.org)。如果你不确定在系统上运行哪个版本的 Node.js，请在终端窗口中运行 `node -v`。
+  Angular 需要一个 Node.js 的[目前活跃的（active）长期支持版本（LTS）或者一个维护的（maintenance）长期支持版本](https://nodejs.org/en/about/previous-releases)。有关特定版本要求的信息，参见在 [package.json](https://unpkg.com/@angular/cli@18.1.2/package.json) 文件中的 `engines` 值。更多安装 Node.js 的信息，参见 [nodejs.org](https://nodejs.org/en)。如果你不确定在系统上运行哪个版本的 Node.js，请在终端窗口中运行 `node -v`。
 
 - **npm 包管理器**
 
