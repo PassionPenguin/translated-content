@@ -5,7 +5,7 @@ slug: Web/XPath/Introduction_to_using_XPath_in_JavaScript
 
 {{XsltSidebar}}
 
-该篇文档描述了如何在扩展和网站内部通过 JavaScript 调用 [XPath](/zh-CN/XPath) 接口。Mozilla 实现了相当多的 [DOM 3 XPath](http://www.w3.org/TR/DOM-Level-3-XPath/xpath.html)，意味着 Xpath 表达式已经可以在 HTML 和 XML 文档中使用。
+该篇文档描述了如何在扩展和网站内部通过 JavaScript 调用 [XPath](/zh-CN/XPath) 接口。Mozilla 实现了相当多的 [DOM 3 XPath](https://www.w3.org/TR/DOM-Level-3-XPath/xpath.html)，意味着 Xpath 表达式已经可以在 HTML 和 XML 文档中使用。
 
 使用 XPath 的主要接口是 [document](/zh-CN/DOM/document) 对象的 [evaluate](/zh-CN/DOM/document.evaluate) 方法。
 
@@ -502,7 +502,7 @@ var thisitemEl = thislevel.iterateNext();
 
 ## Original Document Information
 
-- Based Upon Original Document [Mozilla XPath Tutorial](http://www-xray.ast.cam.ac.uk/~jgraham/mozilla/xpath-tutorial.html)
+- Based Upon Original Document [Mozilla XPath Tutorial](https://www-xray.ast.cam.ac.uk/~jgraham/mozilla/xpath-tutorial.html)
 - Original Source Author: James Graham.
 - Other Contributors: James Thompson.
 - Last Updated Date: 2006-3-25.

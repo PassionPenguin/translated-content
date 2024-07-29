@@ -71,7 +71,7 @@ WCAG 对于对比度感知的标准不考虑填充效果。例如，蓝色文本
 
 ### 数学
 
-- [空间推理：为什么数学谈论的不仅仅是数字](https://dreme.stanford.edu/news/spatial-reasoning-why-math-talk-about-more-numbers)
+- [空间推理：为什么数学谈论的不仅仅是数字](https://dreme.stanford.edu/news/spatial-reasoning-why-math-talk-is-about-more-than-numbers/)
 
 ### 科学文献
 

@@ -14,7 +14,7 @@ Rust 和 WebAssembly 有两大主要用例：
 - 构建完整应用——整个 Web 应用都基于 Rust 开发！
 - 构建应用的组成部分——在现存的 JavaScript 前端中使用 Rust。
 
-目前，Rust 团队正专注于第二种用例，因此我们也将着重介绍它。对于第一种用例，可以参阅 [`yew`](https://github.com/DenisKolodin/yew) 这类项目。
+目前，Rust 团队正专注于第二种用例，因此我们也将着重介绍它。对于第一种用例，可以参阅 [`yew`](https://github.com/yewstack/yew) 这类项目。
 
 在本教程中，我们将使用 Rust 的 npm 包构建工具 `wasm-pack` 来构建一个 npm 包。这个包只包含 WebAssembly 和 JavaScript 代码，以便包的用户无需安装 Rust 就能使用。他们甚至不需要知道这里包含 WebAssembly！
 
@@ -24,7 +24,7 @@ Rust 和 WebAssembly 有两大主要用例：
 
 ### 安装 Rust
 
-前往 [Install Rust](https://www.rust-lang.org/install.html) 页面并跟随指示安装 Rust。这里会安装一个名为“rustup”的工具，这个工具能让你管理多个不同版本的 Rust。默认情况下，它会安装用于惯常 Rust 开发的 stable 版本 Rust Release。Rustup 会安装 Rust 的编译器 `rustc`、Rust 的包管理工具 `cargo`、Rust 的标准库 `rust-std` 以及一些有用的文档 `rust-docs`。
+前往 [Install Rust](https://www.rust-lang.org/tools/install) 页面并跟随指示安装 Rust。这里会安装一个名为“rustup”的工具，这个工具能让你管理多个不同版本的 Rust。默认情况下，它会安装用于惯常 Rust 开发的 stable 版本 Rust Release。Rustup 会安装 Rust 的编译器 `rustc`、Rust 的包管理工具 `cargo`、Rust 的标准库 `rust-std` 以及一些有用的文档 `rust-docs`。
 
 > **备注：** 需要注意，在安装完成后，你需要把 cargo 的 `bin` 目录添加到你系统的 `PATH` 。一般来说它会自动添加，但需要你重启终端后才会生效。
 
@@ -40,7 +40,7 @@ cargo install wasm-pack
 
 在这个例子中我们将会构建一个 npm 包，因此你需要确保安装 Node.js 和 npm 已经安装。另外，我们将会把包发布到 npm 上，因此你还需要一个 npm 账号。它们是免费的。发布这个包并不是必须的，但是发布它非常简单，因此在本例中我们默认你会发布这个包。
 
-在 [Get npm!](https://www.npmjs.com/get-npm) 页面按照说明下载并安装 Node.js 和 npm。在选择版本时，选择一个你喜欢的版本；本例不限定特定版本。
+在 [Get npm!](https://docs.npmjs.com/getting-started/) 页面按照说明下载并安装 Node.js 和 npm。在选择版本时，选择一个你喜欢的版本；本例不限定特定版本。
 
 在 [npm signup page](https://www.npmjs.com/signup) 注册 npm 账户，并填写表格。
 
@@ -155,7 +155,7 @@ extern {
 
 你可能会疑惑这个函数是什么，你的疑惑可能是正确的：这是 [the `alert` function provided by JavaScript](/zh-CN/docs/Web/API/Window/alert)！我们将在下一节中调用这个函数。
 
-当你想调用新的 JavaScript 函数时，你可以在这里写他们，`wasm-bindgen` 将负责为你设置一切。并非一切都得到支持，但我们正在努力！如果缺少某些内容，请 [file bugs](https://github.com/rustwasm/wasm-bindgen/issues/new) 。
+当你想调用新的 JavaScript 函数时，你可以在这里写他们，`wasm-bindgen` 将负责为你设置一切。并非一切都得到支持，但我们正在努力！如果缺少某些内容，请 [file bugs](https://github.com/login?return_to%3Dhttps://github.com/rustwasm/wasm-bindgen/issues/new) 。
 
 #### 编写能够在 JavaScript 中调用的 Rust 函数
 
@@ -324,4 +324,4 @@ npm run serve
 
 本教程到此结束。希望你觉得它有用。
 
-在这个领域，有很多工作正在推进当中。如果你希望它变得更好，可以参阅 [Rust Webassembly 工作组](http://fitzgeraldnick.com/2018/02/27/wasm-domain-working-group.html)。
+在这个领域，有很多工作正在推进当中。如果你希望它变得更好，可以参阅 [Rust Webassembly 工作组](https://fitzgeraldnick.com/2018/02/27/wasm-domain-working-group.html)。

@@ -16,8 +16,8 @@ slug: WebAssembly/C_to_Wasm
 你需要将下列工具安装在你的电脑上，首先让我们确认下都有哪些。
 
 - [Git](https://git-scm.com/) — Linux 和 macOS 的机器一般已经预装了，在 Windows 下你可以从这里下载 [Git for Windows installer](https://git-scm.com/download/win)。
-- CMake — 在 Linux 或者 macOS 上，使用类似 apt-get 或 [brew](http://brew.sh/) 这样的包管理器来安装它，请确保依赖以及路径是否正确。在 Windows 上，使用 [CMake installer](https://cmake.org/download/)。
-- 主系统编译器 — 在 Linux 下，[安装 GCC](http://askubuntu.com/questions/154402/install-gcc-on-ubuntu-12-04-lts)。在 macOS 下，[安装 Xcode](https://itunes.apple.com/us/app/xcode/id497799835)。在 Windows 下，安装 [Visual Studio Community 2015 with Update 3 or newer](https://www.microsoft.com/zh-CN/download/details.aspx?id=48146)。
+- CMake — 在 Linux 或者 macOS 上，使用类似 apt-get 或 [brew](https://brew.sh/) 这样的包管理器来安装它，请确保依赖以及路径是否正确。在 Windows 上，使用 [CMake installer](https://cmake.org/download/)。
+- 主系统编译器 — 在 Linux 下，[安装 GCC](https://askubuntu.com/questions/154402/install-gcc-on-ubuntu-12-04-lts)。在 macOS 下，[安装 Xcode](https://apps.apple.com/us/app/xcode/id497799835)。在 Windows 下，安装 [Visual Studio Community 2015 with Update 3 or newer](https://www.microsoft.com/zh-CN/download/details.aspx?id=48146)。
 - Python 2.7.x — On Linux and macOS, this is most likely provided out of the box. 从 [初学者指南](https://wiki.python.org/moin/BeginnersGuide/Downloadhere) 获取帮助。在 Windows 上，从 [Python 主页](https://www.python.org/downloads/)获取安装包。
 
 > **备注：** 在 Windows 下你可能需要 [pywin32](https://sourceforge.net/projects/pywin32/files/pywin32/)，为了降低安装 pywin32 可能遇到的错误，请使用管理员权限在 cmd 内运行安装程序。
@@ -152,7 +152,7 @@ emsdk_env.bat
 
 ## 调用一个定义在 C 中的自定义方法
 
-如果需要调用一个在 C 语言自定义的函数，你可以使用 Emscripten 中的 `ccall()` 函数，以及 `EMSCRIPTEN_KEEPALIVE` 声明（将你的函数添加到导出函数列表中（详见 [Why do functions in my C/C++ source code vanish when I compile to JavaScript, and/or I get No functions to process?](https://kripken.github.io/emscripten-site/docs/getting_started/FAQ.html#why-do-functions-in-my-c-c-source-code-vanish-when-i-compile-to-javascript-and-or-i-get-no-functions-to-process)））。
+如果需要调用一个在 C 语言自定义的函数，你可以使用 Emscripten 中的 `ccall()` 函数，以及 `EMSCRIPTEN_KEEPALIVE` 声明（将你的函数添加到导出函数列表中（详见 [Why do functions in my C/C++ source code vanish when I compile to JavaScript, and/or I get No functions to process?](https://emscripten.org/docs/getting_started/FAQ.html#why-do-functions-in-my-c-c-source-code-vanish-when-i-compile-to-javascript-and-or-i-get-no-functions-to-process)））。
 
 接下来让我们看看这是怎么实现的。
 
@@ -215,8 +215,8 @@ emsdk_env.bat
 
 ## 参见
 
-- [emscripten.org](http://emscripten.org/) — 了解更多 Emscripten 以及它的多种设置
-- [Calling compiled C functions from JavaScript using ccall/cwrap](https://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#calling-compiled-c-functions-from-javascript-using-ccall-cwrap)
-- [Why do functions in my C/C++ source code vanish when I compile to JavaScript, and/or I get No functions to process?](https://kripken.github.io/emscripten-site/docs/getting_started/FAQ.html#why-do-functions-in-my-c-c-source-code-vanish-when-i-compile-to-javascript-and-or-i-get-no-functions-to-process)
-- [WebAssembly on Mozilla Research](https://research.mozilla.org/webassembly/)
+- [emscripten.org](https://emscripten.org/) — 了解更多 Emscripten 以及它的多种设置
+- [Calling compiled C functions from JavaScript using ccall/cwrap](https://emscripten.org/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#calling-compiled-c-functions-from-javascript-using-ccall-cwrap)
+- [Why do functions in my C/C++ source code vanish when I compile to JavaScript, and/or I get No functions to process?](https://emscripten.org/docs/getting_started/FAQ.html#why-do-functions-in-my-c-c-source-code-vanish-when-i-compile-to-javascript-and-or-i-get-no-functions-to-process)
+- [WebAssembly on Mozilla Research](https://research.mozilla.org)
 - [Compiling an Existing C Module to WebAssembly](/zh-CN/docs/WebAssembly/existing_C_to_wasm)

@@ -78,7 +78,7 @@ function updateProgress(percentComplete) {
 
 - [WAI-ARIA 规范](https://www.w3.org/TR/wai-aria-1.1/)
   - : W3C 规范本身。
-- [WAI-ARIA 创作实践](https://www.w3.org/TR/wai-aria-practices-1.1/)
+- [WAI-ARIA 创作实践](https://www.w3.org/WAI/ARIA/apg/)
   - : 官方最佳实践记录了如何最好地对常见小部件和交互进行 ARIA 化。一个很好的资源。
 
 ## 脚本小部件的 ARIA

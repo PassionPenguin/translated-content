@@ -45,7 +45,7 @@ URL: [snapsvg.io](http://snapsvg.io/)
 
 ## Google Docs
 
-URL：[www.google.com/google-d-s/drawings/](https://docs.google.com/drawings)
+URL：[www.google.com/google-d-s/drawings/](https://accounts.google.com/v3/signin/identifier?continue%3Dhttps://docs.google.com/drawings/create%26followup%3Dhttps://docs.google.com/drawings/create%26ifkv%3DAdF4I77qViOM7Me-bR2Z20aQm3SWeV2LdK8avXQj0sj2bF7jcu7QGBKrxE7XW3z2elTIreM5_oqm1A%26ltmpl%3Ddrawings%26osid%3D1%26passive%3D1209600%26service%3Dwise%26flowName%3DWebLiteSignIn%26flowEntry%3DServiceLogin%26dsh%3DS2084107316:1722258574877488)
 
 从 Google Docs 绘制，可以被输出为 SVG。
 

@@ -89,11 +89,11 @@ fetch("simple.wasm")
   .then((result) => result.instance.exports);
 ```
 
-> **备注：** 查看 GitHub（[在线实例](https://mdn.github.io/webassembly-examples/js-api-examples/)）的 [index.html](https://github.com/mdn/webassembly-examples/blob/master/js-api-examples/index.html) 中一个相似的例子，使用了我们的 [`fetchAndInstantiate()`](https://github.com/mdn/webassembly-examples/blob/master/wasm-utils.js#L1) 库函数
+> **备注：** 查看 GitHub（[在线实例](https://mdn.github.io/webassembly-examples/js-api-examples/)）的 [index.html](https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/index.html) 中一个相似的例子，使用了我们的 [`fetchAndInstantiate()`](https://github.com/mdn/webassembly-examples/blob/main/wasm-utils.js#L1) 库函数
 
 ### 第二种重载示例
 
-下面的例子（查看我们 GitHub 的 [index-compile.html](https://github.com/mdn/webassembly-examples/blob/master/js-api-examples/index-compile.html) 例子，可在线演示）使用 `compile()` 方法编译了 simple.wasm 字节码，然后通过 [postMessage()](/zh-CN/docs/Web/API/Worker/postMessage) 发送给一个线程 [worker](/zh-CN/docs/Web/API/Web_Workers_API)。
+下面的例子（查看我们 GitHub 的 [index-compile.html](https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/index-compile.html) 例子，可在线演示）使用 `compile()` 方法编译了 simple.wasm 字节码，然后通过 [postMessage()](/zh-CN/docs/Web/API/Worker/postMessage) 发送给一个线程 [worker](/zh-CN/docs/Web/API/Web_Workers_API)。
 
 ```js
 var worker = new Worker("wasm_worker.js");
@@ -104,7 +104,7 @@ fetch("simple.wasm")
   .then((mod) => worker.postMessage(mod));
 ```
 
-在线程中 (查看 [`wasm_worker.js`](https://github.com/mdn/webassembly-examples/blob/master/js-api-examples/wasm_worker.js)) 我们定义了一个导入对象供模块使用，然后设置了一个事件处理函数来接收主线程发来的模块。当模块被接收到后，我们使用{{jsxref("WebAssembly.instantiate()")}} 方法创建一个实例并且调用它从内部导出的函数。
+在线程中 (查看 [`wasm_worker.js`](https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/wasm_worker.js)) 我们定义了一个导入对象供模块使用，然后设置了一个事件处理函数来接收主线程发来的模块。当模块被接收到后，我们使用{{jsxref("WebAssembly.instantiate()")}} 方法创建一个实例并且调用它从内部导出的函数。
 
 ```js
 var importObject = {

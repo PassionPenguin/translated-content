@@ -20,7 +20,7 @@ slug: WebAssembly/Exported_functions
 
 ## 一个例子
 
-让我们看个例子从而让事情更清晰（你可以在 GitHub 上找到这个例子 [table-set.html](https://github.com/mdn/webassembly-examples/blob/master/other-examples/table-set.html)；或者[实时运行](https://mdn.github.io/webassembly-examples/other-examples/table-set.html)然后查看 wasm [文本表示](https://github.com/mdn/webassembly-examples/blob/master/text-format-examples/table.wat)）：
+让我们看个例子从而让事情更清晰（你可以在 GitHub 上找到这个例子 [table-set.html](https://github.com/mdn/webassembly-examples/blob/main/other-examples/table-set.html)；或者[实时运行](https://mdn.github.io/webassembly-examples/other-examples/table-set.html)然后查看 wasm [文本表示](https://github.com/mdn/webassembly-examples/blob/main/text-format-examples/table.wat)）：
 
 ```js
 var otherTable = new WebAssembly.Table({ element: "anyfunc", initial: 2 });
@@ -36,7 +36,7 @@ fetchAndInstantiate("table.wasm").then(function (instance) {
 });
 ```
 
-在这里，我们使用 [WebAssembly.Table](/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table) 构造函数在 JavaScript 中创建了一个表格（otherTable），然后使用 [fetchAndInstantiate()](https://github.com/mdn/webassembly-examples/blob/master/wasm-utils.js) 实用函数把 table.wasm 加载到我们的页面。
+在这里，我们使用 [WebAssembly.Table](/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table) 构造函数在 JavaScript 中创建了一个表格（otherTable），然后使用 [fetchAndInstantiate()](https://github.com/mdn/webassembly-examples/blob/main/wasm-utils.js) 实用函数把 table.wasm 加载到我们的页面。
 
 然后，我们得到了从模块中导出的函数，通过 [tbl.get()](/zh-CN/docs/WebAssembly/API/Table/get) 获取引用的函数并且把每一次的调用结果输出到控制台。接下来，我们使用 set() 使得 otherTable 表格包含了与 tbl 表格相同的函数。
 
