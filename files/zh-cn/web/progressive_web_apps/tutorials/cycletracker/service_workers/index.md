@@ -10,7 +10,7 @@ slug: Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers
 
 目前为止，我们已经为经期跟踪器编写了 HTML、CSS 和 JavaScript，添加了清单文件用于定义颜色、图标、URL 以及其他的应用特性。我们已经有了一个能运行的 Web 应用！但它还不是一个 PWA。在这一章节，我们将要编写将我们的功能完整、能够作为独立应用分发并且能无缝地在离线状态下运行的 Web 应用转化为 PWA 所需的 JavaScript 脚本。
 
-如果你还没有完成到这一步，请复制这些 [HTML](https://github.com/mdn/pwa-examples/tree/master/cycletracker/manifest_file/index.html)、[CSS](https://github.com/mdn/pwa-examples/tree/master/cycletracker/manifest_file/style.css)、[JavaScript](https://github.com/mdn/pwa-examples/tree/master/cycletracker/manifest_file/app.js)，还有[清单](https://github.com/mdn/pwa-examples/tree/master/cycletracker/manifest_file/cycletracker.json) JSON 文件的内容，并分别按照以下文件名保存：`index.html`、`styles.css`、`app.js` 以及 `cycletracker.json`。
+如果你还没有完成到这一步，请复制这些 [HTML](https://github.com/mdn/pwa-examples/blob/main/cycletracker/manifest_file/index.html)、[CSS](https://github.com/mdn/pwa-examples/blob/main/cycletracker/manifest_file/style.css)、[JavaScript](https://github.com/mdn/pwa-examples/blob/main/cycletracker/manifest_file/app.js)，还有[清单](https://github.com/mdn/pwa-examples/blob/main/cycletracker/manifest_file/cycletracker.json) JSON 文件的内容，并分别按照以下文件名保存：`index.html`、`styles.css`、`app.js` 以及 `cycletracker.json`。
 
 在本章节，我们要创建 `sw.js`——service worker 脚本，用于将我们的 Web 应用转化成 PWA。我们已经有了一个 JavaScript 文件——在 HTML 文件的最后一行里名为 `app.js` 的那一个。这个 JavaScript 脚本提供了全部标准 Web 应用特性的功能。我们并不会像使用 `app.js` 那样通过 {{HTMLElement("script")}} 元素的 `src` 属性来调用 `sw.js`，而是通过注册 service worker 来建立它与 Web 应用的联系。
 
@@ -359,7 +359,7 @@ if ("serviceWorker" in navigator) {
 </script>
 ```
 
-你可以体验功能完整的 [CycleTracker 月经周期跟踪 Web 应用](https://mdn.github.io/pwa-examples/cycletracker/service_workers)，并可以在 GitHub 上查看该 [Web 应用的源代码](https://github.com/mdn/pwa-examples/tree/master/cycletracker/service_workers)。是的，它能运行，并且现在正式成为了一个 PWA！
+你可以体验功能完整的 [CycleTracker 月经周期跟踪 Web 应用](https://mdn.github.io/pwa-examples/cycletracker/service_workers/)，并可以在 GitHub 上查看该 [Web 应用的源代码](https://github.com/mdn/pwa-examples/tree/main/cycletracker/service_workers)。是的，它能运行，并且现在正式成为了一个 PWA！
 
 ## 调试 service worker
 

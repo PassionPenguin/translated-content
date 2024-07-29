@@ -58,6 +58,6 @@ slug: Web/Progressive_web_apps/Tutorials/CycleTracker
 
 虽然安全连接是一个要求，但创建 PWA 除了使用任何文本编辑器编写代码和使用浏览器查看代码之外，没有其他软件要求。
 
-你可以体验[在线经期跟踪器](https://mdn.github.io/pwa-examples/cycletracker/)，并在 GitHub 上查看[经期跟踪器的源代码](https://github.com/mdn/pwa-examples/tree/master/cycletracker)。
+你可以体验[在线经期跟踪器](https://mdn.github.io/pwa-examples/cycletracker/)，并在 GitHub 上查看[经期跟踪器的源代码](https://github.com/mdn/pwa-examples/tree/main/cycletracker)。
 
 {{NextMenu("Web/Progressive_web_apps/Tutorials/CycleTracker/HTML_and_CSS")}}

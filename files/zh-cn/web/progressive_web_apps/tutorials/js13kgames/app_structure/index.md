@@ -273,7 +273,7 @@ self.addEventListener("fetch", function (e) {
 
 ### JavaScript 数据
 
-项目中所用的游戏数据放置在 data 文件夹下面，以 JavaScript 对象的形式提供（[games.js](https://github.com/mdn/pwa-examples/blob/master/js13kpwa/data/games.js)）：
+项目中所用的游戏数据放置在 data 文件夹下面，以 JavaScript 对象的形式提供（[games.js](https://github.com/mdn/pwa-examples/blob/main/js13kpwa/data/games.js)）：
 
 ```js
 var games = [

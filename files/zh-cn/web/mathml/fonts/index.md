@@ -107,13 +107,13 @@ fc-cache -sf
 
 ### Android
 
-你必须使用 [MathML 字体插件](https://addons.mozilla.org/firefox/addon/mathml-fonts/)。
+你必须使用 [MathML 字体插件](https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/)。
 
 > **备注：** Noto Sans Math 提供了良好的 Unicode 数学符号的覆盖，并且 [Google 计划添加数学布局特性的支持](https://github.com/notofonts/math/issues/14#issuecomment-1161414446)。
 
 ### 其他系统
 
-在其他系统上，考虑使用包管理器安装[带有 MATH 表的字体](#带有_math_表的字体)。请注意，这些字体通常随着 TeX 发行版（如 [TeX Live](https://www.tug.org/texlive/)）一起提供，但你可能需要遵循特定的说明，以使系统知道这些字体。作为最后的手段，可以安装 [MathML 字体插件](https://addons.mozilla.org/firefox/addon/mathml-fonts/)。
+在其他系统上，考虑使用包管理器安装[带有 MATH 表的字体](#带有_math_表的字体)。请注意，这些字体通常随着 TeX 发行版（如 [TeX Live](https://www.tug.org/texlive/)）一起提供，但你可能需要遵循特定的说明，以使系统知道这些字体。作为最后的手段，可以安装 [MathML 字体插件](https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/)。
 
 ## 高级设置
 
@@ -125,7 +125,7 @@ fc-cache -sf
 
 ### 在没有管理员权限的情况下安装
 
-如果你需要在没有管理员权限的系统上安装字体，则最简单的方法是使用 [MathML 字体插件](https://addons.mozilla.org/firefox/addon/mathml-fonts/)。请注意，使用该插件并不是最佳选择，因为它会强制你的 Gecko 浏览器在访问每个页面时加载 CSS 样式表，以及在所有包含 MathML 内容的页面上加载 Web 数学字体。
+如果你需要在没有管理员权限的系统上安装字体，则最简单的方法是使用 [MathML 字体插件](https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/)。请注意，使用该插件并不是最佳选择，因为它会强制你的 Gecko 浏览器在访问每个页面时加载 CSS 样式表，以及在所有包含 MathML 内容的页面上加载 Web 数学字体。
 
 在 UNIX 系统上的更好的替代方法是将 [Latin Modern Math](https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip) 和 [STIX](https://github.com/stipub/stixfonts) 的 OTF 文件安装到某个本地字体文件夹中，并（如果需要）在其上运行 `fc-cache`。在 macOS 和 Linux 上，标准路径分别是 `~/Library/Fonts/` 和 `~/.fonts`。
 
@@ -134,7 +134,7 @@ fc-cache -sf
 实际上，你可以安装任何[数学 OpenType 字体](https://fred-wang.github.io/MathFonts/)并将它们用于 MathML 渲染。一些浏览器提供了在字体首选项菜单中配置 MathML 默认字体的方法。或者，你可以尝试使用 [MathML-fontsettings 插件](https://addons.mozilla.org/zh-CN/firefox/addon/mathml-font-settings/)。
 
 - [Asana Math](https://www.ctan.org/tex-archive/fonts/Asana-Math/)
-- [Cambria Math](https://docs.microsoft.com/typography/font-list/?FID=360)
+- [Cambria Math](https://learn.microsoft.com/en-us/typography/font-list/?FID%3D360)
 - [DejaVu Math TeX Gyre](https://sourceforge.net/projects/dejavu/files/dejavu/)
 - [Garamond Math](https://github.com/YuanshengZhao/Garamond-Math)
 - [Latin Modern Math](https://www.gust.org.pl/projects/e-foundry/lm-math)

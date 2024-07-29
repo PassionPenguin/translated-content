@@ -199,7 +199,7 @@ HTML `<link>` 元素用于指定当前文档与外部资源之间的关系。[`r
 
 `app.js` 文件将包含我们应用程序的所有工作内容，包括 `<button>` 的事件处理程序、将提交的数据保存到 local storage 以及在页面内容中显示周期。
 
-[这个步骤的 HTML 文件](https://github.com/mdn/pwa-examples/tree/master/cycletracker/html_and_css/index.html)现在完成了！你现在可以在浏览器中打开该文件，但是你会注意到它非常简单。我们将在下一节中解决这个问题。
+[这个步骤的 HTML 文件](https://github.com/mdn/pwa-examples/blob/main/cycletracker/html_and_css/index.html)现在完成了！你现在可以在浏览器中打开该文件，但是你会注意到它非常简单。我们将在下一节中解决这个问题。
 
 ## CSS 内容
 
@@ -231,7 +231,7 @@ li:nth-of-type(even) {
 }
 ```
 
-如果每一行你都很熟悉，你可以复制上面的 CSS，或者编写你自己的 CSS，并将文件保存为 [`style.css`](https://github.com/mdn/pwa-examples/tree/master/cycletracker/html_and_css/style.css)，然后[完成静态 HTML 和 CSS](#完成我们_pwa_的静态_html_和_css)。如果上面的 CSS 中有任何你不了解的内容，请继续阅读以获得解释。
+如果每一行你都很熟悉，你可以复制上面的 CSS，或者编写你自己的 CSS，并将文件保存为 [`style.css`](https://github.com/mdn/pwa-examples/blob/main/cycletracker/html_and_css/style.css)，然后[完成静态 HTML 和 CSS](#完成我们_pwa_的静态_html_和_css)。如果上面的 CSS 中有任何你不了解的内容，请继续阅读以获得解释。
 
 ![浅绿色的网页，有一个大标题、一个带有说明（legend）的表单、两个日期选择器和一个按钮。底部显示了两个月经周期的假数据和一个标题。](html.jpg)
 
@@ -316,7 +316,7 @@ li:nth-of-type(even) {
 
 如果你仍然不太熟悉上面的 CSS，你可以查看 [CSS 属性](/zh-CN/docs/Glossary/Property/CSS)和[选择器](/zh-CN/docs/Web/CSS/CSS_selectors)，或者学习 [CSS 入门](/zh-CN/docs/Learn/CSS/First_steps/Getting_started)教程。
 
-无论你是逐字使用上面的 CSS，根据自己的偏好编辑上述样式，还是从头开始编写自己的 CSS，请将所有 CSS 放在一个新文件中，并将其保存为与 `index.html` 文件位于同一目录下的 [`style.css`](https://github.com/mdn/pwa-examples/tree/master/cycletracker/html_and_css/style.css)。
+无论你是逐字使用上面的 CSS，根据自己的偏好编辑上述样式，还是从头开始编写自己的 CSS，请将所有 CSS 放在一个新文件中，并将其保存为与 `index.html` 文件位于同一目录下的 [`style.css`](https://github.com/mdn/pwa-examples/blob/main/cycletracker/html_and_css/style.css)。
 
 ### 完成我们 PWA 的静态 HTML 和 CSS
 
@@ -338,6 +338,6 @@ li:nth-of-type(even) {
 
 在添加 [JavaScript 功能](/zh-CN/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/JavaScript_functionality)将这个静态内容转换成网页应用程序，然后通过 [manifest 文件](/zh-CN/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Manifest_file)和 [service worker](/zh-CN/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers) 增强成为渐进式网页应用之前，我们将[创建本地开发环境](/zh-CN/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Secure_connection)来查看我们的进度。
 
-在那之前，你可以查看[静态 CycleTracker 外壳](https://mdn.github.io/pwa-examples/cycletracker/html_and_css)，并从 GitHub 下载 [CycleTracker HTML 和 CSS 源代码](https://github.com/mdn/pwa-examples/tree/master/cycletracker/html_and_css)。
+在那之前，你可以查看[静态 CycleTracker 外壳](https://mdn.github.io/pwa-examples/cycletracker/html_and_css/)，并从 GitHub 下载 [CycleTracker HTML 和 CSS 源代码](https://github.com/mdn/pwa-examples/tree/main/cycletracker/html_and_css)。
 
 {{PreviousMenuNext("Web/Progressive_web_apps/Tutorials/CycleTracker/","Web/Progressive_web_apps/Tutorials/CycleTracker/Secure_connection","Web/Progressive_web_apps/Tutorials/CycleTracker")}}

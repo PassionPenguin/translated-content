@@ -35,7 +35,7 @@ sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC
 
 ### 生成 SRI 哈希的工具
 
-[SRI Hash Generator](https://srihash.org/) 是一个在线生成 SRI 哈希值的工具。
+[SRI Hash Generator](https://www.srihash.org/) 是一个在线生成 SRI 哈希值的工具。
 
 也可以用 **openssl** 在命令行中执行如下命令来生成 SRI 哈希值：
 
@@ -120,6 +120,6 @@ Access-Control-Allow-Origin: *
 
 - [内容安全策略](/zh-CN/docs/Web/HTTP/CSP)
 - HTTP 标头 {{httpheader("Content-Security-Policy")}}
-- [一个不能对你进行 XSS 的 CDN：使用 SRI](https://frederik-braun.com/using-subresource-integrity.html)
+- [一个不能对你进行 XSS 的 CDN：使用 SRI](https://frederikbraun.de/using-subresource-integrity.html)
 - [来自 W3C 的 SRI 测试](https://w3c-test.org/subresource-integrity/subresource-integrity.html)
 - [SRI Hash 生成器](https://www.srihash.org/)

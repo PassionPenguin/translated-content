@@ -13,22 +13,22 @@ slug: Web/JavaScript/Reference/Lexical_grammar
 
 | 代码点   | 名称           | 缩写    | 说明                                                                                                                                       |
 | -------- | -------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| `U+200C` | 零宽度非结合子 | \<ZWNJ> | 放置在一些经常会被当成连字的字符之间，用于将它们分别以独立形式显示（[Wikipedia](http://en.wikipedia.org/wiki/Zero-width_non-joiner)）      |
-| `U+200D` | 零宽度结合子   | \<ZWJ>  | 放置在一些通常不会被标记为连字的字符之间，用于将这些字符以连字形式显示（[Wikipedia](http://en.wikipedia.org/wiki/Zero-width_joiner)）      |
-| `U+FEFF` | 字节流方向标识 | \<BOM>  | 在脚本开头使用，除了将脚本标记为 Unicode 格式以外，还用来标记文本的字节流方向（[Wikipedia](http://en.wikipedia.org/wiki/Byte_order_mark)） |
+| `U+200C` | 零宽度非结合子 | \<ZWNJ> | 放置在一些经常会被当成连字的字符之间，用于将它们分别以独立形式显示（[Wikipedia](https://en.wikipedia.org/wiki/Zero-width_non-joiner)）      |
+| `U+200D` | 零宽度结合子   | \<ZWJ>  | 放置在一些通常不会被标记为连字的字符之间，用于将这些字符以连字形式显示（[Wikipedia](https://en.wikipedia.org/wiki/Zero-width_joiner)）      |
+| `U+FEFF` | 字节流方向标识 | \<BOM>  | 在脚本开头使用，除了将脚本标记为 Unicode 格式以外，还用来标记文本的字节流方向（[Wikipedia](https://en.wikipedia.org/wiki/Byte_order_mark)） |
 
 ## 空白符
 
-空白符提升了源码的可读性，并将标记 (tokens) 区分开。这些符号通常不影响源码的功能。通常可以用[压缩器](http://en.wikipedia.org/wiki/Minification_%28programming%29)来移除源码中的空白，减少数据传输量。
+空白符提升了源码的可读性，并将标记 (tokens) 区分开。这些符号通常不影响源码的功能。通常可以用[压缩器](<https://en.wikipedia.org/wiki/Minification_(programming)>)来移除源码中的空白，减少数据传输量。
 
 | 代码点 | 名称              | 缩写    | 说明                                                                                                        | 转义序列 |
 | ------ | ----------------- | ------- | ----------------------------------------------------------------------------------------------------------- | -------- |
 | U+0009 | 制表符            | \<HT>   | 水平制表符                                                                                                  | \t       |
 | U+000B | 垂直制表符        | \<VT>   | 垂直制表符                                                                                                  | \v       |
-| U+000C | 分页符            | \<FF>   | 分页符（[Wikipedia](http://en.wikipedia.org/wiki/Page_break#Form_feed)）                                    | \f       |
+| U+000C | 分页符            | \<FF>   | 分页符（[Wikipedia](https://en.wikipedia.org/wiki/Page_break#Form_feed)）                                    | \f       |
 | U+0020 | 空格              | \<SP>   | 空格                                                                                                        |          |
 | U+00A0 | 无间断空格        | \<NBSP> | 在该空格处不会换行                                                                                          |          |
-| Others | 其他 Unicode 空白 | \<USP>  | [Wikipedia 上对 Unicode 空白的介绍](http://en.wikipedia.org/wiki/Space_%28punctuation%29#Spaces_in_Unicode) |          |
+| Others | 其他 Unicode 空白 | \<USP>  | [Wikipedia 上对 Unicode 空白的介绍](<https://en.wikipedia.org/wiki/Space_(punctuation)#Spaces_in_Unicode>) |          |
 
 ## 行终止符
 
@@ -40,8 +40,8 @@ slug: Web/JavaScript/Reference/Lexical_grammar
 | ------ | -------- | ----- | ------------------------------------------------- | -------- |
 | U+000A | 换行符   | \<LF> | 在 UNIX 系统中起新行                              | \n       |
 | U+000D | 回车符   | \<CR> | 在 Commodore 和早期的 Mac 系统中起新行            | \r       |
-| U+2028 | 行分隔符 | \<LS> | [Wikipedia](http://en.wikipedia.org/wiki/Newline) |          |
-| U+2029 | 段分隔符 | \<PS> | [Wikipedia](http://en.wikipedia.org/wiki/Newline) |          |
+| U+2028 | 行分隔符 | \<LS> | [Wikipedia](https://en.wikipedia.org/wiki/Newline) |          |
+| U+2029 | 段分隔符 | \<PS> | [Wikipedia](https://en.wikipedia.org/wiki/Newline) |          |
 
 ## 注释
 
@@ -264,7 +264,7 @@ false
 42
 ```
 
-请注意，十进制数值字面量可以以 0 开头，但是如果 0 以后的最高位比 8 小，数值将会被认为是八进制而不会报错。更多信息可以参考 [Firefox bug 957513](https://bugzil.la/957513) 和 [`parseInt()`](/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt#Octal_interpretations_with_no_radix)。
+请注意，十进制数值字面量可以以 0 开头，但是如果 0 以后的最高位比 8 小，数值将会被认为是八进制而不会报错。更多信息可以参考 [Firefox bug 957513](https://bugzilla.mozilla.org/show_bug.cgi?id%3D957513) 和 [`parseInt()`](/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt#Octal_interpretations_with_no_radix)。
 
 #### 二进制
 
@@ -419,7 +419,7 @@ tag`string text ${expression} string text`
 - `continue`、`break`、`throw`
 - `return`
 
-ECMAScript 规格提到[自动分号补全的三个规则](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-rules-of-automatic-semicolon-insertion)。
+ECMAScript 规格提到[自动分号补全的三个规则](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-rules-of-automatic-semicolon-insertion)。
 
 1. 当出现一个不允许的[行终止符](#Line_terminators)或“}”时，会在其之前插入一个分号。
 
@@ -471,7 +471,7 @@ ECMAScript 规格提到[自动分号补全的三个规则](http://people.mozilla
 ## 参见
 
 - [Jeff Walden: Binary and octal numbers](http://whereswalden.com/2013/08/12/micro-feature-from-es6-now-in-firefox-aurora-and-nightly-binary-and-octal-numbers/)
-- [Mathias Bynens: JavaScript character escape sequences](http://mathiasbynens.be/notes/javascript-escapes)
+- [Mathias Bynens: JavaScript character escape sequences](https://mathiasbynens.be/notes/javascript-escapes)
 - {{jsxref("Boolean")}}
 - {{jsxref("Number")}}
 - {{jsxref("RegExp")}}

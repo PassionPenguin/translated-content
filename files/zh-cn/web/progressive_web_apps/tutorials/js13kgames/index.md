@@ -25,7 +25,7 @@ PWA 赋予了我们创建同时拥有以上两种优势的应用的能力。
 
 正如前文所述，PWA 不是只使用一种技术创建的。它代表了构建 Web 应用程序的新理念，涉及一些特定的模式，API 和其他功能。一眼是看不出来一个 Web App 是不是 PWA 的。如果应用程序满足某些要求，或者实现了一组特定的功能，例如离线工作、可安装、易于同步、可以发送推送通知等，我们就可以将其视为 PWA。
 
-此外，还有一些工具可以按百分比衡量应用的完整性。（[Lighthouse](https://developers.google.com/web/tools/lighthouse/)目前是最受欢迎的工具）通过实施各种技术优势，我们可以使应用程序更加渐进式，从而最终获得更高的 Lighthouse 得分。但这只是一个粗略的指标。
+此外，还有一些工具可以按百分比衡量应用的完整性。（[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)目前是最受欢迎的工具）通过实施各种技术优势，我们可以使应用程序更加渐进式，从而最终获得更高的 Lighthouse 得分。但这只是一个粗略的指标。
 
 辨别一个 Web 应用是否是 PWA 有一些关键原则。一个 PWA 应该具有以下特点：
 
@@ -49,7 +49,7 @@ PWA 赋予了我们创建同时拥有以上两种优势的应用的能力。
 
 有许多知名的成功企业正在尝试 PWA 方案，选择增强的网站体验而不是原生应用。事实上它们也确实从中获得了显而易见的益处。[PWA Stats](https://www.pwastats.com/) 这个网站上分享了许多案例研究，可以证明以上提及的这些优势。
 
-最著名的案例可能是印度最大的电子商务网站 [Flipkart Lite](https://stories.flipkart.com/flipkart-lite/)，它在 2015 年重建为 PWA，转化率提高了 70%。[AliExpress](https://m.aliexpress.com/) PWA 也得到了比 Web 应用或原生应用更好的效果，新用户的转换率提高了 104%。对比一下利润增长率和转换为 PWA 所需相对较少的工作量，PWA 的优势显而易见。
+最著名的案例可能是印度最大的电子商务网站 [Flipkart Lite](https://stories.flipkart.com/flipkart-lite/)，它在 2015 年重建为 PWA，转化率提高了 70%。[AliExpress](https://www.aliexpress.us/?gatewayAdapt%3Dglo2usa%26_randl_shipto%3DUS) PWA 也得到了比 Web 应用或原生应用更好的效果，新用户的转换率提高了 104%。对比一下利润增长率和转换为 PWA 所需相对较少的工作量，PWA 的优势显而易见。
 
 像 [couponmoto](https://www.couponmoto.com/) 这样的早期新兴创业公司也开始使用 PWA 来推动更多的消费者参与，这表明 PWA 可以帮助小公司和大公司更有效地（重新）吸引用户。
 
@@ -75,7 +75,7 @@ PWA 所需的关键要素是 [Service Worker](/zh-CN/docs/Web/API/Service_Worker
 
 ## 一个示例应用程序
 
-在本系列文章中，我们将研究一个超级简单网站的源代码，该网站列出了 [js13kGames 2017](http://2017.js13kgames.com/) 竞赛中提交给 [A-Frame category](http://js13kgames.com/aframe) 的游戏的相关信息。你不必考虑网站上的实际内容，这里主要是学习如何在你自己的项目中使用 PWA 功能。
+在本系列文章中，我们将研究一个超级简单网站的源代码，该网站列出了 [js13kGames 2017](http://2017.js13kgames.com/) 竞赛中提交给 [A-Frame category](https://js13kgames.com/webxr) 的游戏的相关信息。你不必考虑网站上的实际内容，这里主要是学习如何在你自己的项目中使用 PWA 功能。
 
 你可以在 [mdn.github.io/pwa-examples/js13kpwa](https://mdn.github.io/pwa-examples/js13kpwa/) 找到在线版本（另请[参阅源代码](https://github.com/mdn/pwa-examples/tree/main/js13kpwa)），我们将在接下来的几篇文章中对其进行详细解释。
 

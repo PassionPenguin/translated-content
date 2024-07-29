@@ -44,7 +44,7 @@ TLS 1.3 中的密码套件主要用于数据加密，密钥协议和身份验证
 
 正确配置服务器至关重要。一般来说，应尽量将密码支持限制在与希望连接到网站的浏览器兼容的最新密码上。[Mozilla OpSec TLS 配置指南](https://wiki.mozilla.org/Security/Server_Side_TLS)提供了更多有关推荐配置的信息。
 
-为了帮助你配置网站，Mozilla 提供了一个有用的 [TLS 配置生成器](https://ssl-config.mozilla.org/)，它可以为以下 Web 服务器生成配置文件：
+为了帮助你配置网站，Mozilla 提供了一个有用的 [TLS 配置生成器](https://ssl-config.mozilla.org//)，它可以为以下 Web 服务器生成配置文件：
 
 - Apache
 - Nginx
@@ -52,7 +52,7 @@ TLS 1.3 中的密码套件主要用于数据加密，密钥协议和身份验证
 - HAProxy
 - Amazon Web Services CloudFormation Elastic Load Balancer
 
-建议使用[配置生成器](https://ssl-config.mozilla.org/)来创建配置，以满足你的需要；然后将其复制并粘贴到服务器上的相应文件中，并重新启动服务器以接收更改。配置文件可能需要进行一些调整才能包含自定义设置，因此在使用前一定要检查生成的配置文件；安装配置文件时如果不确保任何域名等引用都是正确的，就会导致服务器无法正常工作。
+建议使用[配置生成器](https://ssl-config.mozilla.org//)来创建配置，以满足你的需要；然后将其复制并粘贴到服务器上的相应文件中，并重新启动服务器以接收更改。配置文件可能需要进行一些调整才能包含自定义设置，因此在使用前一定要检查生成的配置文件；安装配置文件时如果不确保任何域名等引用都是正确的，就会导致服务器无法正常工作。
 
 ## TLS 1.3
 
@@ -84,7 +84,7 @@ TLS 1.3 中取消了重新协商功能，这可能会影响到一些依赖使用
 
 为了帮助实现更现代、更安全的 web，所有主流浏览器都在 2020 年初开始取消对 TLS 1.0 和 1.1 的支持。需要确保你的 web 服务器支持 TLS 1.2 或 1.3。
 
-从版本 74 开始，Firefox 浏览器在连接使用旧版 TLS 的服务器时会返回 [Secure Connection Failed](https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect) 错误（[Firefox bug 1606734](https://bugzil.la/1606734)）。
+从版本 74 开始，Firefox 浏览器在连接使用旧版 TLS 的服务器时会返回 [Secure Connection Failed](https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect) 错误（[Firefox bug 1606734](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1606734)）。
 
 ## TLS 握手超时值
 
@@ -94,7 +94,7 @@ TLS 1.3 中取消了重新协商功能，这可能会影响到一些依赖使用
 
 ## 参见
 
-- [Mozilla SSL 配置生成器](https://ssl-config.mozilla.org)和 [Cipherlist.eu](https://cipherlist.eu/) 帮助你为服务器生成配置文件以保护你的站点。
+- [Mozilla SSL 配置生成器](https://ssl-config.mozilla.org/)和 [Cipherlist.eu](https://cipherlist.eu/) 帮助你为服务器生成配置文件以保护你的站点。
 - Mozilla 运营安全（OpSec）团队维护了一个带有[参考的 TLS 配置](https://wiki.mozilla.org/Security/Server_Side_TLS)的 wiki 页面。
 - [Mozilla Observatory](https://observatory.mozilla.org/)、[SSL Labs](https://www.ssllabs.com/ssltest/) 以及 [Cipherscan](https://github.com/mozilla/cipherscan) 可以帮助你测试站点以了解其 TLS 配置的安全性。
 - [安全上下文](/zh-CN/docs/Web/Security/Secure_Contexts)

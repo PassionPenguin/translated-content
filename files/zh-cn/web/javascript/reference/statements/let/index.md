@@ -132,7 +132,7 @@ try {
 }
 ```
 
-如果你在交互式解释器中实验，比如 Firefox web 控制台（**更多工具** > **Web 开发者工具** > **控制台**），当你分开两次输入并运行含有同一个名称的 `let` 声明时，你会得到同上的重复声明错误。有关更进一步的讨论参见这个议题：[Firefox bug 1580891](https://bugzil.la/1580891)。Chrome 的控制台则允许在不同次的输入中重复声明 `let` 变量。
+如果你在交互式解释器中实验，比如 Firefox web 控制台（**更多工具** > **Web 开发者工具** > **控制台**），当你分开两次输入并运行含有同一个名称的 `let` 声明时，你会得到同上的重复声明错误。有关更进一步的讨论参见这个议题：[Firefox bug 1580891](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1580891)。Chrome 的控制台则允许在不同次的输入中重复声明 `let` 变量。
 
 你或许会在 {{jsxref("Statements/switch", "switch")}} 语句中遇到错误，因为语句只有一个代码块。
 
@@ -292,5 +292,5 @@ console.log(a, b, c); // "aaa" "b" "cc"
 - [Firefox 44 中 `let` 和 `const` 的破坏性变更](https://blog.mozilla.org/addons/2015/10/14/breaking-changes-let-const-firefox-nightly-44/)——blog.mozilla.org（2015）
 - [你不懂 JS：作用域和闭包 第三章：函数对决块作用域](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch3.md)——Kyle Simpson
 - [什么是暂时性死区？](https://stackoverflow.com/questions/33198849/what-is-the-temporal-dead-zone/33198850)——Stack Overflow
-- [`let` 和 `var` 在用法上有什么不同？](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var)——Stack Overflow
+- [`let` 和 `var` 在用法上有什么不同？](https://stackoverflow.com/questions/762011/what-is-the-difference-between-let-and-var)——Stack Overflow
 - [为什么“let”被选为了 JavaScript 块作用域变量声明的名字？](https://stackoverflow.com/questions/37916940/why-was-the-name-let-chosen-for-block-scoped-variable-declarations-in-javascri)——Stack Overflow

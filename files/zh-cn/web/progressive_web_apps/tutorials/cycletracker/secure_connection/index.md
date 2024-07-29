@@ -41,7 +41,7 @@ Service worker 以及 PWA，都[被限制在安全上下文中](/zh-CN/docs/Web/
 
 请注意，Preview on Web Server 扩展使用 browserSync。当你的开发环境由此扩展启动时，`localhost:3001` 提供当前服务器环境的概述。
 
-你还可以[使用 IntelliJ IDE 创建本地服务器](https://www.jetbrains.com/help/idea/creating-local-server-configuration.html)，它搭载了一个[可配置的内置 PHP Web 服务器](https://www.jetbrains.com/help/idea/php-built-in-web-server.html#configuring-built-in-web-server)。
+你还可以[使用 IntelliJ IDE 创建本地服务器](https://www.jetbrains.com/help/idea/creating-local-server-configuration.html)，它搭载了一个[可配置的内置 PHP Web 服务器](https://www.jetbrains.com/help/phpstorm/php-built-in-web-server.html#configuring-built-in-web-server)。
 
 了解如何使用 [Python](/zh-CN/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server#使用_python) 或本地服务器端语言（如 PHP）来[设置本地测试服务器](/zh-CN/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server#在本地运行服务器端语言)。
 
@@ -53,7 +53,7 @@ Service worker 以及 PWA，都[被限制在安全上下文中](/zh-CN/docs/Web/
 
 你可以选择一个不同的端口号。输入 `npx http-server /user/yourName/CycleTracker -p 8787` 将在端口 `8787` 上启动本地服务器（如果可用）。如果不可用，或者你输入的端口号已经在使用中，你将收到 `address already in use` 或类似的错误。如果成功的话，在浏览器的 URL 栏中输入 `localhost:8787` 将渲染存储在 `~/user/yourName/CycleTracker/index.html` 中的 index 文件，如果没有 index 文件，将显示 `~/user/yourName/CycleTracker/` 目录的内容。
 
-这个不可配置静态 HTTP 服务器足以满足我们的基本应用程序。通过 `localhost` 和 `127.0.0.1` 服务的应用程序不需要 https 并始终被认为是安全的。如果出现浏览器不安全警告，可以绕过。虽然不是必需的，但是要将你的本地 Web 服务器配置为通过 HTTPS 进行服务，你可以[添加内置 SSL 证书](https://github.com/lwsjs/local-web-server/wiki/How-to-get-the-%22green-padlock%22-using-the-built-in-certificate)。有了证书，你将能够安装并运行 [local-web-server](<https://github.com/lwsjs/local-web-server/wiki/How-to-launch-a-secure-local-web-server-(HTTPS)>) 从命令行为你的项目提供本地 `https` 服务，以防止任何安全警告。
+这个不可配置静态 HTTP 服务器足以满足我们的基本应用程序。通过 `localhost` 和 `127.0.0.1` 服务的应用程序不需要 https 并始终被认为是安全的。如果出现浏览器不安全警告，可以绕过。虽然不是必需的，但是要将你的本地 Web 服务器配置为通过 HTTPS 进行服务，你可以[添加内置 SSL 证书](https://github.com//lwsjs/local-web-server/wiki/How-to-get-the-%22green-padlock%22-using-the-built-in-certificate)。有了证书，你将能够安装并运行 [local-web-server](<https://github.com//lwsjs/local-web-server/wiki/How-to-launch-a-secure-local-web-server-(HTTPS)>) 从命令行为你的项目提供本地 `https` 服务，以防止任何安全警告。
 
 ```bash
 npm install -g local-web-server
@@ -75,7 +75,7 @@ ws --https
 
 ## GitHub pages
 
-你可以在 GitHub 上查看经期跟踪器应用程序的最新状态，它安全地托管在 [https://mdn.github.io/pwa-examples/cycletracker/html_and_css](http://www.bing.com/translator/?ref=TThis&text=&from=en&to=zh-cn) 这个网址上。我们将文件发布到 MDN GitHub 帐户。同样，如果你有一个 [GitHub](https://github.com) 帐户，你也可以发布到你的帐户。只需注意，虽然通过 SSL 安全地提供服务，但 GitHub 上的操作不一定是私人的，所有 GitHub 页面都是公共的。如果你生活在一个跟踪月经周期的压迫政府掌控的地区，请考虑复制粘贴代码而不是分叉它。
+你可以在 GitHub 上查看经期跟踪器应用程序的最新状态，它安全地托管在 [https://mdn.github.io/pwa-examples/cycletracker/html_and_css](http://www.bing.com/translator?ref%3DTThis%26text%3D%26from%3Den%26to%3Dzh-cn%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN%26mkt%3Dzh-CN) 这个网址上。我们将文件发布到 MDN GitHub 帐户。同样，如果你有一个 [GitHub](https://github.com/) 帐户，你也可以发布到你的帐户。只需注意，虽然通过 SSL 安全地提供服务，但 GitHub 上的操作不一定是私人的，所有 GitHub 页面都是公共的。如果你生活在一个跟踪月经周期的压迫政府掌控的地区，请考虑复制粘贴代码而不是分叉它。
 
 要创建公开可用的安全站点，请创建 [GitHub pages 站点](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)。创建一个名为 `<username>.github.io` 的仓库，其中 `<username>` 是你的 GitHub 用户名。创建一个 `gh-pages` 分支。你的应用程序的这个分支将可在 `https://<username>.github.io` 访问。
 

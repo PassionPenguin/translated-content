@@ -66,7 +66,7 @@ l10n:
 <script src="https://fred-wang.github.io/mathml.css/mspace.js"></script>
 ```
 
-如果你需要更多复杂的结构，你需要考虑使用功能更全面一些的 [MathJax](https://www.mathjax.org) 库作为一个 MathML polyfill：
+如果你需要更多复杂的结构，你需要考虑使用功能更全面一些的 [MathJax](https://www.mathjax.org/) 库作为一个 MathML polyfill：
 
 ```html
 <script src="https://fred-wang.github.io/mathjax.js/mpadded-min.js"></script>
@@ -188,7 +188,7 @@ l10n:
 </html>
 ```
 
-该网页包含了一些 [`script`](/zh-CN/docs/Web/HTML/Element/script) 标签。我们可以使用以下命令，利用 [Node.js](https://nodejs.org/) 和 [TeXZilla](https://github.com/fred-wang/TeXZilla/wiki/Using-TeXZilla#usage-from-the-command-line) 完成转换：
+该网页包含了一些 [`script`](/zh-CN/docs/Web/HTML/Element/script) 标签。我们可以使用以下命令，利用 [Node.js](https://nodejs.org/en) 和 [TeXZilla](https://github.com/fred-wang/TeXZilla/wiki/Using-TeXZilla#usage-from-the-command-line) 完成转换：
 
 ```bash
 cat input.html | node TeXZilla.js streamfilter > output.html
@@ -245,7 +245,7 @@ latexmlc --dest foo.html --javascript=https://fred-wang.github.io/mathml.css/msp
 latexmlc --dest foo.html --javascript=https://fred-wang.github.io/mathjax.js/mpadded-min.js foo.tex # Add the MathJax fallback
 ```
 
-> **备注：** 命令行工具可以在服务端使用，例如：[MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) 使用 [Mathoid](https://github.com/wikimedia/mathoid) 以完成从 LaTeX 到 MathML 的转换。
+> **备注：** 命令行工具可以在服务端使用，例如：[MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) 使用 [Mathoid](https://github.com/wikimedia/mediawiki-services-mathoid) 以完成从 LaTeX 到 MathML 的转换。
 
 ## 图形界面
 

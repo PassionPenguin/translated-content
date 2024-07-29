@@ -9,7 +9,7 @@ slug: Web/Progressive_web_apps/Tutorials/CycleTracker/JavaScript_functionality
 
 在上一节中，我们编写了经期跟踪器（CycleTracker）的 HTML 和 CSS，创建了我们的 Web 应用的静态版本。在本节中，我们将编写将静态 HTML 转换为功能完全 Web 应用所需的 JavaScript。
 
-如果你还没有这么做，复制 [HTML](https://github.com/mdn/pwa-examples/tree/master/cycletracker/javascript_functionality/index.html) 和 [CSS](https://github.com/mdn/pwa-examples/tree/master/cycletracker/javascript_functionality/style.css) 并将它们保存到名为 `index.html` 和 `styles.css` 的文件中。
+如果你还没有这么做，复制 [HTML](https://github.com/mdn/pwa-examples/blob/main/cycletracker/javascript_functionality/index.html) 和 [CSS](https://github.com/mdn/pwa-examples/blob/main/cycletracker/javascript_functionality/style.css) 并将它们保存到名为 `index.html` 和 `styles.css` 的文件中。
 
 HTML 文件的最后一行调用了 `app.js` JavaScript 文件。这就是我们在本节中要创建的脚本。在这节课中，我们将编写客户端 JavaScript 代码来捕获表单提交，local storage 提交的数据，以及填充过去经期部分。
 
@@ -308,7 +308,7 @@ function formatDate(dateString) {
 renderPastPeriods();
 ```
 
-你可以试试完全可用的 [CycleTracker 经期跟踪 Web 应用](https://mdn.github.io/pwa-examples/cycletracker/javascript_functionality)，并在 GitHub 上查看 [Web 应用源代码](https://github.com/mdn/pwa-examples/tree/master/cycletracker/javascript_functionality)。是的，它可用，但还不是 PWA。
+你可以试试完全可用的 [CycleTracker 经期跟踪 Web 应用](https://mdn.github.io/pwa-examples/cycletracker/javascript_functionality/)，并在 GitHub 上查看 [Web 应用源代码](https://github.com/mdn/pwa-examples/tree/main/cycletracker/javascript_functionality)。是的，它可用，但还不是 PWA。
 
 ## 接下来
 

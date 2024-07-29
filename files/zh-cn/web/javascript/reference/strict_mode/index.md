@@ -7,7 +7,7 @@ slug: Web/JavaScript/Reference/Strict_mode
 
 > **备注：** 有时你会看到非严格模式，被称为“**[sloppy mode](/docs/Glossary/Sloppy_mode)**”。这不是一个官方术语，但以防万一，你应该意识到这一点。
 
-[ECMAScript 5](http://www.ecma-international.org/publications/standards/Ecma-262.htm)的**严格模式**是采用具有限制性 JavaScript 变体的一种方式，从而使代码隐式地脱离“马虎模式/稀松模式/懒散模式“（sloppy）模式。严格模式不仅仅是一个子集：它的产生是为了形成与正常代码不同的语义。不支持严格模式与支持严格模式的浏览器在执行严格模式代码时会采用不同行为。所以在没有对运行环境展开**特性测试**来验证对于严格模式相关方面支持的情况下，就算采用了严格模式也不一定会取得预期效果。严格模式代码和非严格模式代码可以共存，因此项目脚本可以渐进式地采用严格模式。严格模式对正常的 JavaScript 语义做了一些更改。
+[ECMAScript 5](https://ecma-international.org/publications-and-standards/standards/ecma-262/)的**严格模式**是采用具有限制性 JavaScript 变体的一种方式，从而使代码隐式地脱离“马虎模式/稀松模式/懒散模式“（sloppy）模式。严格模式不仅仅是一个子集：它的产生是为了形成与正常代码不同的语义。不支持严格模式与支持严格模式的浏览器在执行严格模式代码时会采用不同行为。所以在没有对运行环境展开**特性测试**来验证对于严格模式相关方面支持的情况下，就算采用了严格模式也不一定会取得预期效果。严格模式代码和非严格模式代码可以共存，因此项目脚本可以渐进式地采用严格模式。严格模式对正常的 JavaScript 语义做了一些更改。
 
 1. 严格模式通过**抛出错误**来消除了一些原有**静默错误**。
 2. 严格模式修复了一些导致 JavaScript 引擎难以执行优化的缺陷：有时候，相同的代码，严格模式可以比非严格模式下**运行得更快**。
@@ -102,7 +102,7 @@ delete Object.prototype; // 抛出 TypeError 错误
 
 第四，在 Gecko 版本 34 之前，严格模式要求一个对象内的所有属性名在对象内必须唯一。正常模式下重名属性是允许的，最后一个重名的属性决定其属性值。因为只有最后一个属性起作用，当代码要去改变属性值而不是修改最后一个重名属性的时候，复制这个对象就产生一连串的 bug。在严格模式下，重名属性被认为是语法错误：
 
-> **备注：** 这个问题在 ECMAScript6 中已经不复存在（[Firefox bug 1041128](https://bugzil.la/1041128)）。
+> **备注：** 这个问题在 ECMAScript6 中已经不复存在（[Firefox bug 1041128](https://bugzilla.mozilla.org/show_bug.cgi?id%3D1041128)）。
 
 ```js
 "use strict";
@@ -288,7 +288,7 @@ function privilegedInvoker() {
 privilegedInvoker();
 ```
 
-第三，严格模式下的`arguments`不会再提供访问与调用这个函数相关的变量的途径。在一些旧时的 ECMAScript 实现中`arguments.caller`曾经是一个对象，里面存储的属性指向那个函数的变量。这是一个[安全隐患](http://stuff.mit.edu/iap/2008/facebook/)，因为它通过函数抽象打破了本来被隐藏起来的保留值；它同时也是引起大量优化工作的原因。出于这些原因，现在的浏览器没有实现它。但是因为它这种历史遗留的功能，`arguments.caller`在严格模式下同样是一个不可被删除的属性，在赋值或者取值时会报错：
+第三，严格模式下的`arguments`不会再提供访问与调用这个函数相关的变量的途径。在一些旧时的 ECMAScript 实现中`arguments.caller`曾经是一个对象，里面存储的属性指向那个函数的变量。这是一个[安全隐患](https://stuff.mit.edu/iap/2008/facebook/)，因为它通过函数抽象打破了本来被隐藏起来的保留值；它同时也是引起大量优化工作的原因。出于这些原因，现在的浏览器没有实现它。但是因为它这种历史遗留的功能，`arguments.caller`在严格模式下同样是一个不可被删除的属性，在赋值或者取值时会报错：
 
 ```js
 "use strict";

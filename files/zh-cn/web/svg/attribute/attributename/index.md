@@ -13,7 +13,7 @@ slug: Web/SVG/Attribute/attributeName
 | -------- | ------------------------------------------------------------------------------------- |
 | 值       | \<attributeName>                                                                      |
 | 可变性   | No                                                                                    |
-| 规范文档 | [SVG 1.1 (2nd Edition)](http://www.w3.org/TR/SVG/animate.html#AttributeNameAttribute) |
+| 规范文档 | [SVG 1.1 (2nd Edition)](https://www.w3.org/TR/SVG/animate.html#AttributeNameAttribute) |
 
 ## 示例
 

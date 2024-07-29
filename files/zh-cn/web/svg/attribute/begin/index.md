@@ -7,7 +7,7 @@ slug: Web/SVG/Attribute/begin
 
 这个属性定义了动画何时开始。
 
-这个属性值是一个分号分隔的数列值。SMIL 规范的["Evaluation of begin and end time lists"](http://www.w3.org/TR/2001/REC-smil-animation-20010904/#Timing-EvaluationOfBeginEndTimeLists)章节详细解释了开始时间数列。每个单独的值可以是下述之一：`<offset-value>`、`<syncbase-value>`、`<event-value>`、`<repeat-value>`、`<accessKey-value>`、`<wallclock-sync-value>`或者关键词`indefinite`。
+这个属性值是一个分号分隔的数列值。SMIL 规范的["Evaluation of begin and end time lists"](https://www.w3.org/TR/2001/REC-smil-animation-20010904/#Timing-EvaluationOfBeginEndTimeLists)章节详细解释了开始时间数列。每个单独的值可以是下述之一：`<offset-value>`、`<syncbase-value>`、`<event-value>`、`<repeat-value>`、`<accessKey-value>`、`<wallclock-sync-value>`或者关键词`indefinite`。
 
 ## 用法
 
@@ -15,7 +15,7 @@ slug: Web/SVG/Attribute/begin
 | -------- | ----------------------------------------------------------------------------- |
 | 值       | \<begin-value-list>                                                           |
 | 可变性   | No                                                                            |
-| 规范文档 | [SVG 1.1 (2nd Edition)](http://www.w3.org/TR/SVG/animate.html#BeginAttribute) |
+| 规范文档 | [SVG 1.1 (2nd Edition)](https://www.w3.org/TR/SVG/animate.html#BeginAttribute) |
 
 `<begin-value-list>`中的每一个值可以是下述之一：
 

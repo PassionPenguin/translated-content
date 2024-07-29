@@ -63,7 +63,7 @@ document.domain = "company.com";
 
 - 跨源**写操作**（Cross-origin writes）一般是被允许的。例如链接、重定向以及表单提交。特定少数的 HTTP 请求需要添加[预检请求](/zh-CN/docs/Web/HTTP/CORS#预检请求)。
 - 跨源**资源嵌入**（Cross-origin embedding）一般是被允许的（后面会举例说明）。
-- 跨源**读操作**（Cross-origin reads）一般是不被允许的，但常可以通过内嵌资源来巧妙的进行读取访问。例如，你可以读取嵌入图片的高度和宽度，调用内嵌脚本的方法，或[得知内嵌资源的可用性](https://bugzil.la/629094)。
+- 跨源**读操作**（Cross-origin reads）一般是不被允许的，但常可以通过内嵌资源来巧妙的进行读取访问。例如，你可以读取嵌入图片的高度和宽度，调用内嵌脚本的方法，或[得知内嵌资源的可用性](https://bugzilla.mozilla.org/show_bug.cgi?id%3D629094)。
 
 以下是可能嵌入跨源的资源的一些示例：
 

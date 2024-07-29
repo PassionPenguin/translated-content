@@ -253,6 +253,6 @@ for (const power of powers(2)) {
 - {{jsxref("Operators/yield*", "yield*")}}
 - {{jsxref("Generator")}}
 - GitHub 上的 [Regenerator](https://github.com/facebook/regenerator)
-- [Promise 和生成器：控制流的乌托邦](https://youtu.be/qbKWsbJ76-s)——Forbes Lindesay 在 JSConf 上的演讲（2013）
+- [Promise 和生成器：控制流的乌托邦](https://www.youtube.com/watch?v%3DqbKWsbJ76-s%26feature%3Dyoutu.be)——Forbes Lindesay 在 JSConf 上的演讲（2013）
 - GitHub 上的 [Task.js](https://github.com/mozilla/task.js)
 - [你不知道的 JS：异步和性能，第 4 章：生成器](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch4.md)——Kyle Simpson

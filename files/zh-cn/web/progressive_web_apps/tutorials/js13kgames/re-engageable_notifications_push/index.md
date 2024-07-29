@@ -93,9 +93,9 @@ self.addEventListener("push", function (e) {
 
 这个 demo 包含三个文件：
 
-- [index.js](https://github.com/mozilla/serviceworker-cookbook/blob/master/push-payload/index.js), 包含我们应用的源代码
-- [server.js](https://github.com/mozilla/serviceworker-cookbook/blob/master/push-payload/server.js),包含服务端的源代码 (用 Node.js 编写)
-- [service-worker.js](https://github.com/mozilla/serviceworker-cookbook/blob/master/push-payload/service-worker.js), 包含 Service Worker 的具体代码。
+- [index.js](https://github.com/mdn/serviceworker-cookbook/blob/master/push-payload/index.js), 包含我们应用的源代码
+- [server.js](https://github.com/mdn/serviceworker-cookbook/blob/master/push-payload/server.js),包含服务端的源代码 (用 Node.js 编写)
+- [service-worker.js](https://github.com/mdn/serviceworker-cookbook/blob/master/push-payload/service-worker.js), 包含 Service Worker 的具体代码。
 
 让我们一起看看这些代码：
 
@@ -264,6 +264,6 @@ self.addEventListener("push", function (event) {
 
 它做的就只是监听 {{domxref("ServiceWorkerGlobalScope.push_event", "push")}} 事件，创建 payload 变量，这个变量包含了来自 event.data 的文本（如果 data 是空的，就设置成 "no payload" 字符串），然后一直等到通知推送给用户为止。
 
-如果你想知道它们具体是怎么处理的，请随意探索 [Service Worker Cookbook](https://github.com/mdn/serviceworker-cookbook/) 里面剩下的例子。[GitHub 上面提供了完整的源代码](https://github.com/mozilla/serviceworker-cookbook/)，也有大量的示例展示了各种用法，包括 Web 推送、缓存策略、性能、离线运行等等。
+如果你想知道它们具体是怎么处理的，请随意探索 [Service Worker Cookbook](https://github.com/mdn/serviceworker-cookbook/) 里面剩下的例子。[GitHub 上面提供了完整的源代码](https://github.com/mdn/serviceworker-cookbook)，也有大量的示例展示了各种用法，包括 Web 推送、缓存策略、性能、离线运行等等。
 
 {{PreviousMenuNext("Web/Progressive_web_apps/Tutorials/js13kGames/Installable_PWAs", "Web/Progressive_web_apps/Tutorials/js13kGames/Loading", "Web/Progressive_web_apps/Tutorials/js13kGames")}}

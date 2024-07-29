@@ -33,7 +33,7 @@ slug: Web/Security/Practical_implementation_guides
 
 ## 参见
 
-- [开放 Web 应用程序安全项目 (OWASP)](http://www.owasp.org/)
+- [开放 Web 应用程序安全项目 (OWASP)](https://owasp.org/)
 - [Mozilla Web 安全速查表](https://infosec.mozilla.org/guidelines/web_security.html#web-security-cheat-sheet)
 - [OWASP 跨站脚本攻击](https://owasp.org/www-community/attacks/xss/)
 
