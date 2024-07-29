@@ -9,7 +9,7 @@ slug: Web/API/CSSPageRule
 
 ## 语法
 
-这个语法是使用 [WebIDL](https://dev.w3.org/2006/webapi/WebIDL/) 格式。
+这个语法是使用 [WebIDL](https://heycam.github.io/webidl/) 格式。
 
 ```plain
 interface CSSPageRule : CSSRule {

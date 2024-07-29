@@ -27,4 +27,4 @@ embedArrayObj = document.plugins
 
 ## 另请参见
 
-- [MSDN documentation](<https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537477(v=vs.85)>)
+- [MSDN documentation](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537477(v%3Dvs.85>)>)

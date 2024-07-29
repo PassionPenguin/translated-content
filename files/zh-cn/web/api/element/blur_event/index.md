@@ -10,7 +10,7 @@ slug: Web/API/Element/blur_event
 ## 常规信息
 
 - 规范
-  - : [DOM L3](https://www.w3.org/TR/DOM-Level-3-Events/#event-type-blur)
+  - : [DOM L3](https://www.w3.org/TR/uievents/#event-type-blur)
 - 接口
   - : {{domxref("FocusEvent")}}
 - 是否冒泡
@@ -22,7 +22,7 @@ slug: Web/API/Element/blur_event
 - 默认行为
   - : 无
 
-> **备注：** {{domxref("Document.activeElement")}} 的值随浏览器的不同而不同（[Firefox bug 452307](https://bugzil.la/452307)）：IE10 把值设为焦点将要移向的对象，而 Firefox 和 Chrome 往往把值设为 `body`。
+> **备注：** {{domxref("Document.activeElement")}} 的值随浏览器的不同而不同（[Firefox bug 452307](https://bugzilla.mozilla.org/show_bug.cgi?id%3D452307)）：IE10 把值设为焦点将要移向的对象，而 Firefox 和 Chrome 往往把值设为 `body`。
 
 ## 属性
 

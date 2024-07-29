@@ -90,4 +90,4 @@ alert(document.implementation.createHTMLDocument("myTitle").documentElement.oute
 
 ### 规范
 
-- [`createHTMLDocument` specification](http://www.whatwg.org/html/#dom-domhtmlimplementation-createhtmldocument)
+- [`createHTMLDocument` specification](https://html.spec.whatwg.org/multipage/#dom-domhtmlimplementation-createhtmldocument)

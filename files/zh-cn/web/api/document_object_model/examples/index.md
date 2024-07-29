@@ -307,7 +307,7 @@ P
 
 本示例使用 DOM 方法来显示 {{domxref("Window.load_event", "onload")}} {{domxref("event")}} 对象的所有属性及其在表格中的值。它还展示了一种有用的技术，即使用 [`for...in`](/zh-CN/docs/Web/JavaScript/Reference/Statements/for...in) 循环来迭代对象的属性以获取其值。
 
-事件对象的属性在不同的浏览器之间有很大的不同，[WHATWG DOM 标准](https://dom.spec.whatwg.org)列出了标准的属性，然而许多浏览器对这些属性做了很大的扩展。
+事件对象的属性在不同的浏览器之间有很大的不同，[WHATWG DOM 标准](https://dom.spec.whatwg.org/)列出了标准的属性，然而许多浏览器对这些属性做了很大的扩展。
 
 把下面的代码放到一个空白的文本文件中，并把它加载到各种浏览器中，你会对不同数量和名称的属性感到惊讶。你可能还想在页面中添加一些元素，从不同的事件处理程序中调用这个函数。
 

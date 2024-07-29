@@ -14,7 +14,7 @@ slug: Web/API/CSSGroupingRule
 
 ## 语法
 
-The syntax is described using the [WebIDL](http://dev.w3.org/2006/webapi/WebIDL/) format.
+The syntax is described using the [WebIDL](https://heycam.github.io/webidl/) format.
 
 ```plain
 interface CSSGroupingRule : CSSRule {

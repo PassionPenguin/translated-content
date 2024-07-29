@@ -78,8 +78,8 @@ if (!Element.prototype.matches) {
 
 > 关于 Polyfill 的补充：
 >
-> - [Polyfill Wikipedia](http://en.wikipedia.org/wiki/Polyfill)
-> - [What are Polyfills in Javascript ?](http://www.moreonfew.com/what-are-polyfills-in-javascript/)
+> - [Polyfill Wikipedia](https://en.wikipedia.org/wiki/Polyfill)
+> - [What are Polyfills in Javascript ?](https://www.moreonfew.com/what-are-polyfills-in-javascript/)
 
 ## 规范
 

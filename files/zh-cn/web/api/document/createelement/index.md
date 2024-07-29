@@ -18,7 +18,7 @@ var element = document.createElement(tagName[, options]);
 - _tagName_
   - : 指定要创建元素类型的字符串，创建元素时的 {{domxref("Node.nodeName", "nodeName")}} 使用 `tagName` 的值为初始化，该方法不允许使用限定名称 (如："html:a")，在 HTML 文档上调用 `createElement()` 方法创建元素之前会将`tagName` 转化成小写，在 Firefox、Opera 和 Chrome 内核中，`createElement(null)` 等同于 `createElement("null")`
 - _options_{{optional_inline}}
-  - : 一个可选的参数 `ElementCreationOptions` 是包含一个属性名为 `is` 的对象，该对象的值是用 `customElements.define()` 方法定义过的一个自定义元素的标签名。为了向前兼容较老版本的 [Custom Elements specification](https://www.w3.org/TR/custom-elements/), 有一些浏览器会允许你传一个值为自定义元素的标签名的字符串作为该参数的值。可以参考本页下方的 [Web component 示例](#web_component_示例) Google 的 [Extending native HTML elements](https://developers.google.com/web/fundamentals/primers/customelements/#extendhtml) 文档仔细了解如何使用该参数。
+  - : 一个可选的参数 `ElementCreationOptions` 是包含一个属性名为 `is` 的对象，该对象的值是用 `customElements.define()` 方法定义过的一个自定义元素的标签名。为了向前兼容较老版本的 [Custom Elements specification](https://www.w3.org/TR/custom-elements/), 有一些浏览器会允许你传一个值为自定义元素的标签名的字符串作为该参数的值。可以参考本页下方的 [Web component 示例](#web_component_示例) Google 的 [Extending native HTML elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components#extendhtml) 文档仔细了解如何使用该参数。
 
 ### 返回值
 
@@ -104,7 +104,7 @@ let expandingList = document.createElement("ul", { is: "expanding-list" });
 - Gecko 2.0 之前，quirks 模式下 tagName 可以包含尖括号 (<和>)；从 Gecko2.0 开始，该方法在 quirks 模式和标准模式下表现一致。
 - 从 Gecko 19.0 开始， `createElement(null)` 和 `createElement("null")` 相同。Opera 也会将 null 字符串化，但是 Chrome 和 IE 都会抛出错误。
 - 从 Gecko 22.0 开始，当参数为"bgsounds", "multicol", 或"image"时， `createElement()` 不再使用 {{domxref("HTMLSpanElement")}} 接口，参数为 "bgsound" 和 "multicol" 时，使用 `HTMLUnknownElement`，为“image”时使用{{domxref("HTMLElement")}} `HTMLElement`。
-- `createElement` 的 Gecko 实现不遵循 XUL 和 XHTML 的 DOM 说明文档：创建元素的 `localName` 和 `namespaceURI` 不会被设置为 `null`。更多细节详见 [Firefox bug 280692](https://bugzil.la/280692)。
+- `createElement` 的 Gecko 实现不遵循 XUL 和 XHTML 的 DOM 说明文档：创建元素的 `localName` 和 `namespaceURI` 不会被设置为 `null`。更多细节详见 [Firefox bug 280692](https://bugzilla.mozilla.org/show_bug.cgi?id%3D280692)。
 
 ## 规范
 

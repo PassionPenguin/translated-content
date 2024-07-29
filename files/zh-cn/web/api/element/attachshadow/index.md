@@ -76,7 +76,7 @@ var shadowroot = element.attachShadow(shadowRootInit);
 
 ## 示例
 
-下面的例子取至 [word-count-web-component](https://github.com/mdn/web-components-examples/tree/master/word-count-web-component) 片段 ( [现场看看](https://mdn.github.io/web-components-examples/word-count-web-component/) ). 你可以看到使用 `attachShadow()` 在代码中间创建一个 shadow root，然后我们可以将自定义元素的内容挂载添加到它上面。
+下面的例子取至 [word-count-web-component](https://github.com/mdn/web-components-examples/tree/main/word-count-web-component) 片段 ( [现场看看](https://mdn.github.io/web-components-examples/word-count-web-component/) ). 你可以看到使用 `attachShadow()` 在代码中间创建一个 shadow root，然后我们可以将自定义元素的内容挂载添加到它上面。
 
 ```js
 // 为新元素创建一个类

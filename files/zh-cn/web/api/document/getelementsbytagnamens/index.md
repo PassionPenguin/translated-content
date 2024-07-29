@@ -110,7 +110,7 @@ elements = document.getElementsByTagNameNS(namespace, name)
 
 ## 针对其他不支持此方法的浏览器的解决方法
 
-如果所使用的浏览器不支持此方法，可使用另一种方法（例如遍历所有子元素的 DOM，识别所有 @xmlns 实例等等）来查找所有具有本地名称和命名空间的标签，但此方法更快。 (为了兼容 Explorer，在下面的函数中，你可以调用一个 XPath 包，而不仅仅是 XPath (由于 Explorer 支持不同 API 的 XPath ), 例如 [this wrapper class](http://www.davidflanagan.com/javascript5/display.php?n=21-10&f=21/10.js).)
+如果所使用的浏览器不支持此方法，可使用另一种方法（例如遍历所有子元素的 DOM，识别所有 @xmlns 实例等等）来查找所有具有本地名称和命名空间的标签，但此方法更快。 (为了兼容 Explorer，在下面的函数中，你可以调用一个 XPath 包，而不仅仅是 XPath (由于 Explorer 支持不同 API 的 XPath ), 例如 [this wrapper class](https://davidflanagan.com/javascript5/display.php?n%3D21-10%26f%3D21/10.js).)
 
 ```js
 function getElementsByTagNameNSWrapper(ns, elName, doc, context) {
@@ -139,4 +139,4 @@ function getElementsByTagNameNSWrapper(ns, elName, doc, context) {
 
 ## 规范
 
-[DOM Level 2 Core: Document.getElementsByTagNameNS](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-getElBTNNS)
+[DOM Level 2 Core: Document.getElementsByTagNameNS](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-getElBTNNS)

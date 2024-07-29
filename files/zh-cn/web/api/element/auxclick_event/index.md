@@ -19,7 +19,7 @@ element.onauxclick = functionRef(e);
 
 ## 示例
 
-在这个例子中我们定义了两个事件处理函数：`onclick` 和 `onauxclick`。前者改变按钮背景的颜色，而后者改变按钮前景（文本）的颜色。你可以通过使用多按钮鼠标尝试演示来查看这两种功能 ([see it live on GitHub](https://mdn.github.io/dom-examples/auxclick/); also [see the source code](https://github.com/mdn/dom-examples/blob/master/auxclick/index.html))。
+在这个例子中我们定义了两个事件处理函数：`onclick` 和 `onauxclick`。前者改变按钮背景的颜色，而后者改变按钮前景（文本）的颜色。你可以通过使用多按钮鼠标尝试演示来查看这两种功能 ([see it live on GitHub](https://mdn.github.io/dom-examples/auxclick/); also [see the source code](https://github.com/mdn/dom-examples/blob/main/auxclick/index.html))。
 
 ```js
 var button = document.querySelector("button");

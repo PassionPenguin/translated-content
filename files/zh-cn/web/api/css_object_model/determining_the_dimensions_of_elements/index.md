@@ -31,4 +31,4 @@ slug: Web/API/CSS_Object_Model/Determining_the_dimensions_of_elements
 
 ## 参考文献
 
-[MSDN Measuring Element Dimension and Location](<https://docs.microsoft.com/en-us/previous-versions//hh781509(v=vs.85)>)
+[MSDN Measuring Element Dimension and Location](<https://learn.microsoft.com/en-us/previous-versions/hh781509(v%3Dvs.85>)>)

@@ -46,7 +46,7 @@ An up-to-date informal list of constants can be found on the [CSSWG Wiki](https:
 
 ## 语法
 
-使用 [WebIDL](https://dev.w3.org/2006/webapi/WebIDL/) 语法格式进行描述。
+使用 [WebIDL](https://heycam.github.io/webidl/) 语法格式进行描述。
 
 ```
 interface CSSRule {

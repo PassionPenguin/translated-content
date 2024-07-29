@@ -99,7 +99,7 @@ el.innerHTML = name; // shows the alert
 
 基于这个原因，当插入纯文本时，建议不要使用 `innerHTML` 。取而代之的是使用 {{domxref("Node.textContent")}} ，它不会把给定的内容解析为 HTML，它仅仅是将原始文本插入给定的位置。
 
-> **警告：** 如果你的项目将要经过各种形式的安全检查的话，使用 `innerHTML` 可能导致代码被拒绝。例如，如果你在[浏览器扩展](/zh-CN/docs/Mozilla/Add-ons/WebExtensions)中[使用 `innerHTML`](https://wiki.mozilla.org/Add-ons/Reviewers/Guide/Reviewing#Step_2:_Automatic_validation) 并将扩展提交到 [addons.mozilla.org](https://addons.mozilla.org/) 的话，它将会在自动审核过程中被拒绝。
+> **警告：** 如果你的项目将要经过各种形式的安全检查的话，使用 `innerHTML` 可能导致代码被拒绝。例如，如果你在[浏览器扩展](/zh-CN/docs/Mozilla/Add-ons/WebExtensions)中[使用 `innerHTML`](https://wiki.mozilla.org/Add-ons/Reviewers/Guide/Reviewing#Step_2:_Automatic_validation) 并将扩展提交到 [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/) 的话，它将会在自动审核过程中被拒绝。
 
 ## 示例
 
